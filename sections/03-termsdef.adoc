@@ -1,0 +1,34 @@
+
+[[terms]]
+[source=ISO5127]
+== Terms and Definitions
+
+=== code
+
+data representation in different forms according to a pre-established set of rules
+
+[.source]
+<<ISO639-2>>
+
+
+=== transliterated text
+
+text output of a transliteration system on a transliteration source
+
+=== transliteration script
+
+script form produced by a transliteration system on the transliteration source
+
+=== transliteration system
+
+system that allows transliteration of a source language
+to a transliteration script
+
+=== transliteration system code
+
+combination of characters used to represent the name
+of a transliteration system
+
+=== source language
+
+language used in the transliteration source

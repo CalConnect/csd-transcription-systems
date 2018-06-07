@@ -1,0 +1,5 @@
+
+[bibliography]
+== Normative References
+
+* [[[ISO5127,ISO 5127]]], _Information and documentation — Foundation and vocabulary_

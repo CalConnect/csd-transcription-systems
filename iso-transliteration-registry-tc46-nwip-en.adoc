@@ -1,0 +1,37 @@
+= CalConnect ISO TC 46/WG 3 Transliteration Registry
+:docnumber: XXXXX
+:tc-document-number: 9999
+:edition: 1
+:ref-docnumber: ISO XXXXX:2018(E)
+:copyright-year: 2018
+:language: en
+:title-intro-en: Information and documentation
+:title-main-en: Codes for the representation of transliteration systems
+:title-intro-fr: Information et documentation
+:title-main-fr: Codes pour la représentation des systèmes de translittération
+:doctype: international-standard
+:docstage: 10
+:docsubstage: 92
+:technical-committee-type: TC
+:technical-committee-number: 46
+:technical-committee: Information and documentation
+:workgroup-type: WG
+:workgroup-number: 3
+:workgroup: Conversion of written languages
+:secretariat: AFNOR
+:language: en
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+
+include::sections/0a-foreword.adoc[]
+include::sections/0b-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-codes.adoc[]
+
+include::sections/a1-procedures.adoc[]
+
+include::sections/zz-references.adoc[]
