@@ -1,26 +1,28 @@
 SRC  := $(wildcard iso-*.adoc)
-DOC  := $(patsubst %.adoc,%.doc,$(SRC))
 XML  := $(patsubst %.adoc,%.xml,$(SRC))
 HTML := $(patsubst %.adoc,%.html,$(SRC))
+DOC  := $(patsubst %.adoc,%.doc,$(SRC))
 
 SHELL := /bin/bash
 
-all: $(HTML) $(XML) $(DOC)
+all: $(HTML) $(XML) $(PDF) $(DOC)
 
-clean:
-	rm -f $(HTML) $(DOC) $(XML) Gemfile Gemfile.lock
+clean: clean-doc clean-xml clean-html
+
+clean-doc:
+	rm -f $(DOC)
+
+clean-xml:
+	rm -f $(XML)
 
 clean-html:
 	rm -f $(HTML)
 
-bundle:	Gemfile Gemfile.lock
+bundle:
 	bundle
 
-Gemfile Gemfile.lock:
-	ln -s ../common/$@ .
-
 %.xml %.html %.doc:	%.adoc | bundle
-	bundle exec metanorma -t iso $^
+	bundle exec metanorma -t iso -x doc,xml,html $^
 
 html: clean-html $(HTML)
 
