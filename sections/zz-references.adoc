@@ -2,96 +2,48 @@
 [bibliography]
 == Bibliography
 
-* [[[ISO3602,ISO 3602]]], _Documentation — Romanization of Japanese (kana script)_
-
-* [[[ISO7098,ISO 7098]]], _Information and documentation — Romanization of Chinese_
 
 * [[[ISO24614-1,ISO 24614-1]]], _Language resource management -- Word segmentation of written texts -- Part 1: Basic concepts and general principles_
 
 * [[[ISO24614-2,ISO 24614-2]]], _Language resource management -- Word segmentation of written texts -- Part 2: Word segmentation for Chinese, Japanese and Korean_
 
-* [[[ISO639-1,ISO 639-1]]] _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
-* [[[ISO639-2,ISO 639-2]]] _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+* [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
+* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
 
-* [[[ISO3166-1,ISO 3166-1]]] _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
+* [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
 
-* [[[ISO10646-2,ISO/IEC 10646-2]]] _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
+* [[[ISO10646-2,ISO/IEC 10646-2]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
 
-* [[[ISO15285,ISO/IEC TR 15285]]] _Information technology -- An operational model for characters and glyphs_
+* [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
 
 
-////
-Bibliography
+* [[[ISO9,ISO 9]]], _Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages_
 
-[5] Augé, Claude, éd. 1898-1907. N o u v e a u
-Larousse illustré. 7 volumes et 1 volume de
-supplément. Paris: Larousse
-[6] Barry, Randall K. 1997. ALA-LC romanization
-tables: transliteration schemes for nonRoman
-scripts. Washington, DC: Library of
-Congress Cataloging Distribution Service.
-ISBN 0-8444-0940-5
-[7] Calvet, Louis-Jean. 1998. Histoire de
-l ’ é c r i t u r e . Paris: Hachette Littératures.
-ISBN 2-01-278943-9
-[8] Christin, Anne-Marie. 2001. Histoire de
-l’écriture: de l’idéogramme au multimedia.
-[Paris]: Flammarion. ISBN 2-08-012279-7
-[9] Coyaud, Maurice. 1987. Les langues dans le
-monde chinois. Tome 2, Pour l’analyse du
-folklore. Paris: [s.n.]
-[10] Daniels, Peter T., and William Bright, eds.
-1996. The world’s writing systems. New York;
-Oxford: Oxford University Press.
-ISBN 0-19-507993-0
-[11] Diringer, David. 1996. The alphabet: a key to
-the history of mankind. New Delhi:
-Munshiram Manoharlal. ISBN 82-215-0780-0
-[12] Encyclopaedia universalis. 1994. 28
-volumes. Paris: Encyclopaedia universalis
-France. ISBN 2-85229-240-4
-[13] Faulmann, Carl. 1990 (1880). Das Buch der
-Schrift. Frankfurt am Main: Eichborn.
-ISBN 3-8218-1720-8
-[14] Février, James. 1995 (1959). Histoire de
-l’écriture. Paris: Payot. ISBN 2-228-88976-8
+* [[[ISO233,ISO 233]]], _Documentation – Transliteration of Arabic characters into Latin characters_
 
-[15] Fossey, Charles. 1948. Notices sur les
-caractères étrangers anciens et modernes.
-Paris: Imprimerie Nationale de France.
-[16] Gaur, Albertine. 1992. A history of writing.
-Revised ed. London: The British Library.
-ISBN 0-7123-0270-0
-[17] Gelb, I. J. 1952. A study of writing: the
-foundations of grammatology. C h i c a g o :
-University of Chicago Press
-[18] Haarmann, Harald. 1990. U n i v e r s a l -
-geschichte der Schrift. Frankfurt/Main; New
-York: Campus. ISBN 3-593-34346-0
-[19] Imprimerie Nationale. 1990. Les caractères
-de l’Imprimerie Nationale. Paris: Imprimerie
-Nationale Éditions. ISBN 2-11-081085-8
-[20] Jensen, Hans. 1969. Die Schrift in Vergang -
-enheit und Gegenwart. 3., neubearbeitete
-und erweiterte Auflage. Berlin: VEB
-Deutscher Verlag der Wissenschaften
-[21] Ko¯no Rokuro¯, Chino Eiichi, & Nishida Tatsuo.
-2001. The Sanseido Encyclopaedia of Lin -
-guistics. Volume 7: Scripts and Writing
-Systems of the World [Gengogaku dai ziten
-(bekkan) sekai mozi ziten]. Tokyo: Sanseido
-Press. ISBN 4-385-15177-6
-[22] Malherbe, Michel. 1995. Les langues du
-monde. Paris: Robert Laffont.
-ISBN 2-221-05947-6
-[23] Nakanishi, Akira. 1990. Writing systems of
-the world: alphabets, syllabaries, pictograms.
-Rutland, VT: Charles E. Tuttle.
-ISBN 0-8048-1654-9
-[24] Robinson, Andrew. 1995. The story of
-writing. London: Thames and Hudson.
-ISBN 0-500-01665-8
-[25] Tamiseur, Jean-Christophe, ed. 1998.
-Dictionnaire des peuples. P a r i s : L a r o u s s e .
-ISBN 2-03-720240-7
-////
+* [[[ISO233-2,ISO 233-2]]], _Information and documentation – Transliteration of Arabic characters into Latin characters – Part 2: Arabic language – Simplified transliteration_
+
+* [[[ISO233-3,ISO 233-3]]], _Information and documentation – Transliteration of Arabic characters into Latin characters – Part 3: Persian language – Simplified transliteration_
+
+* [[[ISO259,ISO 259]]], _Documentation – Transliteration of Hebrew characters into Latin characters_
+
+* [[[ISO259-2,ISO 259-2]]], _Documentation – Transliteration of Hebrew characters into Latin characters. – Part 2: Simplified transliteration_
+
+* [[[ISO843,ISO 843]]], _Information and documentation – Conversion of Greek characters into Latin characters_
+
+* [[[ISO3602,ISO 3602]]], _Documentation — Romanization of Japanese (kana script)_
+
+* [[[ISO7098,ISO 7098]]], _Information and documentation – Romanization of Chinese_
+
+* [[[ISO9984,ISO 9984]]], _Information and documentation – Transliteration of Georgian characters into Latin characters_
+
+* [[[ISO9985,ISO 9985]]], _Information and documentation – Transliteration of Armenian characters into Latin characters_
+
+* [[[ISO11940,ISO 11940]]], _Information and documentation – Transliteration of Thai_
+
+* [[[ISO11940-2,ISO 11940-2]]], _Information and documentation – Transliteration of Thai characters into Latin characters – Part 2: Simplified transcription of Thai language__
+
+* [[[ISO15919,ISO 15919]]], _Information and documentation – Transliteration of Devanagari and related Indic scripts into Latin characters_
+
+* [[[ISO20674-1,ISO 20674-1]]], _Transliteration of scripts in use in Thailand – Part 1: Transliteration of Akson-Thai-Noi_
+

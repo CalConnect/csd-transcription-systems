@@ -3,12 +3,7 @@
 == Scope
 
 This International Standard provides a code for the
-presentation of transliteration systems.
+presentation of transliteration and romanization systems.
 
-The codes were devised for use in terminology, lexicography,
-bibliography, and linguistics, but they may be used
-for any application requiring the expression of
-scripts in coded form. This International Standard
-also includes guidance on the use of transliteration system codes
-in some of these applications.
-
+The codes were devised for usage of any application requiring
+the expression of transcription and romanization systems in coded form.
