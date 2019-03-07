@@ -1,4 +1,4 @@
-= CalConnect ISO/TC 46/WG 3 Codes for transcription systems
+= CalConnect ISO/TC 46/WG 3 Codes for transliteration and romanization systems
 :docnumber: 46001
 :tc-document-number: 9999
 :edition: 1
@@ -24,7 +24,7 @@
 :stem:
 :xrefstyle: short
 :imagesdir: images
-:docfile: iso-transliteration-registry-tc46-nwip-en.adoc
+:docfile: iso-46001.adoc
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt
 :local-cache-only:
