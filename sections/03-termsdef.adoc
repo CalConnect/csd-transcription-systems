@@ -1,8 +1,25 @@
 
 [[terms]]
 //[source=ISO5127]
-== Terms and Definitions
+== Terms and definitions
 
+
+[[term-script-conversion]]
+=== script conversion
+
+operation to convert a _script_ (<<term-script>>) into another script
+
+
+[[term-script]]
+=== script
+
+particular graphic representation or class of representations of a set of characters used to write one or more languages
+
+[.source]
+<<ISO5127,clause="3.1.6.02">>
+
+
+[[term-transliteration]]
 === transliteration
 
 operation which consists of representing the characters of an entirely alphabetical character or alphanumeric character writing system by the characters of the conversion alphabet
@@ -11,9 +28,10 @@ operation which consists of representing the characters of an entirely alphabeti
 <<ISO5127,clause="3.1.6.11">>
 
 
+[[term-romanization]]
 === romanization
 
-script conversion from non-Roman to Roman script by means of transliteration, transcription <activity> or both
+_script conversion_ (<<term-script-conversion>>) from non-Roman to Roman script by means of _transliteration_ (<<term-transliteration>>), transcription <activity> or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
@@ -28,15 +46,7 @@ system for writing a language, including the script and character set used
 <<ISO5127,clause="3.1.6.01">>
 ////
 
-
-=== script
-
-particular graphic representation or class of representations of a set of characters used to write one or more languages
-
-[.source]
-<<ISO5127,clause="3.1.6.02">>
-
-
+[[term-code]]
 === code
 
 data representation in different forms according to a pre-established set of rules
@@ -55,21 +65,22 @@ combination of characters used to represent the name of a language or languages
 
 === script code
 
-combination of characters used to represent the name of a script
+combination of characters used to represent the name of a _script_ (<<term-script>>)
 
 [.source]
 <<ISO15924,clause="3.8">>
 
 
-
+[[term-transliteration-system]]
 === transliteration system
 
-system for transliteration of a source script to a target script
+system for _transliteration_ (<<term-transliteration>>) of a source _script_ (<<term-script>>) to a target script
 
 
+[[term-romanization-system]]
 === romanization system
 
-system for romanization of a source script to a target script
+system for _romanization_ (<<term-romanization>>) of a source _script_ (<<term-script>>) to a target script
 
 //system for representing a word <orthographic word> in a writing system
 //through romanization
@@ -77,12 +88,12 @@ system for romanization of a source script to a target script
 === transliteration system code
 
 combination of characters used to represent the name
-of a transliteration system
+of a _transliteration system_ (<<term-transliteration-system>>)
 
 === romanization system code
 
 combination of characters used to represent the name
-of a romanization system
+of a _romanization system_ (<<term-romanization-system>>)
 
 
 ////

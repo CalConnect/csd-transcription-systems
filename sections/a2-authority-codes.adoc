@@ -1,0 +1,9 @@
+
+[[annex-script-conversion-system-authorities]]
+[appendix]
+== Alphabetical list of script conversion system authorities in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/authority-codes.csv[]
+|===

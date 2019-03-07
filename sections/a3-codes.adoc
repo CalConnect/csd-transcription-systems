@@ -1,0 +1,9 @@
+
+[[annex-system-codes]]
+[appendix]
+== Alphabetical list of script conversion systems in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/codes.csv[]
+|===

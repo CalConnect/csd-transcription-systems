@@ -1,0 +1,143 @@
+
+[[script-conversion-system-authority]]
+== Script conversion system authority
+
+=== General
+
+A script conversion system authority is a competent authority that creates,
+publishes and/or manages definitions of script conversion systems.
+
+
+=== Requirements of a script conversion system authority
+
+A script conversion system authority must be competent.
+
+
+==== Competency
+
+A competent script conversion system authority is one that has standardized
+processes surrounding the management of the script conversion systems,
+covering at least the following processes:
+
+. Planning of script conversion systems, including the process of designing and defining a script conversion systems.
+. Performing changes to script conversion systems are well planned and executed in a manner that is considerate of script conversion system users.
+. Public announcement and dissemination of its script conversion systems.
+. Allows a public review period for people affected by script conversion systems under its management prior to enactment.
+
+
+=== Registration of script conversion system authorities
+
+The ISO {docnumber}/AG is tasked with managing a list of
+script conversion system authorities.
+
+
+[[sc-authority-data-model]]
+=== Data model and attributes
+
+==== General
+
+image::authority.png[]
+
+
+==== Script conversion system authority code
+
+A code that represents the script conversion system authority.
+
+
+==== English short name
+
+The identifiable short name that uniquely identifies the script conversion system authority.
+
+
+==== Abbreviation
+
+The identifiable abbreviation used for the script conversion system authority.
+
+
+==== Remarks
+
+Any further notes.
+
+=== Code and identifier
+
+
+==== Principles for inclusion in the list of script conversion system authority
+
+===== List
+
+The list of script conversion system authorities in this document includes
+known authorities, such as ISO.
+
+
+===== Source of names
+
+Names and abbreviations of script conversion systems are obtained from the
+script conversion system authorities.
+
+
+===== Current status of names
+
+Script conversion system authorities listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+
+
+
+==== Principles for allocation of code elements
+
+===== Relationship with names
+
+The principle behind the alphabetic codes for script conversion system authorities is a visual association between the script conversion system authorities and their corresponding code elements.
+
+In applying this principle, the code elements have generally been assigned on the basis of the abbreviated names of the script conversion system authorities, thus avoiding, wherever possible, any reflection of their political status.
+
+Script conversion system identifiers are in the following format:
+
+[source]
+----
+[script-conversion-system-authority-code]
+----
+
+[example]
+`iso` for ISO.
+
+
+===== Construction of the alphabetic code
+
+The following rules are to be adhered to for the assignment of the alphabetic code:
+
+* The alphabetic code uses combinations, in upper case, of a maximum of 16 letters of the 26-character Latin alphabet with the "dash" (`-`).
+//, allowing for close to $4^27$ combinations.
+
+* To encourage descriptive and distinguishable alphabetic names, the minimum length of the script conversion system authority identifier code is 3 letters.
+
+* The specific code prefix of `XX` is reserved and is used as the prefix of user-assignable script conversion system authority codes.
+
+
+===== User assigned code elements
+
+If users need code elements to represent script conversion system authorities not included in the script conversion system authority registry, the code prefix of `XX` can be used, being a reserved code point `XX` for private user assignment.
+
+The code length for the script conversion system authority identifier must be 3 or more letters.
+
+Such script conversion system authority identifiers are in the following format:
+
+[source]
+----
+xx-[script-conversion-system-authority-code]
+----
+
+////
+[example]
+`xx-unece` is an example of a user-assigned private code for a script conversion system published by the UN/ECE.
+////
+
+NOTE: Users are advised that the above series of codes are not universally used, those code elements are not compatible between different entities.
+
+
+
+==== List of script conversion system authorities and their code elements
+
+The list of items composing the content of the country code is initially defined in <<annex-script-conversion-system-authorities>>.
+Additional and new entries will be listed by the ISO {docnumber}/AG.
+
+Data attributes provided in the list are defined in <<sc-authority-data-model>>.
+

@@ -5,28 +5,34 @@
 
 === Registration authority (ISO {docnumber}/RA)
 
-A registration authority (ISO {docnumber}/AG) has been appointed to operate under guidelines provided in this Annex. It has been entrusted with the following functions:
+A registration authority (ISO {docnumber}/RA) has been appointed to operate under guidelines provided in this Annex. It has been entrusted with the following functions:
 
-. to add and eliminate transliteration or romanization system codes, in accordance with the rules in this document;
+. to add and eliminate script conversion system codes, in accordance with the rules in this document;
 
 . to advise users and ISO member bodies regarding application of the codes;
 
-. to update and disseminate list of transliteration or romanization system codes;
+. to update and disseminate list of script conversion system codes;
 
-. to maintain a reference list of transliteration or romanization system codes;
+. to maintain a reference list of script conversion system codes;
 
 . to publish changes made to such information;
 
-. to administer the reservation of codes related to the list of transliteration or romanization system codes.
+. to administer the reservation of codes related to the list of script conversion system codes.
 
-Changes to this part of ISO {docnumber} are decided by the ISO {docnumber}/AG and become effective immediately upon publication.
+Changes to the content of the list of codes becomes effective immediately upon publication.
 
-The criteria provided in <<registration-adding-tzauth>> to 6.5 shall be observed by the ISO {docnumber}/AG for changes to the list of country names in this part of ISO {docnumber}, and their code elements, and for reservations of code elements.
+The criteria provided in <<registration-adding-entry>> to <<registration-modify-code>> shall be observed by the ISO {docnumber}/RA for changes to the list of entries, their code elements, and for reservations of code elements.
 
-[[registration-adding-tzauth]]
-=== Addition to the list of transliteration or romanization system codes
 
-Additions to the list of transliteration or romanization system codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG.
+=== Advisory group (ISO {docnumber}/AG)
+
+An advisory group (ISO {docnumber}/AG) has been appointed to ensure the operations of the registration authority (ISO {docnumber}/RA) are in accordance with guidelines provided in this Annex.
+
+
+[[registration-adding-entry]]
+=== Addition to the list of script conversion system codes
+
+Additions to the list of script conversion system codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 
@@ -37,16 +43,16 @@ Additions to the official and international time scale authorities require addit
 * An international time scale authority must be endorsed by an international standardization body in liaison with the ISO {docnumber}/AG.
 ////
 
-[[registration-adding-tz]]
-=== Addition to the list of transliteration or romanization system codes
+[[registration-adding-code]]
+=== Addition to the list of script conversion system codes
 
-Additions to the list of transliteration or romanization system codes shall be made only by the appropriate registered authority.
+Additions to the list of script conversion system codes shall be made only by the appropriate registered authority.
 
 
-[[registration-removing-tzauth]]
-=== Deletion from the list of transliteration or romanization system codes
+[[registration-removing-codeauth]]
+=== Deletion from the list of script conversion system codes
 
-Deletion from the list of transliteration or romanization system codes shall be made upon the request of a member of ISO {docnumber}/AG.
+Deletion from the list of script conversion system codes shall be made upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
 
@@ -55,16 +61,16 @@ The part 3 of ISO {docnumber} standard provides the list of country names delete
 ////
 
 
-[[registration-deleting-tz]]
-=== Deletion of elements from the list of transliteration or romanization system codes
+[[registration-deleting-code]]
+=== Deletion of elements from the list of script conversion system codes
 
-Deletion from the list of transliteration or romanization system codes shall be made only by the ISO {docnumber}/AG or upon a request to it.
+Deletion from the list of script conversion system codes shall be made only by the ISO {docnumber}/AG or upon a request to it.
 
 The ISO {docnumber}/AG will decide upon the deletion, on the basis of the information received. The corresponding code element is reserved.
 
 
-[[registration-modify-tz]]
-=== Alterations to elements on list of transliteration or romanization system codes
+[[registration-modify-code]]
+=== Alterations to elements on list of script conversion system codes
 
 Alterations to a registered element shall be made only by the ISO {docnumber}/AG or upon a request to it.
 

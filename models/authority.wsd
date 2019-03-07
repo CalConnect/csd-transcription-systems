@@ -1,0 +1,18 @@
+@startuml
+
+'******* CONFIGURATION ************************************************
+!include style.uml.inc
+
+class ScriptConversionSystemAuthority {
+  +authorityCode: String
+  +uri: Uri
+  +name: LocalizedStringCollection
+'  +iso3166Code: iso3166Code
+  +description: LocalizedStringCollection
+}
+
+'******* CLASS RELATIONS **********************************************
+
+'AuthorityInfo <-- PublicKey
+
+@enduml

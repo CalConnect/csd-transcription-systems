@@ -3,7 +3,7 @@
 '******* CONFIGURATION ************************************************
 !include style.uml.inc
 
-class TransliterationSystem {
+class ScriptConversionSystem {
   +code: String
   +name: String
   +sourceScript: iso15924Code
@@ -12,6 +12,5 @@ class TransliterationSystem {
 }
 
 '******* CLASS RELATIONS **********************************************
-
 
 @enduml

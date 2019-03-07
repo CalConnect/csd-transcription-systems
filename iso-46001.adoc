@@ -1,13 +1,13 @@
-= CalConnect ISO/TC 46/WG 3 Codes for transliteration and romanization systems
+= CalConnect ISO/TC 46/WG 3 Codes for script conversion systems
 :docnumber: 46001
 :tc-document-number: 9999
 :edition: 1
 :copyright-year: 2019
 :language: en
 :title-intro-en: Information and documentation
-:title-main-en: Codes for transliteration and romanization systems
+:title-main-en: Codes for script conversion systems
 :title-intro-fr: Information et documentation
-:title-main-fr: Codes pour les systèmes de translittération et de romanisation
+:title-main-fr: Codes pour les systèmes de conversion de script
 :doctype: international-standard
 :docstage: 10
 :docsubstage: 92
@@ -21,7 +21,6 @@
 :language: en
 :draft:
 :toc:
-:stem:
 :xrefstyle: short
 :imagesdir: images
 :docfile: iso-46001.adoc
@@ -36,9 +35,11 @@ include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
 include::sections/04-common.adoc[]
-include::sections/05-codes.adoc[]
+include::sections/05-authorities.adoc[]
+include::sections/06-codes.adoc[]
 
 include::sections/a1-maintenance.adoc[]
-include::sections/a2-transliteration-codes.adoc[]
+include::sections/a2-authority-codes.adoc[]
+include::sections/a3-codes.adoc[]
 
 include::sections/zz-references.adoc[]
