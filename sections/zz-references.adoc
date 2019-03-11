@@ -47,3 +47,8 @@
 
 * [[[ISO20674-1,ISO 20674-1]]], _Transliteration of scripts in use in Thailand – Part 1: Transliteration of Akson-Thai-Noi_
 
+* [[[BGNPCGNSystems,BGN/PCGN Romanization Systems]]], _BGN/PCGN Romanization Systems_, National Geospatial-Intelligence Agency, http://geonames.nga.mil/gns/html/romanization.html
+
+* [[[ALALCTables,ALA-LC Romanization Tables]]], _ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts_, The Library of Congress, https://www.loc.gov/catdir/cpso/roman.html
+
+* [[[UNGEGNWG,UNGEGN Working Group on Romanization Systems]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_, United Nations Group of Experts on Geographical Names (UNGEGN): Working Group on Romanization Systems, https://www.eki.ee/wgrs/
