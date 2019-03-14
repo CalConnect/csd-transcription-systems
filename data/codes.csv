@@ -219,6 +219,6 @@ itk-iku,ICI Standard Orthography,itk,iku,Cans,Latn,<<ICISO>>,
 mlc-mya,Myanmar Language Commission Transcription System,mlc,mya,Mymr,Latn,Myanmar Language Commission Transcription System,
 mext-jpn,System of Romanization for Japanese,mext,jpn,Jpan,Latn,<<MEXTJP>>,
 sac-py,Romanization system for the Chinese phonetic alphabet,sac,zho,Hans,Latn,"<<GBT16159>>, <<GBT15834>>, <<pinyin>>, <<pingyingeo>>",
-icao-mrtd,"ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States",icao,,,Latn,<<ICAO9303>>,footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]
+icao-mrtd,"ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States",icao,,,Latn,<<ICAO9303>>,"footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]"
 gost-52535-1-2006,"GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports",gost,ru,Cyrl,Latn,<<GOSTR52535>>,
 gost-7-79-2000,"GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet",gost,ru,Cyrl,Latn,<<GOSTR52535>>,
