@@ -81,3 +81,8 @@
 
 * [[[pingyingeo,Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names]]], _The Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names (Han-Chinese Geographical Names)_, published jointly by the China Committee on Geographical Names, China Committee on Writing System Reform, State Bureau of Surveying and Mapping, 1984
 
+* [[[ICAO9303,ICAO Doc 9303: Machine Readable Travel Documents]]], _Doc 9303: Machine Readable Travel Documents, Part 3: Specifications Common to all MRTDs_, Seventh Edition, 2015, https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf
+
+* [[[GOSTR52535,GOST R 52535.1-2006]]], _GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports_, 2006, Rosstandart
+
+* [[[GOST779,GOST 7.79-2000]]], _GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet_, 2000, Rosstandart
