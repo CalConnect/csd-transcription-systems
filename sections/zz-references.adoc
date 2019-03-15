@@ -77,6 +77,8 @@
 
 * [[[GBT15834,GB/T 15834-2011]]], _General rules for punctuation_, Standardization Administration of China, 2011
 
+* [[[GBT28039,GB/T 28039-2011]]], _Chinese Pinyin Spelling Rules for Chinese Personal Names_, Standardization Administration of China, 2011
+
 * [[[pinyin,Scheme for the Chinese Phonetic Alphabet]]], _Scheme for the Chinese Phonetic Alphabet_, 5th National People's Congress of China, 1958
 
 * [[[pingyingeo,Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names]]], _The Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names (Han-Chinese Geographical Names)_, published jointly by the China Committee on Geographical Names, China Committee on Writing System Reform, State Bureau of Surveying and Mapping, 1984
