@@ -1,7 +1,7 @@
 <bibitem type="international-standard" id="ISO259-2">
-  <fetched>2019-01-31</fetched>
-  <title format="text/plain" language="en" script="Latn">Gas cylinders -- Cylinders and tubes of composite construction -- Modal acoustic emission (MAE) testing for periodic inspection and testing -- Part 2: Data link and physical layer conformance test plan</title>
-  <title format="text/plain" language="fr" script="Latn">Bouteilles à gaz -- Bouteilles et tubes composites -- Essai par émission acoustique modale (EAM) pour les besoins du contrôle et des essais périodiques -- Partie 2: Plan de test de conformité des couches de liaison de données et physique</title>
+  <fetched>2019-04-01</fetched>
+  <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Hebrew characters into Latin characters -- Part 2: Simplified transliteration</title>
+  <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères hébreux en caractères latins -- Partie 2: Translittération simplifiée</title>
   <uri type="src">https://www.iso.org/standard/4162.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4162:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4162.detail.rss</uri>
@@ -37,9 +37,9 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2019-01-31</fetched>
-      <title format="text/plain" language="en" script="Latn">Gas cylinders -- Cylinders and tubes of composite construction -- Modal acoustic emission (MAE) testing for periodic inspection and testing -- Part 2: Data link and physical layer conformance test plan</title>
-      <title format="text/plain" language="fr" script="Latn">Bouteilles à gaz -- Bouteilles et tubes composites -- Essai par émission acoustique modale (EAM) pour les besoins du contrôle et des essais périodiques -- Partie 2: Plan de test de conformité des couches de liaison de données et physique</title>
+      <fetched>2019-04-01</fetched>
+      <title format="text/plain" language="en" script="Latn">Information and documentation -- Transliteration of Hebrew characters into Latin characters -- Part 2: Simplified transliteration</title>
+      <title format="text/plain" language="fr" script="Latn">Information et documentation -- Translittération des caractères hébreux en caractères latins -- Partie 2: Translittération simplifiée</title>
       <uri type="src">https://www.iso.org/standard/4162.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:4162:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/00/41/4162.detail.rss</uri>
