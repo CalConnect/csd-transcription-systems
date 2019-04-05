@@ -20,12 +20,12 @@ alalc-eng-2016,ALA-LC Romanization Table -- Deseret (2016),alalc,eng,Dsrt,Latn,A
 alalc-geo-2011,ALA-LC Romanization Table -- Georgian (2011),alalc,geo,Geor,Latn,ALA-LC Romanization Table -- Georgian (2011),2011
 alalc-gre-2010,ALA-LC Romanization Table -- Greek (2010),alalc,gre,Grek,Latn,ALA-LC Romanization Table -- Greek (2010),2010
 alalc-guj-2011,ALA-LC Romanization Table -- Gujarati (2011),alalc,guj,Gujr,Latn,ALA-LC Romanization Table -- Gujarati (2011),2011
-alalc-hebyid-2011,ALA-LC Romanization Table -- Hebrew and Yiddish (2011),alalc,"heb, yid",Hebr,Latn,ALA-LC Romanization Table -- Hebrew and Yiddish (2011),2011
+alalc-hebyid-2011,ALA-LC Romanization Table -- Hebrew and Yiddish (2011),alalc,heb yid,Hebr,Latn,ALA-LC Romanization Table -- Hebrew and Yiddish (2011),2011
 alalc-hin-2011,ALA-LC Romanization Table -- Hindi (2011),alalc,hin,Deva,Latn,ALA-LC Romanization Table -- Hindi (2011),2011
 alalc-hye-2011,ALA-LC Romanization Table -- Armenian (2011),alalc,hye,Armn,Latn,ALA-LC Romanization Table -- Armenian (2011),2011
 alalc-iku-2011,ALA-LC Romanization Table -- Inuktitut (2011),alalc,iku,Cans,Latn,ALA-LC Romanization Table -- Inuktitut (2011),2011
-alalc-javsunmad-2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",alalc,"jav, sun, mad",Java,Latn,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",2011
-alalc-jawi-pegon-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),alalc,"jav, sun","Arab, Java",Latn,ALA-LC Romanization Table -- Jawi-Pegon (2012),"2012, need verification on language and script (TODO)"
+alalc-javsunmad-2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",alalc,jav sun mad,Java,Latn,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",2011
+alalc-jawi-pegon-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),alalc,jav sun,Arab Java,Latn,ALA-LC Romanization Table -- Jawi-Pegon (2012),"2012, need verification on language and script (TODO)"
 alalc-jpn-2012,ALA-LC Romanization Table -- Japanese (2012),alalc,jpn,Jpan,Latn,ALA-LC Romanization Table -- Japanese (2012),2012
 alalc-jrb-2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),alalc,jrb,Hebr,Latn,ALA-LC Romanization Table -- Judeo-Arabic (2011),"2011, Hebr does not contain all symbols of jrb"
 alalc-kan-2011,ALA-LC Romanization Table -- Kannada (2011),alalc,kan,Knda,Latn,ALA-LC Romanization Table -- Kannada (2011),2011
@@ -60,7 +60,7 @@ alalc-pus-2013,ALA-LC Romanization Table -- Pushto (2013),alalc,pus,Arab,Latn,AL
 alalc-ron-2014,ALA-LC Romanization Table -- Romanian (in Cyrillic) (2014),alalc,ron,Cyrl,Latn,ALA-LC Romanization Table -- Romanian (in Cyrillic) (2014),2014
 alalc-rue-2013,"ALA-LC Romanization Table -- Rusyn, Carpatho-Rusyn (2013)",alalc,rue,Cyrl,Latn,"ALA-LC Romanization Table -- Rusyn, Carpatho-Rusyn (2013)",2013
 alalc-rus-2012,ALA-LC Romanization Table -- Russian (2012),alalc,rus,Cyrl,Latn,ALA-LC Romanization Table -- Russian (2012),2012
-alalc-sanpra-2012,ALA-LC Romanization Table -- Sanskrit and Prakrit (2012),alalc,"san, pra",Deva,Latn,ALA-LC Romanization Table -- Sanskrit and Prakrit (2012),2012
+alalc-sanpra-2012,ALA-LC Romanization Table -- Sanskrit and Prakrit (2012),alalc,san pra,Deva,Latn,ALA-LC Romanization Table -- Sanskrit and Prakrit (2012),2012
 alalc-sat-2012,ALA-LC Romanization Table -- Santali (2012 rev),alalc,sat,Olck,Latn,ALA-LC Romanization Table -- Santali (2012 rev),2012 rev
 alalc-shn-2012,ALA-LC Romanization Table -- Shan (2012),alalc,shn,Mymr,Latn,ALA-LC Romanization Table -- Shan (2012),"2012, Shan has no corresponding script code in ISO 15924, closest is Mymr"
 alalc-sin-2011,ALA-LC Romanization Table -- Sinhalese (2011),alalc,sin,Sinh,Latn,ALA-LC Romanization Table -- Sinhalese (2011),2011
@@ -82,7 +82,7 @@ alalc-zgh-2012,ALA-LC Romanization Table -- Moroccan Tamazight (2012),alalc,zgh,
 alalc-zho-2011,ALA-LC Romanization Table -- Chinese (2011),alalc,zho,Hans,Latn,ALA-LC Romanization Table -- Chinese (2011),2011
 bgn-pcgn-ady-2012,BGN/PCGN Romanization System -- Adyghe (2012),bgn-pcgn,ady,Cyrl,Latn,BGN/PCGN Romanization System -- Adyghe (2012),Date approved: 2012
 bgn-pcgn-aez-2002,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),bgn-pcgn,aez,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),"Date approved: 2002;  Originator: Govt of Azerbaijan, 1991"
-bgn-pcgn-af-2007,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),bgn-pcgn,"prs, pus, uzb, tuk, bal, aee, glh, psi, psh",Arab,Latn,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),Date approved: 2007;  Notes: Applicable to Nuristani languages but not represented in ISO 639
+bgn-pcgn-af-2007,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),bgn-pcgn,prs pus uzb tuk bal aee glh psi psh,Arab,Latn,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),Date approved: 2007;  Notes: Applicable to Nuristani languages but not represented in ISO 639
 bgn-pcgn-amh-1967,BGN/PCGN Romanization System -- Amharic (1967),bgn-pcgn,amh,Ethi,Latn,BGN/PCGN Romanization System -- Amharic (1967),Date approved: 1967
 bgn-pcgn-ara-1956,BGN/PCGN Romanization System -- Arabic (1956),bgn-pcgn,ara,Arab,Latn,BGN/PCGN Romanization System -- Arabic (1956),Date approved: 1956
 bgn-pcgn-ava-2011,BGN/PCGN Romanization System -- Avar (2011),bgn-pcgn,ava,Cyrl,Latn,BGN/PCGN Romanization System -- Avar (2011),Date approved: 2011
@@ -147,59 +147,59 @@ iso-233-3-1999,ISO 233-3:1999 Information and documentation – Transliteration 
 iso-259-1984,ISO 259:1984 Documentation – Transliteration of Hebrew characters into Latin characters,iso,heb,Hebr,Latn,<<ISO259>>,
 iso-259-2-1994,ISO 259-2:1994 Documentation – Transliteration of Hebrew characters into Latin characters. – Part 2: Simplified transliteration,iso,heb,Hebr,Latn,<<ISO259-2>>,
 iso-3602-1989,ISO 3602:1989 Documentation – Romanization of Japanese (kana script),iso,jpn,Jpan,Latn,<<ISO3602>>,
-iso-7098-2015-1996,ISO 7098:2015 Information and documentation – Romanization of Chinese,iso,cmn,"Hant, Hans",Latn,<<ISO7098>>,
+iso-7098-2015-1996,ISO 7098:2015 Information and documentation – Romanization of Chinese,iso,cmn,Hant Hans,Latn,<<ISO7098>>,
 iso-843-1997,ISO 843:1997 Information and documentation – Conversion of Greek characters into Latin characters,iso,gre,Grek,Latn,<<ISO843>>,
 iso-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,sla,Cyrl,Latn,<<ISO9>>,
 iso-9984-1996,ISO 9984:1996 Information and documentation – Transliteration of Georgian characters into Latin characters,iso,geo,Geor,Latn,<<ISO9984>>,
 iso-9985-1996,ISO 9985:1996 Information and documentation – Transliteration of Armenian characters into Latin characters,iso,arm,Armn,Latn,<<ISO9985>>,
-ungegn-amh-4.0,UNGEGN Romanization of Amharic version 4.0,ungegn,amh,Ethi,Latn,UNGEGN Romanization of Amharic version 4.0,2016-03-30
-ungegn-ara-5.0,UNGEGN Romanization of Arabic version 5.0,ungegn,ara,Arab,Latn,UNGEGN Romanization of Arabic version 5.0,2018-06-09
-ungegn-asm-4.0,UNGEGN Romanization of Assamese version 4.0,ungegn,asm,Ahom,Latn,UNGEGN Romanization of Assamese version 4.0,2016-03-30
-ungegn-bel-4.0,UNGEGN Romanization of Belarusian version 4.0,ungegn,bel,Cyrl,Latn,UNGEGN Romanization of Belarusian version 4.0,2013-02-26
-ungegn-ben-4.0,UNGEGN Romanization of Bengali version 4.0,ungegn,ben,Beng,Latn,UNGEGN Romanization of Bengali version 4.0,2016-03-30
-ungegn-bod-4.0,UNGEGN Romanization of Tibetan version 4.0,ungegn,bod,Tibt,Latn,UNGEGN Romanization of Tibetan version 4.0,2013-09-24
-ungegn-bul-4.0,UNGEGN Romanization of Bulgarian version 4.0,ungegn,bul,Cyrl,Latn,UNGEGN Romanization of Bulgarian version 4.0,2013-02-26
-ungegn-div-4.0,UNGEGN Romanization of Maldivian version 4.0,ungegn,div,Thaa,Latn,UNGEGN Romanization of Maldivian version 4.0,2016-03-30
+ungegn-amh-4.0,UNGEGN Romanization of Amharic version 4.0,ungegn,amh,Ethi,Latn,UNGEGN Romanization of Amharic version 4.0,3/30/16
+ungegn-ara-5.0,UNGEGN Romanization of Arabic version 5.0,ungegn,ara,Arab,Latn,UNGEGN Romanization of Arabic version 5.0,6/9/18
+ungegn-asm-4.0,UNGEGN Romanization of Assamese version 4.0,ungegn,asm,Ahom,Latn,UNGEGN Romanization of Assamese version 4.0,3/30/16
+ungegn-bel-4.0,UNGEGN Romanization of Belarusian version 4.0,ungegn,bel,Cyrl,Latn,UNGEGN Romanization of Belarusian version 4.0,2/26/13
+ungegn-ben-4.0,UNGEGN Romanization of Bengali version 4.0,ungegn,ben,Beng,Latn,UNGEGN Romanization of Bengali version 4.0,3/30/16
+ungegn-bod-4.0,UNGEGN Romanization of Tibetan version 4.0,ungegn,bod,Tibt,Latn,UNGEGN Romanization of Tibetan version 4.0,9/24/13
+ungegn-bul-4.0,UNGEGN Romanization of Bulgarian version 4.0,ungegn,bul,Cyrl,Latn,UNGEGN Romanization of Bulgarian version 4.0,2/26/13
+ungegn-div-4.0,UNGEGN Romanization of Maldivian version 4.0,ungegn,div,Thaa,Latn,UNGEGN Romanization of Maldivian version 4.0,3/30/16
 ungegn-dzo-4.0,UNGEGN Romanization of Dzongkha version 4.0,ungegn,dzo,Tibt,Latn,UNGEGN Romanization of Dzongkha version 4.0,"2013-09-24, source script is Uchen, a form of Tibt"
-ungegn-geo-4.1,UNGEGN Romanization of Georgian version 4.1,ungegn,geo,Geor,Latn,UNGEGN Romanization of Georgian version 4.1,2018-12-17
-ungegn-gre-4.0,UNGEGN Romanization of Greek version 4.0,ungegn,gre,Grek,Latn,UNGEGN Romanization of Greek version 4.0,2016-03-30
-ungegn-guj-4.0,UNGEGN Romanization of Gujarati version 4.0,ungegn,guj,Gujr,Latn,UNGEGN Romanization of Gujarati version 4.0,2016-03-30
-ungegn-heb-4.0,UNGEGN Romanization of Hebrew version 4.0,ungegn,heb,Hebr,Latn,UNGEGN Romanization of Hebrew version 4.0,2013-02-26
-ungegn-hin-4.0,UNGEGN Romanization of Hindi version 4.0,ungegn,hin,Deva,Latn,UNGEGN Romanization of Hindi version 4.0,2016-03-30
-ungegn-hye-4.0,UNGEGN Romanization of Armenian version 4.0,ungegn,hye,Armn,Latn,UNGEGN Romanization of Armenian version 4.0,2016-03-30
-ungegn-jpn-4.0,UNGEGN Romanization of Japanese version 4.0,ungegn,jpn,Jpan,Latn,UNGEGN Romanization of Japanese version 4.0,2013-09-24
-ungegn-kan-4.0,UNGEGN Romanization of Kannada version 4.0,ungegn,kan,Knda,Latn,UNGEGN Romanization of Kannada version 4.0,2016-03-30
-ungegn-kaz-4.0,UNGEGN Romanization of Kazakh version 4.0,ungegn,kaz,Cyrl,Latn,UNGEGN Romanization of Kazakh version 4.0,2016-03-30
-ungegn-khm-4.0,UNGEGN Romanization of Khmer version 4.0,ungegn,khm,Khmr,Latn,UNGEGN Romanization of Khmer version 4.0,2013-09-24
-ungegn-kir-4.0,UNGEGN Romanization of Kirghiz version 4.0,ungegn,kir,Cyrl,Latn,UNGEGN Romanization of Kirghiz version 4.0,2016-03-30
-ungegn-kor-4.0,UNGEGN Romanization of Korean version 4.0,ungegn,kor,Kore,Latn,UNGEGN Romanization of Korean version 4.0,2013-09-24
-ungegn-lao-4.0,UNGEGN Romanization of Lao version 4.0,ungegn,lao,lao,Latn,UNGEGN Romanization of Lao version 4.0,2013-09-24
-ungegn-mal-4.0,UNGEGN Romanization of Malayalam version 4.0,ungegn,mal,Mlym,Latn,UNGEGN Romanization of Malayalam version 4.0,2016-03-30
-ungegn-mar-4.0,UNGEGN Romanization of Marathi version 4.0,ungegn,mar,Deva,Latn,UNGEGN Romanization of Marathi version 4.0,2016-03-30
-ungegn-mkd-4.0,UNGEGN Romanization of Macedonian version Cyrillic version 4.0,ungegn,mkd,Cyrl,Latn,UNGEGN Romanization of Macedonian version Cyrillic version 4.0,2013-02-26
-ungegn-mon-cyrl-4.0,UNGEGN Romanization of Mongolian version (Cyrillic) version 4.0,ungegn,mon,Cyrl,Latn,UNGEGN Romanization of Mongolian version (Cyrillic) version 4.0,2016-03-30
-ungegn-mon-mong-4.0,UNGEGN Romanization of Mongolian version (in China) version 4.0,ungegn,mon,Mong,Latn,UNGEGN Romanization of Mongolian version (in China) version 4.0,2013-09-24
-ungegn-mya-4.0,UNGEGN Romanization of Burmese version 4.0,ungegn,mya,Mymr,Latn,UNGEGN Romanization of Burmese version 4.0,2013-09-24
-ungegn-nep-4.0,UNGEGN Romanization of Nepali version 4.0,ungegn,nep,Deva,Latn,UNGEGN Romanization of Nepali version 4.0,2013-02-26
-ungegn-ori-4.0,UNGEGN Romanization of Oriya version 4.0,ungegn,ori,Orya,Latn,UNGEGN Romanization of Oriya version 4.0,2016-03-30
-ungegn-pan-4.0,UNGEGN Romanization of Punjabi version 4.0,ungegn,pan,Guru,Latn,UNGEGN Romanization of Punjabi version 4.0,2016-03-30
-ungegn-per-4.0,UNGEGN Romanization of Persian version 4.0,ungegn,per,Arab,Latn,UNGEGN Romanization of Persian version 4.0,2013-02-26
-ungegn-pus-4.0,UNGEGN Romanization of Pashto version 4.0,ungegn,pus,Arab,Latn,UNGEGN Romanization of Pashto version 4.0,2016-03-30
-ungegn-rus-4.0,UNGEGN Romanization of Russian version 4.0,ungegn,rus,Cyrl,Latn,UNGEGN Romanization of Russian version 4.0,2016-03-30
-ungegn-sin-4.0,UNGEGN Romanization of Sinhalese version 4.0,ungegn,sin,Sinh,Latn,UNGEGN Romanization of Sinhalese version 4.0,2016-03-30
-ungegn-srp-4.0,UNGEGN Romanization of Serbian version 4.0,ungegn,srp,Cyrl,Latn,UNGEGN Romanization of Serbian version 4.0,2016-03-30
-ungegn-tam-4.0,UNGEGN Romanization of Tamil version 4.0,ungegn,tam,Taml,Latn,UNGEGN Romanization of Tamil version 4.0,2016-03-30
-ungegn-tel-4.0,UNGEGN Romanization of Telugu version 4.0,ungegn,tel,Telu,Latn,UNGEGN Romanization of Telugu version 4.0,2016-03-30
-ungegn-tgk-4.0,UNGEGN Romanization of Tajik version 4.0,ungegn,tgk,Cyrl,Latn,UNGEGN Romanization of Tajik version 4.0,2016-03-30
-ungegn-tha-4.0,UNGEGN Romanization of Thai version 4.0,ungegn,tha,Thai,Latn,UNGEGN Romanization of Thai version 4.0,2013-09-24
-ungegn-tir-4.0,UNGEGN Romanization of Tigrinya version 4.0,ungegn,tir,Ethi,Latn,UNGEGN Romanization of Tigrinya version 4.0,2013-02-26
-ungegn-uig-4.0,UNGEGN Romanization of Uighur version 4.0,ungegn,uig,Arab,Latn,UNGEGN Romanization of Uighur version 4.0,2013-09-24
-ungegn-urd-4.0,UNGEGN Romanization of Urdu version 4.0,ungegn,urd,Arab,Latn,UNGEGN Romanization of Urdu version 4.0,2016-03-30
-ungegn-urk-4.0,UNGEGN Romanization of Ukrainian version 4.0,ungegn,urk,Cyrl,Latn,UNGEGN Romanization of Ukrainian version 4.0,2013-02-26
-ungegn-zho-4.0,UNGEGN Romanization of Chinese version 4.0,ungegn,zho,Hani,Latn,UNGEGN Romanization of Chinese version 4.0,2013-09-24
+ungegn-geo-4.1,UNGEGN Romanization of Georgian version 4.1,ungegn,geo,Geor,Latn,UNGEGN Romanization of Georgian version 4.1,12/17/18
+ungegn-gre-4.0,UNGEGN Romanization of Greek version 4.0,ungegn,gre,Grek,Latn,UNGEGN Romanization of Greek version 4.0,3/30/16
+ungegn-guj-4.0,UNGEGN Romanization of Gujarati version 4.0,ungegn,guj,Gujr,Latn,UNGEGN Romanization of Gujarati version 4.0,3/30/16
+ungegn-heb-4.0,UNGEGN Romanization of Hebrew version 4.0,ungegn,heb,Hebr,Latn,UNGEGN Romanization of Hebrew version 4.0,2/26/13
+ungegn-hin-4.0,UNGEGN Romanization of Hindi version 4.0,ungegn,hin,Deva,Latn,UNGEGN Romanization of Hindi version 4.0,3/30/16
+ungegn-hye-4.0,UNGEGN Romanization of Armenian version 4.0,ungegn,hye,Armn,Latn,UNGEGN Romanization of Armenian version 4.0,3/30/16
+ungegn-jpn-4.0,UNGEGN Romanization of Japanese version 4.0,ungegn,jpn,Jpan,Latn,UNGEGN Romanization of Japanese version 4.0,9/24/13
+ungegn-kan-4.0,UNGEGN Romanization of Kannada version 4.0,ungegn,kan,Knda,Latn,UNGEGN Romanization of Kannada version 4.0,3/30/16
+ungegn-kaz-4.0,UNGEGN Romanization of Kazakh version 4.0,ungegn,kaz,Cyrl,Latn,UNGEGN Romanization of Kazakh version 4.0,3/30/16
+ungegn-khm-4.0,UNGEGN Romanization of Khmer version 4.0,ungegn,khm,Khmr,Latn,UNGEGN Romanization of Khmer version 4.0,9/24/13
+ungegn-kir-4.0,UNGEGN Romanization of Kirghiz version 4.0,ungegn,kir,Cyrl,Latn,UNGEGN Romanization of Kirghiz version 4.0,3/30/16
+ungegn-kor-4.0,UNGEGN Romanization of Korean version 4.0,ungegn,kor,Kore,Latn,UNGEGN Romanization of Korean version 4.0,9/24/13
+ungegn-lao-4.0,UNGEGN Romanization of Lao version 4.0,ungegn,lao,lao,Latn,UNGEGN Romanization of Lao version 4.0,9/24/13
+ungegn-mal-4.0,UNGEGN Romanization of Malayalam version 4.0,ungegn,mal,Mlym,Latn,UNGEGN Romanization of Malayalam version 4.0,3/30/16
+ungegn-mar-4.0,UNGEGN Romanization of Marathi version 4.0,ungegn,mar,Deva,Latn,UNGEGN Romanization of Marathi version 4.0,3/30/16
+ungegn-mkd-4.0,UNGEGN Romanization of Macedonian version Cyrillic version 4.0,ungegn,mkd,Cyrl,Latn,UNGEGN Romanization of Macedonian version Cyrillic version 4.0,2/26/13
+ungegn-mon-cyrl-4.0,UNGEGN Romanization of Mongolian version (Cyrillic) version 4.0,ungegn,mon,Cyrl,Latn,UNGEGN Romanization of Mongolian version (Cyrillic) version 4.0,3/30/16
+ungegn-mon-mong-4.0,UNGEGN Romanization of Mongolian version (in China) version 4.0,ungegn,mon,Mong,Latn,UNGEGN Romanization of Mongolian version (in China) version 4.0,9/24/13
+ungegn-mya-4.0,UNGEGN Romanization of Burmese version 4.0,ungegn,mya,Mymr,Latn,UNGEGN Romanization of Burmese version 4.0,9/24/13
+ungegn-nep-4.0,UNGEGN Romanization of Nepali version 4.0,ungegn,nep,Deva,Latn,UNGEGN Romanization of Nepali version 4.0,2/26/13
+ungegn-ori-4.0,UNGEGN Romanization of Oriya version 4.0,ungegn,ori,Orya,Latn,UNGEGN Romanization of Oriya version 4.0,3/30/16
+ungegn-pan-4.0,UNGEGN Romanization of Punjabi version 4.0,ungegn,pan,Guru,Latn,UNGEGN Romanization of Punjabi version 4.0,3/30/16
+ungegn-per-4.0,UNGEGN Romanization of Persian version 4.0,ungegn,per,Arab,Latn,UNGEGN Romanization of Persian version 4.0,2/26/13
+ungegn-pus-4.0,UNGEGN Romanization of Pashto version 4.0,ungegn,pus,Arab,Latn,UNGEGN Romanization of Pashto version 4.0,3/30/16
+ungegn-rus-4.0,UNGEGN Romanization of Russian version 4.0,ungegn,rus,Cyrl,Latn,UNGEGN Romanization of Russian version 4.0,3/30/16
+ungegn-sin-4.0,UNGEGN Romanization of Sinhalese version 4.0,ungegn,sin,Sinh,Latn,UNGEGN Romanization of Sinhalese version 4.0,3/30/16
+ungegn-srp-4.0,UNGEGN Romanization of Serbian version 4.0,ungegn,srp,Cyrl,Latn,UNGEGN Romanization of Serbian version 4.0,3/30/16
+ungegn-tam-4.0,UNGEGN Romanization of Tamil version 4.0,ungegn,tam,Taml,Latn,UNGEGN Romanization of Tamil version 4.0,3/30/16
+ungegn-tel-4.0,UNGEGN Romanization of Telugu version 4.0,ungegn,tel,Telu,Latn,UNGEGN Romanization of Telugu version 4.0,3/30/16
+ungegn-tgk-4.0,UNGEGN Romanization of Tajik version 4.0,ungegn,tgk,Cyrl,Latn,UNGEGN Romanization of Tajik version 4.0,3/30/16
+ungegn-tha-4.0,UNGEGN Romanization of Thai version 4.0,ungegn,tha,Thai,Latn,UNGEGN Romanization of Thai version 4.0,9/24/13
+ungegn-tir-4.0,UNGEGN Romanization of Tigrinya version 4.0,ungegn,tir,Ethi,Latn,UNGEGN Romanization of Tigrinya version 4.0,2/26/13
+ungegn-uig-4.0,UNGEGN Romanization of Uighur version 4.0,ungegn,uig,Arab,Latn,UNGEGN Romanization of Uighur version 4.0,9/24/13
+ungegn-urd-4.0,UNGEGN Romanization of Urdu version 4.0,ungegn,urd,Arab,Latn,UNGEGN Romanization of Urdu version 4.0,3/30/16
+ungegn-urk-4.0,UNGEGN Romanization of Ukrainian version 4.0,ungegn,urk,Cyrl,Latn,UNGEGN Romanization of Ukrainian version 4.0,2/26/13
+ungegn-zho-4.0,UNGEGN Romanization of Chinese version 4.0,ungegn,zho,Hani,Latn,UNGEGN Romanization of Chinese version 4.0,9/24/13
 royin-tha-1999,Royal Thai General System of Transcription,royin,tha,Thai,Latn,<<ThaiLatn>>,
 mlmupc-khm-1997,Transcription System for Khmer,mlmupc,khm,Khmr,Latn,<<KhmrLatn>>,
-lshk-jyutping,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,yue,"Hant, Hans",Latn,<<LSHKJP>>,
+lshk-jyutping,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,yue,Hant Hans,Latn,<<LSHKJP>>,
 az-aez,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin,az,aez,Cyrl,Latn,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin (1991),"Azerbaijan's Milli Majlis (Parliament) adopted decree on conversion from Cyrillic to Latin script on December 25, 1991"
 bg-bul,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters,bg,bul,Cyrl,Latn,<<BulgLatn>>,
 mv-div,Republic of Maldives Official Romanization System,mv,div,Thaa,Latn,Republic of Maldives Official Romanization System,
@@ -219,6 +219,16 @@ itk-iku,ICI Standard Orthography,itk,iku,Cans,Latn,<<ICISO>>,
 mlc-mya,Myanmar Language Commission Transcription System,mlc,mya,Mymr,Latn,Myanmar Language Commission Transcription System,
 mext-jpn,System of Romanization for Japanese,mext,jpn,Jpan,Latn,<<MEXTJP>>,
 sac-py,Romanization system for the Chinese phonetic alphabet,sac,zho,Hans,Latn,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",
-icao-mrtd,"ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States",icao,,,Latn,<<ICAO9303>>,"footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]"
-gost-52535-1-2006,"GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports",gost,ru,Cyrl,Latn,<<GOSTR52535>>,
+icao-mrtd,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,,,Latn,<<ICAO9303>>,"footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]"
+gost-52535-1-2006,GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports,gost,ru,Cyrl,Latn,<<GOSTR52535>>,
 gost-7-79-2000,"GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet",gost,ru,Cyrl,Latn,<<GOST779>>,
+din-1460-1982,DIN 1460: Umschrift kyrillischer Alphabete slawischer Sprachen : conversion of Cyrillic alphabets of Slavic languages (1982-04),din,rus ukr bel srp mac bul rue cnr,Cyrl,Latn,<<DIN1460>>,
+din-1460-2-2011,DIN 1460-2: Umschrift kyrillischer Alphabete - Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen : Romanization of cyrillic alphabets – Part 2: Romanization of cyrillic alphabets of non-slavic languages (2011-10),din,62 languages (specification on demand),Cyrl,Latn,<<DIN1460-2>>,
+din-31634-2011,DIN 31634: Information and Documentation – Romanization of the Greek alphabet (2011-10),din,grc,Grek,Latn,<<DIN31634>>,
+din-31635-2011,"DIN 31635: Information and Documentation – Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto (2011-07)",din,ara ota per kur urd pus,Arab,Latn,<<DIN31635>>,
+din-31636-2018,DIN 31636: Information and documentation – Romanization of the Hebrew alphabet (2018-10),din,heb yid,Hebr,Latn,<<DIN31636>>,
+din-32706-2010,DIN 32706: Information and documentation – Romanization of the Armenian alphabet (2010-01),din,arm,Armn,Latn,<<DIN32706>>,
+din-32707-2010,DIN 32707: Information and documentation – Romanization of the Georgian alphabet (2010-01),din,geo,Geor,Latn,<<DIN32707>>,
+din-32708-2014,DIN 32708: Information and documentation – Romanization of Japanese (2014-08),din,jpn,Jpan,Latn,<<DIN32708>>,
+din-33903-2016,DIN 33903: Information and documentation – Romanization of Tamil (2016-02),din,tam,Taml,Latn,<<DIN33903>>,
+din-33904-2018,DIN 33904: Information and documentation – Romanization Devanagari (2018-10),din,san pra pli hin mar nep,Deva,Latn,<<DIN33904>>,
