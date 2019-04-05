@@ -1,4 +1,6 @@
 ﻿Script conversion system code,Script conversion system name,Script conversion system authority code,Language(s) ISO 639-2,Source script code ISO 15924,Target script code ISO 15924,System specification,Remarks
+ahl-heb-1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),ahl,heb,Hebr,Latn,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),
+ahl-heb-2011,Academy of the Hebrew Language -- Rules of transliteration from Hebrew into Latin letters (2011),ahl,heb,Hebr,Latn,<<HebrLatn>>,
 alalc-aez-2017,ALA-LC Romanization Table -- Azerbaijani (2017),alalc,aez,Arab,Latn,ALA-LC Romanization Table -- Azerbaijani (2017),2017
 alalc-amh-2011,ALA-LC Romanization Table -- Amharic (2011),alalc,amh,Ethi,Latn,ALA-LC Romanization Table -- Amharic (2011),2011
 alalc-ara-2012,ALA-LC Romanization Table -- Arabic (2012),alalc,ara,Arab,Latn,ALA-LC Romanization Table -- Arabic (2012),2012
@@ -80,6 +82,8 @@ alalc-vai-2011,ALA-LC Romanization Table -- Vai (2011 rev),alalc,vai,Vai,Latn,AL
 alalc-xal-2012,ALA-LC Romanization Table -- Tod-Oirat-Old Kalmyk (2012),alalc,xal,Mong,Latn,ALA-LC Romanization Table -- Tod-Oirat-Old Kalmyk (2012),"2012, xal refers to Kalmyak; Oirat, need verification"
 alalc-zgh-2012,ALA-LC Romanization Table -- Moroccan Tamazight (2012),alalc,zgh,Tfng,Latn,ALA-LC Romanization Table -- Moroccan Tamazight (2012),2012
 alalc-zho-2011,ALA-LC Romanization Table -- Chinese (2011),alalc,zho,Hans,Latn,ALA-LC Romanization Table -- Chinese (2011),2011
+az-aez,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin,az,aez,Cyrl,Latn,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin (1991),"Azerbaijan's Milli Majlis (Parliament) adopted decree on conversion from Cyrillic to Latin script on December 25, 1991"
+bg-bul,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters,bg,bul,Cyrl,Latn,<<BulgLatn>>,
 bgn-pcgn-ady-2012,BGN/PCGN Romanization System -- Adyghe (2012),bgn-pcgn,ady,Cyrl,Latn,BGN/PCGN Romanization System -- Adyghe (2012),Date approved: 2012
 bgn-pcgn-aez-2002,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),bgn-pcgn,aez,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),"Date approved: 2002;  Originator: Govt of Azerbaijan, 1991"
 bgn-pcgn-af-2007,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),bgn-pcgn,prs pus uzb tuk bal aee glh psi psh,Arab,Latn,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),Date approved: 2007;  Notes: Applicable to Nuristani languages but not represented in ISO 639
@@ -137,6 +141,22 @@ bgn-pcgn-urd-2007,BGN/PCGN Romanization System -- Urdu (2007),bgn-pcgn,urd,Arab,
 bgn-pcgn-urk-1965,BGN/PCGN Romanization System -- Ukrainian (1965),bgn-pcgn,urk,Cyrl,Latn,BGN/PCGN Romanization System -- Ukrainian (1965),Date approved: 1965
 bgn-pcgn-uzb-2000,BGN/PCGN Romanization Table of Correspondences -- Uzbek (2000),bgn-pcgn,uzb,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Uzbek (2000),"Date approved: 2000;  Originator: Govt of Uzbekistan, 1995"
 bgn-pcgn-zho-1979,BGN/PCGN Romanization Agreement -- Chinese Pinyin (1979),bgn-pcgn,zho,Hani,Latn,BGN/PCGN Romanization Agreement -- Chinese Pinyin (1979),"Date approved: 1979;  Originator: Govt of China, 1958"
+bt-dzo,"Royal Government of Bhutan, Roman Dzongkha",bt,dzo,Tibt,Latn,"Royal Government of Bhutan, Roman Dzongkha","Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan"
+din-1460-1982,DIN 1460: Umschrift kyrillischer Alphabete slawischer Sprachen : conversion of Cyrillic alphabets of Slavic languages (1982-04),din,rus ukr bel srp mac bul rue cnr,Cyrl,Latn,<<DIN1460>>,
+din-1460-2-2011,DIN 1460-2: Umschrift kyrillischer Alphabete - Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen : Romanization of cyrillic alphabets – Part 2: Romanization of cyrillic alphabets of non-slavic languages (2011-10),din,62 languages (specification on demand),Cyrl,Latn,<<DIN1460-2>>,
+din-31634-2011,DIN 31634: Information and Documentation – Romanization of the Greek alphabet (2011-10),din,grc,Grek,Latn,<<DIN31634>>,
+din-31635-2011,"DIN 31635: Information and Documentation – Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto (2011-07)",din,ara ota per kur urd pus,Arab,Latn,<<DIN31635>>,
+din-31636-2018,DIN 31636: Information and documentation – Romanization of the Hebrew alphabet (2018-10),din,heb yid,Hebr,Latn,<<DIN31636>>,
+din-32706-2010,DIN 32706: Information and documentation – Romanization of the Armenian alphabet (2010-01),din,arm,Armn,Latn,<<DIN32706>>,
+din-32707-2010,DIN 32707: Information and documentation – Romanization of the Georgian alphabet (2010-01),din,geo,Geor,Latn,<<DIN32707>>,
+din-32708-2014,DIN 32708: Information and documentation – Romanization of Japanese (2014-08),din,jpn,Jpan,Latn,<<DIN32708>>,
+din-33903-2016,DIN 33903: Information and documentation – Romanization of Tamil (2016-02),din,tam,Taml,Latn,<<DIN33903>>,
+din-33904-2018,DIN 33904: Information and documentation – Romanization Devanagari (2018-10),din,san pra pli hin mar nep,Deva,Latn,<<DIN33904>>,
+elot-743-2001,ELOT 743:2001 Information and documentation -- Conversion of Greek characters into Latin characters,elot,gre,Grek,Latn,<<ELOT743>>,
+ge-geo,Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet,ge,geo,Geor,Latn,<<GeorLatn>>,
+gost-52535-1-2006,GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports,gost,ru,Cyrl,Latn,<<GOSTR52535>>,
+gost-7-79-2000,"GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet",gost,ru,Cyrl,Latn,<<GOST779>>,
+icao-mrtd,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,,,Latn,<<ICAO9303>>,"footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]"
 iso-11940-1998,ISO 11940:1998 Information and documentation – Transliteration of Thai,iso,tha,Thai,Latn,<<ISO11940>>,
 iso-11940-2-2007,ISO 11940-2:2007 Information and documentation – Transliteration of Thai characters into Latin characters – Part 2: Simplified transcription of Thai language,iso,tha,Thai,Latn,<<ISO11940-2>>,
 iso-15919-2001,ISO 15919:2001 Information and documentation – Transliteration of Devanagari and related Indic scripts into Latin characters,iso,inc,Deva,Latn,<<ISO15919>>,
@@ -152,6 +172,21 @@ iso-843-1997,ISO 843:1997 Information and documentation – Conversion of Greek 
 iso-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,sla,Cyrl,Latn,<<ISO9>>,
 iso-9984-1996,ISO 9984:1996 Information and documentation – Transliteration of Georgian characters into Latin characters,iso,geo,Geor,Latn,<<ISO9984>>,
 iso-9985-1996,ISO 9985:1996 Information and documentation – Transliteration of Armenian characters into Latin characters,iso,arm,Armn,Latn,<<ISO9985>>,
+itk-iku,ICI Standard Orthography,itk,iku,Cans,Latn,<<ICISO>>,
+la-lao-1965,Lao Commission Nationale de Toponymie (CNT) system,la,lao,Laoo,Latn,Lao Commission Nationale de Toponymie (CNT) system,
+lshk-jyutping,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,yue,Hant Hans,Latn,<<LSHKJP>>,
+md-ron,Republic of Moldova Romanization,md,ron,Cyrl,Latn,Republic of Moldova Romanization,TODO: need to confirm
+mext-jpn,System of Romanization for Japanese,mext,jpn,Jpan,Latn,<<MEXTJP>>,
+mk-mkd,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,mk,mkd,Cyrl,Latn,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,TODO: need to confirm
+mlc-mya,Myanmar Language Commission Transcription System,mlc,mya,Mymr,Latn,Myanmar Language Commission Transcription System,
+mlmupc-khm-1997,Transcription System for Khmer,mlmupc,khm,Khmr,Latn,<<KhmrLatn>>,
+mv-div,Republic of Maldives Official Romanization System,mv,div,Thaa,Latn,Republic of Maldives Official Romanization System,
+nikl-kor,National Institute of Korean Language -- Romanization of Korean,nikl,kor,Kore,Latn,<<NIKLRK>>,
+np-nep,Government of Nepal -- Transliteration and Translation System for Nepal,np,nep,Deva,Latn,<<TTSN>>,
+royin-tha-1999,Royal Thai General System of Transcription,royin,tha,Thai,Latn,<<ThaiLatn>>,
+rs-srp,Republic of Serbia -- Serbian Latin alphabet,rs,srp,Cyrl,Latn,Republic of Serbia -- Serbian Latin alphabet,
+sac-py,Romanization system for the Chinese phonetic alphabet,sac,zho,Hans,Latn,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",
+tm-tuk,Turkmen Standard TDS 565 -- Official Roman Alphabet,tm,tuk,Cyrl,Latn,Turkmen Standard TDS 565 -- Official Roman Alphabet,
 ungegn-amh-4.0,UNGEGN Romanization of Amharic version 4.0,ungegn,amh,Ethi,Latn,UNGEGN Romanization of Amharic version 4.0,3/30/16
 ungegn-ara-5.0,UNGEGN Romanization of Arabic version 5.0,ungegn,ara,Arab,Latn,UNGEGN Romanization of Arabic version 5.0,6/9/18
 ungegn-asm-4.0,UNGEGN Romanization of Assamese version 4.0,ungegn,asm,Ahom,Latn,UNGEGN Romanization of Assamese version 4.0,3/30/16
@@ -197,38 +232,3 @@ ungegn-uig-4.0,UNGEGN Romanization of Uighur version 4.0,ungegn,uig,Arab,Latn,UN
 ungegn-urd-4.0,UNGEGN Romanization of Urdu version 4.0,ungegn,urd,Arab,Latn,UNGEGN Romanization of Urdu version 4.0,3/30/16
 ungegn-urk-4.0,UNGEGN Romanization of Ukrainian version 4.0,ungegn,urk,Cyrl,Latn,UNGEGN Romanization of Ukrainian version 4.0,2/26/13
 ungegn-zho-4.0,UNGEGN Romanization of Chinese version 4.0,ungegn,zho,Hani,Latn,UNGEGN Romanization of Chinese version 4.0,9/24/13
-royin-tha-1999,Royal Thai General System of Transcription,royin,tha,Thai,Latn,<<ThaiLatn>>,
-mlmupc-khm-1997,Transcription System for Khmer,mlmupc,khm,Khmr,Latn,<<KhmrLatn>>,
-lshk-jyutping,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,yue,Hant Hans,Latn,<<LSHKJP>>,
-az-aez,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin,az,aez,Cyrl,Latn,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin (1991),"Azerbaijan's Milli Majlis (Parliament) adopted decree on conversion from Cyrillic to Latin script on December 25, 1991"
-bg-bul,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters,bg,bul,Cyrl,Latn,<<BulgLatn>>,
-mv-div,Republic of Maldives Official Romanization System,mv,div,Thaa,Latn,Republic of Maldives Official Romanization System,
-bt-dzo,"Royal Government of Bhutan, Roman Dzongkha",bt,dzo,Tibt,Latn,"Royal Government of Bhutan, Roman Dzongkha","Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan"
-ge-geo,Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet,ge,geo,Geor,Latn,<<GeorLatn>>,
-elot-743-2001,ELOT 743:2001 Information and documentation -- Conversion of Greek characters into Latin characters,elot,gre,Grek,Latn,ELOT 743:2001 Information and documentation -- Conversion of Greek characters into Latin characters,
-ahl-heb-1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),ahl,heb,Hebr,Latn,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),
-ahl-heb-2011,Academy of the Hebrew Language -- Rules of transliteration from Hebrew into Latin letters (2011),ahl,heb,Hebr,Latn,<<HebrLatn>>,
-la-lao-1965,Lao Commission Nationale de Toponymie (CNT) system,la,lao,Laoo,Latn,Lao Commission Nationale de Toponymie (CNT) system,
-np-nep,Government of Nepal -- Transliteration and Translation System for Nepal,np,nep,Deva,Latn,<<TTSN>>,
-md-ron,Republic of Moldova Romanization,md,ron,Cyrl,Latn,Republic of Moldova Romanization,TODO: need to confirm
-tm-tuk,Turkmen Standard TDS 565 -- Official Roman Alphabet,tm,tuk,Cyrl,Latn,Turkmen Standard TDS 565 -- Official Roman Alphabet,
-rs-srp,Republic of Serbia -- Serbian Latin alphabet,rs,srp,Cyrl,Latn,Republic of Serbia -- Serbian Latin alphabet,
-mk-mkd,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,mk,mkd,Cyrl,Latn,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,TODO: need to confirm
-nikl-kor,National Institute of Korean Language -- Romanization of Korean,nikl,kor,Kore,Latn,<<NIKLRK>>,
-itk-iku,ICI Standard Orthography,itk,iku,Cans,Latn,<<ICISO>>,
-mlc-mya,Myanmar Language Commission Transcription System,mlc,mya,Mymr,Latn,Myanmar Language Commission Transcription System,
-mext-jpn,System of Romanization for Japanese,mext,jpn,Jpan,Latn,<<MEXTJP>>,
-sac-py,Romanization system for the Chinese phonetic alphabet,sac,zho,Hans,Latn,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",
-icao-mrtd,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,,,Latn,<<ICAO9303>>,"footnote:[covers transliteration of Latn, Cyrl, Arab scripts.]"
-gost-52535-1-2006,GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports,gost,ru,Cyrl,Latn,<<GOSTR52535>>,
-gost-7-79-2000,"GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet",gost,ru,Cyrl,Latn,<<GOST779>>,
-din-1460-1982,DIN 1460: Umschrift kyrillischer Alphabete slawischer Sprachen : conversion of Cyrillic alphabets of Slavic languages (1982-04),din,rus ukr bel srp mac bul rue cnr,Cyrl,Latn,<<DIN1460>>,
-din-1460-2-2011,DIN 1460-2: Umschrift kyrillischer Alphabete - Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen : Romanization of cyrillic alphabets – Part 2: Romanization of cyrillic alphabets of non-slavic languages (2011-10),din,62 languages (specification on demand),Cyrl,Latn,<<DIN1460-2>>,
-din-31634-2011,DIN 31634: Information and Documentation – Romanization of the Greek alphabet (2011-10),din,grc,Grek,Latn,<<DIN31634>>,
-din-31635-2011,"DIN 31635: Information and Documentation – Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto (2011-07)",din,ara ota per kur urd pus,Arab,Latn,<<DIN31635>>,
-din-31636-2018,DIN 31636: Information and documentation – Romanization of the Hebrew alphabet (2018-10),din,heb yid,Hebr,Latn,<<DIN31636>>,
-din-32706-2010,DIN 32706: Information and documentation – Romanization of the Armenian alphabet (2010-01),din,arm,Armn,Latn,<<DIN32706>>,
-din-32707-2010,DIN 32707: Information and documentation – Romanization of the Georgian alphabet (2010-01),din,geo,Geor,Latn,<<DIN32707>>,
-din-32708-2014,DIN 32708: Information and documentation – Romanization of Japanese (2014-08),din,jpn,Jpan,Latn,<<DIN32708>>,
-din-33903-2016,DIN 33903: Information and documentation – Romanization of Tamil (2016-02),din,tam,Taml,Latn,<<DIN33903>>,
-din-33904-2018,DIN 33904: Information and documentation – Romanization Devanagari (2018-10),din,san pra pli hin mar nep,Deva,Latn,<<DIN33904>>,

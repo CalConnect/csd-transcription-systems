@@ -99,3 +99,5 @@
 * [[[DIN32708,DIN 32708:2014]]], _Information und Dokumentation - Umschrift des Japanischen_ (Information and documentation – Romanization of Japanese), 2014-08
 * [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation - Umschrift Tamil_ (Information and documentation – Romanization of Tamil), 2016-02
 * [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation - Transliteration Devanagari_ (Information and documentation – Romanization Devanagari), 2018-10
+
+* [[[ELOT743,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
