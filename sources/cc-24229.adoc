@@ -1,0 +1,43 @@
+= Information and documentation -- Codes for transcription systems
+:docnumber: 24229
+:copyright-year: 2019
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2019-07-05
+:published-date: 2019-07-05
+:script: Latn
+:technical-committee: LOCALIZATION
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:fullname_2: Jeffrey Lau
+:surname_2: Lau
+:givenname_2: Jeffrey
+:draft:
+:toc:
+:stem:
+:xrefstyle: short
+:docfile: cc-24229.adoc
+:imagesdir: images
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+include::sections-cc/00-foreword.adoc[]
+include::sections/00-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-common.adoc[]
+include::sections/05-authorities.adoc[]
+include::sections/06-codes.adoc[]
+
+include::sections/a1-maintenance.adoc[]
+include::sections/a2-authority-codes.adoc[]
+include::sections/a3-codes.adoc[]
+
+include::sections/zz-references.adoc[]

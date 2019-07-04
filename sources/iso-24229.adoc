@@ -1,13 +1,13 @@
-= CalConnect ISO/TC 46/WG 3 Codes for script conversion systems
-:docnumber: 46001
+= CalConnect ISO/TC 46/WG 3 Codes for transcription systems
+:docnumber: 24229
 :tc-document-number: 9999
 :edition: 1
 :copyright-year: 2019
 :language: en
 :title-intro-en: Information and documentation
-:title-main-en: Codes for script conversion systems
+:title-main-en: Codes for transcription systems
 :title-intro-fr: Information et documentation
-:title-main-fr: Codes pour les systèmes de conversion de script
+:title-main-fr: Codes pour les systèmes de transcription
 :doctype: international-standard
 :docstage: 10
 :docsubstage: 92
@@ -23,12 +23,13 @@
 :toc:
 :xrefstyle: short
 :imagesdir: images
-:docfile: iso-46001.adoc
+:docfile: iso-24229.adoc
 :mn-document-class: iso
-:mn-output-extensions: xml,html,doc,html_alt
+:mn-output-extensions: xml,doc,html,pdf,rxl
 :local-cache-only:
 :data-uri-image:
 
+include::sections-iso/00-foreword.adoc[]
 include::sections/00-foreword.adoc[]
 include::sections/00-intro.adoc[]
 include::sections/01-scope.adoc[]
