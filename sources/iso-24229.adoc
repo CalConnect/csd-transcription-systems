@@ -30,7 +30,6 @@
 :data-uri-image:
 
 include::sections-iso/00-foreword.adoc[]
-include::sections/00-foreword.adoc[]
 include::sections/00-intro.adoc[]
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
