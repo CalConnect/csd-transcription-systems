@@ -85,16 +85,16 @@ alalc-zho-2011,ALA-LC Romanization Table -- Chinese (2011),alalc,zho,Hans,Latn,A
 az-aez,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin,az,aez,Cyrl,Latn,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin (1991),"Azerbaijan's Milli Majlis (Parliament) adopted decree on conversion from Cyrillic to Latin script on December 25, 1991"
 bg-bul,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters,bg,bul,Cyrl,Latn,<<BulgLatn>>,
 bgnpcgn-ady-2012,BGN/PCGN Romanization System -- Adyghe (2012),bgnpcgn,ady,Cyrl,Latn,BGN/PCGN Romanization System -- Adyghe (2012),Date approved: 2012
-bgnpcgn-aez-2002,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),bgnpcgn,aez,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Azerbaijani (2002),"Date approved: 2002;  Originator: Govt of Azerbaijan, 1991"
+bgnpcgn-aez-2002,BGN/PCGN Table of Correspondences -- Azerbaijani (2002),bgnpcgn,aez,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Azerbaijani (2002),"Date approved: 2002;  Originator: Govt of Azerbaijan, 1991"
 bgnpcgn-af-2007,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),bgnpcgn,prs pus uzb tuk bal aee glh psi psh,Arab,Latn,BGN/PCGN Romanization System -- Afghanistan (Unified Agreement) (2007),Date approved: 2007;  Notes: Applicable to Nuristani languages but not represented in ISO 639
 bgnpcgn-amh-1967,BGN/PCGN Romanization System -- Amharic (1967),bgnpcgn,amh,Ethi,Latn,BGN/PCGN Romanization System -- Amharic (1967),Date approved: 1967
 bgnpcgn-ara-1956,BGN/PCGN Romanization System -- Arabic (1956),bgnpcgn,ara,Arab,Latn,BGN/PCGN Romanization System -- Arabic (1956),Date approved: 1956
 bgnpcgn-ava-2011,BGN/PCGN Romanization System -- Avar (2011),bgnpcgn,ava,Cyrl,Latn,BGN/PCGN Romanization System -- Avar (2011),Date approved: 2011
-bgnpcgn-bak-2007,BGN/PCGN Romanization Table of Correspondences -- Bashkir (2007),bgnpcgn,bak,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Bashkir (2007),Date approved: 2007;  Originator: Bashkir practice
+bgnpcgn-bak-2007,BGN/PCGN Table of Correspondences -- Bashkir (2007),bgnpcgn,bak,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Bashkir (2007),Date approved: 2007;  Originator: Bashkir practice
 bgnpcgn-bal-2008,BGN/PCGN Romanization System -- Baluchi (2008),bgnpcgn,bal,Arab,Latn,BGN/PCGN Romanization System -- Baluchi (2008),Date approved: 2008
 bgnpcgn-bel-1979,BGN/PCGN Romanization System -- Belarusian (1979),bgnpcgn,bel,Cyrl,Latn,BGN/PCGN Romanization System -- Belarusian (1979),Date approved: 1979
 bgnpcgn-bul-2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013),bgnpcgn,bul,Cyrl,Latn,BGN/PCGN Romanization Agreement -- Bulgarian (2013),"Date approved: 2013;  Originator: Govt of Bulgaria, 2009"
-bgnpcgn-che-2008,BGN/PCGN Romanization Table of Correspondences -- Chechen (2008),bgnpcgn,che,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Chechen (2008),Date approved: 2008;  Originator: Chechen practice
+bgnpcgn-che-2008,BGN/PCGN Table of Correspondences -- Chechen (2008),bgnpcgn,che,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Chechen (2008),Date approved: 2008;  Originator: Chechen practice
 bgnpcgn-chv-2011,BGN/PCGN Romanization System -- Chuvash (2011),bgnpcgn,chv,Cyrl,Latn,BGN/PCGN Romanization System -- Chuvash (2011),Date approved: 2011
 bgnpcgn-div-1988,BGN/PCGN Romanization System -- Maldivian (1988),bgnpcgn,div,Thaa,Latn,BGN/PCGN Romanization System -- Maldivian (1988),"Date approved: 1988;  Originator: Govt of Maldives, 1987"
 bgnpcgn-dzo-2010,BGN/PCGN Romanization Agreement -- Dzongkha (2010),bgnpcgn,dzo,Tibt,Latn,BGN/PCGN Romanization Agreement -- Dzongkha (2010),"Date approved: 2010;  Originator: Govt of Bhutan, 1997"
@@ -104,7 +104,7 @@ bgnpcgn-ger-2000,BGN/PCGN Roman-Script Spelling Convention -- German (2000),bgnp
 bgnpcgn-gre-1996,BGN/PCGN Romanization System -- Greek (1996),bgnpcgn,gre,Grek,Latn,BGN/PCGN Romanization System -- Greek (1996),Date approved: 1996;  Originator: Hellenic Organization for Standardization
 bgnpcgn-heb-1962,BGN/PCGN Romanization Agreement -- Hebrew (1962),bgnpcgn,heb,Hebr,Latn,BGN/PCGN Romanization Agreement -- Hebrew (1962),Date approved: 1962;  Originator: Hebrew Academy
 bgnpcgn-hye-1981,BGN/PCGN Romanization System -- Armenian (1981),bgnpcgn,hye,Armn,Latn,BGN/PCGN Romanization System -- Armenian (1981),Date approved: 1981
-bgnpcgn-iku-2018,BGN/PCGN Romanization Table of Correspondences -- Inuktitut (2018),bgnpcgn,iku,Cans,Latn,BGN/PCGN Romanization Table of Correspondences -- Inuktitut (2018),Date approved: 2018;  Originator: Inuit Cultural Institute
+bgnpcgn-iku-2018,BGN/PCGN Table of Correspondences -- Inuktitut (2018),bgnpcgn,iku,Cans,Latn,BGN/PCGN Table of Correspondences -- Inuktitut (2018),Date approved: 2018;  Originator: Inuit Cultural Institute
 bgnpcgn-isl-1968,BGN/PCGN Roman-Script Spelling Convention -- Icelandic (1968),bgnpcgn,isl,Latn,Latn,BGN/PCGN Roman-Script Spelling Convention -- Icelandic (1968),Date approved: 1968;  Originator: Icelandic orthography
 bgnpcgn-jpn-2017,BGN/PCGN Romanization Agreement -- Japanese Kana (2017),bgnpcgn,jpn,Hrkt,Latn,BGN/PCGN Romanization Agreement -- Japanese Kana (2017),"Date approved: 2017;  Originator: J.C. Hepburn, 1867"
 bgnpcgn-kaz-1979,BGN/PCGN Romanization System -- Kazakh (1979),bgnpcgn,kaz,Cyrl,Latn,BGN/PCGN Romanization System -- Kazakh (1979),Date approved: 1979
@@ -113,7 +113,7 @@ bgnpcgn-khm-1972,BGN/PCGN Romanization Agreement -- Khmer (Cambodian) (1972),bgn
 bgnpcgn-kir-1979,BGN/PCGN Romanization System -- Kyrgyz (1979),bgnpcgn,kir,Cyrl,Latn,BGN/PCGN Romanization System -- Kyrgyz (1979),Date approved: 1979
 bgnpcgn-kor-1945,BGN/PCGN Romanization Agreement -- Korean (North Korea) (1945),bgnpcgn,kor,Kore,Latn,BGN/PCGN Romanization Agreement -- Korean (North Korea) (1945),"Date approved: 1945;  Originator: McCune-Reischauer, 1939"
 bgnpcgn-kor-2011,BGN/PCGN Romanization Agreement -- Korean (South Korea) (2011),bgnpcgn,kor,Kore,Latn,BGN/PCGN Romanization Agreement -- Korean (South Korea) (2011),"Date approved: 2011;  Originator: Ministry of Culture and Tourism, 2000"
-bgnpcgn-krc-2008,BGN/PCGN Romanization Table of Correspondences -- Karachay-Balkar (2008),bgnpcgn,krc,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Karachay-Balkar (2008),Date approved: 2008;  Originator: Karachay-Balkar practice
+bgnpcgn-krc-2008,BGN/PCGN Table of Correspondences -- Karachay-Balkar (2008),bgnpcgn,krc,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Karachay-Balkar (2008),Date approved: 2008;  Originator: Karachay-Balkar practice
 bgnpcgn-kur-2007,BGN/PCGN Romanization System -- Kurdish (2007),bgnpcgn,kur,Arab,Latn,BGN/PCGN Romanization System -- Kurdish (2007),Date approved: 2007
 bgnpcgn-lao-1966,BGN/PCGN Romanization Agreement -- Lao (1966),bgnpcgn,lao,Laoo,Latn,BGN/PCGN Romanization Agreement -- Lao (1966),"Date approved: 1966;  Originator: Lao Commission Nationale de Toponymie (CNT), 1965"
 bgnpcgn-mkd-2013,BGN/PCGN Romanization Agreement -- Macedonian (2013),bgnpcgn,mkd,Cyrl,Latn,BGN/PCGN Romanization Agreement -- Macedonian (2013),Date approved: 2013;  Originator: Govt of Macedonia
@@ -123,23 +123,23 @@ bgnpcgn-nep-2011,BGN/PCGN Romanization Agreement -- Nepali (2011),bgnpcgn,nep,De
 bgnpcgn-oss-2009,BGN/PCGN Romanization System -- Ossetian (2009),bgnpcgn,oss,Cyrl,Latn,BGN/PCGN Romanization System -- Ossetian (2009),Date approved: 2009
 bgnpcgn-per-1958,BGN/PCGN Romanization System -- Persian (1958),bgnpcgn,per,Arab,Latn,BGN/PCGN Romanization System -- Persian (1958),Date approved: 1958
 bgnpcgn-pus-1968,BGN/PCGN Romanization System -- Pashto (1968),bgnpcgn,pus,Arab,Latn,BGN/PCGN Romanization System -- Pashto (1968),Date approved: 1968
-bgnpcgn-ron-2002,BGN/PCGN Romanization Table of Correspondences -- Moldovan (2002),bgnpcgn,ron,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Moldovan (2002),"Date approved: 2002;  Originator: Govt of Moldova, 1990"
+bgnpcgn-ron-2002,BGN/PCGN Table of Correspondences -- Moldovan (2002),bgnpcgn,ron,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Moldovan (2002),"Date approved: 2002;  Originator: Govt of Moldova, 1990"
 bgnpcgn-rue-2016,BGN/PCGN Romanization System -- Rusyn (2016),bgnpcgn,rue,Cyrl,Latn,BGN/PCGN Romanization System -- Rusyn (2016),Date approved: 2016
 bgnpcgn-rus-1947,BGN/PCGN Romanization System -- Russian (1947),bgnpcgn,rus,Cyrl,Latn,BGN/PCGN Romanization System -- Russian (1947),Date approved: 1947
 bgnpcgn-sah-2012,BGN/PCGN Romanization System -- Yakut (2012),bgnpcgn,sah,Cyrl,Latn,BGN/PCGN Romanization System -- Yakut (2012),Date approved: 2012
 bgnpcgn-shn-2011,BGN/PCGN Romanization System -- Shan (2011),bgnpcgn,shn,Mymr,Latn,BGN/PCGN Romanization System -- Shan (2011),Date approved: 2011
 bgnpcgn-sme-1984,BGN/PCGN Roman-Script Spelling Convention -- Northern Sami (1984),bgnpcgn,sme,Latn,Latn,BGN/PCGN Roman-Script Spelling Convention -- Northern Sami (1984),Date approved: 1984;  Originator: Northern Sami orthography
-bgnpcgn-srp-2005,BGN/PCGN Romanization Table of Correspondences -- Serbian (2005),bgnpcgn,srp,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Serbian (2005),Date approved: 2005;  Originator: Govt of Serbia
+bgnpcgn-srp-2005,BGN/PCGN Table of Correspondences -- Serbian (2005),bgnpcgn,srp,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Serbian (2005),Date approved: 2005;  Originator: Govt of Serbia
 bgnpcgn-syr-2011,BGN/PCGN Romanization System -- Modern Syriac (2011),bgnpcgn,syr,Syrc,Latn,BGN/PCGN Romanization System -- Modern Syriac (2011),Date approved: 2011
-bgnpcgn-tat-2005,BGN/PCGN Romanization Table of Correspondences -- Tatar (2005),bgnpcgn,tat,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Tatar (2005),Date approved: 2005;  Originator: Tatar practice
+bgnpcgn-tat-2005,BGN/PCGN Table of Correspondences -- Tatar (2005),bgnpcgn,tat,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Tatar (2005),Date approved: 2005;  Originator: Tatar practice
 bgnpcgn-tgk-1994,BGN/PCGN Romanization System -- Tajik (1994),bgnpcgn,tgk,Cyrl,Latn,BGN/PCGN Romanization System -- Tajik (1994),Date approved: 1994
 bgnpcgn-tha-2002,BGN/PCGN Romanization Agreement -- Thai (2002),bgnpcgn,tha,Thai,Latn,BGN/PCGN Romanization Agreement -- Thai (2002),"Date approved: 2002;  Originator: Royal Institute of Thailand, 2000"
 bgnpcgn-tir-2007,BGN/PCGN Romanization System -- Tigrinya (2007),bgnpcgn,tir,Ethi,Latn,BGN/PCGN Romanization System -- Tigrinya (2007),Date approved: 2007
-bgnpcgn-tuk-2000,BGN/PCGN Romanization Table of Correspondences -- Turkmen (2000),bgnpcgn,tuk,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Turkmen (2000),"Date approved: 2000;  Originator: Govt of Turkmenistan, 1993"
+bgnpcgn-tuk-2000,BGN/PCGN Table of Correspondences -- Turkmen (2000),bgnpcgn,tuk,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Turkmen (2000),"Date approved: 2000;  Originator: Govt of Turkmenistan, 1993"
 bgnpcgn-udm-2011,BGN/PCGN Romanization System -- Udmurt (2011),bgnpcgn,udm,Cyrl,Latn,BGN/PCGN Romanization System -- Udmurt (2011),Date approved: 2011
 bgnpcgn-urd-2007,BGN/PCGN Romanization System -- Urdu (2007),bgnpcgn,urd,Arab,Latn,BGN/PCGN Romanization System -- Urdu (2007),Date approved: 2007
 bgnpcgn-urk-1965,BGN/PCGN Romanization System -- Ukrainian (1965),bgnpcgn,urk,Cyrl,Latn,BGN/PCGN Romanization System -- Ukrainian (1965),Date approved: 1965
-bgnpcgn-uzb-2000,BGN/PCGN Romanization Table of Correspondences -- Uzbek (2000),bgnpcgn,uzb,Cyrl,Latn,BGN/PCGN Romanization Table of Correspondences -- Uzbek (2000),"Date approved: 2000;  Originator: Govt of Uzbekistan, 1995"
+bgnpcgn-uzb-2000,BGN/PCGN Table of Correspondences -- Uzbek (2000),bgnpcgn,uzb,Cyrl,Latn,BGN/PCGN Table of Correspondences -- Uzbek (2000),"Date approved: 2000;  Originator: Govt of Uzbekistan, 1995"
 bgnpcgn-zho-1979,BGN/PCGN Romanization Agreement -- Chinese Pinyin (1979),bgnpcgn,zho,Hani,Latn,BGN/PCGN Romanization Agreement -- Chinese Pinyin (1979),"Date approved: 1979;  Originator: Govt of China, 1958"
 bt-dzo-1997,"Royal Government of Bhutan, Roman Dzongkha",bt,dzo,Tibt,Latn,"Royal Government of Bhutan, Roman Dzongkha","Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan. Approved by the Ministry of Home Affairs, Royal Government of Bhutan"
 bt-dzo-1991,"Royal Government of Bhutan, Roman Dzongkha",bt,dzo,Tibt,Latn,"Royal Government of Bhutan, Roman Dzongkha","Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan"
