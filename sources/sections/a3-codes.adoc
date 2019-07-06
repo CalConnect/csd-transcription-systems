@@ -7,3 +7,6 @@
 |===
 include::../data/codes.csv[]
 |===
+
+NOTE: In UN systems, the version number only indicates informational changes --
+the system remains unchanged.

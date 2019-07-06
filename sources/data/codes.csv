@@ -187,48 +187,48 @@ royin-tha-1999,Royal Thai General System of Transcription,royin,tha,Thai,Latn,<<
 rs-srp,Republic of Serbia -- Serbian Latin alphabet,rs,srp,Cyrl,Latn,Republic of Serbia -- Serbian Latin alphabet,
 sac-py,Romanization system for the Chinese phonetic alphabet,sac,zho,Hans,Latn,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",
 tm-tuk,Turkmen Standard TDS 565 -- Official Roman Alphabet,tm,tuk,Cyrl,Latn,Turkmen Standard TDS 565 -- Official Roman Alphabet,
-un-amh-4.0,UN Romanization of Amharic version 4.0,un,amh,Ethi,Latn,UN Romanization of Amharic version 4.0,3/30/16
-un-ara-5.0,UN Romanization of Arabic version 5.0,un,ara,Arab,Latn,UN Romanization of Arabic version 5.0,6/9/18
-un-asm-4.0,UN Romanization of Assamese version 4.0,un,asm,Ahom,Latn,UN Romanization of Assamese version 4.0,3/30/16
-un-bel-4.0,UN Romanization of Belarusian version 4.0,un,bel,Cyrl,Latn,UN Romanization of Belarusian version 4.0,2/26/13
-un-ben-4.0,UN Romanization of Bengali version 4.0,un,ben,Beng,Latn,UN Romanization of Bengali version 4.0,3/30/16
-un-bod-4.0,UN Romanization of Tibetan version 4.0,un,bod,Tibt,Latn,UN Romanization of Tibetan version 4.0,9/24/13
-un-bul-4.0,UN Romanization of Bulgarian version 4.0,un,bul,Cyrl,Latn,UN Romanization of Bulgarian version 4.0,2/26/13
-un-div-4.0,UN Romanization of Maldivian version 4.0,un,div,Thaa,Latn,UN Romanization of Maldivian version 4.0,3/30/16
-un-dzo-4.0,UN Romanization of Dzongkha version 4.0,un,dzo,Tibt,Latn,UN Romanization of Dzongkha version 4.0,"2013-09-24, source script is Uchen, a form of Tibt"
-un-geo-4.1,UN Romanization of Georgian version 4.1,un,geo,Geor,Latn,UN Romanization of Georgian version 4.1,12/17/18
-un-gre-4.0,UN Romanization of Greek version 4.0,un,gre,Grek,Latn,UN Romanization of Greek version 4.0,3/30/16
-un-guj-4.0,UN Romanization of Gujarati version 4.0,un,guj,Gujr,Latn,UN Romanization of Gujarati version 4.0,3/30/16
-un-heb-4.0,UN Romanization of Hebrew version 4.0,un,heb,Hebr,Latn,UN Romanization of Hebrew version 4.0,2/26/13
-un-hin-4.0,UN Romanization of Hindi version 4.0,un,hin,Deva,Latn,UN Romanization of Hindi version 4.0,3/30/16
-un-hye-4.0,UN Romanization of Armenian version 4.0,un,hye,Armn,Latn,UN Romanization of Armenian version 4.0,3/30/16
-un-jpn-4.0,UN Romanization of Japanese version 4.0,un,jpn,Jpan,Latn,UN Romanization of Japanese version 4.0,9/24/13
-un-kan-4.0,UN Romanization of Kannada version 4.0,un,kan,Knda,Latn,UN Romanization of Kannada version 4.0,3/30/16
-un-kaz-4.0,UN Romanization of Kazakh version 4.0,un,kaz,Cyrl,Latn,UN Romanization of Kazakh version 4.0,3/30/16
-un-khm-4.0,UN Romanization of Khmer version 4.0,un,khm,Khmr,Latn,UN Romanization of Khmer version 4.0,9/24/13
-un-kir-4.0,UN Romanization of Kirghiz version 4.0,un,kir,Cyrl,Latn,UN Romanization of Kirghiz version 4.0,3/30/16
-un-kor-4.0,UN Romanization of Korean version 4.0,un,kor,Kore,Latn,UN Romanization of Korean version 4.0,9/24/13
-un-lao-4.0,UN Romanization of Lao version 4.0,un,lao,lao,Latn,UN Romanization of Lao version 4.0,9/24/13
-un-mal-4.0,UN Romanization of Malayalam version 4.0,un,mal,Mlym,Latn,UN Romanization of Malayalam version 4.0,3/30/16
-un-mar-4.0,UN Romanization of Marathi version 4.0,un,mar,Deva,Latn,UN Romanization of Marathi version 4.0,3/30/16
-un-mkd-4.0,UN Romanization of Macedonian version Cyrillic version 4.0,un,mkd,Cyrl,Latn,UN Romanization of Macedonian version Cyrillic version 4.0,2/26/13
-un-mon-cyrl-4.0,UN Romanization of Mongolian version (Cyrillic) version 4.0,un,mon,Cyrl,Latn,UN Romanization of Mongolian version (Cyrillic) version 4.0,3/30/16
-un-mon-mong-4.0,UN Romanization of Mongolian version (in China) version 4.0,un,mon,Mong,Latn,UN Romanization of Mongolian version (in China) version 4.0,9/24/13
-un-mya-4.0,UN Romanization of Burmese version 4.0,un,mya,Mymr,Latn,UN Romanization of Burmese version 4.0,9/24/13
-un-nep-4.0,UN Romanization of Nepali version 4.0,un,nep,Deva,Latn,UN Romanization of Nepali version 4.0,2/26/13
-un-ori-4.0,UN Romanization of Oriya version 4.0,un,ori,Orya,Latn,UN Romanization of Oriya version 4.0,3/30/16
-un-pan-4.0,UN Romanization of Punjabi version 4.0,un,pan,Guru,Latn,UN Romanization of Punjabi version 4.0,3/30/16
-un-per-4.0,UN Romanization of Persian version 4.0,un,per,Arab,Latn,UN Romanization of Persian version 4.0,2/26/13
-un-pus-4.0,UN Romanization of Pashto version 4.0,un,pus,Arab,Latn,UN Romanization of Pashto version 4.0,3/30/16
-un-rus-4.0,UN Romanization of Russian version 4.0,un,rus,Cyrl,Latn,UN Romanization of Russian version 4.0,3/30/16
-un-sin-4.0,UN Romanization of Sinhalese version 4.0,un,sin,Sinh,Latn,UN Romanization of Sinhalese version 4.0,3/30/16
-un-srp-4.0,UN Romanization of Serbian version 4.0,un,srp,Cyrl,Latn,UN Romanization of Serbian version 4.0,3/30/16
-un-tam-4.0,UN Romanization of Tamil version 4.0,un,tam,Taml,Latn,UN Romanization of Tamil version 4.0,3/30/16
-un-tel-4.0,UN Romanization of Telugu version 4.0,un,tel,Telu,Latn,UN Romanization of Telugu version 4.0,3/30/16
-un-tgk-4.0,UN Romanization of Tajik version 4.0,un,tgk,Cyrl,Latn,UN Romanization of Tajik version 4.0,3/30/16
-un-tha-4.0,UN Romanization of Thai version 4.0,un,tha,Thai,Latn,UN Romanization of Thai version 4.0,9/24/13
-un-tir-4.0,UN Romanization of Tigrinya version 4.0,un,tir,Ethi,Latn,UN Romanization of Tigrinya version 4.0,2/26/13
-un-uig-4.0,UN Romanization of Uighur version 4.0,un,uig,Arab,Latn,UN Romanization of Uighur version 4.0,9/24/13
-un-urd-4.0,UN Romanization of Urdu version 4.0,un,urd,Arab,Latn,UN Romanization of Urdu version 4.0,3/30/16
-un-urk-4.0,UN Romanization of Ukrainian version 4.0,un,urk,Cyrl,Latn,UN Romanization of Ukrainian version 4.0,2/26/13
-un-zho-4.0,UN Romanization of Chinese version 4.0,un,zho,Hani,Latn,UN Romanization of Chinese version 4.0,9/24/13
+un-amh-2016,UN Romanization of Amharic version 4.0,un,amh,Ethi,Latn,UN Romanization of Amharic version 4.0,3/30/16
+un-ara-2018,UN Romanization of Arabic version 5.0,un,ara,Arab,Latn,UN Romanization of Arabic version 5.0,6/9/18
+un-asm-2016,UN Romanization of Assamese version 4.0,un,asm,Ahom,Latn,UN Romanization of Assamese version 4.0,3/30/16
+un-bel-2013,UN Romanization of Belarusian version 4.0,un,bel,Cyrl,Latn,UN Romanization of Belarusian version 4.0,2/26/13
+un-ben-2016,UN Romanization of Bengali version 4.0,un,ben,Beng,Latn,UN Romanization of Bengali version 4.0,3/30/16
+un-bod-2013,UN Romanization of Tibetan version 4.0,un,bod,Tibt,Latn,UN Romanization of Tibetan version 4.0,9/24/13
+un-bul-2013,UN Romanization of Bulgarian version 4.0,un,bul,Cyrl,Latn,UN Romanization of Bulgarian version 4.0,2/26/13
+un-div-2016,UN Romanization of Maldivian version 4.0,un,div,Thaa,Latn,UN Romanization of Maldivian version 4.0,3/30/16
+un-dzo-2013,UN Romanization of Dzongkha version 4.0,un,dzo,Tibt,Latn,UN Romanization of Dzongkha version 4.0,"2013-09-24, source script is Uchen, a form of Tibt"
+un-geo-2018,UN Romanization of Georgian version 4.1,un,geo,Geor,Latn,UN Romanization of Georgian version 4.1,12/17/18
+un-gre-2016,UN Romanization of Greek version 4.0,un,gre,Grek,Latn,UN Romanization of Greek version 4.0,3/30/16
+un-guj-2016,UN Romanization of Gujarati version 4.0,un,guj,Gujr,Latn,UN Romanization of Gujarati version 4.0,3/30/16
+un-heb-2013,UN Romanization of Hebrew version 4.0,un,heb,Hebr,Latn,UN Romanization of Hebrew version 4.0,2/26/13
+un-hin-2016,UN Romanization of Hindi version 4.0,un,hin,Deva,Latn,UN Romanization of Hindi version 4.0,3/30/16
+un-hye-2016,UN Romanization of Armenian version 4.0,un,hye,Armn,Latn,UN Romanization of Armenian version 4.0,3/30/16
+un-jpn-2013,UN Romanization of Japanese version 4.0,un,jpn,Jpan,Latn,UN Romanization of Japanese version 4.0,9/24/13
+un-kan-2016,UN Romanization of Kannada version 4.0,un,kan,Knda,Latn,UN Romanization of Kannada version 4.0,3/30/16
+un-kaz-2016,UN Romanization of Kazakh version 4.0,un,kaz,Cyrl,Latn,UN Romanization of Kazakh version 4.0,3/30/16
+un-khm-2013,UN Romanization of Khmer version 4.0,un,khm,Khmr,Latn,UN Romanization of Khmer version 4.0,9/24/13
+un-kir-2016,UN Romanization of Kirghiz version 4.0,un,kir,Cyrl,Latn,UN Romanization of Kirghiz version 4.0,3/30/16
+un-kor-2013,UN Romanization of Korean version 4.0,un,kor,Kore,Latn,UN Romanization of Korean version 4.0,9/24/13
+un-lao-2013,UN Romanization of Lao version 4.0,un,lao,lao,Latn,UN Romanization of Lao version 4.0,9/24/13
+un-mal-2016,UN Romanization of Malayalam version 4.0,un,mal,Mlym,Latn,UN Romanization of Malayalam version 4.0,3/30/16
+un-mar-2016,UN Romanization of Marathi version 4.0,un,mar,Deva,Latn,UN Romanization of Marathi version 4.0,3/30/16
+un-mkd-2013,UN Romanization of Macedonian version Cyrillic version 4.0,un,mkd,Cyrl,Latn,UN Romanization of Macedonian version Cyrillic version 4.0,2/26/13
+un-mon-cyrl-2016,UN Romanization of Mongolian version (Cyrillic) version 4.0,un,mon,Cyrl,Latn,UN Romanization of Mongolian version (Cyrillic) version 4.0,3/30/16
+un-mon-mong-2013,UN Romanization of Mongolian version (in China) version 4.0,un,mon,Mong,Latn,UN Romanization of Mongolian version (in China) version 4.0,9/24/13
+un-mya-2013,UN Romanization of Burmese version 4.0,un,mya,Mymr,Latn,UN Romanization of Burmese version 4.0,9/24/13
+un-nep-2013,UN Romanization of Nepali version 4.0,un,nep,Deva,Latn,UN Romanization of Nepali version 4.0,2/26/13
+un-ori-2016,UN Romanization of Oriya version 4.0,un,ori,Orya,Latn,UN Romanization of Oriya version 4.0,3/30/16
+un-pan-2016,UN Romanization of Punjabi version 4.0,un,pan,Guru,Latn,UN Romanization of Punjabi version 4.0,3/30/16
+un-per-2013,UN Romanization of Persian version 4.0,un,per,Arab,Latn,UN Romanization of Persian version 4.0,2/26/13
+un-pus-2016,UN Romanization of Pashto version 4.0,un,pus,Arab,Latn,UN Romanization of Pashto version 4.0,3/30/16
+un-rus-2016,UN Romanization of Russian version 4.0,un,rus,Cyrl,Latn,UN Romanization of Russian version 4.0,3/30/16
+un-sin-2016,UN Romanization of Sinhalese version 4.0,un,sin,Sinh,Latn,UN Romanization of Sinhalese version 4.0,3/30/16
+un-srp-2016,UN Romanization of Serbian version 4.0,un,srp,Cyrl,Latn,UN Romanization of Serbian version 4.0,3/30/16
+un-tam-2016,UN Romanization of Tamil version 4.0,un,tam,Taml,Latn,UN Romanization of Tamil version 4.0,3/30/16
+un-tel-2016,UN Romanization of Telugu version 4.0,un,tel,Telu,Latn,UN Romanization of Telugu version 4.0,3/30/16
+un-tgk-2016,UN Romanization of Tajik version 4.0,un,tgk,Cyrl,Latn,UN Romanization of Tajik version 4.0,3/30/16
+un-tha-2013,UN Romanization of Thai version 4.0,un,tha,Thai,Latn,UN Romanization of Thai version 4.0,9/24/13
+un-tir-2013,UN Romanization of Tigrinya version 4.0,un,tir,Ethi,Latn,UN Romanization of Tigrinya version 4.0,2/26/13
+un-uig-2013,UN Romanization of Uighur version 4.0,un,uig,Arab,Latn,UN Romanization of Uighur version 4.0,9/24/13
+un-urd-2016,UN Romanization of Urdu version 4.0,un,urd,Arab,Latn,UN Romanization of Urdu version 4.0,3/30/16
+un-urk-2013,UN Romanization of Ukrainian version 4.0,un,urk,Cyrl,Latn,UN Romanization of Ukrainian version 4.0,2/26/13
+un-zho-2013,UN Romanization of Chinese version 4.0,un,zho,Hani,Latn,UN Romanization of Chinese version 4.0,9/24/13
