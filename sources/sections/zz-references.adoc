@@ -49,27 +49,33 @@
 
 * [[[BGNPCGNSystems,BGN/PCGN Romanization Systems]]], _BGN/PCGN Romanization Systems_, National Geospatial-Intelligence Agency, http://geonames.nga.mil/gns/html/romanization.html
 
-* [[[ALALCTables,ALA-LC Romanization Tables]]], _ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts_, The Library of Congress, https://www.loc.gov/catdir/cpso/roman.html
+* [[[ALALCTables,ALA-LC Romanization Tables]]], _ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts_, The Library of Congress, 1997, https://www.loc.gov/catdir/cpso/roman.html
 
 * [[[UNGEGNWG,UNGEGN Working Group on Romanization Systems]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_, United Nations Group of Experts on Geographical Names (UNGEGN): Working Group on Romanization Systems, https://www.eki.ee/wgrs/
 
-* [[[MEXTJP,System of Romanization for Japanese]]], _System of Romanization for Japanese_, http://www.mext.go.jp/b_menu/hakusho/nc/k19541209001/k19541209001.html
+* [[[MEXTJP,System of Romanization for Japanese]]], _System of Romanization for Japanese_, 1954/12/09 [昭和二十九年十二月九日], http://www.mext.go.jp/b_menu/hakusho/nc/k19541209001/k19541209001.html
 
-* [[[ICISO,ICI Standard Orthography]]], _ICI Standard Orthography_, https://www.itk.ca/amaujaq/unification-writing-system/
+* [[[ICISO,ICI Standard Orthography]]], _ICI Standard Orthography_, 1976, accessible at: https://www.itk.ca/amaujaq/unification-writing-system/
 
-* [[[NIKLRK,National Institute of Korean Language -- Romanization of Korean]]], _Romanization of Korean_, National Institute of Korean Language, https://www.korean.go.kr/front_eng/roman/roman_01.do
+* [[[NIKLRK,National Institute of Korean Language -- Romanization of Korean]]], _Romanization of Korean_ [국어의 로마자 표기법; 國語의 로마字 表記法], National Institute of Korean Language, 2000, https://www.korean.go.kr/front_eng/roman/roman_01.do
 
 * [[[TTSN,Transliteration and Translation System for Nepal]]], _Transliteration and Translation System for Nepal_, Government of Nepal, http://nationalgeoportal.gov.np/old/pdf/translation2.pdf
 
-* [[[LSHKJP,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme]]], _The Linguistic Society of Hong Kong Cantonese Romanisation Scheme_, The Linguistic Society of Hong Kong, https://www.lshk.org/jyutping
+* [[[LSHKJP,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme]]], _The Linguistic Society of Hong Kong Cantonese Romanisation Scheme_, 1993, The Linguistic Society of Hong Kong, https://www.lshk.org/jyutping
 
 * [[[HebrLatn,Rules of transliteration from Hebrew into Latin letters]]], _Rules of transliteration from Hebrew into Latin letters (2011)_, Academy of the Hebrew Language, https://hebrew-academy.org.il/כללי-התעתיק/
 
 * [[[GeorLatn,Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet]]], _Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/26th-gegn-docs/wp/WP94_rev2_Georgian%20Consonants.pdf
 
+* [[[BDS1596-73,BDS 1596:1973]]], _BDS 1596:1973 -- Transliteration of Bulgarian Words with Latin Characters_, Bulgarian Institute for Standardization, 1973 (in Bulgarian)
+
 * [[[BulgLatn,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
 
 * [[[KhmrLatn,Geographic Department Transcription System for Khmer]]], _Geographic Department of the Ministry of Land Management, Urban Planning and Construction of Cambodia, Transcription System for Khmer_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/8th-uncsgn-docs/inf/8th_UNCSGN_econf.94_INF.30.pdf
+
+* [[[MLCTS,Myanmar Language Commission Transcription System]]], _Myanmar Language Commission Transcription System (MLCTS)_, Myanmar Language Commission, 1980
+
+* [[[MaliLatin,Republic of Maldives Official Romanization System]]], _Republic of Maldives Official Romanization System_, Republic of Maldives, 1976
 
 * [[[ThaiLatn,Royal Thai General System of Transcription]]], _Royal Thai General System of Transcription 1999_, Office of the Royal Society of Thailand, http://www.royin.go.th/wp-content/uploads/2015/03/416_2157.pdf
 

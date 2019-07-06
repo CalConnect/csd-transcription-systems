@@ -7,7 +7,6 @@ Script conversion systems are used to convert writing systems
 into other scripts, and in the case of romanization systems, into Roman script.
 
 
-
 [[sc-data-model]]
 === Data model and attributes
 
@@ -42,6 +41,20 @@ The language code that identifies the source language being processed
 by the script conversion system.
 
 
+==== Edition
+
+The edition, or version, of the script conversion system, in string form.
+It may or may not be derived from the adoption date.
+
+[example]
+`2013` is the edition year of the system `un-lao-2013`.
+
+
+==== Adoption date
+
+The date of the adoption of the script conversation system by the authority.
+
+
 ==== Remarks
 
 Any further notes.
@@ -62,6 +75,7 @@ transliteration and romanization systems from official sources.
 Names and description of transliteration and romanization systems are
 obtained from authoritative sources.
 
+
 ===== Current status of names
 
 Script conversion systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
@@ -76,11 +90,11 @@ Script conversion systems have codes in the following format:
 
 [source]
 ----
-[script-conversion-system-authority-code]-[script-conversion-system-code]
+[script-conversion-system-authority-code]"-"[script-conversion-system-code]"-"[script-conversion-system-edition]
 ----
 
 [example]
-`iso-slv` for <<ISO9>>, the international standard for transliteration of Cyrillic characters into Latin characters for Slavic and non-Slavic languages.
+`iso-9-1995` for <<ISO9>>, the international standard for transliteration of Cyrillic characters into Latin characters for Slavic and non-Slavic languages.
 
 
 ===== Construction of the alphabetic code
@@ -102,7 +116,7 @@ Such transliteration and romanization system identifiers are in the following fo
 
 [source]
 ----
-xx-[script-conversion-system-authority-code]-[script-conversion-system-code]
+"xx-"[script-conversion-system-authority-code]"-"[script-conversion-system-code]"-"[script-conversion-system-edition]
 ----
 
 ////

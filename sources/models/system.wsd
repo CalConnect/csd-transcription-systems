@@ -6,9 +6,11 @@
 class ScriptConversionSystem {
   +code: String
   +name: String
+  +edition: String
   +sourceScript: iso15924Code
   +targetScript: iso15924Code
   +language: iso639Code
+  +adoptionDate: iso8601Date[0..1]
 }
 
 '******* CLASS RELATIONS **********************************************
