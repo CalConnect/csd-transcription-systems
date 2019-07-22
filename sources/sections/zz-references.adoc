@@ -109,3 +109,6 @@
 * [[[ELOT743,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 
 * [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968, accessible from: https://yivo.org/Yiddish-Alphabet
+
+* [[[BULTRANS,Republic of Bulgaria Transliteration Act]]], _Transliteration Act. State Gazette # 19,
+Republic of Bulgaria_, 13 March 2009, ISSN 0205-0900 (in Bulgarian), accessible from: https://www.lex.bg/laws/ldoc/2135623667
