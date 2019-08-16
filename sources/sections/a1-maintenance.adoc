@@ -36,6 +36,16 @@ Additions to the list of script conversion system codes shall be made on the bas
 
 The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 
+Basic eligibility for a script conversion system to be assigned a script conversion system code is one of:
+
+* The system has been approved for official use at some level of government;
+
+* The system has been developed and used by educational/scientific institutions, published in a peer reviewed scientific publication.
+
+Assigning of a script conversion system code also requires demonstration of the following usage factors:
+
+* Necessity of interchange and/or data encoding. Systems that are used in isolation or only for temporary usage should not be assigned codes.
+
 ////
 Additions to the official and international time scale authorities require additional criteria:
 

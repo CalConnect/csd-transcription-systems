@@ -11,6 +11,7 @@ class ScriptConversionSystem {
   +targetScript: iso15924Code
   +language: iso639Code
   +adoptionDate: iso8601Date[0..1]
+  +aliasOf: String[0..1]
 }
 
 '******* CLASS RELATIONS **********************************************

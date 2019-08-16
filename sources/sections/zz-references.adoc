@@ -69,8 +69,6 @@
 
 * [[[BDS1596-73,BDS 1596:1973]]], _BDS 1596:1973 -- Transliteration of Bulgarian Words with Latin Characters_, Bulgarian Institute for Standardization, 1973 (in Bulgarian)
 
-* [[[BulgLatn,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
-
 * [[[KhmrLatn,Geographic Department Transcription System for Khmer]]], _Geographic Department of the Ministry of Land Management, Urban Planning and Construction of Cambodia, Transcription System for Khmer_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/8th-uncsgn-docs/inf/8th_UNCSGN_econf.94_INF.30.pdf
 
 * [[[MLCTS,Myanmar Language Commission Transcription System]]], _Myanmar Language Commission Transcription System (MLCTS)_, Myanmar Language Commission, 1980
@@ -110,5 +108,17 @@
 
 * [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968, accessible from: https://yivo.org/Yiddish-Alphabet
 
-* [[[BULTRANS,Republic of Bulgaria Transliteration Act]]], _Transliteration Act. State Gazette # 19,
-Republic of Bulgaria_, 13 March 2009, ISSN 0205-0900 (in Bulgarian), accessible from: https://www.lex.bg/laws/ldoc/2135623667
+* [[[BulLatUN2006,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_. UNGEGN, 2006. Available from: https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
+
+* [[[BulTransAct2009,Republic of Bulgaria Transliteration Act]]], _Transliteration Act. State Gazette # 19,
+Republic of Bulgaria_, 13 March 2009, ISSN 0205-0900 (in Bulgarian). Available from: https://www.lex.bg/laws/ldoc/2135623667
+
+//* [[[BUL-]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_.
+// Compiled by the UNGEGN Working Group on Romanization Systems, February 2013. Available from: http://www.eki.ee/wgrs/rom1_bg.htm
+
+* [[[BulLatUN2012,UN Romanization System In Bulgaria]]], _Romanization System In Bulgaria_. Tenth United Nations Conference on the Standardization of Geographical Names. New York, 2012.
+Available from: http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_12_Romanization%20System%20in%20Bulgaria.pdf
+
+* [[[BulBgnpcgn2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013)]]], _BGN/PCGN Romanization Agreement -- Bulgarian (2013)_. National Geospatial-Intelligence Agency, September 2014. Available from:
+http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Available from: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/530603/Romanization_system_for_Bulgarian.pdf
+
