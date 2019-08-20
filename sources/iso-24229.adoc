@@ -9,8 +9,8 @@
 :title-intro-fr: Information et documentation
 :title-main-fr: Codes pour les systèmes de transcription
 :doctype: international-standard
-:docstage: 10
-:docsubstage: 92
+:docstage: 20
+:docsubstage: 20
 :technical-committee-type: TC
 :technical-committee-number: 46
 :technical-committee: Information and documentation
