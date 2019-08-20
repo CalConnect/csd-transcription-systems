@@ -106,7 +106,7 @@
 
 * [[[ELOT743,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 
-* [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968, accessible from: https://yivo.org/Yiddish-Alphabet
+* [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968. Available from: https://yivo.org/Yiddish-Alphabet
 
 * [[[BulLatUN2006,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_. UNGEGN, 2006. Available from: https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
 
@@ -121,4 +121,8 @@ Available from: http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/
 
 * [[[BulBgnpcgn2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013)]]], _BGN/PCGN Romanization Agreement -- Bulgarian (2013)_. National Geospatial-Intelligence Agency, September 2014. Available from:
 http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Available from: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/530603/Romanization_system_for_Bulgarian.pdf
+
+* [[[BasBulAnartic,Toponymic Guidelines for Antarctica]]], _Toponymic Guidelines for Antarctica_. Antarctic Place-names Commission of Bulgaria, 1995. Available from: https://en.wikisource.org/wiki/Toponymic_Guidelines_for_Antarctica
+
+* [[[BasRusCyrl,Streamlined Romanization system for Russian Cyrillic]]], Bulgarian Academy of Sciences, IVANOV Lyubomir. (2017). _Streamlined Romanization of Russian Cyrillic_. In: Contrastive Linguistics. XLII. 66-73. Available from: https://www.researchgate.net/publication/318402098_Streamlined_Romanization_of_Russian_Cyrillic
 
