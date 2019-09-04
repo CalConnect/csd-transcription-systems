@@ -12,7 +12,7 @@
 
 * [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
 
-* [[[ISO10646-2,ISO/IEC 10646-2]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
+// * [[[ISO10646-2,ISO/IEC 10646-2]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
 
 * [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
 
