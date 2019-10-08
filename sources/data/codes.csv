@@ -172,7 +172,7 @@ iso-233-3-1999,ISO 233-3:1999 Information and documentation – Transliteration 
 iso-259-1984,ISO 259:1984 Documentation – Transliteration of Hebrew characters into Latin characters,iso,heb,Hebr,Latn,<<ISO259>>,,,,,,,,
 iso-259-2-1994,ISO 259-2:1994 Documentation – Transliteration of Hebrew characters into Latin characters. – Part 2: Simplified transliteration,iso,heb,Hebr,Latn,<<ISO259-2>>,,,,,,,,
 iso-3602-1989,ISO 3602:1989 Documentation – Romanization of Japanese (kana script),iso,jpn,Jpan,Latn,<<ISO3602>>,,,,,,,,
-iso-7098-2015-1996,ISO 7098:2015 Information and documentation – Romanization of Chinese,iso,cmn,Hant Hans,Latn,<<ISO7098>>,,,,,,,,
+iso-7098-2015,ISO 7098:2015 Information and documentation – Romanization of Chinese,iso,cmn,Hant Hans,Latn,<<ISO7098>>,,,,,,,,
 iso-843-1997,ISO 843:1997 Information and documentation – Conversion of Greek characters into Latin characters,iso,gre,Grek,Latn,<<ISO843>>,,,,,,,,
 iso-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,sla,Cyrl,Latn,<<ISO9>>,,,,,,,,
 iso-9984-1996,ISO 9984:1996 Information and documentation – Transliteration of Georgian characters into Latin characters,iso,geo,Geor,Latn,<<ISO9984>>,,,,,,,,
