@@ -31,7 +31,7 @@ version by:
 
 [source,sh]
 ----
-export METANORMA_DOCKER=1
+export METANORMA_DOCKER=metanorma/mn
 ----
 
 The `Makefile` will automatically choose the proper command to
