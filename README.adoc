@@ -2,11 +2,11 @@
 
 This work item belongs to TC LOCALIZATION.
 
-image:https://travis-ci.com/CalConnect/csd-transcription-systems.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/csd-transcription-systems"]
+image:https://github.com/CalConnect/csd-transcription-systems/workflows/publish/badge.svg["Build Status", link="https://github.com/CalConnect/csd-transcription-systems/actions?workflow=publish"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/csd-transcription-systems/[CalConnect Standard: Information and documentation -- Codes for transcription systems]
+* https://calconnect.github.io/csd-transcription-systems/[CC/ISO: Information and documentation -- Codes for transcription systems]
 
 
 == Fetching the document
