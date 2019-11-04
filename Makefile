@@ -35,7 +35,7 @@ all: documents.html
 documents:
 	mkdir -p $@
 
-documents/%.xml: documents sources/images sources/%.xml
+documents/%.xml: documents sources/%.xml
 	export GLOBIGNORE=sources/$*.adoc; \
 	mv sources/$(addsuffix .*,$*) documents; \
 	unset GLOBIGNORE
