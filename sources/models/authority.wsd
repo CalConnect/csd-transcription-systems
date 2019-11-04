@@ -1,8 +1,5 @@
-@startuml
 
 '******* CONFIGURATION ************************************************
-!include style.uml.inc
-
 class ScriptConversionSystemAuthority {
   +authorityCode: String
   +uri: Uri
@@ -14,5 +11,3 @@ class ScriptConversionSystemAuthority {
 '******* CLASS RELATIONS **********************************************
 
 'AuthorityInfo <-- PublicKey
-
-@enduml

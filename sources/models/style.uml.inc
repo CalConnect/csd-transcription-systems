@@ -1,4 +1,3 @@
-@startuml
 
 skinparam Dpi 150
 skinparam Monochrome false
@@ -39,7 +38,5 @@ skinparam Entity {
   StereotypeFontSize 10
 }
 
-
-@enduml
 
 /' vim:set ft=plantuml: '/

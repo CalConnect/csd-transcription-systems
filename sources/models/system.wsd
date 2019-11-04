@@ -1,8 +1,5 @@
-@startuml
 
 '******* CONFIGURATION ************************************************
-!include style.uml.inc
-
 class ScriptConversionSystem {
   +code: String
   +name: String
@@ -16,4 +13,3 @@ class ScriptConversionSystem {
 
 '******* CLASS RELATIONS **********************************************
 
-@enduml

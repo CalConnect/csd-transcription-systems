@@ -1,8 +1,5 @@
-@startuml
 
 '******* CONFIGURATION ************************************************
-!include style.uml.inc
-
 class iso15924Code <<dataType>> {
 }
 
@@ -11,5 +8,3 @@ class iso639Code <<dataType>> {
 
 class iso8601Date <<dataType>> {
 }
-
-@enduml

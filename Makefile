@@ -20,8 +20,6 @@ PDF  := $(patsubst %.xml,%.pdf,$(XML))
 TXT  := $(patsubst %.xml,%.txt,$(XML))
 NITS := $(patsubst %.adoc,%.nits,$(wildcard sources/draft-*.adoc))
 WSD  := $(wildcard sources/models/*.wsd)
-XMI	 := $(patsubst sources/models/%,sources/xmi/%,$(patsubst %.wsd,%.xmi,$(WSD)))
-PNG	 := $(patsubst sources/models/%,sources/images/%,$(patsubst %.wsd,%.png,$(WSD)))
 
 ifdef METANORMA_DOCKER
   PREFIX_CMD := echo "Running via docker..."; docker run -v "$$(pwd)":/metanorma/ $(METANORMA_DOCKER)
@@ -71,16 +69,6 @@ documents.html: documents.rxl
 %.adoc:
 
 nits: $(NITS)
-
-sources/images: $(PNG)
-
-sources/images/%.png: sources/models/%.wsd
-	plantuml -tpng -o ../images/ $<
-
-sources/xmi: $(XMI)
-
-sources/xmi/%.xmi: sources/models/%.wsd
-	plantuml -xmi:star -o ../xmi/ $<
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))

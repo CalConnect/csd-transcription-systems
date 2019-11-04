@@ -36,7 +36,11 @@ script conversion system authorities.
 
 ==== General
 
-image::authority.png[]
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/authority.wsd[]
+....
 
 
 ==== Script conversion system authority code

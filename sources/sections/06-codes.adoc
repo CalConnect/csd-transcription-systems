@@ -12,7 +12,11 @@ into other scripts, and in the case of romanization systems, into Roman script.
 
 ==== General
 
-image::system.png[]
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/system.wsd[]
+....
 
 
 ==== Code
