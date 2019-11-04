@@ -10,9 +10,6 @@ jobs:
         run: |
           sudo snap install jq
           sudo snap install yq
-      - name: Install PlantUML
-        run: |
-          sudo bash -c "curl -L https://github.com/riboseinc/plantuml-install/raw/master/ubuntu.sh | bash"
       - uses: actions/checkout@master
       - name: Build document in the Metanorma container
         env:
