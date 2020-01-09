@@ -39,17 +39,27 @@ The script code of the script used in the source text. This code is from <<ISO15
 The script code of the script used in the output text. This code is from <<ISO15924>>.
 
 
-==== Language code system
-
-The ISO 639 standards family part where the language code is selected from.
-
-
 ==== Language code
 
 The language code that identifies the source language being processed
 by the script conversion system.
 
+The language code should be qualified to a source of language codes.
+For example, <<ISO639>> contains multiple parts where language codes can be selected from.
+
 If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should be used. ISO 639-2/T codes are intended to be used for terminology applications.
+
+
+==== System identifier
+
+A system may be uniquely identified by an identifier, an edition, a version or a sequence of characters.
+
+This element is mandatory if the authority manages or plans to manage multiple script conversion systems.
+
+It may or may not be derived from the adoption date.
+
+[example]
+`2013` is the system identifier of the system coded as `un-lao-laoo-latn-2013`.
 
 
 ==== Edition
@@ -58,7 +68,7 @@ The edition, or version, of the script conversion system, in string form.
 It may or may not be derived from the adoption date.
 
 [example]
-`2013` is the edition year of the system `un-lao-2013`.
+`2013` is the edition year of the system coded as `un-lao-laoo-latn-2013`.
 
 
 ==== Adoption date
