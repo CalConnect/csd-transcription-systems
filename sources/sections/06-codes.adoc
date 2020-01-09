@@ -31,18 +31,25 @@ A name that represents the script conversion system.
 
 ==== Source script code
 
-The script code of the script used in the source text.
+The script code of the script used in the source text. This code is from <<ISO15924>>.
 
 
 ==== Target script code
 
-The script code of the script used in the output text.
+The script code of the script used in the output text. This code is from <<ISO15924>>.
+
+
+==== Language code system
+
+The ISO 639 standards family part where the language code is selected from.
 
 
 ==== Language code
 
 The language code that identifies the source language being processed
 by the script conversion system.
+
+If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
 
 ==== Edition
@@ -94,39 +101,55 @@ Script conversion systems have codes in the following format:
 
 [source]
 ----
-[script-conversion-system-authority-code]"-"[script-conversion-system-code]"-"[script-conversion-system-edition]
+[authority-code]"-"[lang-code]"-"[source-script-code]"-"[target-script-code]"-"[system-identifier]
 ----
 
+Where,
+* `authority-code` designates the authority that manages the transliteration system;
+* `lang-code` designates the ISO-639 language code the transliteration system processes;
+* `source-script-code` designates the script code of the text taken as input by the transliteration system;
+* `target-script-code` designates the script code of the text produced by the transliteration system;
+* `system-identifier` designates a unique identifier for the transliteration system, such as edition year, document identifier, and system name.
+
 [example]
-`iso-9-1995` for <<ISO9>>, the international standard for transliteration of Cyrillic characters into Latin characters for Slavic and non-Slavic languages.
+`alalc-mal-mlym-latn-2012` for the ALA-LC Romanization system that transliterates the Malayam language from Malayam script characters into Latin script. The system identifier here is considered to be `2012`.
+
+[example]
+`iso-ukr-Cyrl-Latn-9-1995` for the transliteration system that transliterates the Ukrainian language from Cyrillic script into Latin script according to <<ISO9>>. The system identifier here is considered to be `9-1995`.
 
 
-===== Construction of the alphabetic code
+===== Construction of the authority codes
 
-The following rules are to be adhered to for the assignment of the alphabetic code:
+The following rules are to be adhered to for the assignment of the authority codes:
 
-* The alphabetic code uses combinations, in upper case, of 3 fixed letters of the 26-character Latin alphabet, allowing for close to stem:[3^26] combinations.
+* The authority code uses combinations, in lower case, of the 26-character Latin alphabet.
 
 * Codes shall encourage descriptive and distinguishable alphabetic names.
 
+* Two-character authority codes are reserved for <<ISO3166>> codes, which designate that the authority
+is the government that is represented by the particular <<ISO3166>> code.
 
-===== User assigned code elements
 
-If users need code elements to represent transliteration and romanization systems not included in the script conversion system registry, the code prefix of `zz` can be used.
+===== Construction of the language code
 
-The code length for the transliteration and romanization system identifier must be 3 letters.
+The language code must be a code listed in any part of <<ISO639>>.
+
+
+===== Construction of the script codes
+
+The language code must be a code listed in <<ISO15924>>.
+
+
+===== User assigned system codes
+
+If users need system codes to represent transliteration and romanization systems not included in the script conversion system registry, the code prefix of `zz` can be used.
 
 Such transliteration and romanization system identifiers are in the following format:
 
 [source]
 ----
-"xx-"[script-conversion-system-authority-code]"-"[script-conversion-system-code]"-"[script-conversion-system-edition]
+"zz"[authority-code]"-"[lang-code]"-"[source-script-code]"-"[target-script-code]"-"[system-identifier]
 ----
-
-////
-[example]
-`xx-unece-cet` is an example of a user-assigned private code for a script conversion system published by the UN/ECE.
-////
 
 NOTE: Users are advised that the above series of codes are not universally used, those code elements are not compatible between different entities.
 
