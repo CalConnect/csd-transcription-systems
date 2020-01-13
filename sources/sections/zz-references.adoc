@@ -7,8 +7,12 @@
 
 * [[[ISO24614-2,ISO 24614-2]]], _Language resource management -- Word segmentation of written texts -- Part 2: Word segmentation for Chinese, Japanese and Korean_
 
+* [[[ISO639,ISO 639]]], _Codes for the representation of names of languages_
+
 * [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
 * [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+* [[[ISO639-3,ISO 639-3]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
+* [[[ISO639-5,ISO 639-5]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
 
 * [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
 
@@ -60,6 +64,8 @@
 * [[[NIKLRK,National Institute of Korean Language -- Romanization of Korean]]], _Romanization of Korean_ [국어의 로마자 표기법; 國語의 로마字 表記法], National Institute of Korean Language, 2000, https://www.korean.go.kr/front_eng/roman/roman_01.do
 
 * [[[TTSN,Transliteration and Translation System for Nepal]]], _Transliteration and Translation System for Nepal_, Government of Nepal, http://nationalgeoportal.gov.np/old/pdf/translation2.pdf
+
+* [[[NEPREP,Report on Cartography and Reproduction of Eastern Nepal Topographic Mapping Project]]], _Report on Cartography and Reproduction of Eastern Nepal Topographic Mapping Project_, 1997, Survey Department, Ministry of Land Management, Cooperatives and Poverty Alleviation, Government of Nepal.
 
 * [[[LSHKJP,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme]]], _The Linguistic Society of Hong Kong Cantonese Romanisation Scheme_, 1993, The Linguistic Society of Hong Kong, https://www.lshk.org/jyutping
 

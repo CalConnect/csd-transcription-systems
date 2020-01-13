@@ -45,7 +45,8 @@ The language code that identifies the source language being processed
 by the script conversion system.
 
 The language code should be qualified to a source of language codes.
-For example, <<ISO639>> contains multiple parts where language codes can be selected from.
+For example, <<ISO639-1>>, <<ISO639-2>>, <<ISO639-3>>, <<ISO639-5>>
+contain language codes that can be selected from.
 
 If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
@@ -60,15 +61,6 @@ It may or may not be derived from the adoption date.
 
 [example]
 `2013` is the system identifier of the system coded as `un-lao-laoo-latn-2013`.
-
-
-==== Edition
-
-The edition, or version, of the script conversion system, in string form.
-It may or may not be derived from the adoption date.
-
-[example]
-`2013` is the edition year of the system coded as `un-lao-laoo-latn-2013`.
 
 
 ==== Adoption date
@@ -136,8 +128,8 @@ The following rules are to be adhered to for the assignment of the authority cod
 
 * Codes shall encourage descriptive and distinguishable alphabetic names.
 
-* Two-character authority codes are reserved for <<ISO3166>> codes, which designate that the authority
-is the government that is represented by the particular <<ISO3166>> code.
+* Two-character authority codes are reserved for <<ISO3166-1>> codes, which designate that the authority
+is the government that is represented by the particular <<ISO3166-1>> code.
 
 
 ===== Construction of the language code
