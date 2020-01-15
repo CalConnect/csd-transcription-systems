@@ -1,12 +1,12 @@
-= CalConnect Standard: Information and documentation -- Codes for transcription systems
+= CalConnect/ISO 24229: Information and documentation -- Codes for transcription systems
 
-This work item belongs to TC LOCALIZATION.
+This work item belongs to ISO/TC 46/WG 3 and CalConnect TC LOCALIZATION.
 
-image:https://github.com/CalConnect/csd-transcription-systems/workflows/publish/badge.svg["Build Status", link="https://github.com/CalConnect/csd-transcription-systems/actions?workflow=publish"]
+image:https://gitlab.com/calconnect/tc-localization/csd-transcription-systems/badges/master/pipeline.svg["Build Status (master)", link="https://gitlab.com/calconnect/tc-localization/csd-transcription-systems/pipelines"]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/csd-transcription-systems/[CC/ISO: Information and documentation -- Codes for transcription systems]
+* https://calconnect.gitlab.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for transcription systems]
 
 
 == Fetching the document
@@ -15,6 +15,7 @@ This document is available in its rendered forms here:
 ----
 git clone https://github.com/CalConnect/csd-transcription-systems/
 ----
+
 
 == Installing Build Tools
 
@@ -47,7 +48,9 @@ make clean all
 
 The following outputs will be built:
 
-* CSD XML (https://github.com/calconnect/metanorma-model-csd) (`[filename].xml`)
+* Document index at `documents.html`
+* ISO 24229 at `documents/iso-24229.html`
+* CC 24229 at `documents/iso-24229.html`
 * HTML (`[filename].html`)
 * PDF (`[filename].pdf`)
 * Word DOC (`[filename].doc`)
@@ -57,7 +60,8 @@ The following outputs will be built:
 
 [source,sh]
 ----
-make html
-open cc-*.html
+make
+open documents/iso-24229.html
+open documents/cc-24229.html
 ----
 
