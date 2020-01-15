@@ -25,7 +25,7 @@
 :imagesdir: images
 :docfile: iso-24229.adoc
 :mn-document-class: iso
-:mn-output-extensions: xml,doc,html,pdf,rxl
+:mn-output-extensions: xml,doc,html,rxl
 :local-cache-only:
 :data-uri-image:
 

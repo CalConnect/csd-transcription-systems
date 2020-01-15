@@ -22,7 +22,7 @@
 :docfile: cc-24229.adoc
 :imagesdir: images
 :mn-document-class: csd
-:mn-output-extensions: xml,html,pdf,rxl
+:mn-output-extensions: xml,html,rxl
 :local-cache-only:
 :data-uri-image:
 
