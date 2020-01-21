@@ -269,7 +269,7 @@ gost-rus-cyrl-latn-7-79-2000,"GOST 7.79-2000: System of Standards on Information
 tm-tuk-cyrl-latn-2000,Government of Turkmenistan Turkmen Cyrillic Table of Correspondences System (2000),tm,iso-639-2,tuk,Cyrl,Latn,2000,Turkmen Cyrillic Table of Correspondences Government of Turkmenistan 2000 System,,NOTE: OGC 11-122r1 code `tuk_Cyrl2Latn_GTX_2000`
 historic-ara-arab-latn-2002,Arabic Tim Buckwalter System (2002),historic,iso-639-2,ara,Arab,Latn,2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
 historic-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),historic,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
-historic-zho-hani-latn-1979,Chinese Wade-Giles 1979 System,historic,iso-639-2,zho,Hani,Latn,1979,Chinese Wade-Giles 1979 System,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
+historic-zho-hani-latn-1912,Chinese Wade-Giles 1912 System,historic,iso-639-2,zho,Hani,Latn,1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
 historic-urd-arab-latn-1872,Arabic Hunterian System,historic,iso-639-2,urd,Arab,Latn,1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
 icao-mul-arab-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Arab,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Arabic script that are suported by this system.
 icao-mul-cyrl-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Cyrl,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Cyrillic script that are suported by this system.
