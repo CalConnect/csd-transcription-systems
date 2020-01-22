@@ -135,3 +135,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[ChineseWGS,A Chinese-English Dictionary]]], _A Chinese-English Dictionary, Revised Ed. 2_, Herbert A. Giles, 1912.
 
 * [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
+
+* [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII_, Bureau of Indian Standards, 2001.
