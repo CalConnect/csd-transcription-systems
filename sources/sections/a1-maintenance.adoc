@@ -1,6 +1,6 @@
 
 [[AnnexA]]
-[appendix]
+[appendix,obligation=normative]
 == Registration
 
 === Registration authority (ISO {docnumber}/RA)
@@ -77,10 +77,6 @@ The ISO {docnumber}/AG at its sole discretion, will determine
 what information will remain on the basis of practicality and
 continuity of usage.
 
-If a script conversion system authority marked inactive,
-the responsibility of maintaining its script conversion entries
-are assumed by ISO {docnumber}/AG.
-
 
 ==== Modification of script conversion system authority code
 
@@ -100,6 +96,24 @@ the script conversion system authority.
 
 A significant change of name may require the ISO {docnumber}/AG to change the alpha code element concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of code elements.
 
+
+==== Inactive authorities
+
+If a script conversion system authority is marked inactive,
+the responsibility of maintaining its script conversion system entries
+are assumed by ISO {docnumber}/AG.
+
+
+==== Reserved authorities
+
+The "`Various systems`" script conversion system authority is assigned
+the code `var` is managed by ISO {docnumber}/AG to represent
+script conversion systems with need for representation but
+do not have a clear authority.
+
+[example]
+The Wade-Giles Chinese transliteration system from <<ChineseWGS>> is
+represented as `var-zho-hani-latn-1912`.
 
 
 [[authority-scs-codes]]

@@ -11,18 +11,29 @@ publishes and/or manages definitions of script conversion systems.
 [[scsa-requirements]]
 === Requirements
 
+==== General
+
 A script conversion system authority should:
 
 . have at least one script conversion system eligible for a script conversion system code;
 . [[scsa-requirements-b]]be competent in managing its script conversion systems (<<scsa-competency>>).
 
-If a script conversion system authority no longer ceases to exist,
+==== Inactive authorities
+
+If a script conversion system authority has ceased to exist,
 it is considered "`inactive`" and <<scsa-requirements-b>> no longer
 applies.
 
-If a script conversion system authority is "`inactive`",
-the responsibility of maintaining its script conversion entries
-are assumed by ISO {docnumber}/AG.
+
+==== Reserved authorities
+
+The "`Various systems`" script conversion system authority is managed by
+ISO {docnumber}/AG to represent script conversion systems that:
+
+. have a need to be represented as determined by ISO {docnumber}/AG;
+. yet do not have a clear extant authority.
+
+
 
 [[scsa-competency]]
 ==== Competency
@@ -37,10 +48,11 @@ covering at least the following processes:
 . allows a public review period for people affected by script conversion systems under its management prior to enactment.
 
 
-=== Registration of script conversion system authorities
+=== Registration
 
 The ISO {docnumber}/AG is tasked with managing a list of
 script conversion system authorities.
+
 
 
 [[sc-authority-data-model]]
