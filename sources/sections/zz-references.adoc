@@ -133,3 +133,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[BasRusCyrl,Streamlined Romanization system for Russian Cyrillic]]], Bulgarian Academy of Sciences, IVANOV Lyubomir. (2017). _Streamlined Romanization of Russian Cyrillic_. In: Contrastive Linguistics. XLII. 66-73. Available from: https://www.researchgate.net/publication/318402098_Streamlined_Romanization_of_Russian_Cyrillic
 
 * [[[ChineseWGS,A Chinese-English Dictionary]]], _A Chinese-English Dictionary, Revised Ed. 2_, Herbert A. Giles, 1912.
+
+* [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
