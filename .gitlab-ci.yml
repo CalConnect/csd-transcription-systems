@@ -8,7 +8,7 @@ cache:
 build:
   stage: build
   script:
-    - bundle
+    - bundle install
     - make clean all
     - make published
     - mv published public
