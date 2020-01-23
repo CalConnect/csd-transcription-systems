@@ -156,10 +156,27 @@ is the government that is represented by the particular <<ISO3166-1>> code.
 
 The language code must be a code listed in any part of <<ISO639>>.
 
+[example]
+`iso-ara-arab-latn-233-2-1993` applies to the Arabic language written in arabic script.
+
+
+When a script conversion system applies to more than one language,
+the script conversion authority that manages that system
+should determine which of the following approaches should be taken:
+
+. consider this system as multiple systems, with each individual systems applying to a single language code; or
+. consider this system as a single system, where the <<ISO639-3>> code of `mul` applies.
+
+[example]
+`icao-mul-arab-latn-2015` applies to multiple languages written in Arabic script, and is encoded as a single system.
+
+[example]
+`din-bel-cyrl-latn-1460-1982` and `din-bul-cyrl-latn-1460-1982` are both defined in <<DIN1460>>, but they are encoded as separate systems for separate languages.
+
 
 ===== Construction of the script codes
 
-The language code must be a code listed in <<ISO15924>>.
+The script code must be a code listed in <<ISO15924>>.
 
 
 ===== User assigned system codes
