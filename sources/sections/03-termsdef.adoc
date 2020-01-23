@@ -28,8 +28,6 @@ systematic use of sounds, characters, symbols or signs to express meaning or com
 operation to convert a _script_ (<<term-script>>) into another script without change of _language_ (<<term-language>>)
 
 
-
-
 [[term-transliteration]]
 === transliteration
 
@@ -46,6 +44,27 @@ _script conversion_ (<<term-script-conversion>>) from non-Roman to Roman script 
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
+
+
+[[term-transliteration-system]]
+=== transliteration system
+
+system for _transliteration_ (<<term-transliteration>>) of a source _script_ (<<term-script>>) to a target script
+
+
+[[term-romanization-system]]
+=== romanization system
+
+system for _romanization_ (<<term-romanization>>) of a source _script_ (<<term-script>>) to a target script
+
+//system for representing a word <orthographic word> in a writing system
+//through romanization
+
+
+[[term-script-conversion-system]]
+=== script conversion system
+
+system for _script conversion_ (<<term-script-conversion>>)
 
 
 ////
@@ -81,20 +100,6 @@ combination of characters used to represent the name of a _script_ (<<term-scrip
 [.source]
 <<ISO15924,clause="3.8">>
 
-
-[[term-transliteration-system]]
-=== transliteration system
-
-system for _transliteration_ (<<term-transliteration>>) of a source _script_ (<<term-script>>) to a target script
-
-
-[[term-romanization-system]]
-=== romanization system
-
-system for _romanization_ (<<term-romanization>>) of a source _script_ (<<term-script>>) to a target script
-
-//system for representing a word <orthographic word> in a writing system
-//through romanization
 
 === transliteration system code
 
