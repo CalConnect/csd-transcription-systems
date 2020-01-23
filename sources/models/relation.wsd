@@ -1,0 +1,16 @@
+
+'******* CONFIGURATION ************************************************
+class SCSRelation {
+  +system: String
+  +type: SCSRelationType[0..*]
+}
+
+enum SCSRelationType {
+  aliasOf
+  adoptedFrom
+  supercedes
+  relatedTo
+  basedOn
+}
+
+'******* CLASS RELATIONS **********************************************

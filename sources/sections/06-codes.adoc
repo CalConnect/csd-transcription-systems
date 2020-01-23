@@ -16,6 +16,7 @@ into other scripts, and in the case of romanization systems, into Roman script.
 ....
 include::../models/style.uml.inc[]
 include::../models/system.wsd[]
+include::../models/relation.wsd[]
 ....
 
 
@@ -67,6 +68,25 @@ It may or may not be derived from the adoption date.
 
 The date of the adoption of the script conversation system by the authority.
 
+
+==== Relationship
+
+Script conversion systems can be related to other script conversion systems
+in a number of ways. For example, a script conversion system may represent
+an adoption or variant of another script conversion system.
+
+This element is optional.
+
+`aliasOf`:: the current system is an alias to the target system, the script conversion process is identical
+`adoptedFrom`:: the current system is adopted from the target system, the script conversion process may not be identical
+`supercedes`:: the current system supercedes the target system
+`relatedTo`:: the current system is related to the target system
+`basedOn`:: the current system is based on the target system, the script conversion process inherits certain attributes from the target system.
+
+==== System specification
+
+This element is mandatory, for indicating the fully defined
+script conversion process of this system.
 
 ==== Remarks
 
