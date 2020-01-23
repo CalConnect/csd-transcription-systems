@@ -4,19 +4,30 @@
 == Terms and definitions
 
 
-[[term-script-conversion]]
-=== script conversion
-
-operation to convert a _script_ (<<term-script>>) into another script
-
-
 [[term-script]]
 === script
 
-particular graphic representation or class of representations of a set of characters used to write one or more languages
+particular graphic representation or class of representations of a set of characters used to write one or more _languages_ (<<term-language>>)
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
+
+
+[[term-language]]
+=== language
+
+systematic use of sounds, characters, symbols or signs to express meaning or communicate meaning or a message
+
+[.source]
+<<ISO5127,clause="3.1.5.01">>
+
+
+[[term-script-conversion]]
+=== script conversion
+
+operation to convert a _script_ (<<term-script>>) into another script without change of _language_ (<<term-language>>)
+
+
 
 
 [[term-transliteration]]
@@ -57,7 +68,7 @@ data representation in different forms according to a pre-established set of rul
 
 === language code
 
-combination of characters used to represent the name of a language or languages
+combination of characters used to represent the name of a _language_ (<<term-language>>) or languages
 
 [.source]
 <<ISO5127,clause="3.2.5.14">>
