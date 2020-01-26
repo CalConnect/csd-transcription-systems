@@ -9,6 +9,8 @@ endif
 # CSV_SRC := $(wildcard sources/data/*.csv)
 CSV_SRC := sources/data/codes.csv
 
+ALL_SRC := $(ADOC_SRC) $(CSV_SRC)
+
 DERIVED_ADOC := $(patsubst %.csv,%.adoc,$(CSV_SRC))
 ADOC_GENERATOR := scripts/split_codes.rb
 
