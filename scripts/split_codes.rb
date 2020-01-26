@@ -9,7 +9,7 @@ class SplitCodes
     def split(input, output)
       output_dir = File.dirname(output)
       ensure_dir(output_dir)
-      csv = CSV.parse(File.read(input))
+      csv = CSV.read(input, encoding: 'UTF-8')
 
       adoc = process_codes(csv)
       File.open(output, 'w') do |f|
