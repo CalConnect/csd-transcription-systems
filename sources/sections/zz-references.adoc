@@ -95,9 +95,13 @@
 
 * [[[ICAO9303,ICAO Doc 9303: Machine Readable Travel Documents]]], _Doc 9303: Machine Readable Travel Documents, Part 3: Specifications Common to all MRTDs_, Seventh Edition, 2015, https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf
 
+* [[[GOST779,GOST 7.79-2000]]], _GOST 7.79-2000 System of Standards on Information, Librarianship, and Publishing -- Rules of Transliteration of Cyrillic Script by Latin Alphabet_, 2000, Rosstandart
+
 * [[[GOSTR52535,GOST R 52535.1-2006]]], _GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports_, 2006, Rosstandart
 
-* [[[GOST779,GOST 7.79-2000]]], _GOST 7.79-2000: System of Standards on Information, Librarianship, and Publishing–Rules for Transliteration of the Cyrillic Characters Using the Latin Alphabet_, 2000, Rosstandart
+* [[[GOSTR7034,GOST R 7.0.34-2014]]], _GOST R 7.0.34-2014 System of Standards on Information, Librarianship, and Publishing -- Rules for Simplified Transliteration and Practical Transcription of Russian Script by Latin Alphabet_, 2000, Rosstandart
+
+* [[[GUGKON231-13051983,GUGK Order No.231 of 13.05.1983]]], Methodical Instruction on the Implementation of GOST 16876-71 (ST COMECON 1368-78): _Rules for Transliteration of Letters of the Cyrillic Alphabet with Letters of the Latin Alphabet, 1981 edition_, Main Administration of Geodesy and Cartography, Council of Ministers of the USSR (GUGK)
 
 * [[[DIN1460,DIN 1460:1982]]], _Umschrift kyrillischer Alphabete slawischer Sprachen_ (Conversion of Cyrillic alphabets of Slavic languages), 1982-04
 * [[[DIN1460-2,DIN 1460-2:2011]]], _Umschrift kyrillischer Alphabete - Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen_ (Romanization of Cyrillic alphabets – Part 2: Romanization of Cyrillic alphabets of non-slavic languages), 2011-10
