@@ -42,12 +42,12 @@ class SplitCodes
       end
 
       <<~EOF
-        === #{title}
-
+        .#{title}
+        [%noheader,cols="h,1"]
         |===
         #{
           other_rows.map do |(key, value)|
-            "| *#{key}* | #{value}\n"
+            "| #{key} | #{value}\n"
           end.join("\n")
         }|===
       EOF
