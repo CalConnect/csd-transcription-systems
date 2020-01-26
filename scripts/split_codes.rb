@@ -18,7 +18,7 @@ class SplitCodes
     end
 
     def process_codes(csv)
-      # Remove <ffef>
+      # Remove <feff>
       @headers = csv[0].map do |e|
         e.gsub(/[^A-Za-z 0-9()-]/, '')
       end
