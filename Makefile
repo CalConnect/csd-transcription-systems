@@ -6,6 +6,12 @@ ifeq ($(SRC),ll)
 SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
+# CSV_SRC := $(wildcard sources/data/*.csv)
+CSV_SRC := sources/data/codes.csv
+
+DERIVED_ADOC := $(patsubst %.csv,%.adoc,$(CSV_SRC))
+ADOC_GENERATOR := scripts/split_codes.rb
+
 FORMAT_MARKER := mn-output-
 FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d " " | tr "," "\\n" | sort | uniq | tr "\\n" " ")
 
@@ -31,9 +37,9 @@ documents:
 documents/%.xml: sources/%.xml | documents
 	mv sources/$*.{xml,html,doc,rxl} documents
 
-%.xml %.html:	%.adoc | bundle
-	pushd $(dir $^); \
-	FILENAME=$(notdir $^); \
+%.xml %.html: %.adoc $(DERIVED_ADOC) | bundle
+	pushd $(dir $<); \
+	FILENAME=$(notdir $<); \
 	${PREFIX_CMD} metanorma $$FILENAME; \
 	popd
 
@@ -46,7 +52,9 @@ documents.rxl: $(OUTPUT_XML)
 documents.html: documents.rxl
 	${PREFIX_CMD} relaton xml2html documents.rxl
 
-%.adoc:
+
+sources/data/codes.adoc: sources/data/codes.csv $(ADOC_GENERATOR)
+	scripts/split_codes.rb $< $@
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))

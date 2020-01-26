@@ -3,10 +3,7 @@
 [appendix]
 == Alphabetical list of script conversion systems in English and their code elements
 
-[format="csv",options="header"]
-|===
-include::../data/codes.csv[]
-|===
+include::../data/codes.adoc[]
 
 NOTE: In UN systems, the version number only indicates informational changes --
 the system remains unchanged.
