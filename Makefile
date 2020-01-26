@@ -1,9 +1,9 @@
 #!make
 SHELL := /bin/bash
 
-SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
-ifeq ($(SRC),ll)
-SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
+ADOC_SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
+ifeq ($(ADOC_SRC),ll)
+ADOC_SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
 # CSV_SRC := $(wildcard sources/data/*.csv)
@@ -13,10 +13,10 @@ DERIVED_ADOC := $(patsubst %.csv,%.adoc,$(CSV_SRC))
 ADOC_GENERATOR := scripts/split_codes.rb
 
 FORMAT_MARKER := mn-output-
-FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d " " | tr "," "\\n" | sort | uniq | tr "\\n" " ")
+FORMATS := $(shell grep "$(FORMAT_MARKER)" $(ADOC_SRC) | cut -f 2 -d " " | tr "," "\\n" | sort | uniq | tr "\\n" " ")
 
-INPUT_XML  := $(patsubst %.adoc,%.xml,$(SRC))
-OUTPUT_XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(SRC)))
+INPUT_XML   := $(patsubst %.adoc,%.xml,$(ADOC_SRC))
+OUTPUT_XML  := $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.xml,$(ADOC_SRC)))
 OUTPUT_HTML := $(patsubst %.xml,%.html,$(OUTPUT_XML))
 
 ifdef METANORMA_DOCKER
