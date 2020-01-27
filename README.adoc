@@ -13,7 +13,7 @@ This document is available in its rendered forms here:
 
 [source,sh]
 ----
-git clone https://github.com/CalConnect/csd-transcription-systems/
+git clone https://gitlab.com/calconnect/tc-localization/csd-transcription-systems
 ----
 
 
@@ -32,7 +32,7 @@ version by:
 
 [source,sh]
 ----
-export METANORMA_DOCKER=metanorma/mn
+export METANORMA_DOCKER=metanorma/metanorma
 ----
 
 The `Makefile` will automatically choose the proper command to
@@ -43,7 +43,7 @@ execute.
 
 [source,sh]
 ----
-make clean all
+make
 ----
 
 The following outputs will be built:
@@ -64,4 +64,3 @@ make
 open documents/iso-24229.html
 open documents/cc-24229.html
 ----
-
