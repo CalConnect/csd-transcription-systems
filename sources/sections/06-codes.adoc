@@ -80,6 +80,7 @@ This element is optional.
 `aliasOf`:: the current system is an alias to the target system, the script conversion process is identical
 `adoptedFrom`:: the current system is adopted from the target system, the script conversion process may not be identical
 `supercedes`:: the current system supercedes the target system
+`replacedBy`:: the current system is replaced by the target system
 `relatedTo`:: the current system is related to the target system
 `basedOn`:: the current system is based on the target system, the script conversion process inherits certain attributes from the target system.
 
@@ -199,4 +200,3 @@ The list of items composing the content of the country code is initially defined
 Additional and new entries will be listed by the ISO {docnumber}/AG.
 
 Data attributes provided in the list is defined in <<sc-data-model>>.
-
