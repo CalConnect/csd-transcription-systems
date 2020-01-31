@@ -285,9 +285,12 @@ icao-mul-arab-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations
 icao-mul-cyrl-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Cyrl,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Cyrillic script that are supported by this system.
 icao-mul-latn-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Latn,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Latin script that are supported by this system.
 ign-ara-arab-latn-1973,Institut Geographique Nationale Arabic System (1973),ign,iso-639-2,ara,Arab,Latn,1973,Arabic Institut Geographique Nationale 1973 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_IGN_1973`
+iso-aez-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,aez,Cyrl,Latn,Sep-95,<<ISO9>>,,
 iso-ara-arab-latn-233-1984,ISO 233:1984 Documentation – Transliteration of Arabic characters into Latin characters,iso,iso-639-2,ara,Arab,Latn,233-1984,<<ISO233>>,,
 iso-ara-arab-latn-233-2-1993,ISO 233-2:1993 Information and documentation – Transliteration of Arabic characters into Latin characters – Part 2: Arabic language – Simplified transliteration,iso,iso-639-2,ara,Arab,Latn,233-2-1993,<<ISO233-2>>,,
 iso-arm-armn-latn-9985-1996,ISO 9985:1996 Information and documentation – Transliteration of Armenian characters into Latin characters,iso,iso-639-2,arm,Armn,Latn,9985-1996,<<ISO9985>>,,
+iso-bel-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,bel,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-bul-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,bul,Cyrl,Latn,Sep-95,<<ISO9>>,,
 iso-cmn-hani-latn-7098-2015,ISO 7098:2015 Information and documentation – Romanization of Chinese,iso,iso-639-2,cmn,Hani,Latn,7098-2015,<<ISO7098>>,,
 iso-gre-grek-latn-843-1997,ISO 843:1997 Information and documentation – Conversion of Greek characters into Latin characters,iso,iso-639-2,gre,Grek,Latn,843-1997,<<ISO843>>,,
 iso-heb-hebr-latn-259-1984,ISO 259:1984 Documentation – Transliteration of Hebrew characters into Latin characters,iso,iso-639-2,heb,Hebr,Latn,259-1984,<<ISO259>>,,
@@ -295,12 +298,18 @@ iso-heb-hebr-latn-259-2-1994,ISO 259-2:1994 Documentation – Transliteration of
 iso-inc-deva-latn-15919-2001,ISO 15919:2001 Information and documentation – Transliteration of Devanagari and related Indic scripts into Latin characters,iso,iso-639-2,inc,Deva,Latn,15919-2001,<<ISO15919>>,,
 iso-jpn-jpan-latn-3602-1989,ISO 3602:1989 Documentation – Romanization of Japanese (kana script),iso,iso-639-2,jpn,Jpan,Latn,3602-1989,<<ISO3602>>,,
 iso-kat-geor-latn-9984-1996,ISO 9984:1996 Information and documentation – Transliteration of Georgian characters into Latin characters,iso,iso-639-2,kat,Geor,Latn,9984-1996,<<ISO9984>>,,
-iso-per-arab-latn-233-3-1999,ISO 233-3:1999 Information and documentation – Transliteration of Arabic characters into Latin characters – Part 3: Persian language – Simplified transliteration,iso,iso-639-2,per,Arab,Latn,233-3-1999,<<ISO233-3>>,,
-iso-sla-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,sla,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-mkd-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,mkd,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-mon-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,mon,Cyrl,Latn,Sep-95,<<ISO9>>,,
 iso-mul-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,mul,Cyrl,Latn,Sep-95,<<ISO9>>,,NOTE: `mul` here represents non-Slavic languages supported by this system.
+iso-per-arab-latn-233-3-1999,ISO 233-3:1999 Information and documentation – Transliteration of Arabic characters into Latin characters – Part 3: Persian language – Simplified transliteration,iso,iso-639-2,per,Arab,Latn,233-3-1999,<<ISO233-3>>,,
+iso-rus-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,rus,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-sla-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,sla,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-srp-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,srp,Cyrl,Latn,Sep-95,<<ISO9>>,,
+iso-tgk-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,tgk,Cyrl,Latn,Sep-95,<<ISO9>>,,
 iso-tha-thai-latn-11940-1998,ISO 11940:1998 Information and documentation – Transliteration of Thai,iso,iso-639-2,tha,Thai,Latn,11940-1998,<<ISO11940>>,,
 iso-tha-thai-latn-11940-2-2007,ISO 11940-2:2007 Information and documentation – Transliteration of Thai characters into Latin characters – Part 2: Simplified transcription of Thai language,iso,iso-639-2,tha,Thai,Latn,11940-2-2007,<<ISO11940-2>>,,
 iso-tha-thai-latn-20674-1-2019,ISO 20674-1 Transliteration of scripts in use in Thailand – Part 1: Transliteration of Akson-Thai-Noi,iso,iso-639-2,tha,Thai,Latn,20674-1-2019,<<ISO20674-1>>,,
+iso-ukr-cyrl-latn-9-1995,ISO 9:1995 Information and documentation – Transliteration of Cyrillic characters into Latin characters – Slavic and non-Slavic languages,iso,iso-639-2,ukr,Cyrl,Latn,Sep-95,<<ISO9>>,,
 itk-iku-cans-latn-1976,ICI Standard Orthography,itk,iso-639-2,iku,Cans,Latn,1976,<<ICISO>>,,Adoption date: 1976
 kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
 cnt-lao-laoo-latn-1965,Lao Commission Nationale de Toponymie (CNT) Transliteration System,cnt,iso-639-2,lao,Laoo,Latn,1965,Lao Commission Nationale de Toponymie (CNT) system,,Adoption date: 1965
