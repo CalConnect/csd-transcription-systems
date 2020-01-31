@@ -143,3 +143,11 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII_, Bureau of Indian Standards, 2001.
 
 * [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_. Available from: http://cldr.unicode.org/index/cldr-spec/transliteration-guidelines
+
+* [[[BS2979-1958,BS 2979:1958]]], _Transliteration of Cyrillic and Greek characters_, British Standards Institution, 1958
+
+* [[[BS4280-1968,BS 4280:1968]]], _Transliteration of Arabic characters_, British Standards Institution, 1968
+
+* [[[BS4812-1972,BS 4812:1972]]], _Specification for the romanization of Japanese_, British Standards Institution, 1972
+
+* [[[BS7014-1989,BS 7014:1989]]], _Guide to the romanization of Chinese_, British Standards Institution, 1989

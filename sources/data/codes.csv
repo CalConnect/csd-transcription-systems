@@ -235,6 +235,12 @@ bis-mul-knda-latn-13194-1991,IS 13194:1991 Indian Standard Indian script code fo
 bis-mul-mlym-latn-13194-1991,IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII - Roman script transliteration,bis,iso-639-3,mul,Mlym,Latn,13194-1991,<<IS13194-1991>>,aliasOf:bis-mul-deva-latn-13194-1991,
 bis-mul-gujr-latn-13194-1991,IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII - Roman script transliteration,bis,iso-639-3,mul,Gujr,Latn,13194-1991,<<IS13194-1991>>,aliasOf:bis-mul-deva-latn-13194-1991,
 bis-mul-guru-latn-13194-1991,IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII - Roman script transliteration,bis,iso-639-3,mul,Guru,Latn,13194-1991,<<IS13194-1991>>,aliasOf:bis-mul-deva-latn-13194-1991,
+bsi-ara-arab-latn-4280-1968,Transliteration of Arabic characters,bsi,iso-639-2,ara,Arab,Latn,4280-1968,<<BS4280-1968>>,,
+bsi-chu-cyrl-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,chu,Cyrl,Latn,2979-1958,<<BS2979-1958>>,,
+bsi-ell-grek-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,ell,Grek,Latn,2979-1958,<<BS2979-1958>>,,
+bsi-jpn-jpan-latn-4812-1972,Specification for the romanization of Japanese,bsi,iso-639-2,jpn,Jpan,Latn,4812-1972,<<BS4812-1972>>,,
+bsi-rus-cyrl-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,rus,Cyrl,Latn,2979-1958,<<BS2979-1958>>,,
+bsi-zho-hani-latn-7014-1989,Guide to the romanization of Chinese,bsi,iso-639-2,zho,Hani,Latn,7014-1989,<<BS7014-1989>>,,
 bt-dzo-tibt-latn-1991,"Royal Government of Bhutan, Roman Dzongkha",bt,iso-639-2,dzo,Tibt,Latn,1991,"Royal Government of Bhutan, Roman Dzongkha",,"Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan"
 bt-dzo-tibt-latn-1994,Dzongkha Government of Bhutan 1994 System,bt,iso-639-2,dzo,Tibt,Latn,1994,Dzongkha Government of Bhutan 1994 System,,NOTE: OGC 11-122r1 code `dzo_Tibt2Latn_GBT_1994`
 bt-dzo-tibt-latn-1997,"Royal Government of Bhutan, Roman Dzongkha",bt,iso-639-2,dzo,Tibt,Latn,1997,"Royal Government of Bhutan, Roman Dzongkha",,"Script used is Uchen, a form of Tibt. Guide to Official Dzongkha Romanization, Dzongkha Development Commission, Royal Government of Bhutan. Approved by the Ministry of Home Affairs, Royal Government of Bhutan"
