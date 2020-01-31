@@ -278,9 +278,17 @@ gost-rus-cyrl-latn-7-79-2000,"GOST 7.79-2000: System of Standards on Information
 gugk-rus-cyrl-latn-16876-1981,"Methodical Instruction on the Implementation of GOST 16876-71 (ST COMECON 1368-78) ""`Rules for Transliteration of Letters of the Cyrillic Alphabet with Letters of the Latin Alphabet, ed. 1981`"", Main Administration of Geodesy and Cartography, Council of Ministers of the USSR (GUGK)",gugk,iso-639-2,rus,Cyrl,Latn,16876-71-gugk,<<GUGKON231-13051983>>,,"NOTE: OGC 11-122r1 code `rus_Cyrl2Latn_GOST_1981`. Developed by GUGK (Main Administration of Geodesy and Cartography of USSR, Главное управление геодезии и картографии)."
 tm-tuk-cyrl-latn-2000,Republic of Turkmenistan Turkmen Cyrillic Table of Correspondences System (2000),tm,iso-639-2,tuk,Cyrl,Latn,2000,Turkmen Cyrillic Table of Correspondences Republic of Turkmenistan 2000 System,,NOTE: OGC 11-122r1 code `tuk_Cyrl2Latn_GTX_2000`
 var-ara-arab-latn-2002,Arabic Tim Buckwalter System (2002),var,iso-639-2,ara,Arab,Latn,2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
+var-asm-beng-latn-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,1872,Hunterian System,,
+var-ben-beng-latn-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,1872,Hunterian System,,
+var-hin-deva-latn-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,1872,Hunterian System,,
 var-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
-var-zho-hani-latn-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
+var-mar-deva-latn-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,1872,Hunterian System,,
+var-ori-orya-latn-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,1872,Hunterian System,,
+var-pan-guru-latn-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,1872,Hunterian System,,
+var-tam-taml-latn-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,1872,Hunterian System,,
+var-tel-telu-latn-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,1872,Hunterian System,,
 var-urd-arab-latn-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
+var-zho-hani-latn-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
 icao-mul-arab-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Arab,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Arabic script that are supported by this system.
 icao-mul-cyrl-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Cyrl,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Cyrillic script that are supported by this system.
 icao-mul-latn-latn-2015,ICAO Machine-Readable Travel Documents: Transliterations Recommended for use by States,icao,iso-639-3,mul,Latn,Latn,2015,<<ICAO9303>>,,NOTE: `mul` here represents the languages written in Latin script that are supported by this system.
