@@ -104,15 +104,15 @@
 * [[[GUGKON231-13051983,GUGK Order No.231 of 13.05.1983]]], Methodical Instruction on the Implementation of GOST 16876-71 (ST COMECON 1368-78): _Rules for Transliteration of Letters of the Cyrillic Alphabet with Letters of the Latin Alphabet, 1981 edition_, Main Administration of Geodesy and Cartography, Council of Ministers of the USSR (GUGK)
 
 * [[[DIN1460,DIN 1460:1982]]], _Umschrift kyrillischer Alphabete slawischer Sprachen_ (Conversion of Cyrillic alphabets of Slavic languages), 1982-04
-* [[[DIN1460-2,DIN 1460-2:2011]]], _Umschrift kyrillischer Alphabete - Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen_ (Romanization of Cyrillic alphabets – Part 2: Romanization of Cyrillic alphabets of non-slavic languages), 2011-10
-* [[[DIN31634,DIN 31634:2011]]], _Information und Dokumentation - Umschrift des griechischen Alphabets_ (Information and Documentation – Romanization of the Greek alphabet), 2011-10
-* [[[DIN31635,DIN 31635:2011]]], _Information und Dokumentation - Umschrift des arabischen Alphabets für die Sprachen Arabisch, Osmanisch-Türkisch, Persisch, Kurdisch, Urdu und Paschtu_ (Information and Documentation – Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto), 2011-07
-* [[[DIN31636,DIN 31636:2018]]], _Information und Dokumentation - Umschrift des hebräischen Alphabets_ (Information and documentation – Romanization of the Hebrew alphabet), 2018-10
-* [[[DIN32706,DIN 32706:2010]]], _Information und Dokumentation - Umschrift des armenischen Alphabets_ (Information and documentation – Romanization of the Armenian alphabet), 2010-01
-* [[[DIN32707,DIN 32707:2010]]], _Information und Dokumentation - Umschrift des georgischen Alphabets_ (Information and documentation – Romanization of the Georgian alphabet), 2010-01
-* [[[DIN32708,DIN 32708:2014]]], _Information und Dokumentation - Umschrift des Japanischen_ (Information and documentation – Romanization of Japanese), 2014-08
-* [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation - Umschrift Tamil_ (Information and documentation – Romanization of Tamil), 2016-02
-* [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation - Transliteration Devanagari_ (Information and documentation – Romanization Devanagari), 2018-10
+* [[[DIN1460-2,DIN 1460-2:2011]]], _Umschrift kyrillischer Alphabete -- Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen_ (Romanization of Cyrillic alphabets – Part 2: Romanization of Cyrillic alphabets of non-slavic languages), 2011-10
+* [[[DIN31634,DIN 31634:2011]]], _Information und Dokumentation -- Umschrift des griechischen Alphabets_ (Information and Documentation – Romanization of the Greek alphabet), 2011-10
+* [[[DIN31635,DIN 31635:2011]]], _Information und Dokumentation -- Umschrift des arabischen Alphabets für die Sprachen Arabisch, Osmanisch-Türkisch, Persisch, Kurdisch, Urdu und Paschtu_ (Information and Documentation – Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto), 2011-07
+* [[[DIN31636,DIN 31636:2018]]], _Information und Dokumentation -- Umschrift des hebräischen Alphabets_ (Information and documentation – Romanization of the Hebrew alphabet), 2018-10
+* [[[DIN32706,DIN 32706:2010]]], _Information und Dokumentation -- Umschrift des armenischen Alphabets_ (Information and documentation – Romanization of the Armenian alphabet), 2010-01
+* [[[DIN32707,DIN 32707:2010]]], _Information und Dokumentation -- Umschrift des georgischen Alphabets_ (Information and documentation – Romanization of the Georgian alphabet), 2010-01
+* [[[DIN32708,DIN 32708:2014]]], _Information und Dokumentation -- Umschrift des Japanischen_ (Information and documentation – Romanization of Japanese), 2014-08
+* [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation -- Umschrift Tamil_ (Information and documentation – Romanization of Tamil), 2016-02
+* [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation -- Transliteration Devanagari_ (Information and documentation – Romanization Devanagari), 2018-10
 
 * [[[ELOT743,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 
@@ -140,7 +140,7 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
 
-* [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange - ISCII_, Bureau of Indian Standards, 2001.
+* [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange -- ISCII_, Bureau of Indian Standards, 2001.
 
 * [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_. Available from: http://cldr.unicode.org/index/cldr-spec/transliteration-guidelines
 
