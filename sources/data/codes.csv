@@ -1,4 +1,4 @@
-Script conversion system code,Script conversion system name,Script conversion system authority code,Language code type,Language(s) ISO 639-2,Source script code ISO 15924,Target script code ISO 15924,System ID,System specification,Relationships,Remarks
+﻿Script conversion system code,Script conversion system name,Script conversion system authority code,Language code type,Language(s) ISO 639-2,Source script code ISO 15924,Target script code ISO 15924,System ID,System specification,Relationships,Remarks
 acadsin-zho-hani-latn-2002,Academica Sinica -- Chinese Tongyong Pinyin (2002),acadsin,iso-639-2,zho,Hani,Latn,2002,Academica Sinica -- Chinese Tongyong Pinyin (2002),,NOTE: OGC 11-122r1 code `zho_Hani2Latn_AcadSin_2002`
 ahl-heb-hebr-latn-1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),ahl,iso-639-2,heb,Hebr,Latn,1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),,
 ahl-heb-hebr-latn-2011,Academy of the Hebrew Language -- Rules of transliteration from Hebrew into Latin letters (2011),ahl,iso-639-2,heb,Hebr,Latn,2011,<<HebrLatn>>,,
@@ -354,7 +354,7 @@ mlmupc-khm-khmr-latn-1997,Transcription System for Khmer,mlmupc,iso-639-2,khm,Kh
 moct-kor-hang-latn-2000,Korean Ministry of Culture and Tourism 2000 System,moct,iso-639-2,kor,Hang,Latn,2000,Korean Ministry of Culture and Tourism 2000 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_MOCT_2000`
 msst-tuk-cyrl-latn-1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,msst,iso-639-2,tuk,Cyrl,Latn,1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,,
 mv-div-thaa-latn-1976,Republic of Maldives Official Romanization System,mv,iso-639-2,div,Thaa,Latn,1976,<<MaliLatin>>,,
-mv-div-thaa-latn-1988,Maldivian (Divehi) Maldivian Government 1988 system,mv,iso-639-2,div,Thaa,Latn,1988,Maldivian (Divehi) Maldivian Government 1988 system,,NOTE: OGC 11-122r1 code `div_Thaa2Latn_GMV_1988`
+mv-div-thaa-latn-1988,Republic of Maldives Official Romanization System 1988,mv,iso-639-2,div,Thaa,Latn,1988,Republic of Maldives Official Romanization System 1988,,NOTE: OGC 11-122r1 code `div_Thaa2Latn_GMV_1988`
 nco-per-arab-latn-2004,National Cartographic Center of Iran Persia Broad Transcription System (2004),nco,iso-639-2,per,Arab,Latn,2004,Persian 2004 Broad Transcription System National Cartographic Center of Iran,,NOTE: OGC 11-122r1 code `fas_Arab2Latn_NCO_2004`
 nikl-kor-kore-latn-2000,National Institute of Korean Language -- Romanization of Korean,nikl,iso-639-2,kor,Kore,Latn,2000,<<NIKLRK>>,,Date adopted: 2000-07-07
 dos-nep-deva-latn-1997,Government of Nepal -- Transliteration and Translation System for Nepal,dos,iso-639-2,nep,Deva,Latn,1997,<<TTSN>>,,NOTE: First published in <<NEPREP>>.
