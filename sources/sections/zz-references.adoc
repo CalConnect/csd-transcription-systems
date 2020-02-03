@@ -106,7 +106,8 @@
 * [[[DIN1460,DIN 1460:1982]]], _Umschrift kyrillischer Alphabete slawischer Sprachen_ (Conversion of Cyrillic alphabets of Slavic languages), 1982-04
 * [[[DIN1460-2,DIN 1460-2:2011]]], _Umschrift kyrillischer Alphabete -- Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen_ (Romanization of Cyrillic alphabets -- Part 2: Romanization of Cyrillic alphabets of non-slavic languages), 2011-10
 * [[[DIN31634,DIN 31634:2011]]], _Information und Dokumentation -- Umschrift des griechischen Alphabets_ (Information and Documentation -- Romanization of the Greek alphabet), 2011-10
-* [[[DIN31635,DIN 31635:2011]]], _Information und Dokumentation -- Umschrift des arabischen Alphabets für die Sprachen Arabisch, Osmanisch-Türkisch, Persisch, Kurdisch, Urdu und Paschtu_ (Information and Documentation -- Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto), 2011-07
+* [[[DIN31635-1982,DIN 31635:1982]]], _Umschrift des arabischen Alphabets_ (Conversion of the arabic alphabet), 1982-04
+* [[[DIN31635-2011,DIN 31635:2011]]], _Information und Dokumentation -- Umschrift des arabischen Alphabets für die Sprachen Arabisch, Osmanisch-Türkisch, Persisch, Kurdisch, Urdu und Paschtu_ (Information and Documentation -- Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto), 2011-07
 * [[[DIN31636,DIN 31636:2018]]], _Information und Dokumentation -- Umschrift des hebräischen Alphabets_ (Information and documentation -- Romanization of the Hebrew alphabet), 2018-10
 * [[[DIN32706,DIN 32706:2010]]], _Information und Dokumentation -- Umschrift des armenischen Alphabets_ (Information and documentation -- Romanization of the Armenian alphabet), 2010-01
 * [[[DIN32707,DIN 32707:2010]]], _Information und Dokumentation -- Umschrift des georgischen Alphabets_ (Information and documentation -- Romanization of the Georgian alphabet), 2010-01
