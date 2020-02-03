@@ -118,6 +118,8 @@
 
 * [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968. Available from: https://yivo.org/Yiddish-Alphabet
 
+* [[[AmhLatBIULO2003,Systeme de transcription des caracteres ethiopiens adopte par la BIULO]]], _Systeme de transcription des caracteres ethiopiens adopte par la Bibliotheque Inter-Universitaire des Langues Orientales pour le catalogage des ouvrages ethiopiens_, BIULO, 2003-12. Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/SYLLABAIRE_AMHARIQUE.pdf
+
 * [[[BulLatUN2006,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_. UNGEGN, 2006. Available from: https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
 
 * [[[BulTransAct2009,Republic of Bulgaria Transliteration Act]]], _Transliteration Act. State Gazette # 19,
