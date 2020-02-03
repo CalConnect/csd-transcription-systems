@@ -154,3 +154,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[BS4812-1972,BS 4812:1972]]], _Specification for the romanization of Japanese_, British Standards Institution, 1972
 
 * [[[BS7014-1989,BS 7014:1989]]], _Guide to the romanization of Chinese_, British Standards Institution, 1989
+
+* [[[PerDMG1969,Perso-Arabic DMG 1969 System]]], _Die Umschrift (Transkription) des arabisch-persischen Alphabets_, Seminar für Sprachen und Kulturen des Vorderen Orients -- Islamwissenschaft, Ruprecht-Karls-Universität Heidelberg, 2004, Available from: https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/islamwissenschaft/md/ori/islamwissenschaft/transkription.pdf
