@@ -158,3 +158,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[AraDMG1935,Arabic DMG 1936 System]]], _Die Transliteration der arabischen Schrift in ihrer Anwendung auf die Hauptliteratursprachen der islamischen Welt_, Denkschrift dem 19. Internationalen Orientalistenkongreß in Rom. vorgelegt von der Transkriptionskommission der Deutschen Morgenländischen Gesellschaft. Brockhaus, Leipzig, 1935, Available from: https://www.aai.uni-hamburg.de/voror/medien/dmg.pdf
 
 * [[[PerDMG1969,Perso-Arabic DMG 1969 System]]], _Die Umschrift (Transkription) des arabisch-persischen Alphabets_, Seminar für Sprachen und Kulturen des Vorderen Orients -- Islamwissenschaft, Ruprecht-Karls-Universität Heidelberg, 2004, Available from: https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/islamwissenschaft/md/ori/islamwissenschaft/transkription.pdf
+
+* [[[ArmHuebschmannMeillet1913,Armenian Hübschmann-Meillet 1913 System]]], _Altarmenisches Elementarbuch_, Antoine Meillet and Heinrich Hübschmann, Heidelberg, 1913 (2nd edition, 1980)

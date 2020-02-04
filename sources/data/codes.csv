@@ -287,6 +287,7 @@ gugk-rus-cyrl-latn-16876-1981,"Methodical Instruction on the Implementation of G
 tm-tuk-cyrl-latn-2000,Republic of Turkmenistan Turkmen Cyrillic Table of Correspondences System (2000),tm,iso-639-2,tuk,Cyrl,Latn,2000,Turkmen Cyrillic Table of Correspondences Republic of Turkmenistan 2000 System,,NOTE: OGC 11-122r1 code `tuk_Cyrl2Latn_GTX_2000`
 var-ara-arab-latn-1932,Morocco National Romanization System,var,iso-639-2,ara,Arab,Latn,1932,Morocco National Romanization System,,1932-06-17
 var-ara-arab-latn-2002,Arabic Tim Buckwalter System (2002),var,iso-639-2,ara,Arab,Latn,2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
+var-arm-armn-latn-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,arm,Armn,Latn,1913,<<ArmHuebschmannMeillet1913>>,,1913
 var-asm-beng-latn-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,1872,Hunterian System,,
 var-ben-beng-latn-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,1872,Hunterian System,,
 var-hin-deva-latn-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,1872,Hunterian System,,
