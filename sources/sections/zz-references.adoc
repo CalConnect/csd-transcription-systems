@@ -160,3 +160,9 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[PerDMG1969,Perso-Arabic DMG 1969 System]]], _Die Umschrift (Transkription) des arabisch-persischen Alphabets_, Seminar für Sprachen und Kulturen des Vorderen Orients -- Islamwissenschaft, Ruprecht-Karls-Universität Heidelberg, 2004, Available from: https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/islamwissenschaft/md/ori/islamwissenschaft/transkription.pdf
 
 * [[[ArmHuebschmannMeillet1913,Armenian Hübschmann-Meillet 1913 System]]], _Altarmenisches Elementarbuch_, Antoine Meillet and Heinrich Hübschmann, Heidelberg, 1913 (2nd edition, 1980)
+
+* [[[ANSIZ39.11,ANSI Z39.11-1972]]], _ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese_. New York, American National Standards Institute, 1972.
+
+* [[[JPMLITTL,Japan Railway Notice Regulations]]], _Railway Notice Regulations (鉄道掲示規程)_. In: Transportation Announcement, No. 490. Tokyo, Ministry of Land, Infrastructure, Transport and Tourism, Japan, 1947.
+
+* [[[JRARSES,Japan Road Association Road Sign Establishment Standard]]], _Road Sign Establishment Standard (道路標識設置基準)_. Tokyo, Japan Road Association, 1987.
