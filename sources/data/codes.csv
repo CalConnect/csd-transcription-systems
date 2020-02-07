@@ -302,7 +302,8 @@ iso-bel-cyrl-latn-9-1995,ISO 9:1995 Information and documentation -- Translitera
 iso-ben-beng-latn-15919-2001,ISO 15919:2001 Information and documentation -- Transliteration of Devanagari and related Indic scripts into Latin characters,iso,iso-639-2,ben,beng,Latn,15919-2001,<<ISO15919>>,,
 iso-bul-cyrl-latn-9-1995,ISO 9:1995 Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages,iso,iso-639-2,bul,Cyrl,Latn,Sep-95,<<ISO9>>,,
 iso-cmn-hani-latn-7098-2015,ISO 7098:2015 Information and documentation -- Romanization of Chinese,iso,iso-639-2,cmn,Hani,Latn,7098-2015,<<ISO7098>>,,
-iso-gre-grek-latn-843-1997,ISO 843:1997 Information and documentation -- Conversion of Greek characters into Latin characters,iso,iso-639-2,gre,Grek,Latn,843-1997,<<ISO843>>,,
+iso-ell-grek-latn-843-1997-t1,ISO 843:1997 Information and documentation -- Conversion of Greek characters into Latin characters,iso,iso-639-2,ell,Grek,Latn,843-1997-t1,<<ISO843>> Type 1 system,,
+iso-ell-grek-latn-843-1997-t2,ISO 843:1997 Information and documentation -- Conversion of Greek characters into Latin characters,iso,iso-639-2,ell,Grek,Latn,843-1997-t1,<<ISO843>> Type 2 system,,
 iso-guj-gujr-latn-15919-2001,ISO 15919:2001 Information and documentation -- Transliteration of Devanagari and related Indic scripts into Latin characters,iso,iso-639-2,guj,gujr,Latn,15919-2001,<<ISO15919>>,,
 iso-heb-hebr-latn-259-1984,ISO 259:1984 Documentation -- Transliteration of Hebrew characters into Latin characters,iso,iso-639-2,heb,Hebr,Latn,259-1984,<<ISO259>>,,
 iso-heb-hebr-latn-259-2-1994,ISO 259-2:1994 Documentation -- Transliteration of Hebrew characters into Latin characters. -- Part 2: Simplified transliteration,iso,iso-639-2,heb,Hebr,Latn,259-2-1994,<<ISO259-2>>,,
@@ -384,7 +385,7 @@ un-bod-tibt-latn-2013,UN Romanization of Tibetan version 4.0,un,iso-639-2,bod,Ti
 un-bul-cyrl-latn-2013,UN Romanization of Bulgarian version 4.0,un,iso-639-2,bul,Cyrl,Latn,2013,"UN Romanization of Bulgarian version 4.0, <<BulLatUN2012>>",aliasOf:bgna-bul-cyrl-latn-2009,2013-02-26
 un-div-thaa-latn-2016,UN Romanization of Maldivian version 4.0,un,iso-639-2,div,Thaa,Latn,2016,UN Romanization of Maldivian version 4.0,,2016-03-30
 un-dzo-tibt-latn-2013,UN Romanization of Dzongkha version 4.0,un,iso-639-2,dzo,Tibt,Latn,2013,UN Romanization of Dzongkha version 4.0,,"2013-09-24, source script is Uchen, a form of Tibt"
-un-gre-grek-latn-2016,UN Romanization of Greek version 4.0,un,iso-639-2,gre,Grek,Latn,2016,UN Romanization of Greek version 4.0,,2016-03-30
+un-ell-grek-latn-2016,UN Romanization of Greek version 4.0,un,iso-639-2,ell,Grek,Latn,2016,UN Romanization of Greek version 4.0,,2016-03-30
 un-guj-gujr-latn-2016,UN Romanization of Gujarati version 4.0,un,iso-639-2,guj,Gujr,Latn,2016,UN Romanization of Gujarati version 4.0,,2016-03-30
 un-heb-hebr-latn-2013,UN Romanization of Hebrew version 4.0,un,iso-639-2,heb,Hebr,Latn,2013,UN Romanization of Hebrew version 4.0,,2013-02-26
 un-hin-deva-latn-2016,UN Romanization of Hindi version 4.0,un,iso-639-2,hin,Deva,Latn,2016,UN Romanization of Hindi version 4.0,,2016-03-30
