@@ -115,7 +115,8 @@
 * [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation -- Umschrift Tamil_ (Information and documentation -- Romanization of Tamil), 2016-02
 * [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation -- Transliteration Devanagari_ (Information and documentation -- Romanization Devanagari), 2018-10
 
-* [[[ELOT743,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
+* [[[ELOT7431982,ELOT 743:1982]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
+* [[[ELOT7432001,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 
 * [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968. Available from: https://yivo.org/Yiddish-Alphabet
 
