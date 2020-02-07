@@ -143,7 +143,7 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 //* [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
 
-* [[[MkLatn,]]], _Macedonian Latin alphabet_. B.Vidoeski, T.Dimitrovski, K.Koneski, K.Tošev, R.Ugrinova Skalovska. In: Pravopis na makedonskiot literaturen jazik. Skopje, Prosvetno delo, 1970.
+* [[[MkLatn,Macedonian Latin alphabet]]], _Macedonian Latin alphabet_. B.Vidoeski, T.Dimitrovski, K.Koneski, K.Tošev, R.Ugrinova Skalovska. In: Pravopis na makedonskiot literaturen jazik. Skopje, Prosvetno delo, 1970.
 
 * [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange -- ISCII_, Bureau of Indian Standards, 2001.
 
