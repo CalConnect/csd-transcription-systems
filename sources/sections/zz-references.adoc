@@ -168,3 +168,7 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[JPMLITTL,Japan Railway Notice Regulations]]], _Railway Notice Regulations (鉄道掲示規程)_. In: Transportation Announcement, No. 490. Tokyo, Ministry of Land, Infrastructure, Transport and Tourism, Japan, 1947.
 
 * [[[JRARSES,Japan Road Association Road Sign Establishment Standard]]], _Road Sign Establishment Standard (道路標識設置基準)_. Tokyo, Japan Road Association, 1987.
+
+* [[[NRSNippon,Nippon-no-Rômazi-Sya Rômazi no tuzurikata Nihon-siki]]], _Rômazi no tuzurikata: Nihon-siki_, Nippon-no-Rômazi-Sya.
+
+* [[[NRSTanakadate,Nihon-siki Rômazi]]], _理學協會雜誌を羅馬字にて發兌するの發議及び羅馬字用法意見_. 田中館愛橘 (Tanakadate-Aikitu). In: 理学協会雑誌, 第16巻. 1885.
