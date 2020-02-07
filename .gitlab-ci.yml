@@ -8,6 +8,7 @@ cache:
 build:
   stage: build
   script:
+    - plantuml -h
     - bundle install
     - make clean all
     - make published
