@@ -173,3 +173,7 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[NRSNippon,Nippon-no-Rômazi-Sya Rômazi no tuzurikata Nihon-siki]]], _Rômazi no tuzurikata: Nihon-siki_, Nippon-no-Rômazi-Sya.
 
 * [[[NRSTanakadate,Nihon-siki Rômazi]]], _理學協會雜誌を羅馬字にて發兌するの發議及び羅馬字用法意見_. 田中館愛橘 (Tanakadate-Aikitu). In: 理学協会雑誌, 第16巻. 1885.
+
+* [[[JpnKNJED1954,Japanese Modified Hepburn 1954 System]]], _New Japanese-English Dictionary 3rd edition (新和英大辞典　第三版)_, 株式会社研究社 (Kenkyusha Co., Ltd.), 1954
+
+* [[[JpnKNJED1974,Japanese Modified Hepburn 1974 System]]], _New Japanese-English Dictionary 4th edition (新和英大辞典　第四版)_, 株式会社研究社 (Kenkyusha Co., Ltd.), 1974, ISBN 978-0-7859-7128-3

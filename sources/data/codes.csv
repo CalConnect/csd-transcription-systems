@@ -45,7 +45,7 @@ alalc-iku-cans-latn-2011,ALA-LC Romanization Table -- Inuktitut (2011),alalc,iso
 alalc-jav-arab-latn-jp-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),alalc,iso-639-2,jav,Arab,Latn,jp-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),,"2012, need verification on language and script (TODO)"
 alalc-jav-java-latn-1997,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (1997)",alalc,iso-639-2,jav,Java,Latn,1997,<<ALALCTables>>,,NOTE: OGC 11-122r1 code `jav_Java2Latn_ALA_1997`
 alalc-jav-java-latn-2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",alalc,iso-639-2,jav,Java,Latn,2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",,2011
-alalc-jpn-hrkt-latn-1997,ALA-LC Romanization Table -- Japanese (1997),alalc,iso-639-2,jpn,Hrkt,Latn,1997,<<ALALCTables>>,,NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_ALA_1997`
+alalc-jpn-hrkt-latn-1997,ALA-LC Romanization Table -- Japanese (1997),alalc,iso-639-2,jpn,Hrkt,Latn,1997,<<ALALCTables>>,"adoptedFrom:var-jpn-hrkt-latn-hepburn-1974, basedOn:ansi-jpn-Hrkt-Latn-z39-11-1972",NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_ALA_1997`
 alalc-jpn-jpan-latn-2012,ALA-LC Romanization Table -- Japanese (2012),alalc,iso-639-2,jpn,Jpan,Latn,2012,ALA-LC Romanization Table -- Japanese (2012),,2012
 alalc-jrb-hebr-latn-2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),alalc,iso-639-2,jrb,Hebr,Latn,2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),,"2011, Hebr does not contain all symbols of jrb"
 alalc-kan-knda-latn-2011,ALA-LC Romanization Table -- Kannada (2011),alalc,iso-639-2,kan,Knda,Latn,2011,ALA-LC Romanization Table -- Kannada (2011),,2011
@@ -428,6 +428,8 @@ var-arm-armn-latn-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,ar
 var-asm-beng-latn-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,1872,Hunterian System,,
 var-ben-beng-latn-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,1872,Hunterian System,,
 var-hin-deva-latn-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,1872,Hunterian System,,
+var-jpn-hrkt-latn-hepburn-1954,Japanese Modified Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1954,<<JpnKNJED1954>>,,
+var-jpn-hrkt-latn-hepburn-1974,Japanese Modified Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1974,<<JpnKNJED1974>>,,
 var-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
 var-mar-deva-latn-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,1872,Hunterian System,,
 var-ori-orya-latn-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,1872,Hunterian System,,
