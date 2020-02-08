@@ -45,7 +45,7 @@ alalc-iku-cans-latn-2011,ALA-LC Romanization Table -- Inuktitut (2011),alalc,iso
 alalc-jav-arab-latn-jp-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),alalc,iso-639-2,jav,Arab,Latn,jp-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),,"2012, need verification on language and script (TODO)"
 alalc-jav-java-latn-1997,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (1997)",alalc,iso-639-2,jav,Java,Latn,1997,<<ALALCTables>>,,NOTE: OGC 11-122r1 code `jav_Java2Latn_ALA_1997`
 alalc-jav-java-latn-2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",alalc,iso-639-2,jav,Java,Latn,2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",,2011
-alalc-jpn-hrkt-latn-1997,ALA-LC Romanization Table -- Japanese (1997),alalc,iso-639-2,jpn,Hrkt,Latn,1997,<<ALALCTables>>,"adoptedFrom:var-jpn-hrkt-latn-hepburn-1974, basedOn:ansi-jpn-Hrkt-Latn-z39-11-1972",NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_ALA_1997`
+alalc-jpn-hrkt-latn-1997,ALA-LC Romanization Table -- Japanese (1997),alalc,iso-639-2,jpn,Hrkt,Latn,1997,<<ALALCTables>>,"adoptedFrom:var-jpn-hrkt-latn-hepburn-1974, basedOn:ansi-jpn-hrkt-Latn-z39-11-1972",NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_ALA_1997`
 alalc-jpn-jpan-latn-2012,ALA-LC Romanization Table -- Japanese (2012),alalc,iso-639-2,jpn,Jpan,Latn,2012,ALA-LC Romanization Table -- Japanese (2012),,2012
 alalc-jrb-hebr-latn-2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),alalc,iso-639-2,jrb,Hebr,Latn,2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),,"2011, Hebr does not contain all symbols of jrb"
 alalc-kan-knda-latn-2011,ALA-LC Romanization Table -- Kannada (2011),alalc,iso-639-2,kan,Knda,Latn,2011,ALA-LC Romanization Table -- Kannada (2011),,2011
@@ -140,7 +140,7 @@ alalc-zho-hani-latn-1997,ALA-LC Romanization Table -- Chinese (1997),alalc,iso-6
 alalc-zho-hani-latn-2011,ALA-LC Romanization Table -- Chinese (2011),alalc,iso-639-2,zho,Hani,Latn,2011,ALA-LC Romanization Table -- Chinese (2011),,2011
 ammi-per-arab-latn-1959,Afghanistan Ministry of Mines and Industries Transliteration System for Geographic Names in Afghanistan (Yaghubi),ammi,iso-639-2,per,Arab,Latn,1959,Afghanistan Ministry of Mines and Industries Transliteration System for Geographic Names in Afghanistan (Yaghubi),,NOTE: OGC 11-122r1 code `fas_Arab2Latn_AMMI_1959`
 ammi-pus-arab-latn-1959,Afghanistan Ministry of Mines and Industries Transliteration System for Geographic Names in Afghanistan (Yaghubi),ammi,iso-639-2,pus,Arab,Latn,1959,Afghanistan Ministry of Mines and Industries Transliteration System for Geographic Names in Afghanistan (Yaghubi),,NOTE: OGC 11-122r1 code `pus_Arab2Latn_AMMI_1959`
-ansi-jpn-Hrkt-Latn-z39-11-1972,ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese,ansi,iso-639-2,jpn,Hrkt,Latn,z39-11-1972,<<ANSIZ39.11>>,,Adoption date: 1972
+ansi-jpn-hrkt-Latn-z39-11-1972,ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese,ansi,iso-639-2,jpn,Hrkt,Latn,z39-11-1972,<<ANSIZ39.11>>,,Adoption date: 1972
 asm-ron-cyrl-latn-2016,Republic of Moldova Romanization,asm,iso-639-2,ron,Cyrl,Latn,2016,Republic of Moldova Romanization,,Note: Adopted by Moldova Order No. 872 on the application of the revised spelling rules as adopted by the Moldovan Academy of Sciences; Adoption date: 2016-10-17
 az-aze-cyrl-latn-1991,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin,az,iso-639-2,aze,Cyrl,Latn,1991,Azerbijian Government -- Alphabet Transition from Cyrillic to Latin (1991),,"NOTE: OGC 11-122r1 code `aze_Cyrl2Latn_GAZ_1991`. Azerbaijan's Milli Majlis (Parliament) adopted decree on conversion from Cyrillic to Latin script on December 25, 1991"
 bas-rus-cyrl-latn-2017,Streamlined Romanization system for Russian Cyrillic,bas,iso-639-2,rus,Cyrl,Latn,2017,<<BasRusCyrl>>,,Date published: 2017.
@@ -338,7 +338,7 @@ iso-tha-thai-latn-11940-2-2007,ISO 11940-2:2007 Information and documentation --
 iso-tha-thai-latn-20674-1-2019,ISO 20674-1 Transliteration of scripts in use in Thailand -- Part 1: Transliteration of Akson-Thai-Noi,iso,iso-639-2,tha,Thai,Latn,20674-1-2019,<<ISO20674-1>>,,
 iso-ukr-cyrl-latn-9-1995,ISO 9:1995 Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages,iso,iso-639-2,ukr,Cyrl,Latn,Sep-95,<<ISO9>>,,
 itk-iku-cans-latn-1976,ICI Standard Orthography,itk,iso-639-2,iku,Cans,Latn,1976,<<ICISO>>,,Adoption date: 1976
-jra-jpn-Hrkt-Latn-1987,Japan Road Association Romanization System,jra,iso-639-2,jpn,Hrkt,Latn,1987,<<JRARSES>>,,Adoption date: 1987
+jra-jpn-hrkt-Latn-1987,Japan Road Association Romanization System,jra,iso-639-2,jpn,Hrkt,Latn,1987,<<JRARSES>>,,Adoption date: 1987
 kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
 lbmod-ara-arab-latn-1963,Lebanon National Romanization System,lbmod,iso-639-2,ara,Arab,Latn,1963,Lebanon National Romanization System,,1963
 lshk-yue-hani-latn-1993,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,,Adoption date: 1993
@@ -346,7 +346,7 @@ md-ron-cyrl-latn-1989,Republic of Moldova Romanization,md,iso-639-2,ron,Cyrl,Lat
 mext-jpn-hrkt-latn-1954,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1954,<<MEXTJP>>,,"Adoption date: 1954-12-09. Also called ""`Kunrei-siki`""."
 mk-mkd-cyrl-latn-1970,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,mk,iso-639-2,mkd,Cyrl,Latn,1970,<<MkLatn>>,,
 mlc-mya-mymr-latn-1980,Myanmar Language Commission Transcription System (MLCTS),mlc,iso-639-2,mya,Mymr,Latn,1980,<<MLCTS>>,,
-mlit-jpn-Hrkt-Latn-1947,Japan Railway Modified Hepburn Romanization System,mlit,iso-639-2,jpn,Hrkt,Latn,1947,<<JPMLITTL>>,,Adoption date: 1947
+mlit-jpn-hrkt-Latn-1947,Japan Railway Modified Hepburn Romanization System,mlit,iso-639-2,jpn,Hrkt,Latn,1947,<<JPMLITTL>>,,Adoption date: 1947
 mlmupc-khm-khmr-latn-1997,Transcription System for Khmer,mlmupc,iso-639-2,khm,Khmr,Latn,1997,<<KhmrLatn>>,,
 moct-kor-hang-latn-2000,Korean Ministry of Culture and Tourism 2000 System,moct,iso-639-2,kor,Hang,Latn,2000,Korean Ministry of Culture and Tourism 2000 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_MOCT_2000`
 msst-tuk-cyrl-latn-1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,msst,iso-639-2,tuk,Cyrl,Latn,1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,,
@@ -354,7 +354,7 @@ mv-div-thaa-latn-1976,Republic of Maldives Official Romanization System,mv,iso-6
 mv-div-thaa-latn-1988,Republic of Maldives Official Romanization System 1988,mv,iso-639-2,div,Thaa,Latn,1988,Republic of Maldives Official Romanization System 1988,,NOTE: OGC 11-122r1 code `div_Thaa2Latn_GMV_1988`
 nco-per-arab-latn-2004,National Cartographic Center of Iran Persia Broad Transcription System (2004),nco,iso-639-2,per,Arab,Latn,2004,Persian 2004 Broad Transcription System National Cartographic Center of Iran,,NOTE: OGC 11-122r1 code `fas_Arab2Latn_NCO_2004`
 nikl-kor-kore-latn-2000,National Institute of Korean Language -- Romanization of Korean,nikl,iso-639-2,kor,Kore,Latn,2000,<<NIKLRK>>,,Date adopted: 2000-07-07
-nrs-jpn-Hrkt-Latn-nihon-1885,Nippon-no-Rômazi-Sya Nihon-siki System,jra,iso-639-2,jpn,Hrkt,Latn,nihon-1885,<<JRARSES>>,,Date published: 1885 in <<NRSTanakadate>>
+nrs-jpn-hrkt-Latn-nihon-1885,Nippon-no-Rômazi-Sya Nihon-siki System,jra,iso-639-2,jpn,Hrkt,Latn,nihon-1885,<<JRARSES>>,,Date published: 1885 in <<NRSTanakadate>>
 odni-ara-arab-latn-2004,Office of the Director Of National Intelligence Arabic Personal Names 2004 System,odni,iso-639-2,ara,Arab,Latn,2004,Arabic Personal Names Office of the Director Of National Intelligence 2004 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_ODNI_2004`
 odni-bul-cyrl-latn-2005,Office of the Director Of National Intelligence Bulgarian Personal Names 2004 System,odni,iso-639-2,bul,Cyrl,Latn,2005,Bulgarian Personal Names Office of the Director Of National Intelligence Bulgarian Personal Names 2004 System,,NOTE: OGC 11-122r1 code `bul_Cyrl2Latn_ODNI_2005`
 odni-kor-hang-latn-2004,Office of the Director Of National Intelligence Korean Personal Names 2004 System,odni,iso-639-2,kor,Hang,Latn,2004,Korean Personal Names Office of the Director Of National Intelligence 2004 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_ODNI_2004`
