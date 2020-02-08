@@ -444,6 +444,7 @@ var-kor-hang-latn-yale-1942,Korean Yale 1942 System,var,iso-639-2,kor,Hang,Latn,
 var-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
 var-mar-deva-latn-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,1872,Hunterian System,,
 var-ori-orya-latn-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,1872,Hunterian System,,
+var-ota-arab-latn-1967,Birnbaum Ottoman Turkish System,var,iso-639-2,ota,Arab,Latn,1967,<<Birnbaum1967>>,,
 var-pan-guru-latn-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,1872,Hunterian System,,
 var-tam-taml-latn-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,1872,Hunterian System,,
 var-tel-telu-latn-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,1872,Hunterian System,,

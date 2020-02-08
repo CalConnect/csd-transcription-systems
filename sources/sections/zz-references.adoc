@@ -199,3 +199,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[JpnKNJED1974,Japanese Modified Hepburn 1974 System]]], _New Japanese-English Dictionary 4th edition (新和英大辞典　第四版)_, 株式会社研究社 (Kenkyusha Co., Ltd.), 1974, ISBN 978-0-7859-7128-3
 
 * [[[JSL1987,Japanese, The Spoken Language]]], _Japanese, The Spoken Language, Part 1_, Eleanor Harz Jorden and Mari Noda, Yale University Press, 1987, ISBN 978-0-300-03834-7
+
+* [[[Birnbaum1967,The transliteration of Ottoman Turkish]]], _The transliteration of Ottoman Turkish for library and general purposes: Ottoman Turkish translation scheme_, Eleazar Birnbaum, Reprinted from: Journal of the American Oriental Society, v. 87, no.2, April--June, 1967.
