@@ -164,6 +164,7 @@ bgnpcgn-bul-cyrl-latn-1952,BGN/PCGN Romanization System -- Bulgarian (1952),bgnp
 bgnpcgn-bul-cyrl-latn-2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013),bgnpcgn,iso-639-2,bul,Cyrl,Latn,2013,<<BulBgnpcgn2013>>,aliasOf:bgna-bul-cyrl-latn-2009,"NOTE: OGC 11-122r1 code `bul_Cyrl2Latn_BGN_2013`. Date approved: 2013;  Originator: Govt of Bulgaria, 2009"
 bgnpcgn-che-cyrl-latn-2007,BGN/PCGN Table of Correspondences -- Chechen (2007),bgnpcgn,iso-639-2,che,Cyrl,Latn,2007,BGN/PCGN Table of Correspondences -- Chechen (2007),,NOTE: OGC 11-122r1 code `che_Cyrl2Latn_BGN_2007`
 bgnpcgn-che-cyrl-latn-2008,BGN/PCGN Table of Correspondences -- Chechen (2008),bgnpcgn,iso-639-2,che,Cyrl,Latn,2008,BGN/PCGN Table of Correspondences -- Chechen (2008),,Date approved: 2008;  Originator: Chechen practice
+bgnpcgn-chn-hans-latn-pinyin,Romanization of Chinese -- BGN/PCGN 1979 Agreement,bgnpcgn,iso-639-2,chn,Hans,Latn,pinyin,<<BGNPCGNChinese1979>>,,Confirmation date: 2017-12
 bgnpcgn-chv-cyrl-latn-2011,BGN/PCGN Romanization System -- Chuvash (2011),bgnpcgn,iso-639-2,chv,Cyrl,Latn,2011,BGN/PCGN Romanization System -- Chuvash (2011),,Date approved: 2011
 bgnpcgn-deu-latn-latn-1986,BGN/PCGN German Spelling Convention (1986),bgnpcgn,iso-639-2,deu,Latn,Latn,1986,BGN/PCGN German Spelling Convention 1986,,NOTE: OGC 11-122r1 code `deu_Latn2Latn_BGN_1986`
 bgnpcgn-div-thaa-latn-1972,BGN/PCGN Romanization System -- Maldivian (Divehi) (1972),bgnpcgn,iso-639-2,div,Thaa,Latn,1972,BGN/PCGN Romanization System -- Maldivian (Divehi) (1972),,NOTE: OGC 11-122r1 code `div_Thaa2Latn_BGN_1972`
