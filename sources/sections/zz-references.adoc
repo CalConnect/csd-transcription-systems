@@ -57,6 +57,8 @@
 
 * [[[BGNPCGNChinese1979,BGN/PCGN 1979 Agreement]]], _Romanization of Chinese -- BGN/PCGN 1979 Agreement_, Ministry of Defence/PCGN, Available from: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/693689/ROMANIZATION_OF_CHINESE.pdf
 
+* [[[BGNPCGNAzerbaijani1993,BGN/PCGN 1993 Agreement]]], _Azerbaijani -- Table of Correspondences Cyrillic-Roman -- BGN/PCGN 1993 Agreement_, Ministry of Defence/PCGN, Available from: https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/816656/TABLE_OF_CORRESPONDENCES_FOR_AZERBAIJANI.pdf
+
 * [[[ALALCTables,ALA-LC Romanization Tables]]], _ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts_, The Library of Congress, 1997, https://www.loc.gov/catdir/cpso/roman.html
 
 * [[[UNGEGNWG,UNGEGN Working Group on Romanization Systems]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_, United Nations Group of Experts on Geographical Names (UNGEGN): Working Group on Romanization Systems, https://www.eki.ee/wgrs/
