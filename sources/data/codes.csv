@@ -342,7 +342,8 @@ iso-tha-thai-latn-20674-1-2019,ISO 20674-1 Transliteration of scripts in use in 
 iso-ukr-cyrl-latn-9-1995,ISO 9:1995 Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages,iso,iso-639-2,ukr,Cyrl,Latn,Sep-95,<<ISO9>>,,
 itk-iku-cans-latn-1976,ICI Standard Orthography,itk,iso-639-2,iku,Cans,Latn,1976,<<ICISO>>,,Adoption date: 1976
 jra-jpn-hrkt-Latn-1987,Japan Road Association Romanization System,jra,iso-639-2,jpn,Hrkt,Latn,1987,<<JRARSES>>,,Adoption date: 1987
-kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
+kp-kor-hang-latn-1992,Democratic People's Republic of Korea Korean System (1992),kp,iso-639-2,kor,Hang,Latn,1992,<<DPRK1992>>,,
+kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,supercedes:kp-kor-hang-latn-1992,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
 lbmod-ara-arab-latn-1963,Lebanon National Romanization System,lbmod,iso-639-2,ara,Arab,Latn,1963,Lebanon National Romanization System,,1963
 lshk-yue-hani-latn-1993,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,,Adoption date: 1993
 md-ron-cyrl-latn-1989,Republic of Moldova Romanization,md,iso-639-2,ron,Cyrl,Latn,1989,Republic of Moldova Romanization,,Note: Adopted by Moldova in Law 3462; Adoption date: 1989-08-31
