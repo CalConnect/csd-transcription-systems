@@ -201,3 +201,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[JSL1987,Japanese, The Spoken Language]]], _Japanese, The Spoken Language, Part 1_, Eleanor Harz Jorden and Mari Noda, Yale University Press, 1987, ISBN 978-0-300-03834-7
 
 * [[[Birnbaum1967,The transliteration of Ottoman Turkish]]], _The transliteration of Ottoman Turkish for library and general purposes: Ottoman Turkish translation scheme_, Eleazar Birnbaum, Reprinted from: Journal of the American Oriental Society, v. 87, no.2, April--June, 1967.
+
+* [[[IAST1912,IAST 1912]]], _Actes du seizième Congrès international des orientalistes, session d'Athènes (6-14 avril 1912)_, Athènes, Imprimerie "`Hestia`", 1912
