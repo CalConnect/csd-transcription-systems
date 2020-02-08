@@ -438,6 +438,7 @@ var-jpn-hrkt-latn-hepburn-1954,Modified Hepburn System,var,iso-639-2,jpn,Hrkt,La
 var-jpn-hrkt-latn-hepburn-1974,Modified Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1974,<<JpnKNJED1974>>,relatedTo:var-jpn-hrkt-latn-hepburn-1886,
 var-jpn-hrkt-latn-hyojun-shiki-1908,Rōmaji-hiromekai Hyōjun-shiki,var,iso-639-2,jpn,Hrkt,Latn,hyojun-shiki-1908,<<RHHyojunShiki1908>>,basedOn:var-jpn-hrkt-latn-hepburn-1886,1908-05-22
 var-jpn-hrkt-latn-jsl-1987,JSL,var,iso-639-2,jpn,Hrkt,Latn,jsl-1987,<<JSL1987>>,basedOn:mext-jpn-hrkt-latn-1954,1987-09-10
+var-kor-hang-latn-yale-1942,Korean Yale 1942 System,var,iso-639-2,kor,Hang,Latn,yale-1942,<<KoreanYale>>,,
 var-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
 var-mar-deva-latn-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,1872,Hunterian System,,
 var-ori-orya-latn-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,1872,Hunterian System,,

@@ -77,6 +77,8 @@
 
 * [[[KhmrLatn,Geographic Department Transcription System for Khmer]]], _Geographic Department of the Ministry of Land Management, Urban Planning and Construction of Cambodia, Transcription System for Khmer_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/8th-uncsgn-docs/inf/8th_UNCSGN_econf.94_INF.30.pdf
 
+* [[[KoreanYale,Yale Romanization]]], _"`Yale Romanization`". A Reference Grammar of Korean_, Martin, Samuel E. (1992). Rutland, VT and Tokyo: Charles E. Tuttle Publishing. pp. 8–12. ISBN 0-8048-1887-8.
+
 * [[[MLCTS,Myanmar Language Commission Transcription System]]], _Myanmar Language Commission Transcription System (MLCTS)_, Myanmar Language Commission, 1980
 
 * [[[MaliLatin,Republic of Maldives Official Romanization System]]], _Republic of Maldives Official Romanization System_, Republic of Maldives, 1976
