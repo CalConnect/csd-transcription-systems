@@ -115,6 +115,8 @@
 * [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation -- Umschrift Tamil_ (Information and documentation -- Romanization of Tamil), 2016-02
 * [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation -- Transliteration Devanagari_ (Information and documentation -- Romanization Devanagari), 2018-10
 
+* [[[UNESCOChinese,Transcription of Chinese]]], _Transcription of Chinese -- The Pin Yin method_, United Nations Education, Scientific and Cultural Organization, Available from: https://web.archive.org/web/20160402195344/http://portal.unesco.org/culture/en/files/32315/11625489793chinese_en.pdf/chinese_en.pdf
+
 * [[[ELOT7431982,ELOT 743:1982]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 * [[[ELOT7432001,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
 

@@ -280,6 +280,7 @@ din-urd-arab-latn-31635-2011,"DIN 31635: Information and Documentation -- Romani
 dmg-ara-arab-latn-1936,Arabic DMG System (1936),dmg,iso-639-2,ara,Arab,Latn,1936,<<AraDMG1935>>,,
 dmg-per-arab-latn-1969,Perso-Arabic DMG System (1969),dmg,iso-639-2,per,Arab,Latn,1969,<<PerDMG1969>>,,
 dos-nep-deva-latn-1997,Government of Nepal -- Transliteration and Translation System for Nepal,dos,iso-639-2,nep,Deva,Latn,1997,<<TTSN>>,,NOTE: First published in <<NEPREP>>.
+efeo-zho-hani-latn-1902,Chinese EFEO 1902 System,efeo,iso-639-2,zho,Hani,Latn,1902,Chinese EFEO 1902 System,<<UNESCOChinese>>,
 elot-ell-grek-latn-743-1982,ELOT 743:1982 Information and documentation -- Conversion of Greek characters into Latin characters,elot,iso-639-2,ell,Grek,Latn,743-1982,<<ELOT7431982>>,,
 elot-ell-grek-latn-743-2001,ELOT 743:2001 Information and documentation -- Conversion of Greek characters into Latin characters,elot,iso-639-2,ell,Grek,Latn,743-2001,<<ELOT7432001>>,,
 ggg-kat-geor-latn-2002,Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet,ggg,iso-639-2,kat,Geor,Latn,2002,Georgian State Department of Geodesy and Cartography 2002 System,,"NOTE: OGC 11-122r1 code `kat_Geor2Latn_GGG_2002`. Developed by State Department of Geodesy and Cartography of Georgia and the Institute of Linguistics, Georgian National Academy of Sciences; Adoption date: 2002-02"
@@ -371,7 +372,7 @@ rjgc-ara-arab-latn-1996,Arabic Royal Jordanian Geographic Center 1996 System,rjg
 royin-tha-thai-latn-1968,Royal Thai General System of Transcription (1968),royin,iso-639-2,tha,Thai,Latn,1968,Thai Royal Institute of Thailand 1968 System,,NOTE: OGC 11-122r1 code `tha_Thai2Latn_RIT_1968`
 royin-tha-thai-latn-1999,Royal Thai General System of Transcription (1999),royin,iso-639-2,tha,Thai,Latn,1999,<<ThaiLatn>>,,NOTE: OGC 11-122r1 code `tir_Thai2Latn_RIT_2000`
 rs-srp-cyrl-latn-1954,Republic of Serbia -- Serbian Latin alphabet,rs,iso-639-2,srp,Cyrl,Latn,1954,Republic of Serbia -- Serbian Latin alphabet,,NOTE: The Novi Sad Agreement was signed in December 1954.
-sac-zho-hani-latn-1979,Chinese Hanyu Pinyin 1979 System,sac,iso-639-2,zho,Hani,Latn,1979,Chinese Hanyu Pinyin 1979 System,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`
+sac-zho-hani-latn-1979,Chinese Hanyu Pinyin 1979 System,sac,iso-639-2,zho,Hani,Latn,1979,Chinese Hanyu Pinyin 1979 System,supercedes:efeo-zho-hani-latn-1902,NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`
 sac-zho-hans-latn-1958,Romanization system for the Chinese phonetic alphabet,sac,iso-639-2,zho,Hans,Latn,1958,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",,
 ses-ara-arab-latn-1930,Survey of Egypt Arabic System,ses,iso-639-2,ara,Arab,Latn,1930,Arabic Survey of Egypt System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_SES_1930`
 sgk-khm-khmr-latn-1959,Khmere Service Geographique 1959 System,sgk,iso-639-2,khm,Khmr,Latn,1959,Khmere Service Geographique 1959 System,,NOTE: OGC 11-122r1 code `khm_Khmr2Latn_SGK_1959`
