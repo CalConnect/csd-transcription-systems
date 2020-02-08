@@ -372,7 +372,7 @@ rjgc-ara-arab-latn-1996,Arabic Royal Jordanian Geographic Center 1996 System,rjg
 royin-tha-thai-latn-1968,Royal Thai General System of Transcription (1968),royin,iso-639-2,tha,Thai,Latn,1968,Thai Royal Institute of Thailand 1968 System,,NOTE: OGC 11-122r1 code `tha_Thai2Latn_RIT_1968`
 royin-tha-thai-latn-1999,Royal Thai General System of Transcription (1999),royin,iso-639-2,tha,Thai,Latn,1999,<<ThaiLatn>>,,NOTE: OGC 11-122r1 code `tir_Thai2Latn_RIT_2000`
 rs-srp-cyrl-latn-1954,Republic of Serbia -- Serbian Latin alphabet,rs,iso-639-2,srp,Cyrl,Latn,1954,Republic of Serbia -- Serbian Latin alphabet,,NOTE: The Novi Sad Agreement was signed in December 1954.
-sac-zho-hani-latn-1979,Chinese Hanyu Pinyin 1979 System,sac,iso-639-2,zho,Hani,Latn,1979,Chinese Hanyu Pinyin 1979 System,supercedes:efeo-zho-hani-latn-1902,NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`
+sac-zho-hani-latn-1979,Chinese Hanyu Pinyin 1979 System,sac,iso-639-2,zho,Hani,Latn,1979,Chinese Hanyu Pinyin 1979 System,"supercedes:efeo-zho-hani-latn-1902, supercedes:var-zho-hani-latn-yale-1943",NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`
 sac-zho-hans-latn-1958,Romanization system for the Chinese phonetic alphabet,sac,iso-639-2,zho,Hans,Latn,1958,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",,
 ses-ara-arab-latn-1930,Survey of Egypt Arabic System,ses,iso-639-2,ara,Arab,Latn,1930,Arabic Survey of Egypt System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_SES_1930`
 sgk-khm-khmr-latn-1959,Khmere Service Geographique 1959 System,sgk,iso-639-2,khm,Khmr,Latn,1959,Khmere Service Geographique 1959 System,,NOTE: OGC 11-122r1 code `khm_Khmr2Latn_SGK_1959`
@@ -446,5 +446,6 @@ var-tam-taml-latn-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,1872,H
 var-tel-telu-latn-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,1872,Hunterian System,,
 var-urd-arab-latn-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
 var-zho-hani-latn-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
+var-zho-hani-latn-yale-1943,Chinese Yale 1943 System,var,iso-639-2,zho,Hani,Latn,yale-1943,<<ChineseYale>>,,
 xlsc-uig-arab-latn-1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,xlsc,iso-639-2,uig,Arab,Latn,1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,,NOTE: OGC 11-122r1 code `uig_Arab2Latn_XLSC_1959`
 yivo-yid-hebr-latn-1968,YIVO system for transcription of Yiddish,yivo,iso-639-2,yid,Hebr,Latn,1968,<<YIVOAB>>,,Adoption date: 1968

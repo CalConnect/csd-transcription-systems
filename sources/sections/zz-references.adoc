@@ -144,6 +144,8 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[ChineseWGS,A Chinese-English Dictionary]]], _A Chinese-English Dictionary, Revised Ed. 2_, Herbert A. Giles, 1912.
 
+* [[[ChineseYale,Dictionary of Spoken Chinese]]], _Dictionary of Spoken Chinese. War Department Technical Manual TM 30-933._, War Department. 1945. pp. 1, 8. Available from: https://quod.lib.umich.edu/g/genpub/ASJ7483.0001.001/1
+
 //* [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
 
 * [[[MkLatn,Macedonian Latin alphabet]]], _Macedonian Latin alphabet_. B.Vidoeski, T.Dimitrovski, K.Koneski, K.Tošev, R.Ugrinova Skalovska. In: Pravopis na makedonskiot literaturen jazik. Skopje, Prosvetno delo, 1970.
