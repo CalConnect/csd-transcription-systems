@@ -346,7 +346,8 @@ jra-jpn-hrkt-Latn-1987,Japan Road Association Romanization System,jra,iso-639-2,
 kp-kor-hang-latn-1992,Democratic People's Republic of Korea Korean System (1992),kp,iso-639-2,kor,Hang,Latn,1992,<<DPRK1992>>,,
 kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,supercedes:kp-kor-hang-latn-1992,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
 lbmod-ara-arab-latn-1963,Lebanon National Romanization System,lbmod,iso-639-2,ara,Arab,Latn,1963,Lebanon National Romanization System,,1963
-lshk-yue-hani-latn-1993,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,,Adoption date: 1993
+lshk-yue-hani-latn-1993,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,,Adoption date: 1993-12
+lshk-yue-hani-latn-jyutping,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,aliasOf:lshk-yue-hani-latn-1993,Adoption date: 1993-12
 md-ron-cyrl-latn-1989,Republic of Moldova Romanization,md,iso-639-2,ron,Cyrl,Latn,1989,Republic of Moldova Romanization,,Note: Adopted by Moldova in Law 3462; Adoption date: 1989-08-31
 mext-jpn-hrkt-latn-1937,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1937,Japanese Cabinet notification 1937,basedOn:nrs-jpn-hrkt-Latn-nihon-1885,"Adoption date: 1937-09-21. Also called ""`Kokutei`"" system / ""`Kunrei`"" system."
 mext-jpn-hrkt-latn-1954,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1954,<<MEXTJP1954>>,relatedTo:mext-jpn-hrkt-latn-1937,"Adoption date: 1954-12-09. Also called ""`Kunrei-siki`""."
