@@ -203,3 +203,5 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[Birnbaum1967,The transliteration of Ottoman Turkish]]], _The transliteration of Ottoman Turkish for library and general purposes: Ottoman Turkish translation scheme_, Eleazar Birnbaum, Reprinted from: Journal of the American Oriental Society, v. 87, no.2, April--June, 1967.
 
 * [[[IAST1912,IAST 1912]]], _Actes du seizième Congrès international des orientalistes, session d'Athènes (6-14 avril 1912)_, Athènes, Imprimerie "`Hestia`", 1912
+
+* [[[TibtBULAC2010,BULAC 2010]]], _Normes de translittération adoptées par la Bibliothèque universitaire des Langues et Civilisations pour le catalogage en tibétain_, 2010-05, Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/Tib_normes_de_translitteration_V2.pdf
