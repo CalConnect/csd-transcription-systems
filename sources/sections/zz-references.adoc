@@ -166,7 +166,13 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[ANSIZ39.11,ANSI Z39.11-1972]]], _ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese_. New York, American National Standards Institute, 1972.
 
+* [[[RHHyojunShiki1908,Hyōjun-shiki Romaji]]], _Hyōjun-shiki Romaji_, ローマ字ひろめ會 (Romaji Hirome Kai) (Society for the Dissemination of Romanization), 1908
+
 * [[[JPMLITTL,Japan Railway Notice Regulations]]], _Railway Notice Regulations (鉄道掲示規程)_. In: Transportation Announcement, No. 490. Tokyo, Ministry of Land, Infrastructure, Transport and Tourism, Japan, 1947.
+
+* [[[JpnJED1867,A Japanese and English Dictionary: with an English and Japanese Index]]], _A Japanese and English Dictionary: with an English and Japanese Index (first edition)_, J. C. Hepburn, London: Trübner & Co., 1867
+
+* [[[JpnJAED1886,A Japanese-English And English-Japanese Dictionary]]], _A Japanese-English And English-Japanese Dictionary 3rd Edition (和英語林集成 第三版)_, J. C. Hepburn, Tokyo, Z. P Maruya & Co. Limited (丸善商社), 1886
 
 * [[[JRARSES,Japan Road Association Road Sign Establishment Standard]]], _Road Sign Establishment Standard (道路標識設置基準)_. Tokyo, Japan Road Association, 1987.
 
