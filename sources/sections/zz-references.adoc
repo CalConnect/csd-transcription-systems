@@ -166,6 +166,8 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[ANSIZ39.11,ANSI Z39.11-1972]]], _ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese_. New York, American National Standards Institute, 1972.
 
+* [[[JPMOFAPassport,Japan Ministry of Foreign Affairs Passport Standard]]], _パスポート：ヘボン式ローマ字綴方表 (Passport Hepburn Spelling Table)_, Available from: https://www.seikatubunka.metro.tokyo.lg.jp/passport/documents/0000000485.html and https://www.ezairyu.mofa.go.jp/passport/hebon.html
+
 * [[[RHHyojunShiki1908,Hyōjun-shiki Romaji]]], _Hyōjun-shiki Romaji_, ローマ字ひろめ會 (Romaji Hirome Kai) (Society for the Dissemination of Romanization), 1908
 
 * [[[JPMLITTL,Japan Railway Notice Regulations]]], _Railway Notice Regulations (鉄道掲示規程)_. In: Transportation Announcement, No. 490. Tokyo, Ministry of Land, Infrastructure, Transport and Tourism, Japan, 1947.

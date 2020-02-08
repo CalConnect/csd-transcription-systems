@@ -350,6 +350,7 @@ mlc-mya-mymr-latn-1980,Myanmar Language Commission Transcription System (MLCTS),
 mlit-jpn-hrkt-Latn-1947,Japan Railway Modified Hepburn Romanization System,mlit,iso-639-2,jpn,Hrkt,Latn,1947,<<JPMLITTL>>,,Adoption date: 1947
 mlmupc-khm-khmr-latn-1997,Transcription System for Khmer,mlmupc,iso-639-2,khm,Khmr,Latn,1997,<<KhmrLatn>>,,
 moct-kor-hang-latn-2000,Korean Ministry of Culture and Tourism 2000 System,moct,iso-639-2,kor,Hang,Latn,2000,Korean Ministry of Culture and Tourism 2000 System,,NOTE: OGC 11-122r1 code `kor_Hang2Latn_MOCT_2000`
+mofa-jpn-hrkt-latn-2016,Japan Passport Hepburn Romanization System,mofa,iso-639-2,jpn,Hrkt,Latn,2016,<<JPMOFAPassport>>,basedOn:var-jpn-hrkt-latn-hyojun-shiki-1908,2016-02-23
 msst-tuk-cyrl-latn-1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,msst,iso-639-2,tuk,Cyrl,Latn,1999,Turkmen Standard TDS 565-1999 -- Official Roman Alphabet,,
 mv-div-thaa-latn-1976,Republic of Maldives Official Romanization System,mv,iso-639-2,div,Thaa,Latn,1976,<<MaliLatin>>,,
 mv-div-thaa-latn-1988,Republic of Maldives Official Romanization System 1988,mv,iso-639-2,div,Thaa,Latn,1988,Republic of Maldives Official Romanization System 1988,,NOTE: OGC 11-122r1 code `div_Thaa2Latn_GMV_1988`
