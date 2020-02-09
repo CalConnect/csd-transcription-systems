@@ -361,6 +361,7 @@ kp-kor-hang-latn-1992,Democratic People's Republic of Korea Korean System (1992)
 kp-kor-hang-latn-2002,Democratic People's Republic of Korea Korean System (2002),kp,iso-639-2,kor,Hang,Latn,2002,Korean Democratic People's Republic of Korea Korean 2002 System,supercedes:kp-kor-hang-latn-1992,NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`
 lbmod-ara-arab-latn-1963,Lebanon National Romanization System,lbmod,iso-639-2,ara,Arab,Latn,1963,Lebanon National Romanization System,,1963
 lshk-yue-hani-latn-jyutping-1993,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme,lshk,iso-639-2,yue,Hani,Latn,1993,<<LSHKJP>>,,Adoption date: 1993-12
+ma-ara-arab-latn-1932,Kingdom of Morocco Arabic Romanization System,ma,iso-639-2,ara,Arab,Latn,1932,Kingdom of Morocco Arabic Romanization System,,1932-06-17
 md-ron-cyrl-latn-1989,Republic of Moldova Romanization,md,iso-639-2,ron,Cyrl,Latn,1989,Republic of Moldova Romanization,,Note: Adopted by Moldova in Law 3462; Adoption date: 1989-08-31
 mext-jpn-hrkt-latn-1937,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1937,Japanese Cabinet notification 1937,basedOn:nrs-jpn-hrkt-Latn-nihon-1885,"Adoption date: 1937-09-21. Also called ""`Kokutei`"" system / ""`Kunrei`"" system."
 mext-jpn-hrkt-latn-1954,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1954,<<MEXTJP1954>>,relatedTo:mext-jpn-hrkt-latn-1937,"Adoption date: 1954-12-09. Also called ""`Kunrei-siki`""."
@@ -444,7 +445,6 @@ un-urd-arab-latn-2016,UN Romanization of Urdu version 4.0,un,iso-639-2,urd,Arab,
 un-urk-cyrl-latn-2013,UN Romanization of Ukrainian version 4.0,un,iso-639-2,urk,Cyrl,Latn,2013,UN Romanization of Ukrainian version 4.0,,2013-02-26
 un-zho-hani-latn-2013,UN Romanization of Chinese version 4.0,un,iso-639-2,zho,Hani,Latn,2013,UN Romanization of Chinese version 4.0,,2013-09-24
 uz-uzb-cyrl-latn-2000,Government of Uzbekistan Uzbek Cyrillic Table of Correspondences System (2000),uz,iso-639-2,uzb,Cyrl,Latn,2000,Government of Uzbekistan Uzbek Cyrillic Table of Correspondences System (2000),,NOTE: OGC 11-122r1 code `uzb_Cyrl2Latn_GUZ_2000`
-var-ara-arab-latn-1932,Morocco National Romanization System,var,iso-639-2,ara,Arab,Latn,1932,Morocco National Romanization System,,1932-06-17
 var-ara-arab-latn-buckwater-2002,Arabic Tim Buckwalter System (2002),var,iso-639-2,ara,Arab,Latn,buckwater-2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
 var-arm-armn-latn-hm-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,arm,Armn,Latn,hm-1913,<<ArmHuebschmannMeillet1913>>,,1913
 var-asm-beng-latn-hunterian-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,hunterian-1872,Hunterian System,,
