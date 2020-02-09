@@ -45,7 +45,7 @@ alalc-jav-arab-latn-jp-2012,ALA-LC Romanization Table -- Jawi-Pegon (2012),alalc
 alalc-jav-java-latn-1997,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (1997)",alalc,iso-639-2,jav,Java,Latn,1997,<<ALALCTables>>,,NOTE: OGC 11-122r1 code `jav_Java2Latn_ALA_1997`
 alalc-jav-java-latn-2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",alalc,iso-639-2,jav,Java,Latn,2011,"ALA-LC Romanization Table -- Javanese, Sundanese, and Madurese (2011)",,2011
 alalc-jpn-hrkt-latn-1997,ALA-LC Romanization Table -- Japanese (1997),alalc,iso-639-2,jpn,Hrkt,Latn,1997,<<ALALCTables>>,"adoptedFrom:var-jpn-hrkt-latn-hepburn-1974, basedOn:ansi-jpn-hrkt-Latn-z39-11-1972",NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_ALA_1997`
-alalc-jpn-jpan-latn-2012,ALA-LC Romanization Table -- Japanese (2012),alalc,iso-639-2,jpn,Jpan,Latn,2012,ALA-LC Romanization Table -- Japanese (2012),,2012
+alalc-jpn-hrkt-latn-2012,ALA-LC Romanization Table -- Japanese (2012),alalc,iso-639-2,jpn,Hrkt,Latn,2012,ALA-LC Romanization Table -- Japanese (2012),,2012
 alalc-jrb-hebr-latn-2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),alalc,iso-639-2,jrb,Hebr,Latn,2011,ALA-LC Romanization Table -- Judeo-Arabic (2011),,"2011, Hebr does not contain all symbols of jrb"
 alalc-kan-knda-latn-2011,ALA-LC Romanization Table -- Kannada (2011),alalc,iso-639-2,kan,Knda,Latn,2011,ALA-LC Romanization Table -- Kannada (2011),,2011
 alalc-kas-arab-latn-1997,ALA-LC Romanization Table -- Kashmiri (1997),alalc,iso-639-2,kas,Arab,Latn,1997,<<ALALCTables>>,,NOTE: OGC 11-122r1 code `kas_Arab2Latn_ALA_1997`
@@ -244,7 +244,7 @@ biulo-amh-ethi-latn-2003,Systeme de transcription des caracteres ethiopiens adop
 bsi-ara-arab-latn-4280-1968,Transliteration of Arabic characters,bsi,iso-639-2,ara,Arab,Latn,4280-1968,<<BS4280-1968>>,,
 bsi-chu-cyrl-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,chu,Cyrl,Latn,2979-1958,<<BS2979-1958>>,,
 bsi-ell-grek-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,ell,Grek,Latn,2979-1958,<<BS2979-1958>>,,
-bsi-jpn-jpan-latn-4812-1972,Specification for the romanization of Japanese,bsi,iso-639-2,jpn,Jpan,Latn,4812-1972,<<BS4812-1972>>,,
+bsi-jpn-hrkt-latn-4812-1972,Specification for the romanization of Japanese,bsi,iso-639-2,jpn,Hrkt,Latn,4812-1972,<<BS4812-1972>>,,
 bsi-kor-hang-latn-6505-1982,Guide to The Romanization of Korean,bsi,iso-639-2,kor,Hang,Latn,6505-1982,<<BSPD6505-1982>>,,1982-05-31
 bsi-rus-cyrl-latn-2979-1958,Transliteration of Cyrillic and Greek characters,bsi,iso-639-2,rus,Cyrl,Latn,2979-1958,<<BS2979-1958>>,,
 bsi-zho-hani-latn-7014-1989,Guide to the romanization of Chinese,bsi,iso-639-2,zho,Hani,Latn,7014-1989,<<BS7014-1989>>,,
@@ -265,7 +265,7 @@ din-ell-grek-latn-31634-2011,DIN 31634: Information and Documentation -- Romaniz
 din-heb-hebr-latn-31636-2018,DIN 31636: Information and documentation -- Romanization of the Hebrew alphabet (2018-10),din,iso-639-2,heb,Hebr,Latn,31636-2018,<<DIN31636>>,,
 din-hew-hebr-latn-31636-2018,DIN 31636: Information and documentation -- Romanization of the Hebrew alphabet (2018-10),din,iso-639-2,hew,Hebr,Latn,31636-2018,<<DIN31636>>,,
 din-hin-deva-latn-33904-2018,DIN 33904: Information and documentation -- Romanization Devanagari (2018-10),din,iso-639-2,hin,Deva,Latn,33904-2018,<<DIN33904>>,,
-din-jpn-jpan-latn-32708-2014,DIN 32708: Information and documentation -- Romanization of Japanese (2014-08),din,iso-639-2,jpn,Jpan,Latn,32708-2014,<<DIN32708>>,,
+din-jpn-hrkt-latn-32708-2014,DIN 32708: Information and documentation -- Romanization of Japanese (2014-08),din,iso-639-2,jpn,Hrkt,Latn,32708-2014,<<DIN32708>>,,
 din-kat-geor-latn-32707-2010,DIN 32707: Information and documentation -- Romanization of the Georgian alphabet (2010-01),din,iso-639-2,kat,Geor,Latn,32707-2010,<<DIN32707>>,,
 din-kur-arab-latn-31635-2011,"DIN 31635: Information and Documentation -- Romanization of the Arabic Alphabet for Arabic, Ottoman-Turkish, Persian, Kurdish, Urdu and Pushto (2011-07)",din,iso-639-2,kur,Arab,Latn,31635-2011,<<DIN31635-2011>,,
 din-mac-cyrl-latn-1460-1982,DIN 1460: Umschrift kyrillischer Alphabete slawischer Sprachen : conversion of Cyrillic alphabets of Slavic languages (1982-04),din,iso-639-2,mac,Cyrl,Latn,1460-1982,<<DIN1460>>,,
@@ -414,7 +414,7 @@ un-ell-grek-latn-2016,UN Romanization of Greek version 4.0,un,iso-639-2,ell,Grek
 un-guj-gujr-latn-2016,UN Romanization of Gujarati version 4.0,un,iso-639-2,guj,Gujr,Latn,2016,UN Romanization of Gujarati version 4.0,,2016-03-30
 un-heb-hebr-latn-2013,UN Romanization of Hebrew version 4.0,un,iso-639-2,heb,Hebr,Latn,2013,UN Romanization of Hebrew version 4.0,,2013-02-26
 un-hin-deva-latn-2016,UN Romanization of Hindi version 4.0,un,iso-639-2,hin,Deva,Latn,2016,UN Romanization of Hindi version 4.0,,2016-03-30
-un-jpn-jpan-latn-2013,UN Romanization of Japanese version 4.0,un,iso-639-2,jpn,Jpan,Latn,2013,UN Romanization of Japanese version 4.0,,2013-09-24
+un-jpn-hrkt-latn-2013,UN Romanization of Japanese version 4.0,un,iso-639-2,jpn,Hrkt,Latn,2013,UN Romanization of Japanese version 4.0,,2013-09-24
 un-kan-knda-latn-2016,UN Romanization of Kannada version 4.0,un,iso-639-2,kan,Knda,Latn,2016,UN Romanization of Kannada version 4.0,,2016-03-30
 un-kat-geor-latn-2018,UN Romanization of Georgian version 4.1,un,iso-639-2,kat,Geor,Latn,2018,UN Romanization of Georgian version 4.1,,2018-12-17
 un-kaz-cyrl-latn-2016,UN Romanization of Kazakh version 4.0,un,iso-639-2,kaz,Cyrl,Latn,2016,UN Romanization of Kazakh version 4.0,,2016-03-30
