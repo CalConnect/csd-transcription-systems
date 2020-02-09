@@ -365,7 +365,6 @@ lshk-yue-hani-latn-jyutping-1993,The Linguistic Society of Hong Kong Cantonese R
 md-ron-cyrl-latn-1989,Republic of Moldova Romanization,md,iso-639-2,ron,Cyrl,Latn,1989,Republic of Moldova Romanization,,Note: Adopted by Moldova in Law 3462; Adoption date: 1989-08-31
 mext-jpn-hrkt-latn-1937,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1937,Japanese Cabinet notification 1937,basedOn:nrs-jpn-hrkt-Latn-nihon-1885,"Adoption date: 1937-09-21. Also called ""`Kokutei`"" system / ""`Kunrei`"" system."
 mext-jpn-hrkt-latn-1954,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,1954,<<MEXTJP1954>>,relatedTo:mext-jpn-hrkt-latn-1937,"Adoption date: 1954-12-09. Also called ""`Kunrei-siki`""."
-mext-jpn-hrkt-latn-kunrei,System of Romanization for Japanese,mext,iso-639-2,jpn,Hrkt,Latn,kunrei,<<MEXTJP1954>>,aliasOf:mext-jpn-hrkt-latn-1954,"Adoption date: 1954-12-09. Also called ""`Kunrei-siki`""."
 mk-mkd-cyrl-latn-1970,Republic of North Macedonia -- Transliteration of Macedonian Cyrillic into Latin,mk,iso-639-2,mkd,Cyrl,Latn,1970,<<MkLatn>>,,
 mlc-mya-mymr-latn-1980,Myanmar Language Commission Transcription System (MLCTS),mlc,iso-639-2,mya,Mymr,Latn,1980,<<MLCTS>>,,
 mlit-jpn-hrkt-Latn-1947,Japan Railway Modified Hepburn Romanization System,mlit,iso-639-2,jpn,Hrkt,Latn,1947,<<JPMLITTL>>,,Adoption date: 1947
