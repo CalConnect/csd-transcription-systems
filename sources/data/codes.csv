@@ -445,29 +445,29 @@ un-urk-cyrl-latn-2013,UN Romanization of Ukrainian version 4.0,un,iso-639-2,urk,
 un-zho-hani-latn-2013,UN Romanization of Chinese version 4.0,un,iso-639-2,zho,Hani,Latn,2013,UN Romanization of Chinese version 4.0,,2013-09-24
 uz-uzb-cyrl-latn-2000,Government of Uzbekistan Uzbek Cyrillic Table of Correspondences System (2000),uz,iso-639-2,uzb,Cyrl,Latn,2000,Government of Uzbekistan Uzbek Cyrillic Table of Correspondences System (2000),,NOTE: OGC 11-122r1 code `uzb_Cyrl2Latn_GUZ_2000`
 var-ara-arab-latn-1932,Morocco National Romanization System,var,iso-639-2,ara,Arab,Latn,1932,Morocco National Romanization System,,1932-06-17
-var-ara-arab-latn-2002,Arabic Tim Buckwalter System (2002),var,iso-639-2,ara,Arab,Latn,2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
-var-arm-armn-latn-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,arm,Armn,Latn,1913,<<ArmHuebschmannMeillet1913>>,,1913
-var-asm-beng-latn-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,1872,Hunterian System,,
-var-ben-beng-latn-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,1872,Hunterian System,,
-var-hin-deva-latn-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,1872,Hunterian System,,
+var-ara-arab-latn-buckwater-2002,Arabic Tim Buckwalter System (2002),var,iso-639-2,ara,Arab,Latn,buckwater-2002,Arabic Tim Buckwalter 2002 System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_BUC_2002`
+var-arm-armn-latn-hm-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,arm,Armn,Latn,hm-1913,<<ArmHuebschmannMeillet1913>>,,1913
+var-asm-beng-latn-hunterian-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,hunterian-1872,Hunterian System,,
+var-ben-beng-latn-hunterian-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,hunterian-1872,Hunterian System,,
+var-hin-deva-latn-hunterian-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,hunterian-1872,Hunterian System,,
 var-jpn-hrkt-latn-hepburn-1867,Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1867,<<JpnJED1867>>,,1867-12-31
 var-jpn-hrkt-latn-hepburn-1886,Traditional Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1886,<<JpnJAED1886>>,basedOn:var-jpn-hrkt-latn-hepburn-1867,
 var-jpn-hrkt-latn-hepburn-1954,Modified Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1954,<<JpnKNJED1954>>,relatedTo:var-jpn-hrkt-latn-hepburn-1886,
 var-jpn-hrkt-latn-hepburn-1974,Modified Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1974,<<JpnKNJED1974>>,relatedTo:var-jpn-hrkt-latn-hepburn-1886,
-var-jpn-hrkt-latn-hyojun-shiki-1908,Rōmaji-hiromekai Hyōjun-shiki,var,iso-639-2,jpn,Hrkt,Latn,hyojun-shiki-1908,<<RHHyojunShiki1908>>,basedOn:var-jpn-hrkt-latn-hepburn-1886,1908-05-22
+var-jpn-hrkt-latn-hyojun-1908,Rōmaji-hiromekai Hyōjun-shiki,var,iso-639-2,jpn,Hrkt,Latn,hyojun-1908,<<RHHyojunShiki1908>>,basedOn:var-jpn-hrkt-latn-hepburn-1886,1908-05-22
 var-jpn-hrkt-latn-jsl-1987,JSL,var,iso-639-2,jpn,Hrkt,Latn,jsl-1987,<<JSL1987>>,basedOn:mext-jpn-hrkt-latn-1954,1987-09-10
 var-kor-hang-latn-yale-1942,Korean Yale 1942 System,var,iso-639-2,kor,Hang,Latn,yale-1942,<<KoreanYale>>,,
-var-kur-arab-latn-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
-var-mar-deva-latn-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,1872,Hunterian System,,
-var-ori-orya-latn-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,1872,Hunterian System,,
-var-ota-arab-latn-1967,Birnbaum Ottoman Turkish System,var,iso-639-2,ota,Arab,Latn,1967,<<Birnbaum1967>>,,
-var-pan-guru-latn-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,1872,Hunterian System,,
-var-pra-deva-latn-1912,IAST Prakit Devanagari System,var,iso-639-2,pra,Deva,Latn,1912,<<IAST1912>>,,
-var-san-deva-latn-1912,IAST Sanskrit Devanagari System,var,iso-639-2,san,Deva,Latn,1912,<<IAST1912>>,,
-var-tam-taml-latn-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,1872,Hunterian System,,
-var-tel-telu-latn-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,1872,Hunterian System,,
-var-urd-arab-latn-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
-var-zho-hani-latn-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
+var-kur-arab-latn-edmonds-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,edmonds-1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
+var-mar-deva-latn-huntarian-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,huntarian-1872,Hunterian System,,
+var-ori-orya-latn-huntarian-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,huntarian-1872,Hunterian System,,
+var-ota-arab-latn-birnbaum-1967,Birnbaum Ottoman Turkish System,var,iso-639-2,ota,Arab,Latn,birnbaum-1967,<<Birnbaum1967>>,,
+var-pan-guru-latn-huntarian-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,huntarian-1872,Hunterian System,,
+var-pra-deva-latn-iast-1912,IAST Prakit Devanagari System,var,iso-639-2,pra,Deva,Latn,iast-1912,<<IAST1912>>,,
+var-san-deva-latn-iast-1912,IAST Sanskrit Devanagari System,var,iso-639-2,san,Deva,Latn,iast-1912,<<IAST1912>>,,
+var-tam-taml-latn-huntarian-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,huntarian-1872,Hunterian System,,
+var-tel-telu-latn-huntarian-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,huntarian-1872,Hunterian System,,
+var-urd-arab-latn-huntarian-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,huntarian-1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
+var-zho-hani-latn-wg-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,wg-1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
 var-zho-hani-latn-yale-1943,Chinese Yale 1943 System,var,iso-639-2,zho,Hani,Latn,yale-1943,<<ChineseYale>>,,
 xlsc-uig-arab-latn-1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,xlsc,iso-639-2,uig,Arab,Latn,1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,,NOTE: OGC 11-122r1 code `uig_Arab2Latn_XLSC_1959`
 yivo-yid-hebr-latn-1968,YIVO system for transcription of Yiddish,yivo,iso-639-2,yid,Hebr,Latn,1968,<<YIVOAB>>,,Adoption date: 1968
