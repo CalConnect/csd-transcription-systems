@@ -217,5 +217,3 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[TibtBULAC2010,BULAC 2010]]], _Normes de translittération adoptées par la Bibliothèque universitaire des Langues et Civilisations pour le catalogage en tibétain_, 2010-05, Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/Tib_normes_de_translitteration_V2.pdf
 
 * [[[ShinCream2008,Hong Kong Government Cantonese Romanisation]]], _A System without a System: Cantonese Romanization Used in Hong Kong Place and Personal Names_, Shin Kataoka and Cream Lee, Hong Kong Journal of Applied Linguistics 11,1 (2008), pp. 79--98, Available from: http://caes.hku.hk/hkjalonline/issues/download_the_file.php?f=2008_v11_1_kataoka__n__lee.pdf
-
-* [[[Pinyin1996,Pinyin]]], Koichi Yasuoka, Available from: ftp://ftp.cuhk.hk/pub/chinese/ifcss/software/data/Uni2Pinyin.gz
