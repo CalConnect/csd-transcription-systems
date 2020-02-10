@@ -146,8 +146,8 @@ bas-rus-cyrl-latn-2017,Streamlined Romanization system for Russian Cyrillic,bas,
 bas-rus-cyrl-latn-2017-bss,Streamlined Romanization system for Russian Cyrillic -- Basic Streamlined System,bas,iso-639-2,rus,Cyrl,Latn,2017-bss,<<BasRusCyrl>>,relatedTo:bas-rus-cyrl-latn-2017,Date published: 2017.
 bas-rus-cyrl-latn-2017-oss,Streamlined Romanization system for Russian Cyrillic -- Optimized Streamlined System,bas,iso-639-2,rus,Cyrl,Latn,2017-oss,<<BasRusCyrl>>,relatedTo:bas-rus-cyrl-latn-2017,Date published: 2017.
 bds-bul-cyrl-latn-1596-1973,BDS 1596:1973 Transliteration of Bulgarian Words with Latin Characters,bds,iso-639-2,bul,Cyrl,Latn,1596-1973,<<BDS1596-73>>,,
-bgn-kor-hang-latn-1939,BGN Agreement -- Korean McCune-Reischauer System (1943),bgn,iso-639-2,kor,Hang,Latn,1939,BGN Agreement -- Korean McCune-Reischauer System (1943),,NOTE: OGC 11-122r1 code `kor_Hang2Latn_MR_1939`
 bgn-jpn-hrkt-latn-1930,BGN Romanization System -- Japanese Kana Modified Hepburn System (1930),bgn,iso-639-2,jpn,Hrkt,Latn,1930,Japanese Kana Modified Hepburn 1930 System,,NOTE: OGC 11-122r1 code `jpn_Hrkt2Latn_BGN_1930`
+bgn-kor-hang-latn-1939,BGN Agreement -- Korean McCune-Reischauer System (1943),bgn,iso-639-2,kor,Hang,Latn,1939,BGN Agreement -- Korean McCune-Reischauer System (1943),,NOTE: OGC 11-122r1 code `kor_Hang2Latn_MR_1939`
 bgna-bul-cyrl-latn-1952,Bulgarian 2002 Bulgarian Government Romanization System,bgna,iso-639-2,bul,Cyrl,Latn,1952,Bulgarian 2002 Bulgarian Government Romanization System,,NOTE: OGC 11-122r1 code `bul_Cyrl2Latn_BUL_1952`
 bgna-bul-cyrl-latn-2006,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters,bgna,iso-639-2,bul,Cyrl,Latn,2006,<<BulLatUN2006>>,,Date adopted: 2006-10-26
 bgna-bul-cyrl-latn-2009,Streamlined System for Romanization of Bulgarian,bgna,iso-639-2,bul,Cyrl,Latn,2009,<<BulTransAct2009>>,,Date adopted: 2009-02-27. First adoption 1995 by <<BasBulAnartic>>.
