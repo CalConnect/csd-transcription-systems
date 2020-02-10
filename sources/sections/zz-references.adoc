@@ -217,3 +217,15 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[TibtBULAC2010,BULAC 2010]]], _Normes de translittération adoptées par la Bibliothèque universitaire des Langues et Civilisations pour le catalogage en tibétain_, 2010-05, Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/Tib_normes_de_translitteration_V2.pdf
 
 * [[[ShinCream2008,Hong Kong Government Cantonese Romanisation]]], _A System without a System: Cantonese Romanization Used in Hong Kong Place and Personal Names_, Shin Kataoka and Cream Lee, Hong Kong Journal of Applied Linguistics 11,1 (2008), pp. 79--98, Available from: http://caes.hku.hk/hkjalonline/issues/download_the_file.php?f=2008_v11_1_kataoka__n__lee.pdf
+
+* [[[BlaCAS,Canadian Aboriginal Syllabics for Blackfoot (Pikanii/Siksika)]]], _Blackfoot (Siksiká / ᓱᖽᐧᖿ)_, Available from: https://www.omniglot.com/writing/blackfoot.htm
+
+* [[[CreCAS,Canadian Aboriginal Syllabics for Cree]]], _Cree (ᓀᐦᐃᔭᐍᐏᐣ / Nēhiyawēwin)_, Available from: https://www.omniglot.com/writing/cree.htm
+
+* [[[CrxCAS,Canadian Aboriginal Syllabics for Dakelh (Carrier)]]], _Carrier (Dakeł / ᑕᗸᒡ)_, Available from: https://www.omniglot.com/writing/carrier.htm
+
+* [[[DenCAS,Canadian Aboriginal Syllabics for Slavey]]], _South Slavey (Dene Zhatıé / ᑌᓀ ᒐ)_, Available from: https://www.omniglot.com/writing/southslavey.htm
+
+* [[[NskCAS,Canadian Aboriginal Syllabics for Naskapi]]], _Naskapi (ᐃᔪᐤ ᐃᔨᒧᐅᓐ / Iyuw Imuun)_, Available from: https://www.omniglot.com/writing/naskapi.php
+
+* [[[OjiCAS,Canadian Aboriginal Syllabics for Ojibwa]]], _Ojibwe (Anishinaabemowin / ᐊᓂᔑᓈᐯᒧᐎᓐ)_, Available from: https://www.omniglot.com/writing/ojibwe.htm

@@ -450,6 +450,10 @@ var-ara-arab-latn-buckwater-2002,Arabic Tim Buckwalter System (2002),var,iso-639
 var-arm-armn-latn-hm-1913,Armenian Hübschmann-Meillet 1913 System,var,iso-639-2,arm,Armn,Latn,hm-1913,<<ArmHuebschmannMeillet1913>>,,1913
 var-asm-beng-latn-hunterian-1872,Assamese Bengali Hunterian System,var,iso-639-2,asm,Beng,Latn,hunterian-1872,Hunterian System,,
 var-ben-beng-latn-hunterian-1872,Bengali Hunterian System,var,iso-639-2,ben,Beng,Latn,hunterian-1872,Hunterian System,,
+var-bla-cans-latn-omniglot-1888,Blackfoot (Pikanii/Siksika) Canadian Aboriginal Syllabics System,var,iso-639-2,bla,Cans,Latn,omniglot-1888,<<BlaCAS>>,,
+var-cre-cans-latn-omniglot-1840,Cree Canadian Aboriginal Syllabics System,var,iso-639-2,cre,Cans,Latn,omniglot-1840,<<CreCAS>>,,
+var-crx-cans-latn-omniglot-1885,Dakelh (Carrier) Canadian Aboriginal Syllabics System,var,iso-639-3,crx,Cans,Latn,omniglot-1885,<<CrxCAS>>,,
+var-den-cans-latn-omniglot,Slavey Canadian Aboriginal Syllabics System,var,iso-639-2,den,Cans,Latn,omniglot,<<DenCAS>>,,
 var-hin-deva-latn-hunterian-1872,Hindu Devanagari Hunterian System,var,iso-639-2,hin,Deva,Latn,hunterian-1872,Hunterian System,,
 var-jpn-hrkt-latn-hepburn-1867,Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1867,<<JpnJED1867>>,,1867-12-31
 var-jpn-hrkt-latn-hepburn-1886,Traditional Hepburn System,var,iso-639-2,jpn,Hrkt,Latn,hepburn-1886,<<JpnJAED1886>>,basedOn:var-jpn-hrkt-latn-hepburn-1867,
@@ -460,6 +464,8 @@ var-jpn-hrkt-latn-jsl-1987,JSL,var,iso-639-2,jpn,Hrkt,Latn,jsl-1987,<<JSL1987>>,
 var-kor-hang-latn-yale-1942,Korean Yale 1942 System,var,iso-639-2,kor,Hang,Latn,yale-1942,<<KoreanYale>>,,
 var-kur-arab-latn-edmonds-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,edmonds-1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
 var-mar-deva-latn-huntarian-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,huntarian-1872,Hunterian System,,
+var-nsk-cans-latn-omniglot-1840,Naskapi Canadian Aboriginal Syllabics System,var,iso-639-3,nsk,Cans,Latn,omniglot-1840,<<NskCAS>>,,
+var-oji-cans-latn-omniglot-1840,Ojibwa Canadian Aboriginal Syllabics System,var,iso-639-2,oji,Cans,Latn,omniglot-1840,<<OjiCAS>>,,
 var-ori-orya-latn-huntarian-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,huntarian-1872,Hunterian System,,
 var-ota-arab-latn-birnbaum-1967,Birnbaum Ottoman Turkish System,var,iso-639-2,ota,Arab,Latn,birnbaum-1967,<<Birnbaum1967>>,,
 var-pan-guru-latn-huntarian-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,huntarian-1872,Hunterian System,,
