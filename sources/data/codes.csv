@@ -463,17 +463,17 @@ var-jpn-hrkt-latn-hyojun-1908,Rōmaji-hiromekai Hyōjun-shiki,var,iso-639-2,jpn,
 var-jpn-hrkt-latn-jsl-1987,JSL,var,iso-639-2,jpn,Hrkt,Latn,jsl-1987,<<JSL1987>>,basedOn:mext-jpn-hrkt-latn-1954,1987-09-10
 var-kor-hang-latn-yale-1942,Korean Yale 1942 System,var,iso-639-2,kor,Hang,Latn,yale-1942,<<KoreanYale>>,,
 var-kur-arab-latn-edmonds-1931,Kurdish J.C. Edmonds Romanization System (1931),var,iso-639-2,kur,Arab,Latn,edmonds-1931,Kurdish 1931 J.C. Edmonds Romanization System,,NOTE: OGC 11-122r1 code `kur_Arab2Latn_EDMONDS_1931`
-var-mar-deva-latn-huntarian-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,huntarian-1872,Hunterian System,,
+var-mar-deva-latn-hunterian-1872,Marathi Devanagari Hunterian System,var,iso-639-2,mar,Deva,Latn,hunterian-1872,Hunterian System,,
 var-nsk-cans-latn-omniglot-1840,Naskapi Canadian Aboriginal Syllabics System,var,iso-639-3,nsk,Cans,Latn,omniglot-1840,<<NskCAS>>,,
 var-oji-cans-latn-omniglot-1840,Ojibwa Canadian Aboriginal Syllabics System,var,iso-639-2,oji,Cans,Latn,omniglot-1840,<<OjiCAS>>,,
-var-ori-orya-latn-huntarian-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,huntarian-1872,Hunterian System,,
+var-ori-orya-latn-hunterian-1872,Oriya Hunterian System,var,iso-639-2,ori,Orya,Latn,hunterian-1872,Hunterian System,,
 var-ota-arab-latn-birnbaum-1967,Birnbaum Ottoman Turkish System,var,iso-639-2,ota,Arab,Latn,birnbaum-1967,<<Birnbaum1967>>,,
-var-pan-guru-latn-huntarian-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,huntarian-1872,Hunterian System,,
+var-pan-guru-latn-hunterian-1872,Panjabi Gurmukhi Hunterian System,var,iso-639-2,pan,Guru,Latn,hunterian-1872,Hunterian System,,
 var-pra-deva-latn-iast-1912,IAST Prakit Devanagari System,var,iso-639-2,pra,Deva,Latn,iast-1912,<<IAST1912>>,,
 var-san-deva-latn-iast-1912,IAST Sanskrit Devanagari System,var,iso-639-2,san,Deva,Latn,iast-1912,<<IAST1912>>,,
-var-tam-taml-latn-huntarian-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,huntarian-1872,Hunterian System,,
-var-tel-telu-latn-huntarian-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,huntarian-1872,Hunterian System,,
-var-urd-arab-latn-huntarian-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,huntarian-1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
+var-tam-taml-latn-hunterian-1872,Tamil Hunterian System,var,iso-639-2,tam,Taml,Latn,hunterian-1872,Hunterian System,,
+var-tel-telu-latn-hunterian-1872,Telugu Hunterian System,var,iso-639-2,tel,Telu,Latn,hunterian-1872,Hunterian System,,
+var-urd-arab-latn-hunterian-1872,Arabic Hunterian System,var,iso-639-2,urd,Arab,Latn,hunterian-1872,Hunterian System,,NOTE: OGC 11-122r1 code `urd_Arab2Latn_HUN_`
 var-zho-hani-latn-wg-1912,Chinese Wade-Giles 1912 System,var,iso-639-2,zho,Hani,Latn,wg-1979,<<ChineseWGS>>,,NOTE: OGC 11-122r1 code `zho_Hani2Latn_WDG_1979`
 var-zho-hani-latn-yale-1943,Chinese Yale 1943 System,var,iso-639-2,zho,Hani,Latn,yale-1943,<<ChineseYale>>,,
 xlsc-uig-arab-latn-1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,xlsc,iso-639-2,uig,Arab,Latn,1959,XUAR Language and Script Committee Uyghur Pinyin New Script 1959,,NOTE: OGC 11-122r1 code `uig_Arab2Latn_XLSC_1959`
