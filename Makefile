@@ -1,8 +1,15 @@
 #!make
 SHELL := /bin/bash
 
+SRC_NOT_SPECIFIED := false
 MAIN_ADOC_SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -c 3-999)
 ifeq ($(MAIN_ADOC_SRC),ll)
+SRC_NOT_SPECIFIED = true
+endif
+ifeq ($(MAIN_ADOC_SRC),)
+SRC_NOT_SPECIFIED = true
+endif
+ifeq ($(SRC_NOT_SPECIFIED),true)
 MAIN_ADOC_SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
