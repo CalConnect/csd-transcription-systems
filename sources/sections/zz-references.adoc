@@ -152,7 +152,8 @@ Available from: http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/
 * [[[BulBgnpcgn2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013)]]], _BGN/PCGN Romanization Agreement -- Bulgarian (2013)_. National Geospatial-Intelligence Agency, September 2014. Available from:
 http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Available from: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/530603/Romanization_system_for_Bulgarian.pdf
 
-* [[[BasBulAnartic,Toponymic Guidelines for Antarctica]]], _Toponymic Guidelines for Antarctica_. Antarctic Place-names Commission of Bulgaria, 1995. Available from: https://en.wikisource.org/wiki/Toponymic_Guidelines_for_Antarctica
+* [[[BasBulAnartic,Toponymic Guidelines for Antarctica]]], _Toponymic Guidelines for Antarctica_, Lyubomir Ivanov. Antarctic Place-names Commission of Bulgaria, Sofia, 1995. Available from: http://www.apcbg.org/Toponymic-Guidelines.htm
+//https://en.wikisource.org/wiki/Toponymic_Guidelines_for_Antarctica
 
 * [[[BasRusCyrl,Streamlined Romanization system for Russian Cyrillic]]], Bulgarian Academy of Sciences, IVANOV Lyubomir. (2017). _Streamlined Romanization of Russian Cyrillic_. In: Contrastive Linguistics. XLII. 66-73. Available from: https://www.researchgate.net/publication/318402098_Streamlined_Romanization_of_Russian_Cyrillic
 
@@ -229,3 +230,4 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[NskCAS,Canadian Aboriginal Syllabics for Naskapi]]], _Naskapi (ᐃᔪᐤ ᐃᔨᒧᐅᓐ / Iyuw Imuun)_, Available from: https://www.omniglot.com/writing/naskapi.php
 
 * [[[OjiCAS,Canadian Aboriginal Syllabics for Ojibwa]]], _Ojibwe (Anishinaabemowin / ᐊᓂᔑᓈᐯᒧᐎᓐ)_, Available from: https://www.omniglot.com/writing/ojibwe.htm
+
