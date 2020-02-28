@@ -79,10 +79,16 @@ system for writing a language, including the script and character set used
 [[term-code]]
 === code
 
-data representation in different forms according to a pre-established set of rules
+_data_ (<<ISO5127,clause=3.1.13.10>>) transformed or represented in different forms
+according to a pre-established _set_ (<<ISO5127,3.1.1.09>>) of rules
+
+////
+{{ISO5127,clause=3.1.13.10,data}} transformed or represented in different forms
+according to a pre-established {{ISO5127,3.1.1.09,set}} of rules
+////
 
 [.source]
-<<ISO639-2>>
+<<ISO5127,clause="3.1.13.10">>, Note 1 to entry is omitted.
 
 
 === language code
@@ -101,15 +107,9 @@ combination of characters used to represent the name of a _script_ (<<term-scrip
 <<ISO15924,clause="3.8">>
 
 
-=== transliteration system code
+=== script conversion system code
 
-combination of characters used to represent the name
-of a _transliteration system_ (<<term-transliteration-system>>)
-
-=== romanization system code
-
-combination of characters used to represent the name
-of a _romanization system_ (<<term-romanization-system>>)
+_code_ (<<term-code>>) used to represent a _script conversion system_ (<<term-script-conversion-system>>)
 
 
 ////

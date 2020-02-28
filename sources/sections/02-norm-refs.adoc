@@ -2,6 +2,8 @@
 [bibliography]
 == Normative References
 
-* [[[ISO5127,ISO 5127]]], _Information and documentation — Foundation and vocabulary_
+* [[[ISO639,ISO 639]]], _Codes for the representation of names of languages_
+
+* [[[ISO5127,ISO 5127:2017]]], _Information and documentation — Foundation and vocabulary_
 
 * [[[ISO15924,ISO 15924]]], _Information and documentation – Codes for the representation of names of scripts_
