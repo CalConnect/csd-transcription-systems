@@ -228,3 +228,6 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[OjiCAS,Canadian Aboriginal Syllabics for Ojibwa]]], _Ojibwe (Anishinaabemowin / ᐊᓂᔑᓈᐯᒧᐎᓐ)_, Available from: https://www.omniglot.com/writing/ojibwe.htm
 
+* [[[UaUkr1996,Official Ukrainian-English transliteration system]]], _Official Ukrainian-English transliteration system (Decision N 9)_, Ukrainian Legal Terminology Commission. 1996. Available from: https://web.archive.org/web/20120214134519/http://www.rada.gov.ua/translit
+
+* [[[UaUkr2010,Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet]]], _On Normalization of Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet, Resolution No 55_, the Cabinet of Ministers of Ukraine. 2010. Available from: http://web.archive.org/web/20181031115435/http://zakon1.rada.gov.ua/laws/show/55-2010-п
