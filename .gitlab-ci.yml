@@ -1,5 +1,5 @@
 image:
-  name: metanorma/metanorma:1.2.9.2
+  name: metanorma/metanorma:1.2.8.4
   entrypoint: [""]
 
 cache:
