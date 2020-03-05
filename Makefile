@@ -13,13 +13,13 @@ ifeq ($(SRC_NOT_SPECIFIED),true)
 MAIN_ADOC_SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 endif
 
-# CSV_SRC := $(wildcard sources/data/*.csv)
-CSV_SRC := sources/data/codes.csv
+DERIVABLE_CSV_SRC := sources/data/codes.csv
+CSV_SRC           := $(wildcard sources/data/*.csv)
 
 ALL_ADOC_SRC := $(ADOC_SRC) $(wildcard sources/sections*/*.adoc)
 ALL_SRC      := $(ALL_ADOC_SRC) $(CSV_SRC)
 
-DERIVED_ADOC   := $(patsubst %.csv,%.adoc,$(CSV_SRC))
+DERIVED_ADOC   := $(patsubst %.csv,%.adoc,$(DERIVABLE_CSV_SRC))
 ADOC_GENERATOR := scripts/split_codes.rb
 
 FORMAT_MARKER := mn-output-
