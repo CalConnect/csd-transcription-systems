@@ -3,7 +3,15 @@
 [appendix]
 == Alphabetical list of script conversion system authorities in English and their code elements
 
-[format="csv",options="header"]
+[yaml2text,sources/data/authority-codes.yaml,authorities]
+----
+[cols="a,a,a",options="header"]
 |===
-include::../data/authority-codes.csv[]
+| Script conversion system authority code | Name in English | Notes
+
+{authorities.data.*,key,EOI}
+| {key} | {authorities.data[key]['code']} | {authorities.data[key]['notes']}
+{EOI}
+
 |===
+----

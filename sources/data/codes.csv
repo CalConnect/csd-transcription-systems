@@ -1,4 +1,19 @@
-﻿Script conversion system code,Script conversion system name,Script conversion system authority code,Language code type,Language(s) ISO 639-2,Source script code ISO 15924,Target script code ISO 15924,System ID,System specification,Relationships,Remarks
+﻿METADATA
+locale.title.en,Script conversion systems
+locale.code.en,Script conversion system code
+locale.name.en,Script conversion system name
+locale.authority.en,Script conversion system authority code
+locale.lang.system.en,Language code type
+locale.lang.code.en,Language(s)
+locale.source_script.en,Source script code ISO 15924
+locale.target_script.en,Target script code ISO 15924
+locale.system.id.en,System ID
+locale.system.specification.en,System specification
+locale.relations.en,Relationships
+locale.notes.en,Remarks
+,
+DATA
+code,name.en,authority,lang.system,lang.code,source_script,target_script,system.id,system.specification,relations,notes
 acadsin-zho-hani-latn-2002,Academica Sinica -- Chinese Tongyong Pinyin (2002),acadsin,iso-639-2,zho,Hani,Latn,2002,Academica Sinica -- Chinese Tongyong Pinyin (2002),,NOTE: OGC 11-122r1 code `zho_Hani2Latn_AcadSin_2002`
 ahl-heb-hebr-latn-1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),ahl,iso-639-2,heb,Hebr,Latn,1957,Academy of the Hebrew Language -- Rules of Transcription: Romanization of Hebrew (1957),,
 ahl-heb-hebr-latn-2011,Academy of the Hebrew Language -- Rules of transliteration from Hebrew into Latin letters (2011),ahl,iso-639-2,heb,Hebr,Latn,2011,<<HebrLatn>>,,

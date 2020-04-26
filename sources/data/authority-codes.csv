@@ -1,4 +1,11 @@
-Script conversion system authority code,Name in English,Remarks
+METADATA
+locale.title.en,Script conversion system authorities
+locale.code.en,Script conversion system authority code
+locale.name.en,Name in English
+locale.remarks.en,Remarks
+,
+DATA
+code,name.en,notes
 acadsin,Academia Sinica,
 ahl,The Academy of the Hebrew Language,
 alalc,American Library Association -- Library of Congress,
