@@ -3,7 +3,7 @@
 [appendix]
 == Alphabetical list of script conversion systems in English and their code elements
 
-[yaml2text,sources/data/codes.yaml,systems]
+[yaml2text,data/codes.yaml,systems]
 ----
 
 {systems.data.*,key,EOI}
@@ -18,7 +18,7 @@ h| Language codes | {systems.data[key]['lang']['code']}
 h| Source script code (ISO 15924) | {systems.data[key]['source_script']}
 h| Target script code (ISO 15924) | {systems.data[key]['target_script']}
 h| System ID | {systems.data[key]['system']['id']}
-h| System specification | {systems.data['system']['specification']}
+h| System specification | {systems.data[key]['system']['specification']}
 h| Relationships | {systems.data[key]['relations']}
 h| Notes | {systems.data[key]['notes']}
 |===

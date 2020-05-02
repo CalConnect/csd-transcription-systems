@@ -3,7 +3,7 @@
 [appendix]
 == Alphabetical list of script conversion system authorities in English and their code elements
 
-[yaml2text,sources/data/authority-codes.yaml,authorities]
+[yaml2text,data/authority-codes.yaml,authorities]
 ----
 [cols="a,a,a",options="header"]
 |===
