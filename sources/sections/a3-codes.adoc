@@ -3,7 +3,28 @@
 [appendix]
 == Alphabetical list of script conversion systems in English and their code elements
 
-include::../data/codes.adoc[]
+[yaml2text,data/codes.yaml,systems]
+----
+
+{systems.data.*,key,EOI}
+.{systems.data[key]['name']['en']}
+[cols="a,a"]
+|===
+h| Script conversion system code | {systems.data[key]['code']}
+h| Script conversion system name | {systems.data[key]['name']['en']}
+h| Script conversion system authority code | {systems.data[key]['authority']}
+h| Language code type | {systems.data[key]['lang']['system']}
+h| Language codes | {systems.data[key]['lang']['code']}
+h| Source script code (ISO 15924) | {systems.data[key]['source_script']}
+h| Target script code (ISO 15924) | {systems.data[key]['target_script']}
+h| System ID | {systems.data[key]['system']['id']}
+h| System specification | {systems.data[key]['system']['specification']}
+h| Relationships | {systems.data[key]['relations']}
+h| Notes | {systems.data[key]['notes']}
+|===
+
+{EOI}
+----
 
 NOTE: In UN systems, the version number only indicates informational changes --
 the system remains unchanged.
