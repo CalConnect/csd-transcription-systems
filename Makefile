@@ -146,6 +146,12 @@ bundle: run-bundle debug
 
 .PHONY: bundle all open clean
 
+
+.PHONY: test
+test:
+	scripts/run_tests
+
+
 #
 # Watch-related jobs
 #

@@ -18,6 +18,11 @@ build:
     paths:
       - public
 
+test:
+  stage: test
+  script:
+    - make test
+
 pages:
   dependencies:
     - build
