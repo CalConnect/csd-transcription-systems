@@ -54,11 +54,15 @@ If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should b
 
 ==== System identifier
 
-A system may be uniquely identified by an identifier, an edition, a version or a sequence of characters.
+A system may be uniquely identified, amongst systems maintained by the same
+authority, by an identifier, an edition, a version or a sequence of characters.
 
 This element is mandatory if the authority manages or plans to manage multiple script conversion systems.
 
-It may or may not be derived from the adoption date.
+It may be derived from the adoption date if and only if that does not cause
+duplicates.
+Otherwise the adoption date shall be complemented by the name or number of the
+standard / technical specification, or some other data element.
 
 [example]
 `2013` is the system identifier of the system coded as `un-lao-laoo-latn-2013`.
@@ -92,6 +96,12 @@ script conversion process of this system.
 ==== Remarks
 
 Any further notes.
+
+A typical use case is to show its original code from the original system from
+where this code has been imported.
+
+[example]
+`NOTE: OGC 11-122r1 code urd_Arab2Latn_ODNI_2004`
 
 
 === Code and identifier
