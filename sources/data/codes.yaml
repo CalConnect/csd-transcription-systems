@@ -6945,3 +6945,59 @@ data:
       id: '1968'
       specification: "<<YIVOAB>>"
     notes: 'Adoption date: 1968'
+  sfs-ara-arab-latn-5755-1993:
+    code: sfs-ara-arab-latn-5755-1993
+    name:
+      en: SFS 5755:1993 Arabian kielen translitteraatio
+    authority: sfs
+    lang:
+      system: iso-639-2
+      code: ara
+    source_script: Arab
+    target_script: Latn
+    system:
+      id: sfs-5755-1993
+      specification: "<<SFS 5755:1993>>"
+    relations: basedOn:iso-ara-arab-latn-233-1984
+  sfs-heb-hebr-latn-5824-1998:
+    code: sfs-heb-hebr-latn-5824-1998
+    name:
+      en: SFS 5824:1998 Heprealaisen kirjaimiston translitteraatio
+    authority: sfs
+    lang:
+      system: iso-639-2
+      code: heb
+    source_script: Hebr
+    target_script: Latn
+    system:
+      id: sfs-5824-1998
+      specification: "<<SFS 5824:1998>>"
+    relations: basedOn:iso-heb-Hebr-latn-259-1984
+  sfs-gre-grek-latn-5807-2008:
+    code: sfs-gre-grek-latn-5807-2008
+    name:
+      en: SFS 5807:2008 Kreikan kielen kansallinen translitteraatio ja transkriptio
+    authority: sfs
+    lang:
+      system: iso-639-2
+      code: gre
+    source_script: Grek
+    target_script: Latn
+    system:
+      id: sfs-5807-2008
+      specification: "<<SFS 5807:2008>>"
+    relations: basedOn:elot-ell-grek-latn-743-1982
+  sfs-sla-cyrl-latn-4900-1998:
+    code: sfs-sla-cyrl-latn-4900-1998
+    name:
+      en: SFS 4900:1998 Kyrillisten kirjainten translitterointi. Slaavilaiset kielet
+    authority: sfs
+    lang:
+      system: iso-639-5
+      code: sla
+    source_script: Cyrl
+    target_script: Latn
+    system:
+      id: sfs-4900-1998
+      specification: "<<SFS 4900:1998>>"
+    relations: basedOn:iso-sla-cyrl-latn-9-1995
