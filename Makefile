@@ -29,10 +29,11 @@ XML := $(patsubst sources/%,documents/%,$(BUILT))
 endif
 endif
 
+ALL_ADOC_SRC := $(wildcard sources/sections*/*.adoc)
 CSV_SRC      := $(wildcard sources/data/*.csv)
 DERIVED_YAML := $(patsubst %.csv,%.yaml,$(CSV_SRC))
 
-SUPPLEMENTARY_SRC := $(DERIVED_YAML)
+SUPPLEMENTARY_SRC := $(ALL_ADOC_SRC) $(DERIVED_YAML)
 
 FORMATS := $(shell yq r metanorma.yml metanorma.formats | tr -d '[:space:]' | tr -s '-' ' ')
 ifeq ($(FORMATS),)
