@@ -53,12 +53,16 @@ _OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]
 OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
 
 define print_vars
+	$(info "DERIVED_YAML $(DERIVED_YAML)")
 	$(info "src $(SRC)")
 	$(info "xml $(XML)")
 	$(info "formats $(FORMATS)")
 endef
 
-all: documents.html
+all: documents.html debug
+
+.PHONY: debug
+debug:
 	$(call print_vars)
 
 scripts/csv2yaml:
@@ -133,11 +137,12 @@ open: open-html
 clean:
 	rm -rf documents documents.{html,rxl} published *_images $(OUT_FILES)
 
-bundle:
+run-bundle:
 ifndef METANORMA_DOCKER
 	bundle install --jobs 4 --retry 3
 endif
-	$(call print_vars)
+
+bundle: run-bundle debug
 
 .PHONY: bundle all open clean
 
