@@ -29,7 +29,7 @@ run_test() {
 		printf '\e[32m.\e[m'
 	else
 		((++fail_test_num))
-		failures+=("${test_name}:::${cmd[@]}")
+		failures+=("${test_name}:::${cmd[*]}")
 		printf '\e[31mF\e[m'
 	fi
 	return $rv
