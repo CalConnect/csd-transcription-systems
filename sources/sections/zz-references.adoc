@@ -231,3 +231,11 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 * [[[UaUkr1996,Official Ukrainian-English transliteration system]]], _Official Ukrainian-English transliteration system (Decision N 9)_, Ukrainian Legal Terminology Commission. 1996. Available from: https://web.archive.org/web/20120214134519/http://www.rada.gov.ua/translit
 
 * [[[UaUkr2010,Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet]]], _On Normalization of Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet, Resolution No 55_, the Cabinet of Ministers of Ukraine. 2010. Available from: http://web.archive.org/web/20181031115435/http://zakon1.rada.gov.ua/laws/show/55-2010-п
+
+* [[[SFS5755-1993]]], _Arabian kielen translitteraatio_, Finnish Standards Association, 1993
+
+* [[[SFS5824-1998]]], _Heprealaisen kirjaimiston translitteraatio_, Finnish Standards Association, 1998
+
+* [[[SFS5807-2008]]], _Kreikan kielen kansallinen translitteraatio ja transkriptio_, Finnish Standards Association, 2008
+
+* [[[SFS4900-1998]]], _Kyrillisten kirjainten translitterointi. Slaavilaiset kielet_, Finnish Standards Association, 1998

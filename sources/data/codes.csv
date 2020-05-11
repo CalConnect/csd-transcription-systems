@@ -414,6 +414,10 @@ rs-srp-cyrl-latn-1954,Republic of Serbia -- Serbian Latin alphabet,rs,iso-639-2,
 sac-zho-hani-latn-1979,Chinese Hanyu Pinyin 1979 System,sac,iso-639-2,zho,Hani,Latn,1979,Chinese Hanyu Pinyin 1979 System,"supercedes:efeo-zho-hani-latn-1902, supercedes:var-zho-hani-latn-yale-1943",NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`
 sac-zho-hans-latn-1958,Romanization system for the Chinese phonetic alphabet,sac,iso-639-2,zho,Hans,Latn,1958,"<<GBT16159>>, <<GBT15834>>, <<GBT28039>>, <<pinyin>>, <<pingyingeo>>",,
 ses-ara-arab-latn-1930,Survey of Egypt Arabic System,ses,iso-639-2,ara,Arab,Latn,1930,Arabic Survey of Egypt System,,NOTE: OGC 11-122r1 code `ara_Arab2Latn_SES_1930`
+sfs-ara-arab-latn-5755-1993,SFS 5755:1993 Arabian kielen translitteraatio,sfs,iso-639-2,ara,Arab,Latn,sfs-5755-1993,<<SFS5755-1993>>,basedOn:iso-ara-arab-latn-233-1984,
+sfs-gre-grek-latn-5807-2008,SFS 5807:2008 Kreikan kielen kansallinen translitteraatio ja transkriptio,sfs,iso-639-2,gre,Grek,Latn,sfs-5807-2008,<<SFS5807-2008>>,basedOn:elot-ell-grek-latn-743-1982,
+sfs-heb-hebr-latn-5824-1998,SFS 5824:1998 Heprealaisen kirjaimiston translitteraatio,sfs,iso-639-2,heb,Hebr,Latn,sfs-5824-1998,<<SFS5824-1998>>,basedOn:iso-heb-Hebr-latn-259-1984,
+sfs-sla-cyrl-latn-4900-1998,SFS 4900:1998 Kyrillisten kirjainten translitterointi. Slaavilaiset kielet,sfs,iso-639-5,sla,Cyrl,Latn,sfs-4900-1998,<<SFS4900-1998>>,basedOn:iso-sla-cyrl-latn-9-1995,
 sgk-khm-khmr-latn-1959,Khmere Service Geographique 1959 System,sgk,iso-639-2,khm,Khmr,Latn,1959,Khmere Service Geographique 1959 System,,NOTE: OGC 11-122r1 code `khm_Khmr2Latn_SGK_1959`
 tm-tuk-cyrl-latn-2000,Republic of Turkmenistan Turkmen Cyrillic Table of Correspondences System (2000),tm,iso-639-2,tuk,Cyrl,Latn,2000,Turkmen Cyrillic Table of Correspondences Republic of Turkmenistan 2000 System,,NOTE: OGC 11-122r1 code `tuk_Cyrl2Latn_GTX_2000`
 ua-ukr-cyrl-latn-1996,Official Ukrainian-English transliteration system,ua,iso-639-2,ukr,Cyrl,Latn,1996,<<UaUkr1996>>,,NOTE: OGC 11-122r1 code `ukr_Cyrl2Latn_GUP_1996`; Date adopted: 1996-04-19
