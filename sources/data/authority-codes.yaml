@@ -261,6 +261,11 @@ data:
     code: ses
     name:
       en: Survey of Egypt
+  sfs:
+    code: sfs
+    name:
+      en: Finnish Standards Association
+      fi: Suomen standardisoimisliitto SFS
   sgk:
     code: sgk
     name:
