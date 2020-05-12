@@ -9,8 +9,8 @@
 :title-intro-fr: Information et documentation
 :title-main-fr: Codes pour les systèmes de conversion de scripts
 :doctype: international-standard
-:docstage: 20
-:docsubstage: 20
+:docstage: 30
+:docsubstage: 60
 :technical-committee-type: TC
 :technical-committee-number: 46
 :technical-committee: Information and documentation
