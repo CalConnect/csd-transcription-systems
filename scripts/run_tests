@@ -8,11 +8,19 @@ declare pass_test_num=0
 declare fail_test_num=0
 
 test_existence_of_auth_code() {
-	local authcode="$1"
+	local needle="$1"
 	local document="${outdir}"/iso-24229.html
 	run_test \
-		"Expected \e[1m${document}\e[22m to contain authority code '\e[1m${authcode}\e[22m'" \
-		grep "${authcode}"- "${document}"
+		"Expected \e[1m${document}\e[22m to contain authority code '\e[1m${needle}\e[22m'" \
+		grep "${needle}"- "${document}"
+}
+
+test_existence_of_auth_name() {
+	local needle="$1"
+	local document="${outdir}"/iso-24229.html
+	run_test \
+		"Expected \e[1m${document}\e[22m to contain authority name '\e[1m${needle}\e[22m'" \
+		grep "${needle}" "${document}"
 }
 
 run_test() {
@@ -68,6 +76,7 @@ return_status() {
 
 main() {
 	test_existence_of_auth_code sfs
+	test_existence_of_auth_name 'Office of the Royal Society'
 	return_status
 }
 
