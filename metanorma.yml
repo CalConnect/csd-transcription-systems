@@ -4,5 +4,5 @@ metanorma:
     email: "travis-ci@metanorma.org"
 relaton:
   collection:
-    name: Information and documentation -- Codes for transcription systems
+    name: Information and documentation -- Codes for script conversion systems
     organization: CalConnect/ISO

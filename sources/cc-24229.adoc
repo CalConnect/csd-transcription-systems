@@ -1,4 +1,4 @@
-= Information and documentation -- Codes for transcription systems
+= Information and documentation -- Codes for script conversion systems
 :docnumber: 24229
 :copyright-year: 2019
 :language: en

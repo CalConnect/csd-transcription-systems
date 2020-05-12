@@ -1,4 +1,4 @@
-= CalConnect/ISO 24229: Information and documentation -- Codes for transcription systems
+= CalConnect/ISO 24229: Information and documentation -- Codes for script conversion systems
 
 This work item belongs to ISO/TC 46/WG 3 and CalConnect TC LOCALIZATION.
 
@@ -6,7 +6,7 @@ image:https://gitlab.com/calconnect/tc-localization/csd-transcription-systems/ba
 
 This document is available in its rendered forms here:
 
-* https://calconnect.gitlab.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for transcription systems]
+* https://calconnect.gitlab.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for script conversion systems]
 
 
 == Fetching the document
