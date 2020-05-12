@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 outdir="${outdir:-documents}"
+default_test_file="${test_file:-${1:-spec/tests.sh}}"
 
 declare -a failures=()
 declare total_test_num=0
@@ -75,8 +76,15 @@ return_status() {
 }
 
 main() {
-	test_existence_of_auth_code sfs
-	test_existence_of_auth_name 'Office of the Royal Society'
+	if [[ $# -gt 0 ]]
+	then
+		for test_file in "$@"
+		do
+			. "${test_file}"
+		done
+	else
+		. "${default_test_file}"
+	fi
 	return_status
 }
 
