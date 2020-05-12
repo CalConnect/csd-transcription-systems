@@ -24,6 +24,14 @@ test_existence_of_auth_name() {
 		grep "${needle}" "${document}"
 }
 
+test_existence_of_auth_remark() {
+	local needle="$1"
+	local document="${outdir}"/iso-24229.html
+	run_test \
+		"Expected \e[1m${document}\e[22m to contain authority remark '\e[1m${needle}\e[22m'" \
+		grep "${needle}" "${document}"
+}
+
 run_test() {
 	local fail_message="${1?}"
 	shift
