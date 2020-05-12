@@ -201,3 +201,23 @@ published: documents.html
 	mkdir -p $@ && \
 	cp -a documents $@/ && \
 	cp $< $@/index.html;
+
+.PHONY: hack-update-metanorma
+hack-update-metanorma:
+	for u in "https://github.com/metanorma/metanorma-iso" \
+		"https://github.com/metanorma/metanorma-standoc" \
+		"https://github.com/metanorma/isodoc"; \
+	do \
+		reponame="$${u##*/}"; \
+		git clone --depth 1 "$$u" && \
+		pushd "$$reponame" && \
+		gem build "$${reponame}" && \
+		gem install *gem; \
+		set -- *gem; \
+		gemversion="$${1%.gem}" ; \
+		gemversion="$${gemversion#$${reponame}-}" ; \
+		echo reponame is $${reponame} ; \
+		echo gemversion is "$${gemversion}" ; \
+		sed -i.bkup -e 's/\('"$${reponame}"'\) ([0-9].*)/\1 ('"$${gemversion}"')/g' /setup/Gemfile.lock ; \
+		popd ; \
+	done
