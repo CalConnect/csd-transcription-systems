@@ -21,7 +21,7 @@ build:
 test:
   stage: test
   script:
-    - make test
+    - make test outdir=public/documents
 
 pages:
   dependencies:
