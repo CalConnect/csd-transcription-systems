@@ -252,7 +252,8 @@ data:
   royin:
     code: royin
     name:
-      en: Office of the Royal Society
+      en: The Royal Society of Thailand
+    notes: Formerly named The Royal Institute of Thailand (royin)
   rs:
     code: rs
     name:

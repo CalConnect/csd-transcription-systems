@@ -49,13 +49,15 @@ _script conversion_ (<<term-script-conversion>>) from non-Roman to Roman script 
 [[term-transliteration-system]]
 === transliteration system
 
-system for _transliteration_ (<<term-transliteration>>) of a source _script_ (<<term-script>>) to a target script
+A set of rules for _transliteration_ (<<term-transliteration>>) of a source
+ _script_ (<<term-script>>) to a target script
 
 
 [[term-romanization-system]]
 === romanization system
 
-system for _romanization_ (<<term-romanization>>) of a source _script_ (<<term-script>>) to a target script
+A set of rules for _romanization_ (<<term-romanization>>) of a source _script_
+(<<term-script>>) to a target script
 
 //system for representing a word <orthographic word> in a writing system
 //through romanization
@@ -64,7 +66,7 @@ system for _romanization_ (<<term-romanization>>) of a source _script_ (<<term-s
 [[term-script-conversion-system]]
 === script conversion system
 
-system for _script conversion_ (<<term-script-conversion>>)
+A set of rules for _script conversion_ (<<term-script-conversion>>)
 
 
 ////

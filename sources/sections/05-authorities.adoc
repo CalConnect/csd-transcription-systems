@@ -42,8 +42,8 @@ A competent script conversion system authority is one that has standardized
 processes surrounding the management of the script conversion systems,
 covering at least the following processes:
 
-. planning of script conversion systems, including the process of designing and defining a script conversion systems;
-. performing changes to script conversion systems are well planned and executed in a manner that is considerate of script conversion system users;
+. planning of script conversion systems, including the process of designing and defining script conversion systems;
+. performing changes to script conversion systems are well planned;
 . public announcement and dissemination of its script conversion systems; and
 . allows a public review period for people affected by script conversion systems under its management prior to enactment.
 
@@ -117,13 +117,6 @@ The principle behind the alphabetic codes for script conversion system authoriti
 
 In applying this principle, the code elements have generally been assigned on the basis of the abbreviated names of the script conversion system authorities, thus avoiding, wherever possible, any reflection of their political status.
 
-Script conversion system identifiers are in the following format:
-
-[source]
-----
-[script-conversion-system-authority-code]
-----
-
 [example]
 `iso` for ISO.
 
@@ -149,13 +142,6 @@ The following rules are to be adhered to for the assignment of the alphabetic co
 If users need code elements to represent script conversion system authorities not included in the script conversion system authority registry, the code prefix of `xx` can be used, being a reserved code point `xx` for private user assignment.
 
 The code length for the script conversion system authority identifier must be 3 or more letters.
-
-Such script conversion system authority identifiers are in the following format:
-
-[source]
-----
-"xx"[script-conversion-system-authority-code]
-----
 
 [example]
 `xxunece` is an example of a user-assigned private code for a script conversion system authority published by the UN/ECE.
