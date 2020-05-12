@@ -9,10 +9,15 @@ declare fail_test_num=0
 
 test_existence_of_auth_code() {
 	local authcode="$1"
-	run_test grep "${authcode}"- "${outdir}"/iso-24229.html
+	local document="${outdir}"/iso-24229.html
+	run_test \
+		"Expected \e[1m${document}\e[22m to contain authority code '\e[1m${authcode}\e[22m'" \
+		grep "${authcode}"- "${document}"
 }
 
 run_test() {
+	local fail_message="${1?}"
+	shift
 	local -a cmd=("$@")
 	"$@" >/dev/null
 	local rv=$?
@@ -29,24 +34,29 @@ run_test() {
 		printf '\e[32m.\e[m'
 	else
 		((++fail_test_num))
-		failures+=("${test_name}:::${cmd[*]}")
+		failures+=("${test_name}: ${fail_message}:::${cmd[*]}")
 		printf '\e[31mF\e[m'
 	fi
 	return $rv
 }
 
 print_summary() {
+	local failure_idx=0
 	echo
 	echo === Summary ===
 	for failed_test in "${failures[@]}"
 	do
-		local test_name="${failed_test%:::*}"
+		((failure_idx++))
+		local test_name__fail_message="${failed_test%:::*}"
 		local test_cmd="${failed_test#*:::}"
-		printf "\e[1mFailure:\e[22m\n"
-		printf "   \e[31m%s\e[m\n" "${test_name}"
-		printf "   \e[31mCommand: %s\e[m\n" "${test_cmd}"
+		local test_name="${test_name__fail_message%: *}"
+		local fail_message="${test_name__fail_message#*: }"
+		printf "\e[1mFailure #%d:\e[22m\n" "${failure_idx}"
+		printf "   \e[31;1m%b\e[22m failed\e[m\n\n" "${test_name}"
+		printf "   \e[34m%b\e[m\n" "${fail_message}"
+		printf "   \e[mCommand: \e[31m%s\e[m\n" "${test_cmd}"
+		echo
 	done
-	echo
 	printf 'Total: %s test(s), %s passed, %s failed\n' "${total_test_num}" "${pass_test_num}" "${fail_test_num}"
 }
 
