@@ -8,7 +8,7 @@ cache:
 build:
   stage: build
   script:
-    - plantuml -h
+    - plantuml -version
     - bundle install
     - make hack-update-metanorma
     - metanorma version
