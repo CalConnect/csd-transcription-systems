@@ -10,7 +10,7 @@
 | Script conversion system authority code | Name in English | Notes
 
 {authorities.data.*,key,EOI}
-| {key} | {authorities.data[key]['code']} | {authorities.data[key]['notes']}
+| {key} | {authorities.data[key].name.en} | {authorities.data[key].notes}
 {EOI}
 
 |===
