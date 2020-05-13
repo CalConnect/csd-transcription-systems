@@ -150,10 +150,9 @@ NOTE: Users are advised that the above series of codes are not universally used,
 
 
 
-==== List of script conversion system authorities and their code elements
+==== List of script conversion system authority codes and their data elements
 
-The list of items composing the content of the country code is initially defined in <<annex-script-conversion-system-authorities>>.
-Additional and new entries will be listed by the ISO {docnumber}/AG.
+The list of script conversion system authority codes is initially defined in <<annex-script-conversion-system-authorities>>.
+Additional and new entries will be provided by the ISO {docnumber}/RA.
 
 Data attributes provided in the list are defined in <<sc-authority-data-model>>.
-

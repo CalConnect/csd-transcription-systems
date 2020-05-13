@@ -130,7 +130,7 @@ Script conversion systems listed in this document are intended to reflect the cu
 
 ===== Relationship with names
 
-A code for a script conversion system has the structure of a list, with all
+The code for a script conversion system has the structure of a list, with all
 elements joined by a "FIGURE DASH" character ("`-`", Unicode U+2012).
 
 The elements must conform to the following order:
@@ -206,9 +206,9 @@ The elements must conform to the following order:
 NOTE: Users are advised that the above series of codes are not universally used, those code elements are not compatible between different entities.
 
 
-==== List of transliteration and romanization system and their code elements
+==== List of script conversion system codes and their data elements
 
-The list of items composing the content of the country code is initially defined in <<annex-system-codes>>.
-Additional and new entries will be listed by the ISO {docnumber}/AG.
+The list of script conversion system codes is initially defined in <<annex-system-codes>>.
+Additional and new entries will be provided by the ISO {docnumber}/RA.
 
 Data attributes provided in the list is defined in <<sc-data-model>>.
