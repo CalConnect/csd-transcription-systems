@@ -2,12 +2,10 @@
 '******* CONFIGURATION ************************************************
 class ScriptConversionSystemAuthority {
   +authorityCode: String
-  +uri: Uri
-  +name: LocalizedStringCollection
-'  +iso3166Code: iso3166Code
-  +description: LocalizedStringCollection
+  +name: String
+  +remarks: String
 }
 
 '******* CLASS RELATIONS **********************************************
 
-'AuthorityInfo <-- PublicKey
+/' 'AuthorityInfo <-- PublicKey '/

@@ -1,15 +1,16 @@
 
 '******* CONFIGURATION ************************************************
 class ScriptConversionSystem {
-  +code: String
+  +code: SystemCode
   +name: String
-  +edition: String
+  +language: iso639Code
   +sourceScript: iso15924Code
   +targetScript: iso15924Code
-  +language: iso639Code
-  +adoptionDate: iso8601Date[0..1]
-  +relation: SCSRelation[0..*]
+  +systemIdentifier: String
+  +relations: SCSRelation[0..*]
+  +remarks: String
 }
 
-'******* CLASS RELATIONS **********************************************
+String <|-- SystemCode
 
+'******* CLASS RELATIONS **********************************************

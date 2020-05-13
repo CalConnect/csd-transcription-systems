@@ -1,7 +1,7 @@
 
 '******* CONFIGURATION ************************************************
 class SCSRelation {
-  +system: String
+  +systemCode: SystemCode
   +type: SCSRelationType[0..*]
 }
 
@@ -9,6 +9,7 @@ enum SCSRelationType {
   aliasOf
   adoptedFrom
   supercedes
+  replacedBy
   relatedTo
   basedOn
 }

@@ -20,27 +20,17 @@ include::../models/relation.wsd[]
 ....
 
 
-==== Code
+==== code
 
 A code that identifies the script conversion system.
 
 
-==== Name
+==== name
 
 A name that represents the script conversion system.
 
 
-==== Source script code
-
-The script code of the script used in the source text. This code is from <<ISO15924>>.
-
-
-==== Target script code
-
-The script code of the script used in the output text. This code is from <<ISO15924>>.
-
-
-==== Language code
+==== language
 
 The language code that identifies the source language being processed
 by the script conversion system.
@@ -49,15 +39,27 @@ The language code should be qualified to a source of language codes.
 For example, <<ISO639-1>>, <<ISO639-2>>, <<ISO639-3>>, <<ISO639-5>>
 contain language codes that can be selected from.
 
-If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should be used. ISO 639-2/T codes are intended to be used for terminology applications.
+If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should
+be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
 
-==== System identifier
+==== sourceScript
+
+The script code of the script used in the source text. This code is from <<ISO15924>>.
+
+
+==== targetScript
+
+The script code of the script used in the output text. This code is from <<ISO15924>>.
+
+
+==== systemIdentifier
 
 A system may be uniquely identified, amongst systems maintained by the same
 authority, by an identifier, an edition, a version or a sequence of characters.
 
-This element is mandatory if the authority manages or plans to manage multiple script conversion systems.
+This element is mandatory if the authority manages or plans to manage multiple
+script conversion systems.
 
 It may be derived from the adoption date if and only if that does not cause
 duplicates.
@@ -68,12 +70,7 @@ standard / technical specification, or some other data element.
 `2013` is the system identifier of the system coded as `un-lao-laoo-latn-2013`.
 
 
-==== Adoption date
-
-The date of the adoption of the script conversation system by the authority.
-
-
-==== Relationship
+==== relations
 
 Script conversion systems can be related to other script conversion systems
 in a number of ways. For example, a script conversion system may represent
@@ -91,14 +88,13 @@ This element is optional.
 `relatedTo`:: the current system is related to the target system
 `basedOn`:: the current system is based on the target system, the script conversion process inherits certain attributes from the target system.
 
-==== System specification
 
-This element is mandatory, for indicating the fully defined
-script conversion process of this system.
-
-==== Remarks
+==== remarks
 
 Any further notes.
+
+The date of the adoption of the script conversation system by the authority may
+be noted in the remarks.
 
 A typical use case is to show its original code from the original system from
 where this code has been imported.
@@ -113,19 +109,20 @@ where this code has been imported.
 
 ===== List
 
-The list of transliteration and romanization systems in this document includes known
+The list of script conversion systems in this document includes known
 transliteration and romanization systems from official sources.
 
 
 ===== Source of names
 
-Names and description of transliteration and romanization systems are
-obtained from authoritative sources.
+Names and description of script conversion systems are obtained from
+authoritative sources.
 
 
 ===== Current status of names
 
-Script conversion systems listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+Script conversion systems listed in this document are intended to reflect the
+current situation, at the time of issue of the latest update of this document.
 
 
 
@@ -145,22 +142,29 @@ The elements must conform to the following order:
 * `system-identifier` designates a unique identifier for the transliteration system, such as edition year, document identifier, and system name.
 
 [example]
-`alalc-mal-mlym-latn-2012` for the ALA-LC Romanization system that transliterates the Malayam language from Malayam script characters into Latin script. The system identifier here is considered to be `2012`.
+`alalc-mal-mlym-latn-2012` for the ALA-LC Romanization system that
+transliterates the Malayam language from Malayam script characters into Latin
+script. The system identifier here is considered to be `2012`.
 
 [example]
-`iso-ukr-Cyrl-Latn-9-1995` for the transliteration system that transliterates the Ukrainian language from Cyrillic script into Latin script according to <<ISO9>>. The system identifier here is considered to be `9-1995`.
+`iso-ukr-Cyrl-Latn-9-1995` for the transliteration system that transliterates
+the Ukrainian language from Cyrillic script into Latin script according to
+<<ISO9>>. The system identifier here is considered to be `9-1995`.
 
 
 ===== Construction of the authority codes
 
-The following rules are to be adhered to for the assignment of the authority codes:
+The following rules are to be adhered to for the assignment of the authority
+codes:
 
-* The authority code uses combinations, in lower case, of the 26-character Latin alphabet.
+* The authority code uses combinations, in lower case, of the 26-character Latin
+alphabet.
 
 * Codes shall encourage descriptive and distinguishable alphabetic names.
 
-* Two-character authority codes are reserved for <<ISO3166-1>> codes, which designate that the authority
-is the government that is represented by the particular <<ISO3166-1>> code.
+* Two-character authority codes are reserved for <<ISO3166-1>> codes, which
+designate that the authority is the government that is represented by the
+particular <<ISO3166-1>> code.
 
 
 ===== Construction of the language code
@@ -175,14 +179,18 @@ When a script conversion system applies to more than one language,
 the script conversion authority that manages that system
 should determine which of the following approaches should be taken:
 
-. consider this system as multiple systems, with each individual systems applying to a single language code; or
-. consider this system as a single system, where the <<ISO639-3>> code of `mul` applies.
+. consider this system as multiple systems, with each individual systems
+applying to a single language code; or
+. consider this system as a single system, where the <<ISO639-3>> code of `mul`
+applies.
 
 [example]
-`icao-mul-arab-latn-2015` applies to multiple languages written in Arabic script, and is encoded as a single system.
+`icao-mul-arab-latn-2015` applies to multiple languages written in Arabic
+script, and is encoded as a single system.
 
 [example]
-`din-bel-cyrl-latn-1460-1982` and `din-bul-cyrl-latn-1460-1982` are both defined in <<DIN1460>>, but they are encoded as separate systems for separate languages.
+`din-bel-cyrl-latn-1460-1982` and `din-bul-cyrl-latn-1460-1982` are both defined
+in <<DIN1460>>, but they are encoded as separate systems for separate languages.
 
 
 ===== Construction of the script codes
@@ -192,7 +200,9 @@ The script code must be a code listed in <<ISO15924>>.
 
 ===== User assigned system codes
 
-If users need system codes to represent transliteration and romanization systems not included in the script conversion system registry, the code prefix of `zz` can be used.
+If users need system codes to represent transliteration and romanization systems
+not included in the script conversion system registry, the code prefix of `zz`
+can be used.
 
 The code for such a system has the structure of a list, with all elements joined
 by a "FIGURE DASH" character ("`-`", Unicode U+2012).
@@ -206,7 +216,8 @@ The elements must conform to the following order:
 * `target-script-code`
 * `system-identifier`
 
-NOTE: Users are advised that the above series of codes are not universally used, those code elements are not compatible between different entities.
+NOTE: Users are advised that the above series of codes are not universally used,
+those code elements are not compatible between different entities.
 
 
 ==== List of script conversion system codes and their data elements

@@ -67,24 +67,20 @@ include::../models/authority.wsd[]
 ....
 
 
-==== Script conversion system authority code
+==== authorityCode
 
 A code that represents the script conversion system authority.
 
 
-==== English short name
+==== name
 
 The identifiable short name that uniquely identifies the script conversion system authority.
 
 
-==== Abbreviation
-
-The identifiable abbreviation used for the script conversion system authority.
-
-
-==== Remarks
+==== remarks
 
 Any further notes.
+
 
 === Code and identifier
 
