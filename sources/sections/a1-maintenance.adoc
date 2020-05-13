@@ -154,7 +154,7 @@ Additions to the official and international time scale authorities require addit
 [[scs-deletion]]
 ==== Deletion of a script conversion system
 
-Deletion of a script conversion system codes shall be made upon
+Deletion of script conversion system codes shall be made upon
 request of a member of ISO {docnumber}/AG
 or the script conversion system authority that manages the system.
 
