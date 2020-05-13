@@ -2,7 +2,7 @@
 :docnumber: 24229
 :tc-document-number: 9999
 :edition: 1
-:copyright-year: 2019
+:copyright-year: 2020
 :language: en
 :title-intro-en: Information and documentation
 :title-main-en: Codes for script conversion systems
