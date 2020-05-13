@@ -18,8 +18,11 @@ managing codes, which will be considered on a case-by-case basis.
 
 A script conversion system authority should:
 
-. have at least one script conversion system eligible for a script conversion system code;
-. [[scsa-requirements-b]]be competent in managing its script conversion systems (<<scsa-competency>>).
+. have at least one script conversion system eligible for a script conversion
+system code;
+. [[scsa-requirements-b]]be competent in managing its script conversion systems
+(<<scsa-competency>>).
+
 
 ==== Inactive authorities
 
@@ -45,10 +48,12 @@ A competent script conversion system authority is one that has standardized
 processes surrounding the management of the script conversion systems,
 covering at least the following processes:
 
-. planning of script conversion systems, including the process of designing and defining script conversion systems;
+. planning of script conversion systems, including the process of designing and
+defining script conversion systems;
 . performing changes to script conversion systems are well planned;
 . public announcement and dissemination of its script conversion systems; and
-. allows a public review period for people affected by script conversion systems under its management prior to enactment.
+. allows a public review period for people affected by script conversion systems
+under its management prior to enactment.
 
 
 === Registration
@@ -77,7 +82,8 @@ A code that represents the script conversion system authority.
 
 ==== name
 
-The identifiable short name that uniquely identifies the script conversion system authority.
+The identifiable short name that uniquely identifies the script conversion
+system authority.
 
 
 ==== remarks
@@ -104,7 +110,9 @@ script conversion system authorities.
 
 ===== Current status of names
 
-Script conversion system authorities listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+Script conversion system authorities listed in this document are intended to
+reflect the current situation, at the time of issue of the latest update of this
+document.
 
 
 
@@ -112,46 +120,63 @@ Script conversion system authorities listed in this document are intended to ref
 
 ===== Relationship with names
 
-The principle behind the alphabetic codes for script conversion system authorities is a visual association between the script conversion system authorities and their corresponding code elements.
+The principle behind the alphabetic codes for script conversion system
+authorities is a visual association between the script conversion system
+authorities and their corresponding code elements.
 
-In applying this principle, the code elements have generally been assigned on the basis of the abbreviated names of the script conversion system authorities, thus avoiding, wherever possible, any reflection of their political status.
+In applying this principle, the code elements have generally been assigned on
+the basis of the abbreviated names of the script conversion system authorities,
+thus avoiding, wherever possible, any reflection of their political status.
 
 [example]
 `iso` for ISO.
 
 [example]
-`bgnpcgn` for the United States Board on Geographic Names - Permanent Committee on Geographical Names for British Official Use.
+`bgnpcgn` for the United States Board on Geographic Names - Permanent Committee
+on Geographical Names for British Official Use.
 
 
 ===== Construction of the alphabetic code
 
-The following rules are to be adhered to for the assignment of the alphabetic code:
+The following rules are to be adhered to for the assignment of the alphabetic
+code:
 
-* The alphabetic code uses combinations, in lower case, of a maximum of 16 letters of the 26-character Latin alphabet.
+* The alphabetic code uses combinations, in lower case, of a maximum of 16
+letters of the 26-character Latin alphabet.
 
-* The minimal length of the code is 3 letters to encourage descriptive and distinguishable alphabetic names.
+* The minimal length of the code is 3 letters to encourage descriptive and
+distinguishable alphabetic names.
 
-* Codes with 2 letters are reserved for codes in <<ISO3166-1>>, each representing the administration authority of the particular jurisdiction.
+* Codes with 2 letters are reserved for codes in <<ISO3166-1>>, each
+representing the administration authority of the particular jurisdiction.
 
-* The specific code prefix of `xx` is reserved and is used as the prefix of user-assignable script conversion system authority codes.
+* The specific code prefix of `xx` is reserved and is used as the prefix of
+user-assignable script conversion system authority codes.
 
 
 ===== User assigned code elements
 
-If users need code elements to represent script conversion system authorities not included in the script conversion system authority registry, the code prefix of `xx` can be used, being a reserved code point `xx` for private user assignment.
+If users need code elements to represent script conversion system authorities
+not included in the script conversion system authority registry, the code prefix
+of `xx` can be used, being a reserved code point `xx` for private user
+assignment.
 
-The code length for the script conversion system authority identifier must be 3 or more letters.
+The code length for the script conversion system authority identifier must be 3
+or more letters.
 
 [example]
-`xxunece` is an example of a user-assigned private code for a script conversion system authority published by the UN/ECE.
+`xxunece` is an example of a user-assigned private code for a script conversion
+system authority published by the UN/ECE.
 
-NOTE: Users are advised that the above series of codes are not universally used, those code elements are not compatible between different entities.
+NOTE: Users are advised that the above series of codes are not universally used,
+those code elements are not compatible between different entities.
 
 
 
 ==== List of script conversion system authority codes and their data elements
 
-The list of script conversion system authority codes is initially defined in <<annex-script-conversion-system-authorities>>.
+The list of script conversion system authority codes is initially defined in
+<<annex-script-conversion-system-authorities>>.
 Additional and new entries will be provided by the ISO {docnumber}/RA.
 
 Data attributes provided in the list are defined in <<sc-authority-data-model>>.
