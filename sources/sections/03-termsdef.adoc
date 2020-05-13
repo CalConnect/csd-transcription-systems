@@ -25,16 +25,19 @@ systematic use of sounds, characters, symbols or signs to express meaning or com
 [[term-script-conversion]]
 === script conversion
 
-operation to convert a _script_ (<<term-script>>) into another script without change of _language_ (<<term-language>>)
+_transliteration_ (<<term-transliteration>>) or _transcription_ (<<term-transcription>>)
 
 
 [[term-transliteration]]
 === transliteration
 
-operation which consists of representing the characters of an entirely alphabetical character or alphanumeric character writing system by the characters of the conversion alphabet
+operation to convert a _script_ (<<term-script>>) into another script without change of _language_ (<<term-language>>) based on orthographic features of the source script
 
-[.source]
-<<ISO5127,clause="3.1.6.11">>
+
+[[term-transcription]]
+=== transcription
+
+operation to convert spoken _language_ (<<term-language>>) or a  _script_ (<<term-script>>) to another script without change of language based on phonetic features of the language and orthographic features of the source script
 
 
 [[term-romanization]]
@@ -49,14 +52,14 @@ _script conversion_ (<<term-script-conversion>>) from non-Roman to Roman script 
 [[term-transliteration-system]]
 === transliteration system
 
-A set of rules for _transliteration_ (<<term-transliteration>>) of a source
+a set of rules for _transliteration_ (<<term-transliteration>>) of a source
  _script_ (<<term-script>>) to a target script
 
 
 [[term-romanization-system]]
 === romanization system
 
-A set of rules for _romanization_ (<<term-romanization>>) of a source _script_
+a set of rules for _romanization_ (<<term-romanization>>) of a source _script_
 (<<term-script>>) to a target script
 
 //system for representing a word <orthographic word> in a writing system
@@ -66,7 +69,7 @@ A set of rules for _romanization_ (<<term-romanization>>) of a source _script_
 [[term-script-conversion-system]]
 === script conversion system
 
-A set of rules for _script conversion_ (<<term-script-conversion>>)
+a set of rules for _script conversion_ (<<term-script-conversion>>)
 
 
 ////
@@ -134,4 +137,3 @@ language used in the transliteration source
 script used in the transliteration source
 
 ////
-
