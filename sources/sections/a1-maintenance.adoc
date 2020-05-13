@@ -151,16 +151,20 @@ Additions to the official and international time scale authorities require addit
 ////
 
 
-[[scs-deletion]]
-==== Deletion of a script conversion system
+[[scs-deprecation]]
+==== Deprecation of a script conversion system
 
-Deletion of script conversion system codes shall be made upon
+Deprecation of script conversion system codes shall be made upon
 request of a member of ISO {docnumber}/AG
 or the script conversion system authority that manages the system.
 
-The ISO {docnumber}/AG will decide upon the deletion, on the basis
+The ISO {docnumber}/AG will decide upon the marking of deprecation, on the basis
 of the information received. The corresponding code element is reserved
 for backwards-compatibility.
+
+NOTE: Deprecation only applies to the code representation of the script
+conversion system, and not the system itself.
+For example, when the authority undergoes a rename.
 
 
 [[scs-alteration]]
@@ -184,7 +188,7 @@ in the list of code elements.
 Some code elements are reserved:
 
 * for a limited period when their reservation is the result of
-  the deletion (<<scs-deletion>>) or the alteration (<<scs-alteration>>)
+  the deprecation (<<scs-deprecation>>) or the alteration (<<scs-alteration>>)
   of an entry;
 
 * for an indeterminate period when the reservation is the result of
