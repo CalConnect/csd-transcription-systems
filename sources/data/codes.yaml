@@ -29,6 +29,8 @@ metadata:
         en: System specification
     relations:
       en: Relationships
+    status:
+      en: Status
     notes:
       en: Remarks
 data:
