@@ -131,7 +131,7 @@ Script conversion systems listed in this document are intended to reflect the cu
 ===== Relationship with names
 
 A code for a script conversion system has the structure of a list, with all
-elements joined by a dash character (`-`, Unicode U+2012).
+elements joined by a "FIGURE DASH" character ("`-`", Unicode U+2012).
 
 The elements must conform to the following order:
 
@@ -192,7 +192,7 @@ The script code must be a code listed in <<ISO15924>>.
 If users need system codes to represent transliteration and romanization systems not included in the script conversion system registry, the code prefix of `zz` can be used.
 
 The code for such a system has the structure of a list, with all elements joined
-by a dash character (`-`, Unicode U+2012).
+by a "FIGURE DASH" character ("`-`", Unicode U+2012).
 
 The elements must conform to the following order:
 
