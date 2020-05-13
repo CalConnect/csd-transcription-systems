@@ -16,6 +16,7 @@ into other scripts, and in the case of romanization systems, into Roman script.
 ....
 include::../models/style.uml.inc[]
 include::../models/system.wsd[]
+include::../models/status.wsd[]
 include::../models/relation.wsd[]
 ....
 
@@ -87,6 +88,14 @@ This element is optional.
 `replacedBy`:: the current system is replaced by the target system
 `relatedTo`:: the current system is related to the target system
 `basedOn`:: the current system is based on the target system, the script conversion process inherits certain attributes from the target system.
+
+
+==== status
+
+A system code may be optionally marked as deprecated or preferred.
+
+NOTE: The deprecation marker in no way indicates deprecation of the system
+itself.
 
 
 ==== remarks

@@ -8,6 +8,7 @@ class ScriptConversionSystem {
   +targetScript: iso15924Code
   +systemIdentifier: String
   +relations: SCSRelation[0..*]
+  +status: SCSStatus
   +remarks: String
 }
 

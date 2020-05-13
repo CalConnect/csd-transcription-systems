@@ -1,0 +1,8 @@
+
+'******* CONFIGURATION ************************************************
+enum SCSStatus {
+  preferred
+  deprecated
+}
+
+'******* CLASS RELATIONS **********************************************
