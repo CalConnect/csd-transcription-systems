@@ -20,6 +20,7 @@ h| Target script code (ISO 15924) | {systems.data[key]['target_script']}
 h| System ID | {systems.data[key]['system']['id']}
 h| System specification | {systems.data[key]['system']['specification']}
 h| Relationships | {systems.data[key]['relations']}
+h| Status | {systems.data[key]['status']}
 h| Notes | {systems.data[key]['notes']}
 |===
 
