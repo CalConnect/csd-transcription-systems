@@ -7,6 +7,9 @@
 A script conversion system authority is a competent authority that creates,
 publishes and/or manages definitions of script conversion systems.
 
+Authorities that are no longer competent will depend on ISO {docnumber}/AG for
+managing codes, which will be considered on a case-by-case basis.
+
 
 [[scsa-requirements]]
 === Requirements
@@ -20,9 +23,9 @@ A script conversion system authority should:
 
 ==== Inactive authorities
 
-If a script conversion system authority has ceased to exist,
-it is considered "`inactive`" and <<scsa-requirements-b>> no longer
-applies.
+If a script conversion system authority does not meet requirements outlined in
+<<scsa-requirements-b>>,
+it is considered "`inactive`".
 
 
 ==== Reserved authorities
