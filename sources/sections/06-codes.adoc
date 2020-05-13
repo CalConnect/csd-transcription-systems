@@ -79,6 +79,9 @@ Script conversion systems can be related to other script conversion systems
 in a number of ways. For example, a script conversion system may represent
 an adoption or variant of another script conversion system.
 
+Hierarchical structures of script conversion systems can be constructed by means
+of relationships.
+
 This element is optional.
 
 `aliasOf`:: the current system is an alias to the target system, the script conversion process is identical
