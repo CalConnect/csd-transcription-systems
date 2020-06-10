@@ -1,5 +1,4 @@
 
-:sectnums:
 == Scope
 
 This International Standard provides a code for the

@@ -1,6 +1,5 @@
 [[introduction]]
 
-:sectnums!:
 == Introduction
 
 A number of international applications require
