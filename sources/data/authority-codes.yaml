@@ -306,3 +306,11 @@ data:
     code: yivo
     name:
       en: YIVO Institute for Jewish Research
+  mvd:
+    code: mvd
+    name:
+      en: The Ministry of Internal Affairs of the Republic of Belarus
+  stategeocadastre:
+    code: stategeocadastre
+    name:
+      en: State Service of Ukraine for Geodesy, Cartography and Cadastre (StateGeoCadastre)
