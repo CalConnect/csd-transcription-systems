@@ -4,10 +4,9 @@
 == Terms and definitions
 
 
-[[term-script]]
 === script
 
-particular graphic representation or class of representations of a set of characters used to write one or more _languages_ (<<term-language>>)
+particular graphic representation or class of representations of a set of characters used to write one or more term:[languages]
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
