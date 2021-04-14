@@ -3,3 +3,6 @@
 * text=auto
 
 *.csv text
+
+# Keep everything in .gitignore
+.gitignore	-text
