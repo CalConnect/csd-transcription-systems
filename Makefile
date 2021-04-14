@@ -3,6 +3,8 @@ SHELL := /bin/bash
 # Ensure the xml2rfc cache directory exists locally
 IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
+TEMP_BUILD_DIR := temp_build
+
 SRC := $(shell yq e .metanorma.source.files metanorma.yml | cut -d ' ' -f 2 | tr -s '\n' ' ')
 
 ifeq ($(SRC),null)
@@ -67,9 +69,13 @@ debug:
 	$(call print_vars)
 
 scripts/csv2yaml:
-	git clone https://github.com/riboseinc/csv2yaml
+	if [[ -d $(TEMP_BUILD_DIR)/csv2yaml ]]; then \
+		pushd $(TEMP_BUILD_DIR)/csv2yaml && git fetch && git reset --hard origin/master && popd; \
+	else \
+		git clone --depth 1 https://github.com/riboseinc/csv2yaml $(TEMP_BUILD_DIR)/csv2yaml; \
+	fi
 	mkdir -p $@
-	cp -a csv2yaml/exe/* $@/
+	cp -a $(TEMP_BUILD_DIR)/csv2yaml/exe/* $@/
 
 %.yaml: %.csv |	scripts/csv2yaml
 	scripts/csv2yaml/structured_csv_to_yaml.rb $^
@@ -209,8 +215,12 @@ hack-update-metanorma:
 		"https://github.com/metanorma/isodoc"; \
 	do \
 		reponame="$${u##*/}"; \
-		git clone --depth 1 "$$u" && \
-		pushd "$$reponame" && \
+		if [[ -d "$(TEMP_BUILD_DIR)/$$reponame" ]]; then \
+			pushd "$(TEMP_BUILD_DIR)/$$reponame" && git fetch && git reset --hard origin/master && popd; \
+		else \
+			git clone --depth 1 "$$u" "$(TEMP_BUILD_DIR)/$$reponame"; \
+		fi && \
+		pushd "$(TEMP_BUILD_DIR)/$$reponame" && \
 		gem build "$${reponame}" && \
 		gem install *gem; \
 		set -- *gem; \

@@ -2,6 +2,9 @@
 sources/images/
 sources/data/*.adoc
 
+# Temporary build dir
+/temp_build/
+
 # Generated documents
 *.pdf
 *.key
