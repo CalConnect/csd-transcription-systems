@@ -3,7 +3,7 @@ SHELL := /bin/bash
 # Ensure the xml2rfc cache directory exists locally
 IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
-SRC := $(shell yq r metanorma.yml metanorma.source.files | cut -d ' ' -f 2 | tr -s '\n' ' ')
+SRC := $(shell yq e .metanorma.source.files metanorma.yml | cut -d ' ' -f 2 | tr -s '\n' ' ')
 
 ifeq ($(SRC),null)
 SRC :=
@@ -13,7 +13,7 @@ SRC :=
 endif
 
 ifeq ($(SRC),)
-BUILT := $(shell yq r metanorma.yml metanorma.source.built_targets | cut -d ':' -f 1 | tr -s '\n' ' ')
+BUILT := $(shell yq e .metanorma.source.built_targets metanorma.yml | cut -d ':' -f 1 | tr -s '\n' ' ')
 
 ifeq ($(BUILT),null)
 SRC :=
@@ -35,7 +35,7 @@ DERIVED_YAML := $(patsubst %.csv,%.yaml,$(CSV_SRC))
 
 SUPPLEMENTARY_SRC := $(ALL_ADOC_SRC) $(DERIVED_YAML)
 
-FORMATS := $(shell yq r metanorma.yml metanorma.formats | tr -d '[:space:]' | tr -s '-' ' ')
+FORMATS := $(shell yq e .metanorma.formats metanorma.yml | tr -d '[:space:]' | tr -s '-' ' ')
 ifeq ($(FORMATS),)
 FORMAT_MARKER := mn-output-
 FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d " " | tr "," "\\n" | sort | uniq | tr "\\n" " ")
@@ -92,7 +92,7 @@ documents/%.xml: sources/%.xml $(SUPPLEMENTARY_SRC) | documents
 # If XML file is provided, copy it over
 # Otherwise, build the xml using adoc
 sources/%.xml: | bundle
-	BUILT_TARGET="$(shell yq r metanorma.yml metanorma.source.built_targets[$@])"; \
+	BUILT_TARGET="$(shell yq e .metanorma.source.built_targets[$@] metanorma.yml)"; \
 	if [ "$$BUILT_TARGET" = "" ] || [ "$$BUILT_TARGET" = "null" ]; then \
 		BUILT_TARGET=$@; \
 		$(PREFIX_CMD) metanorma -x xml "$${BUILT_TARGET//xml/adoc}"; \
@@ -107,8 +107,8 @@ sources/%.xml: | bundle
 
 documents.rxl: $(XML) $(HTML)
 	${PREFIX_CMD} relaton concatenate \
-	  -t "$(shell yq r metanorma.yml relaton.collection.name)" \
-		-g "$(shell yq r metanorma.yml relaton.collection.organization)" \
+	  -t "$(shell yq e .relaton.collection.name metanorma.yml)" \
+		-g "$(shell yq e .relaton.collection.organization metanorma.yml)" \
 		documents $@
 
 documents.html: documents.rxl
