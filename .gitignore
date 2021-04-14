@@ -2,8 +2,15 @@
 /sources/images/
 /sources/data/*.adoc
 
-# Temporary build dir
+# custom backup files
+*.bkup
+
+# Gems
+/vendor
+
+# Temporary build dirs
 /temp_build/
+/scripts/csv2yaml
 
 # Generated documents
 /documents/
