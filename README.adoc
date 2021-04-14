@@ -64,3 +64,24 @@ make
 open documents/iso-24229.html
 open documents/cc-24229.html
 ----
+
+
+== Updating gems
+
+Update `Gemfile` with desired modifications and run `bundle install`, then check
+in `Gemfile.lock`.
+
+
+=== Updating gems (with Nix)
+
+After updating gems as decribed above, run the following, then check in
+the generated `gemset.nix`.
+
+[source,bash]
+----
+rm -f .bundle/config  # This interferes with the following.  May be unneeded for Bundler v3
+nix-shell -p bundix zlib libxml2 pkg-config libxslt libiconv --run 'bundix --magic'
+# $(nix-build "<nixpkgs>" -A bundix --no-out-link)/bin/bundix --magic
+----
+
+The packages listed are for building nokogiri: `zlib libxml2 pkg-config libxslt libiconv`.
