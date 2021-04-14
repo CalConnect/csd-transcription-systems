@@ -2,7 +2,7 @@
 
 This work item belongs to ISO/TC 46/WG 3 and CalConnect TC LOCALIZATION.
 
-image:https://gitlab.com/calconnect/tc-localization/csd-transcription-systems/badges/master/pipeline.svg["Build Status (master)", link="https://gitlab.com/calconnect/tc-localization/csd-transcription-systems/pipelines"]
+image:https://github.com/CalConnect/csd-transcription-systems/actions/workflows/publish.yml/badge.svg["Publish", link="https://github.com/CalConnect/csd-transcription-systems/actions/workflows/publish.yml"]
 
 This document is available in its rendered forms here:
 
