@@ -1,11 +1,12 @@
 .tmp.xml
-sources/images/
-sources/data/*.adoc
+/sources/images/
+/sources/data/*.adoc
 
 # Temporary build dir
 /temp_build/
 
 # Generated documents
+/documents/
 *.pdf
 *.key
 *.html
