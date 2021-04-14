@@ -13,7 +13,7 @@ This document is available in its rendered forms here:
 
 [source,sh]
 ----
-git clone https://gitlab.com/calconnect/tc-localization/csd-transcription-systems
+git clone https://github.com/CalConnect/csd-transcription-systems
 ----
 
 
