@@ -3,6 +3,25 @@ SHELL := /bin/bash
 # Ensure the xml2rfc cache directory exists locally
 IGNORE := $(shell mkdir -p $(HOME)/.cache/xml2rfc)
 
+# Detect number of cores (e.g. for bundle install)
+ifeq ($(OS),Windows_NT)
+	CORES := $(shell nproc --all)
+else
+	UNAME_S := $(shell uname -s)
+
+	ifeq ($(UNAME_S),Linux)
+		CORES := $(shell grep -c '^$' /proc/cpuinfo)
+	endif
+
+	ifeq ($(UNAME_S),Darwin)
+		CORES := $(shell sysctl -n hw.ncpu)
+	endif
+
+	ifeq ($(UNAME_S),FreeBSD)
+		CORES := $(shell sysctl -n hw.ncpu)
+	endif
+endif
+
 TEMP_BUILD_DIR := temp_build
 
 SRC := $(shell yq e .metanorma.source.files metanorma.yml | cut -d ' ' -f 2 | tr -s '\n' ' ')
@@ -146,7 +165,7 @@ clean:
 
 run-bundle:
 ifndef METANORMA_DOCKER
-	bundle install --jobs 4 --retry 3
+	bundle install --jobs $(CORES) --retry 3
 endif
 
 bundle: run-bundle debug
