@@ -103,6 +103,16 @@
     };
     version = "1.1.0";
   };
+  cliver = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "096f4rj7virwvqxhkavy0v55rax10r4jqf8cymbvn4n631948xc7";
+      type = "gem";
+    };
+    version = "0.3.2";
+  };
   cnccs = {
     groups = ["default"];
     platforms = [];
@@ -142,6 +152,27 @@
       type = "gem";
     };
     version = "2.2.4";
+  };
+  css_parser = {
+    dependencies = ["addressable"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0xs4ind9xd099rb52b73pch8ha143dl8bhivqsbba4wrvxpbx751";
+      type = "gem";
+    };
+    version = "1.9.0";
+  };
+  descriptive_statistics = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1yr9vfhbvj045dyynyhgs7mspmsf6rfjcg053mwvsm4mr8w9m3qv";
+      type = "gem";
+    };
+    version = "2.5.1";
   };
   domain_name = {
     dependencies = ["unf"];
@@ -392,11 +423,9 @@
     groups = ["default"];
     platforms = [];
     source = {
-      fetchSubmodules = false;
-      rev = "c4fbc09f1b0540e87acc50160f2f1da2cc42b336";
-      sha256 = "0sylbrf7amj4d3r05prwpsm1dpl1nc0p3y7zngshijv10yyv5xn8";
-      type = "git";
-      url = "https://github.com/metanorma/isodoc";
+      remotes = ["https://rubygems.org"];
+      sha256 = "1g4sz0fx2xhnccfybpl6dw14046scx57j32r67x0nxbyl874fgqc";
+      type = "gem";
     };
     version = "1.6.0";
   };
@@ -480,10 +509,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1gqlsf61089gq5w8pz8jlr2ik638vdgaiqnn0z67dnlswqr7fvhb";
+      sha256 = "1jl4crpwfwz1zgjj83iqpmn0v040zbanm05nm536d6f11yl5andm";
       type = "gem";
     };
-    version = "0.3.0";
+    version = "0.3.1";
   };
   lutaml-xmi = {
     dependencies = ["hashie" "lutaml-uml" "thor"];
@@ -491,10 +520,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0zb0hc5n3m0dsw3ac3b6n3nid1lh4695l69rz471i6zf6fxsf3y0";
+      sha256 = "0k29fgi85aaf9l38ayizkq84r7j322n636a6sr20is3yiwjkqsd8";
       type = "gem";
     };
-    version = "0.1.1";
+    version = "0.1.2";
   };
   marcel = {
     groups = ["default"];
@@ -632,11 +661,9 @@
     groups = ["default"];
     platforms = [];
     source = {
-      fetchSubmodules = false;
-      rev = "674f596fa9a1a589bdb6b9a428cca215deb8f1f0";
-      sha256 = "1bx9r30zvl8gbk9kxyvnmk986bl7qp7kqq6qphfhrjdlwg573861";
-      type = "git";
-      url = "https://github.com/metanorma/metanorma-iso";
+      remotes = ["https://rubygems.org"];
+      sha256 = "10qc0jbaclj7lk1c4lywqdlmrlbirvi0kmyfqvrnynazzh62rzk7";
+      type = "gem";
     };
     version = "1.8.0";
   };
@@ -696,26 +723,24 @@
     version = "0.1.1";
   };
   metanorma-plugin-lutaml = {
-    dependencies = ["liquid" "lutaml" "metanorma" "relaton-cli"];
+    dependencies = ["liquid" "lutaml" "metanorma" "relaton-cli" "reverse_adoc"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1m3l8pqk1kypjm1ilbi75sfvx0g2dlin197nr5x9v2cc2v3w4zrr";
+      sha256 = "0397syz6l7vnpbamswl2fnxk4bam4rmp2yv4akz4pdirkfys5in5";
       type = "gem";
     };
-    version = "0.3.1";
+    version = "0.3.2";
   };
   metanorma-standoc = {
     dependencies = ["asciidoctor" "asciimath2unitsml" "concurrent-ruby" "iev" "isodoc" "latexmath" "mathml2asciimath" "metanorma-plugin-datastruct" "metanorma-plugin-lutaml" "metanorma-utils" "relaton-cli" "relaton-iev" "ruby-jing" "unicode2latex"];
     groups = ["default"];
     platforms = [];
     source = {
-      fetchSubmodules = false;
-      rev = "d79d8561ab803fc306198c4b038634d9b3cbdb48";
-      sha256 = "02dvd69m33v88wxg90i5hwa5lqzlsskshn8djb3ya152z13qr1wp";
-      type = "git";
-      url = "https://github.com/metanorma/metanorma-standoc";
+      remotes = ["https://rubygems.org"];
+      sha256 = "1bri2jvl3x2w5n4zp2s0jpniwbhxhhqhzzhxjnxv2nwbjwjpl566";
+      type = "gem";
     };
     version = "1.9.0";
   };
@@ -854,6 +879,17 @@
     };
     version = "1.10.10";
   };
+  nokogiri-styles = {
+    dependencies = ["nokogiri"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1jc0ld9rvjk0whjkfnsw6lkzcj4l9j8167v8xjqca5fvv28j7lxj";
+      type = "gem";
+    };
+    version = "0.1.2";
+  };
   ntlm-http = {
     groups = ["default"];
     platforms = [];
@@ -904,6 +940,17 @@
       type = "gem";
     };
     version = "0.0.1";
+  };
+  premailer = {
+    dependencies = ["addressable" "css_parser" "htmlentities"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1xrhmialxn5vlp1nmf40a4db9gji4h2wbzd7f43sz64z8lvrjj6h";
+      type = "gem";
+    };
+    version = "1.11.1";
   };
   pry = {
     dependencies = ["coderay" "method_source"];
@@ -1177,6 +1224,28 @@
     };
     version = "1.7.2";
   };
+  reverse_adoc = {
+    dependencies = ["marcel" "mathml2asciimath" "nokogiri" "premailer" "word-to-markdown"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "1a99a8vrygjpzvknd75ls81ys5p8x7qzn42ffkw5zn4zdfzslwl8";
+      type = "gem";
+    };
+    version = "0.3.0";
+  };
+  reverse_markdown = {
+    dependencies = ["nokogiri"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0w786j869fjhjf72waj0hc9i4ghi45b78a2am27kij4sa2hmsc53";
+      type = "gem";
+    };
+    version = "1.4.0";
+  };
   rexml = {
     groups = ["default"];
     platforms = [];
@@ -1300,6 +1369,17 @@
       type = "gem";
     };
     version = "1.0.20";
+  };
+  sys-proctable = {
+    dependencies = ["ffi"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "17zzb1slwhq0j42qh8ywnh4c5ww2wwskl9362ayxf0am86b02zsb";
+      type = "gem";
+    };
+    version = "1.2.6";
   };
   thor = {
     groups = ["default"];
@@ -1445,5 +1525,16 @@
       type = "gem";
     };
     version = "0.1.2";
+  };
+  word-to-markdown = {
+    dependencies = ["cliver" "descriptive_statistics" "nokogiri-styles" "premailer" "reverse_markdown" "sys-proctable"];
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0l5h73ya8sq9d9fs15hgw1q5hs3rphijm77rhd7idq60g5ha6z8l";
+      type = "gem";
+    };
+    version = "1.1.8";
   };
 }
