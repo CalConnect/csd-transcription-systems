@@ -1,39 +1,67 @@
 name: publish
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    paths-ignore:
+      - .github/workflows/macos.yml
+      - .github/workflows/ubuntu.yml
+      - .github/workflows/windows.yml
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Setup snaps
-        run: |
-          sudo snap install jq
-          sudo snap install yq
+    container: docker://metanorma/mn
+    steps:
       - uses: actions/checkout@master
+      - name: Checkout submodules
+        shell: bash
+        run: |
+          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
+          git submodule sync --recursive
+          git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
+      - name: Setup fonts
+        run: |
+          # We need to do this to install mscorefonts
+          apt-add-repository -y contrib
+          apt-get update
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | debconf-set-selections
+          apt-get install -y ttf-mscorefonts-installer
+          curl -Ls https://raw.githubusercontent.com/metanorma/vista-fonts-installer/master/vista-fonts-installer.sh | bash
+      - name: Install gems from local Gemfile
+        run: |
+          curl -LO --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
       - name: Build document in the Metanorma container
         env:
-          METANORMA_DOCKER: metanorma/metanorma:latest
+          LC_ALL: C.UTF-8
+          LANG: C.UTF-8
+          LANGUAGE: C.UTF-8
         run: |
-          make clean all publish
+          metanorma site generate . -c metanorma.yml
       - uses: actions/upload-artifact@master
         with:
-          name: published
-          path: published
+          name: site
+          path: site
 
   deploy-gh-pages:
-    runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
     needs: build
     steps:
     - uses: actions/checkout@master
     - uses: actions/download-artifact@master
       with:
-        name: published
-    - name: deploy-to-gh
+        name: site
+    - name: Deploy to GH Pages
       env:
         GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
         GH_DEPLOY_KEY: ${{ secrets.GH_DEPLOY_KEY }}
         GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
       run: |
         curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/ghactions-deploy-to-gh-pages.sh | bash
+    - uses: kolpav/purge-artifacts-action@v1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        expire-in: 0

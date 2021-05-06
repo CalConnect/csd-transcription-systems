@@ -15,7 +15,6 @@
 :fullname_2: Jeffrey Lau
 :surname_2: Lau
 :givenname_2: Jeffrey
-:docfile: cc-24229.adoc
 :imagesdir: images
 :mn-document-class: csd
 :mn-output-extensions: xml,html,doc,rxl
