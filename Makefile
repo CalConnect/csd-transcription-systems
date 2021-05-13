@@ -60,6 +60,10 @@ endef
 .PHONY: all
 all: documents.html debug
 
+.PHONY: prep
+prep:
+	bundle install
+
 .PHONY: debug
 debug:
 	$(call print_vars)
@@ -84,7 +88,7 @@ documents:
 	mkdir -p $@
 
 documents.html: metanorma.yml $(SUPPLEMENTARY_SRC) | documents
-	metanorma site generate . -c metanorma.yml
+	bundle exec metanorma site generate --agree-to-terms . -c metanorma.yml
 
 define FORMAT_TASKS
 OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
