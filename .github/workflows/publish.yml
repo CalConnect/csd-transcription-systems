@@ -43,7 +43,7 @@ jobs:
           LANG: C.UTF-8
           LANGUAGE: C.UTF-8
         run: |
-          metanorma site generate --agree-to-terms . -c metanorma.yml
+          make
       - uses: actions/upload-artifact@master
         with:
           name: site
