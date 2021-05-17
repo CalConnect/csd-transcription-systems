@@ -6,7 +6,9 @@ image:https://github.com/CalConnect/csd-transcription-systems/actions/workflows/
 
 This document is available in its rendered forms here:
 
-* https://calconnect.gitlab.io/tc-localization/csd-transcription-systems/[CC/ISO 24229: Information and documentation -- Codes for script conversion systems]
+* https://calconnect.github.io/csd-transcription-systems/[(GitHub) CC/ISO 24229: Information and documentation -- Codes for script conversion systems]
+
+* https://calconnect.gitlab.io/tc-localization/csd-transcription-systems/[(GitLab, deprecated) CC/ISO 24229: Information and documentation -- Codes for script conversion systems]
 
 
 == Fetching the document
