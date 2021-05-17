@@ -18,6 +18,7 @@
 *.docx
 *.ppt
 *.pptx
+sources/data/*.yaml
 
 # Created by https://www.toptal.com/developers/gitignore/api/vim,ruby,macos,linux,emacs,jekyll,textmate,sublimetext,visualstudiocode,vscode,windows,node,latex,tex
 # Edit at https://www.toptal.com/developers/gitignore?templates=vim,ruby,macos,linux,emacs,jekyll,textmate,sublimetext,visualstudiocode,vscode,windows,node,latex,tex
