@@ -9,7 +9,7 @@
 /vendor
 
 # Generated documents
-/documents/
+/site/
 *.pdf
 *.key
 *.html
