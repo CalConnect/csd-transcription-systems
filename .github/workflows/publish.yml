@@ -12,7 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
     container: docker://metanorma/mn
     steps:
       - uses: actions/checkout@master
