@@ -164,6 +164,16 @@
     };
     version = "1.9.0";
   };
+  csv = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "07mgyalwdxaxnff86j5p6n5szmhqz7nrlkb40826mzggrmva8v1m";
+      type = "gem";
+    };
+    version = "3.1.9";
+  };
   descriptive_statistics = {
     groups = ["default"];
     platforms = [];
@@ -737,10 +747,10 @@
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "1v5d526ay565icgnqq3ignr84k65xbp9762xrbfx24rn9khnb6y8";
+      sha256 = "1yya1n1nz7p6xamr7rav8difha2891hv8df0v57y8x9slfcjj8dj";
       type = "gem";
     };
-    version = "0.1.2";
+    version = "0.1.4";
   };
   metanorma-plugin-lutaml = {
     dependencies = ["liquid" "lutaml" "metanorma" "relaton-cli" "reverse_adoc"];
@@ -1402,14 +1412,15 @@
     version = "1.0.20";
   };
   structured_csv = {
+    dependencies = ["csv" "yaml"];
     groups = ["default"];
     platforms = [];
     source = {
       remotes = ["https://rubygems.org"];
-      sha256 = "0bl62svv8nwvh3xkzplng401zcdryhjl75ck5qnd835d90sg8pvf";
+      sha256 = "0s7zzpljfj0q64b80l7rzrlrlwqbgpxaarnnny0bm0whpfvfh91d";
       type = "gem";
     };
-    version = "0.1.0";
+    version = "0.2.1";
   };
   sys-proctable = {
     dependencies = ["ffi"];
@@ -1577,5 +1588,15 @@
       type = "gem";
     };
     version = "1.1.8";
+  };
+  yaml = {
+    groups = ["default"];
+    platforms = [];
+    source = {
+      remotes = ["https://rubygems.org"];
+      sha256 = "0kpp0jas56na829ai2jnvh9i5vfad8y7rspw2kai1q44sjw621s9";
+      type = "gem";
+    };
+    version = "0.1.1";
   };
 }
