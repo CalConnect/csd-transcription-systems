@@ -21,9 +21,13 @@ jobs:
           auth_header="$(git config --local --get http.https://github.com/.extraheader)"
           git submodule sync --recursive
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
-      - name: Setup snaps
+      - name: Install yq
+        env:
+          VERSION: v4.9.1
+          BINARY: yq_linux_amd64
         run: |
-          snap install yq
+          wget https://github.com/mikefarah/yq/releases/download/${VERSION}/${BINARY} -O /usr/bin/yq && \
+            chmod +x /usr/bin/yq
       - name: Setup fonts
         run: |
           # We need to do this to install mscorefonts
