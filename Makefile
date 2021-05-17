@@ -109,45 +109,6 @@ test:
 	scripts/run_tests
 
 #
-# Watch-related jobs
-#
-
-NODE_BINS          := onchange live-serve run-p
-NODE_BIN_DIR       := node_modules/.bin
-NODE_PACKAGE_PATHS := $(foreach PACKAGE_NAME,$(NODE_BINS),$(NODE_BIN_DIR)/$(PACKAGE_NAME))
-
-$(NODE_PACKAGE_PATHS): package.json
-	npm i
-
-.PHONY: watch
-watch: $(NODE_BIN_DIR)/onchange
-	make all
-	$< $(ALL_SRC) -- make all
-
-define WATCH_TASKS
-.PHONY: watch-$(FORMAT)
-watch-$(FORMAT): $(NODE_BIN_DIR)/onchange
-	make $(FORMAT)
-	$$< $$(SRC_$(FORMAT)) -- make $(FORMAT)
-
-endef
-
-$(foreach FORMAT,$(FORMATS),$(eval $(WATCH_TASKS)))
-
-.PHONY: serve
-serve: $(NODE_BIN_DIR)/live-server revealjs-css reveal.js
-	export PORT=$${PORT:-8123} ; \
-	port=$${PORT} ; \
-	for html in $(HTML); do \
-		$< --entry-file=$$html --port=$${port} --ignore="*.html,*.xml,Makefile,Gemfile.*,package.*.json" --wait=1000 & \
-		port=$$(( port++ )) ;\
-	done
-
-.PHONY: watch-serve
-watch-serve: $(NODE_BIN_DIR)/run-p
-	$< watch serve
-
-#
 # Deploy jobs
 #
 
