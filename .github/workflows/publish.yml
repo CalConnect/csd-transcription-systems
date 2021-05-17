@@ -23,8 +23,8 @@ jobs:
           git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
       - name: Setup snaps
         run: |
-          sudo snap install jq
-          sudo snap install yq
+          snap install jq
+          snap install yq
       - name: Setup fonts
         run: |
           # We need to do this to install mscorefonts
