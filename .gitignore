@@ -8,10 +8,6 @@
 # Gems
 /vendor
 
-# Temporary build dirs
-/temp_build/
-/scripts/csv2yaml
-
 # Generated documents
 /documents/
 *.pdf
