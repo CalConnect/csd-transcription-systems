@@ -6,6 +6,54 @@
 Script conversion systems are used to convert writing systems
 into other scripts, and in the case of romanization systems, into Roman script.
 
+=== Requirements
+
+[[registration-adding-entry]]
+==== Registration of a new script conversion system
+
+Additions to the list of script conversion system codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG or the script conversion system authority that manages this system.
+
+The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
+
+A script conversion system is eligible for a script conversion system code assignment if it fulfills one of the following criteria:
+
+* The system has been approved for official use at some level of government;
+
+* The system has been developed and used by educational/scientific institutions, published in a peer reviewed scientific publication;
+
+* The system has been in substantial usage.
+
+
+Assigning of a script conversion system code also requires demonstration of one of the following usage factors:
+
+* Necessity of identification of the system in interchange;
+* Necessity of identification of the system in data encoding.
+
+NOTE: Systems that are used in isolation or only for temporary usage does not need to be assigned codes.
+
+////
+Additions to the official and international time scale authorities require additional criteria:
+
+* An official time scale authority must be endorsed by a body receiving direct authority by a member of the United Nations.
+* An international time scale authority must be endorsed by an international standardization body in liaison with the ISO {docnumber}/AG.
+////
+
+
+[[scs-deprecation]]
+==== Deprecation of a script conversion system
+
+Deprecation of script conversion system codes shall be made upon
+request of a member of ISO {docnumber}/AG
+or the script conversion system authority that manages the system.
+
+The ISO {docnumber}/AG will decide upon the marking of deprecation, on the basis
+of the information received. The corresponding code element is reserved
+for backwards-compatibility.
+
+NOTE: Deprecation only applies to the code representation of the script
+conversion system, and not the system itself.
+For example, when the authority undergoes a rename.
+
 
 [[sc-data-model]]
 === Data model and attributes
