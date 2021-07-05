@@ -1,0 +1,71 @@
+
+[[spelling-systems]]
+== Spelling systems
+
+=== General
+
+A spelling system represents the input and output of a script conversion system.
+
+One of the defining characteristics of a spelling system is the characters used
+in the system.
+
+// - usage of the system
+//
+//   ... incorporate example of estonian spelling reform.
+
+[[sp-data-model]]
+=== Data model and attributes
+
+==== General
+
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/spelling.wsd[]
+....
+
+
+==== code
+
+A code that identifies the spelling system.
+
+
+==== script
+
+The script code of the script used in the spelling system. This code is from <<ISO15924>>.
+
+
+==== characterSet
+
+The exhaustive set of characters used in the script.
+This is a subset of the characters defined in `script`.
+
+
+==== remarks
+
+Any further notes.
+
+
+=== Code and identifier
+
+==== Principles for inclusion in the list of spelling systems
+
+===== List
+
+The list of spelling systems in this document includes known
+spellings for transliteration and romanization systems from official sources.
+
+
+==== Principles for allocation of code elements
+
+===== Construction of the spelling system code
+
+A spelling system code must be within 5 characters.
+
+The preferred way to construct a spelling system code is combine pieces of
+identifying information about the spelling system itself, _e.g._ the language
+involved with the year of conception.
+
+[example]
+`ee17c` can be used to represent the spelling system used in the Estonian
+orthography reform in the 17th century.

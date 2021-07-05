@@ -92,14 +92,14 @@ If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should
 be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
 
-==== sourceScript
+==== sourceSpelling
 
-The script code of the script used in the source text. This code is from <<ISO15924>>.
+The spelling system used in the source text.
 
 
 ==== targetScript
 
-The script code of the script used in the output text. This code is from <<ISO15924>>.
+The spelling system used in the output text.
 
 
 ==== systemIdentifier

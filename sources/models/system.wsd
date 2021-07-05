@@ -4,8 +4,8 @@ class ScriptConversionSystem {
   +code: SystemCode
   +name: String
   +language: iso639Code
-  +sourceScript: iso15924Code
-  +targetScript: iso15924Code
+  +sourceSpelling: SpellingSystem
+  +targetSpelling: SpellingSystem
   +systemIdentifier: String
   +relations: SCSRelation[0..*]
   +status: SCSStatus
