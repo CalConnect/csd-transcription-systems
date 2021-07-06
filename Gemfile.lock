@@ -1,16 +1,16 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
-    arr-pm (0.0.10)
+    arr-pm (0.0.11)
       cabin (> 0)
     asciidoctor (2.0.15)
     asciimath (2.0.2)
-    asciimath2unitsml (0.3.2)
+    asciimath2unitsml (0.3.3)
       asciimath
       htmlentities
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.11)
       rsec (~> 1.0.0)
     bibtex-ruby (6.0.0)
       latex-decode (~> 0.0)
@@ -21,11 +21,11 @@ GEM
     cliver (0.3.2)
     cnccs (0.1.6)
     coderay (1.1.3)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     connection_pool (2.2.5)
     css_parser (1.9.0)
       addressable
-    csv (3.1.9)
+    csv (3.2.0)
     descriptive_statistics (2.5.1)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
@@ -42,22 +42,26 @@ GEM
     expressir (1.0.0)
       rice (~> 3)
       thor (~> 1.0)
-    faraday (1.4.2)
+    faraday (1.5.0)
       faraday-em_http (~> 1.0)
       faraday-em_synchrony (~> 1.0)
       faraday-excon (~> 1.1)
+      faraday-httpclient (~> 1.0.1)
       faraday-net_http (~> 1.0)
       faraday-net_http_persistent (~> 1.1)
+      faraday-patron (~> 1.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords (>= 0.0.4)
     faraday-em_http (1.0.0)
     faraday-em_synchrony (1.0.0)
     faraday-excon (1.1.0)
+    faraday-httpclient (1.0.1)
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
+    faraday-patron (1.0.0)
     faraday_middleware (1.0.0)
       faraday (~> 1.0)
-    ffi (1.15.1)
+    ffi (1.15.3)
     ffi-compiler2 (2.0.1)
       ffi (>= 1.0.0)
       rake
@@ -77,30 +81,30 @@ GEM
       rchardet (~> 1.8)
     hashie (4.1.0)
     hollaback (0.1.0)
-    html2doc (1.1.2)
+    html2doc (1.1.3)
       asciimath (~> 2.0.2)
       htmlentities (~> 4.3.4)
       image_size
       mime-types
-      nokogiri (~> 1.10)
+      nokogiri (~> 1.11)
       plane1converter (~> 0.0.1)
       thread_safe
       uuidtools
     htmlentities (4.3.4)
-    http-cookie (1.0.3)
+    http-cookie (1.0.4)
       domain_name (~> 0.5)
-    iev (0.2.4)
-      nokogiri (>= 1.10.4)
-    image_size (2.1.0)
+    iev (0.2.5)
+      nokogiri (~> 1.11)
+    image_size (2.1.1)
     iso-639 (0.3.5)
     iso639 (1.3.2)
-    isodoc (1.6.3)
+    isodoc (1.6.7.1)
       asciimath
       html2doc (~> 1.1.1)
       htmlentities (~> 4.3.4)
       liquid (~> 4)
       metanorma (>= 1.2.0)
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.11.0)
       relaton-cli
       roman-numerals
       thread_safe
@@ -115,7 +119,7 @@ GEM
       ffi
       ffi-compiler2 (>= 2.0.0)
     liquid (4.0.3)
-    lutaml (0.7.1)
+    lutaml (0.7.4)
       lutaml-express
       lutaml-uml
       lutaml-xmi
@@ -123,32 +127,33 @@ GEM
       thor (~> 1.0)
     lutaml-express (0.2.0)
       expressir (~> 1.0.0)
-    lutaml-uml (0.3.2)
+    lutaml-uml (0.4.0)
       hashie (~> 4.1.0)
       nokogiri (~> 1.10)
       parslet (~> 1.7.1)
       ruby-graphviz (~> 1.2)
       thor (~> 1.0)
-    lutaml-xmi (0.1.5)
+    lutaml-xmi (0.2.1)
       hashie (~> 4.1.0)
       lutaml-uml
       nokogiri (~> 1.10)
       thor (~> 1.0)
     marcel (1.0.1)
-    mathml2asciimath (0.0.10)
+    mathml2asciimath (0.0.11)
       htmlentities (~> 4.3.4)
-      nokogiri (>= 1.10.4)
-    mechanize (2.7.7)
-      domain_name (~> 0.5, >= 0.5.1)
-      http-cookie (~> 1.0)
-      mime-types (>= 1.17.2)
-      net-http-digest_auth (~> 1.1, >= 1.1.1)
-      net-http-persistent (>= 2.5.2)
-      nokogiri (~> 1.6)
-      ntlm-http (~> 0.1, >= 0.1.1)
+      nokogiri (~> 1.11)
+    mechanize (2.8.1)
+      addressable (~> 2.7)
+      domain_name (~> 0.5, >= 0.5.20190701)
+      http-cookie (~> 1.0, >= 1.0.3)
+      mime-types (~> 3.0)
+      net-http-digest_auth (~> 1.4, >= 1.4.1)
+      net-http-persistent (>= 2.5.2, < 5.0.dev)
+      nokogiri (~> 1.11, >= 1.11.2)
+      rubyntlm (~> 0.6, >= 0.6.3)
       webrick (~> 1.7)
-      webrobots (>= 0.0.9, < 0.2)
-    metanorma (1.3.3)
+      webrobots (~> 0.1.2)
+    metanorma (1.3.5)
       asciidoctor
       fontist (~> 1.8)
       htmlentities
@@ -156,12 +161,12 @@ GEM
       mn2pdf (~> 1)
       nokogiri
       pry
-    metanorma-bipm (1.1.2)
+    metanorma-bipm (1.1.4)
       metanorma-generic (~> 1.10.0)
       metanorma-iso (~> 1.8.0)
-    metanorma-cc (1.7.3)
+    metanorma-cc (1.7.5)
       metanorma-generic (~> 1.10.0)
-    metanorma-cli (1.4.9)
+    metanorma-cli (1.4.9.2)
       git (~> 1.5)
       isodoc (>= 1.6.0)
       metanorma (~> 1.3.0)
@@ -181,39 +186,40 @@ GEM
       metanorma-un (~> 0.6.0)
       relaton-cli (>= 0.8.2)
       thor (~> 1.0)
-    metanorma-csa (1.8.3)
+    metanorma-csa (1.8.5)
       metanorma-generic (~> 1.10.0)
-    metanorma-generic (1.10.0)
+    metanorma-generic (1.10.1)
       htmlentities (~> 4.3.4)
       isodoc (~> 1.6.0)
       metanorma-standoc (~> 1.9.0)
       ruby-jing
-    metanorma-iec (1.3.3)
+    metanorma-iec (1.3.5)
       metanorma-iso (~> 1.8.0)
       ruby-jing
-    metanorma-ietf (2.3.2)
+    metanorma-ietf (2.3.4)
       isodoc (~> 1.6.0)
       mathml2asciimath
       metanorma-standoc (~> 1.9.0)
-      nokogiri (~> 1.10.4)
-    metanorma-iho (0.3.3)
+      nokogiri (~> 1.11.6)
+      open-uri
+    metanorma-iho (0.3.5)
       htmlentities (~> 4.3.4)
       metanorma-generic (~> 1.10.0)
-    metanorma-iso (1.8.3)
+    metanorma-iso (1.8.5)
       isodoc (~> 1.6.2)
       metanorma-standoc (~> 1.9.0)
       mn2sts (~> 1.8.0)
       ruby-jing
       tokenizer (~> 0.3.0)
       twitter_cldr
-    metanorma-itu (1.3.3)
+    metanorma-itu (1.3.5)
       htmlentities (~> 4.3.4)
       isodoc (~> 1.6.0)
       metanorma-standoc (~> 1.9.0)
       ruby-jing
       twitter_cldr
       tzinfo-data
-    metanorma-m3aawg (1.7.3)
+    metanorma-m3aawg (1.7.5)
       htmlentities (~> 4.3.4)
       metanorma-generic (~> 1.10.0)
       thread_safe
@@ -225,7 +231,7 @@ GEM
       ruby-jing
       twitter_cldr
       tzinfo-data
-    metanorma-ogc (1.3.3)
+    metanorma-ogc (1.3.5)
       iso-639
       isodoc (~> 1.6.0)
       metanorma-standoc (~> 1.9.0)
@@ -241,7 +247,7 @@ GEM
       metanorma
       relaton-cli
       reverse_adoc
-    metanorma-standoc (1.9.3)
+    metanorma-standoc (1.9.4)
       asciidoctor (~> 2.0.0)
       asciimath2unitsml (~> 0.3.0)
       concurrent-ruby
@@ -256,39 +262,40 @@ GEM
       relaton-iev (~> 1.1.0)
       ruby-jing
       unicode2latex (~> 0.0.1)
-    metanorma-un (0.6.3)
+    metanorma-un (0.6.5)
       iso-639
       isodoc (~> 1.6.0)
       metanorma-standoc (~> 1.9.0)
       roman-numerals
       twitter_cldr
-    metanorma-utils (1.2.2)
+    metanorma-utils (1.2.3)
       asciidoctor (~> 2.0.0)
       concurrent-ruby
       marcel (~> 1.0.0)
       mime-types
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.11)
       sterile (~> 1.0.14)
       uuidtools
     method_source (1.0.0)
     mime-types (3.3.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2021.0225)
-    mini_portile2 (2.4.0)
-    mn2pdf (1.31.2)
+    mime-types-data (3.2021.0704)
+    mini_portile2 (2.5.3)
+    mn2pdf (1.32)
     mn2sts (1.8.0)
     multi_json (1.15.0)
     multipart-post (2.1.1)
     net-http-digest_auth (1.4.1)
     net-http-persistent (4.0.1)
       connection_pool (~> 2.2)
-    nokogiri (1.10.10)
-      mini_portile2 (~> 2.4.0)
+    nokogiri (1.11.7)
+      mini_portile2 (~> 2.5.0)
+      racc (~> 1.4)
     nokogiri-styles (0.1.2)
       nokogiri
-    ntlm-http (0.1.1)
+    open-uri (0.1.0)
     optout (0.0.2)
-    ox (2.14.4)
+    ox (2.14.5)
     parslet (1.7.1)
       blankslate (>= 2.0, <= 4.0)
     plane1converter (0.0.1)
@@ -300,12 +307,14 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     public_suffix (4.0.6)
+    racc (1.5.2)
     rake (13.0.3)
     rchardet (1.8.0)
-    relaton (1.8.0)
+    relaton (1.8.1)
       relaton-bipm (~> 1.8.0)
       relaton-bsi (~> 1.8.0)
       relaton-calconnect (~> 1.8.0)
+      relaton-cen (~> 1.8.pre1)
       relaton-cie (~> 1.8.0)
       relaton-ecma (~> 1.8.0)
       relaton-gb (~> 1.8.0)
@@ -320,21 +329,24 @@ GEM
       relaton-omg (~> 1.8.0)
       relaton-un (~> 1.8.0)
       relaton-w3c (~> 1.8.0)
-    relaton-bib (1.8.1)
+    relaton-bib (1.8.2)
       addressable
       bibtex-ruby
       iso639
       nokogiri
-    relaton-bipm (1.8.1)
-      mechanize (~> 2.7.0)
+    relaton-bipm (1.8.2)
+      mechanize (~> 2.8.0)
       relaton-bib (~> 1.8.0)
       serrano (~> 1.0)
-    relaton-bsi (1.8.1)
-      mechanize (~> 2.7.0)
+    relaton-bsi (1.8.4)
+      mechanize (~> 2.8.0)
       relaton-iso-bib (~> 1.8.0)
     relaton-calconnect (1.8.0)
       faraday
       relaton-bib (~> 1.8.0)
+    relaton-cen (1.8.pre1)
+      mechanize
+      relaton-iso-bib (~> 1.8.0)
     relaton-cie (1.8.0)
       relaton-bib (~> 1.8.0)
     relaton-cli (1.8.0)
@@ -344,7 +356,7 @@ GEM
       thor-hollaback
     relaton-ecma (1.8.0)
       relaton-bib (~> 1.8.0)
-    relaton-gb (1.8.0)
+    relaton-gb (1.8.1)
       cnccs (~> 0.1.1)
       gb-agencies (~> 0.0.1)
       relaton-iso-bib (>= 1.8.0)
@@ -356,7 +368,8 @@ GEM
       relaton-bib (~> 1.8.0)
     relaton-ietf (1.8.0)
       relaton-bib (~> 1.8.0)
-    relaton-iev (1.1.0)
+    relaton-iev (1.1.2)
+      nokogiri (~> 1.11.0)
       relaton (>= 1.6)
     relaton-iho (1.8.0)
       relaton-bib (~> 1.8.0)
@@ -365,8 +378,8 @@ GEM
     relaton-iso-bib (1.8.1)
       isoics (~> 0.1.6)
       relaton-bib (~> 1.8.0)
-    relaton-itu (1.8.1)
-      mechanize (~> 2.7.0)
+    relaton-itu (1.8.2)
+      mechanize (~> 2.8.0)
       relaton-bib (~> 1.8.0)
     relaton-nist (1.8.0)
       relaton-bib (~> 1.8.0)
@@ -383,10 +396,10 @@ GEM
       unf_ext (>= 0.0.7.7)
     relaton-w3c (1.8.0)
       relaton-bib (>= 1.8.0)
-    reverse_adoc (0.3.1)
+    reverse_adoc (0.3.3)
       marcel (~> 1.0.0)
       mathml2asciimath
-      nokogiri (~> 1.10.4)
+      nokogiri (~> 1.11)
       premailer (~> 1.11.0)
       word-to-markdown
     reverse_markdown (1.4.0)
@@ -401,15 +414,16 @@ GEM
       optout (>= 0.0.2)
     ruby-ole (1.2.12.2)
     ruby2_keywords (0.0.4)
-    rubyzip (2.3.0)
+    rubyntlm (0.6.3)
+    rubyzip (2.3.2)
     serrano (1.0.0)
       faraday (~> 1.1)
       faraday_middleware (~> 1.0)
       multi_json (~> 1.15)
       thor (~> 1.0, >= 1.0.1)
     seven_zip_ruby (1.3.0)
-    sterile (1.0.20)
-      nokogiri (>= 1.10.8)
+    sterile (1.0.23)
+      nokogiri (>= 1.11.7)
     structured_csv (0.2.1)
       csv (~> 3.1)
       yaml (~> 0.1)
@@ -422,7 +436,7 @@ GEM
     thread_safe (0.3.6)
     tokenizer (0.3.0)
     ttfunk (1.7.0)
-    twitter_cldr (6.6.0)
+    twitter_cldr (6.6.1)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.1)
       tzinfo
@@ -451,6 +465,7 @@ PLATFORMS
 
 DEPENDENCIES
   fontist (~> 1.8.13)
+  lutaml
   metanorma-cli
   structured_csv
 

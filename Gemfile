@@ -1,6 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "fontist", "~> 1.8.13"
-gem "metanorma-cli"
-gem "structured_csv"
-
+gem 'fontist', '~> 1.8.13'
+gem 'lutaml'
+gem 'metanorma-cli'
+gem 'structured_csv'
