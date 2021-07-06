@@ -6,9 +6,12 @@ root = true
 end_of_line = lf
 insert_final_newline = true
 charset = utf-8
-
-[*.{yml,yaml}]
 indent_size = 2
+indent_style = space
+
+[{Makefile,*.make}]
+indent_size = 8
+indent_style = tab
 
 [codes.csv]
 charset = utf-8-bom
