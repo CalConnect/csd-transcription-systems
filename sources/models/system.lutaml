@@ -1,0 +1,32 @@
+diagram SCS {
+  class ScriptConversionSystem {
+    +code: SystemCode
+    +name: String
+    +language: iso639Code
+    +sourceSpelling: SpellingSystem
+    +targetSpelling: SpellingSystem
+    +systemIdentifier: String
+    +relations: SCSRelation[0..*]
+    +status: SCSStatus
+    +remarks: String
+  }
+
+  enum SCSStatus {
+    preferred
+    deprecated
+  }
+
+  class SCSRelation {
+    +systemCode: SystemCode
+    +type: SCSRelationType[0..*]
+  }
+
+  enum SCSRelationType {
+    aliasOf
+    adoptedFrom
+    supercedes
+    replacedBy
+    relatedTo
+    basedOn
+  }
+}

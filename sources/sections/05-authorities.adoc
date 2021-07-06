@@ -68,11 +68,7 @@ script conversion system authorities.
 
 ==== General
 
-[plantuml]
-....
-include::../models/style.uml.inc[]
-include::../models/authority.wsd[]
-....
+image:../images/authority.png[]
 
 
 ==== authorityCode

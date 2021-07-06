@@ -9,11 +9,7 @@ this document.
 
 === Data models
 
-[plantuml]
-....
-include::../models/style.uml.inc[]
-include::../models/datatypes.wsd[]
-....
+image:../images/datatypes.png[]
 
 
 [[iso-639]]

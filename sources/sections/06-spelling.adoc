@@ -18,12 +18,7 @@ in the system.
 
 ==== General
 
-[plantuml]
-....
-include::../models/style.uml.inc[]
-include::../models/spelling.wsd[]
-....
-
+image:../images/spelling.png[]
 
 ==== code
 

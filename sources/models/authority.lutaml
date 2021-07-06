@@ -1,0 +1,7 @@
+diagram Authority {
+  class ScriptConversionSystemAuthority {
+    +authorityCode: String
+    +name: String
+    +remarks: String
+  }
+}

@@ -60,13 +60,7 @@ For example, when the authority undergoes a rename.
 
 ==== General
 
-[plantuml]
-....
-include::../models/style.uml.inc[]
-include::../models/system.wsd[]
-include::../models/status.wsd[]
-include::../models/relation.wsd[]
-....
+image:../images/system.png[]
 
 
 ==== code
