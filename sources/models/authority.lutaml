@@ -4,4 +4,17 @@ diagram Authority {
     +name: String
     +remarks: String
   }
+
+  association {
+    owner AuthorityCode
+    member_type inheritance
+    member String
+  }
+
+  association {
+    owner ScriptConversionSystemAuthority
+    member_type direct
+    member AuthorityCode
+  }
+
 }

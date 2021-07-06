@@ -1,4 +1,10 @@
 diagram SCS {
+  association {
+    owner SystemCode
+    member_type inheritance
+    member String
+  }
+
   class ScriptConversionSystem {
     +code: SystemCode
     +name: String
@@ -16,9 +22,27 @@ diagram SCS {
     deprecated
   }
 
+  association {
+    owner ScriptConversionSystem
+    member_type direct
+    member SpellingSystem
+  }
+
+  association {
+    owner ScriptConversionSystem
+    member_type direct
+    member SCSStatus
+  }
+
   class SCSRelation {
     +systemCode: SystemCode
     +type: SCSRelationType[0..*]
+  }
+
+  association {
+    owner ScriptConversionSystem
+    member_type direct
+    member SCSRelation
   }
 
   enum SCSRelationType {
@@ -29,4 +53,11 @@ diagram SCS {
     relatedTo
     basedOn
   }
+
+  association {
+    owner SCSRelation
+    member_type direct
+    member SCSRelationType
+  }
+
 }

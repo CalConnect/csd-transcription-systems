@@ -5,4 +5,23 @@ diagram Spelling {
     +characterSet: CharacterSet
     +remarks: String
   }
+
+  association {
+    owner SystemCode
+    member_type inheritance
+    member String
+  }
+
+  association {
+    owner SpellingSystem
+    member_type direct
+    member SystemCode
+  }
+
+  association {
+    owner SpellingSystem
+    member_type direct
+    member CharacterSet
+  }
+
 }
