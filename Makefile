@@ -22,30 +22,19 @@ else
 	endif
 endif
 
-SRC := $(shell yq e .metanorma.source.files metanorma.yml | cut -d ' ' -f 2 | tr -s '\n' ' ')
-
-ifeq ($(SRC),null)
-SRC :=
-endif
-ifeq ($(SRC),ll)
-SRC :=
-endif
-
 SRC := $(filter-out README.adoc, $(wildcard sources/*.adoc))
 
-ALL_ADOC_SRC := $(wildcard sources/sections*/*.adoc)
+OTHER_ADOC_SRC := $(wildcard sources/sections*/*.adoc)
+
 CSV_SRC      := $(wildcard sources/data/*.csv)
 DERIVED_YAML := $(patsubst %.csv,%.yaml,$(CSV_SRC))
 
-SUPPLEMENTARY_SRC := $(ALL_ADOC_SRC) $(DERIVED_YAML)
+LUTAML_SRC  := $(wildcard sources/models/*.lutaml)
+DERIVED_PNG := $(patsubst sources/models/%.lutaml,sources/images/%.png,$(LUTAML_SRC))
 
-FORMAT_MARKER := mn-output-
-FORMATS := $(shell grep "$(FORMAT_MARKER)" $(SRC) | cut -f 2 -d " " | tr "," "\\n" | sort | uniq | tr "\\n" " ")
+DERIVED_SRC := $(DERIVED_YAML) $(DERIVED_PNG)
 
-HTML  ?= $(patsubst sources/%,documents/%,$(patsubst %.adoc,%.html,$(SRC)))
-
-_OUT_FILES := $(foreach FORMAT,$(FORMATS),$(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
-OUT_FILES  := $(foreach F,$(_OUT_FILES),$($F))
+SUPPLEMENTARY_SRC := $(OTHER_ADOC_SRC) $(DERIVED_SRC)
 
 OUT_DIR := site
 
@@ -66,6 +55,9 @@ prep:
 debug:
 	$(call print_vars)
 
+sources/images/%.png: sources/models/%.lutaml
+	bundle exec lutaml -t png -o $@ $<
+
 %.yaml: %.csv
 	bundle exec structured_csv_to_yaml $^
 	sed -i.bkup -e $$'1 i\\\n# This is a generated file.  Do not edit it!' $@
@@ -76,33 +68,15 @@ debug:
 documents:
 	mkdir -p $@
 
-documents.html: metanorma.yml $(SUPPLEMENTARY_SRC) | documents
+documents.html: metanorma.yml $(SRC) $(SUPPLEMENTARY_SRC) | documents
 	bundle exec metanorma site generate --agree-to-terms . -c metanorma.yml
-
-define FORMAT_TASKS
-OUT_FILES-$(FORMAT) := $($(shell echo $(FORMAT) | tr '[:lower:]' '[:upper:]'))
-
-.PHONY: open-$(FORMAT)
-open-$(FORMAT):
-	open $$(OUT_FILES-$(FORMAT))
-
-.PHONY: clean-$(FORMAT)
-clean-$(FORMAT):
-	rm -f $$(OUT_FILES-$(FORMAT))
-
-.PHONY: $(FORMAT)
-$(FORMAT): clean-$(FORMAT) $$(OUT_FILES-$(FORMAT))
-
-endef
-
-$(foreach FORMAT,$(FORMATS),$(eval $(FORMAT_TASKS)))
 
 .PHONY: open
 open: open-html
 
 .PHONY: clean
 clean:
-	rm -rf documents documents.{html,rxl} $(OUT_DIR) *_images $(OUT_FILES)
+	rm -rf documents documents.{html,rxl} $(OUT_DIR) *_images $(DERIVED_SRC)
 
 .PHONY: test
 test:
