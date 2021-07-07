@@ -4,7 +4,6 @@ metanorma:
     files:
       - sources/cc-24229.adoc
       - sources/iso-24229.adoc
-relaton:
   collection:
     name: Information and documentation -- Codes for script conversion systems
     organization: CalConnect/ISO
