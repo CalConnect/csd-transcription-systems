@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     container: docker://metanorma/mn
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
       - name: Install gems from local Gemfile
         run: curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
       - name: Build document in the Metanorma container
@@ -24,9 +24,9 @@ jobs:
           LANGUAGE: C.UTF-8
         run: |
           make
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v2
         with:
-          name: results
+          name: site
           path: site
 
   deploy-gh-pages:
@@ -34,19 +34,19 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     steps:
-    - uses: actions/checkout@master
-    - uses: actions/download-artifact@master
+    - uses: actions/checkout@v2
+    - uses: actions/download-artifact@v1
       with:
-        name: results
+        name: site
         path: ${{ github.workspace }}/site
-    - name: Deploy to GH Pages
-      env:
-        GITHUB_REPOSITORY: ${{ secrets.GITHUB_REPOSITORY }}
-        GH_DEPLOY_KEY: ${{ secrets.GH_DEPLOY_KEY }}
-        GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        GH_PAGES_SOURCE: ${{ github.workspace }}/site
-      run: |
-        curl -L https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/ghactions-deploy-to-gh-pages.sh | bash -s "${GH_PAGES_SOURCE}"
+    - uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./site
+        force_orphan: true
+        user_name: ${{ github.actor }}
+        user_email: ${{ format('{0}@users.noreply.github.com', github.actor) }}
+        commit_message: "${{ format('Deploy to GitHub Pages: {0}', github.sha) }}"
     - uses: kolpav/purge-artifacts-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
