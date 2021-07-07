@@ -21,7 +21,7 @@
 :xrefstyle: short
 :imagesdir: images
 :mn-document-class: iso
-:mn-output-extensions: xml,doc,html,rxl
+:mn-output-extensions: xml,doc,html,rxl,pdf
 :local-cache-only:
 :data-uri-image:
 
