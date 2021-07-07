@@ -1,12 +1,12 @@
 = Information and documentation -- Codes for script conversion systems
 :docnumber: 24229
-:copyright-year: 2020
+:copyright-year: 2021
 :language: en
 :doctype: standard
 :edition: 1
 :status: working-draft
-:revdate: 2019-07-05
-:published-date: 2019-07-05
+:revdate: 2021-07-07
+:published-date: 2021-07-07
 :script: Latn
 :technical-committee: LOCALIZATION
 :fullname: Ronald Tse
@@ -16,7 +16,7 @@
 :surname_2: Lau
 :givenname_2: Jeffrey
 :imagesdir: images
-:mn-document-class: csd
+:mn-document-class: cc
 :mn-output-extensions: xml,html,doc,rxl,pdf
 :local-cache-only:
 :data-uri-image:

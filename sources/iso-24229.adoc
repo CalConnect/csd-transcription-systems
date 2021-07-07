@@ -1,7 +1,7 @@
 = CalConnect ISO/TC 46/WG 3 Codes for script conversion systems
 :docnumber: 24229
 :edition: 1
-:copyright-year: 2020
+:copyright-year: 2021
 :language: en
 :title-intro-en: Information and documentation
 :title-main-en: Codes for script conversion systems
@@ -18,7 +18,6 @@
 :workgroup: Conversion of written languages
 :secretariat: AFNOR
 :language: en
-:xrefstyle: short
 :imagesdir: images
 :mn-document-class: iso
 :mn-output-extensions: xml,doc,html,rxl,pdf
