@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-outdir="${outdir:-documents}"
+outdir="${outdir:-site/documents}"
 default_test_file="${test_file:-${1:-spec/tests.sh}}"
 
 declare -a failures=()
@@ -8,12 +8,19 @@ declare total_test_num=0
 declare pass_test_num=0
 declare fail_test_num=0
 
+test_existence_of_file() {
+	local document="${1}"
+	run_test \
+		"Expected \e[1m${outdir}\e[22m to contain file '\e[1m${document}\e[22m'" \
+		test -e "${outdir}/${document}"
+}
+
 test_existence_of_auth_code() {
 	local needle="$1"
 	local document="${outdir}"/iso-24229.html
 	run_test \
 		"Expected \e[1m${document}\e[22m to contain authority code '\e[1m${needle}\e[22m'" \
-		grep "${needle}"- "${document}"
+		grep "${needle}" "${document}"
 }
 
 test_existence_of_auth_name() {
@@ -60,7 +67,7 @@ run_test() {
 print_summary() {
 	local failure_idx=0
 	echo
-	echo === Summary ===
+	echo "=== Summary ==="
 	for failed_test in "${failures[@]}"
 	do
 		((failure_idx++))
