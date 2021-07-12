@@ -4,6 +4,7 @@ outdir="${outdir:-site/documents}"
 default_test_file="${test_file:-${1:-spec/tests.sh}}"
 
 declare -a failures=()
+declare -a successes=()
 declare total_test_num=0
 declare pass_test_num=0
 declare fail_test_num=0
@@ -40,7 +41,7 @@ test_existence_of_auth_remark() {
 }
 
 run_test() {
-	local fail_message="${1?}"
+	local expectation_message="${1?}"
 	shift
 	local -a cmd=("$@")
 	"$@" >/dev/null
@@ -55,29 +56,51 @@ run_test() {
 	if [[ $rv = 0 ]]
 	then
 		((++pass_test_num))
+		successes+=("${test_name}: ${expectation_message}:::${cmd[*]}")
 		printf '\e[32m.\e[m'
 	else
 		((++fail_test_num))
-		failures+=("${test_name}: ${fail_message}:::${cmd[*]}")
+		failures+=("${test_name}: ${expectation_message}:::${cmd[*]}")
 		printf '\e[31mF\e[m'
 	fi
 	return $rv
 }
 
 print_summary() {
+	local success_idx=0
 	local failure_idx=0
 	echo
 	echo "=== Summary ==="
+	if [[ "${#successes[@]}" -gt 0 ]]
+	then
+		echo
+	fi
+
+	for passed_test in "${successes[@]}"
+	do
+		((success_idx++))
+		local test_name__expectation_message="${passed_test%:::*}"
+		local test_cmd="${passed_test#*:::}"
+		local test_name="${test_name__expectation_message%: *}"
+		local expectation_message="${test_name__expectation_message#*: }"
+		printf "   \e[32;1m%b\e[22m passed\e[m\n" "${expectation_message}"
+	done
+
+	if [[ "${#failures[@]}" -gt 0 ]]
+	then
+		echo
+	fi
+
 	for failed_test in "${failures[@]}"
 	do
 		((failure_idx++))
-		local test_name__fail_message="${failed_test%:::*}"
+		local test_name__expectation_message="${failed_test%:::*}"
 		local test_cmd="${failed_test#*:::}"
-		local test_name="${test_name__fail_message%: *}"
-		local fail_message="${test_name__fail_message#*: }"
+		local test_name="${test_name__expectation_message%: *}"
+		local expectation_message="${test_name__expectation_message#*: }"
 		printf "\e[1mFailure #%d:\e[22m\n" "${failure_idx}"
 		printf "   \e[31;1m%b\e[22m failed\e[m\n\n" "${test_name}"
-		printf "   \e[34m%b\e[m\n" "${fail_message}"
+		printf "   \e[34m%b\e[m\n" "${expectation_message}"
 		printf "   \e[mCommand: \e[31m%s\e[m\n" "${test_cmd}"
 		echo
 	done
