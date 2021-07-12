@@ -11,7 +11,7 @@ declare fail_test_num=0
 test_existence_of_file() {
 	local document="${1}"
 	run_test \
-		"Expected \e[1m${outdir}\e[22m to contain file '\e[1m${document}\e[22m'" \
+		"Expected \e[1m${outdir}/\e[22m to contain file '\e[1m${document}\e[22m'" \
 		test -e "${outdir}/${document}"
 }
 
