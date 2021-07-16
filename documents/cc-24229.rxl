@@ -1,0 +1,59 @@
+<bibdata type="standard">
+<title language="en" format="text/plain">Information and documentation&#8201;&#8212;&#8201;Codes for script conversion systems</title>
+<docidentifier type="CalConnect">CC/WD 24229:2021</docidentifier>
+<docnumber>24229</docnumber>
+<date type="published">
+<on>2021-07-07</on>
+</date>
+<contributor>
+<role type="author"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<contributor>
+<role type="author"/>
+<person>
+<name>
+<completename>Ronald Tse</completename>
+</name>
+</person>
+</contributor>
+<contributor>
+<role type="author"/>
+<person>
+<name>
+<completename>Jeffrey Lau</completename>
+</name>
+</person>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>CalConnect</name>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2021-07-07</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>working-draft</stage>
+</status>
+<copyright>
+<from>2021</from>
+<owner>
+<organization>
+<name>CalConnect</name>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>standard</doctype>
+<editorialgroup>
+<committee>LOCALIZATION</committee>
+</editorialgroup>
+</ext>
+</bibdata>

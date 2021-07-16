@@ -1,0 +1,125 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Information and documentation -- Codes for script conversion systems</title><contributor><role type='author'/><organization><name>CalConnect/ISO</name></organization></contributor><relation type='partOf'><bibdata type="standard">
+  <title type="main" format="text/plain" language="en">Information and documentation — Codes for script conversion systems</title>
+  <title type="title-intro" format="text/plain" language="en">Information and documentation</title>
+  <title type="title-main" format="text/plain" language="en">Codes for script conversion systems</title>
+  <title type="main" format="text/plain" language="fr">Information et documentation — Codes pour les systèmes de conversion de scripts</title>
+  <title type="title-intro" format="text/plain" language="fr">Information et documentation</title>
+  <title type="title-main" format="text/plain" language="fr">Codes pour les systèmes de conversion de scripts</title>
+  <uri type="xml">documents/iso-24229.xml</uri>
+  <uri type="pdf">documents/iso-24229.pdf</uri>
+  <uri type="doc">documents/iso-24229.doc</uri>
+  <uri type="html">documents/iso-24229.html</uri>
+  <uri type="rxl">documents/iso-24229.rxl</uri>
+  <docidentifier type="ISO">ISO/DIS 24229</docidentifier>
+  <docidentifier type="iso-with-lang">ISO/DIS 24229(E)</docidentifier>
+  <docidentifier type="iso-reference">ISO/DIS 24229:2021(E)</docidentifier>
+  <docnumber>24229</docnumber>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage abbreviation="DIS">40</stage>
+    <substage>00</substage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>International Organization for Standardization</name>
+        <abbreviation>ISO</abbreviation>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical-committee number="46" type="TC">Information and documentation</technical-committee>
+      <subcommittee></subcommittee>
+      <workgroup number="3" type="WG">Conversion of written languages</workgroup>
+      <secretariat>AFNOR</secretariat>
+    </editorialgroup>
+    <structuredidentifier>
+      <project-number>ISO 24229</project-number>
+    </structuredidentifier>
+    <stagename>Draft</stagename>
+  </ext>
+</bibdata></relation>
+<relation type='partOf'><bibdata type="standard">
+  <title format="text/plain" language="en">Information and documentation — Codes for script conversion systems</title>
+  <uri type="xml">documents/cc-24229.xml</uri>
+  <uri type="pdf">documents/cc-24229.pdf</uri>
+  <uri type="doc">documents/cc-24229.doc</uri>
+  <uri type="html">documents/cc-24229.html</uri>
+  <uri type="rxl">documents/cc-24229.rxl</uri>
+  <docidentifier type="CalConnect">CC/WD 24229:2021</docidentifier>
+  <docnumber>24229</docnumber>
+  <date type="published">
+    <on>2021-07-07</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Ronald Tse</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      <name>
+        <completename>Jeffrey Lau</completename>
+      </name>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2021-07-07</revision-date>
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>working-draft</stage>
+  </status>
+  <copyright>
+    <from>2021</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>standard</doctype>
+    <editorialgroup>
+      <committee>LOCALIZATION</committee>
+    </editorialgroup>
+  </ext>
+</bibdata></relation>
+</relaton-collection>

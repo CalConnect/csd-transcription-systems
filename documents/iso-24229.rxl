@@ -1,0 +1,56 @@
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">Information and documentation&#8201;&#8212;&#8201;Codes for script conversion systems</title>
+<title language="en" format="text/plain" type="title-intro">Information and documentation</title>
+<title language="en" format="text/plain" type="title-main">Codes for script conversion systems</title>
+<title language="fr" format="text/plain" type="main">Information et documentation&#8201;&#8212;&#8201;Codes pour les syst&#232;mes de conversion de scripts</title>
+<title language="fr" format="text/plain" type="title-intro">Information et documentation</title>
+<title language="fr" format="text/plain" type="title-main">Codes pour les syst&#232;mes de conversion de scripts</title>
+<docidentifier type="ISO">ISO/DIS 24229</docidentifier><docidentifier type="iso-with-lang">ISO/DIS 24229(E)</docidentifier><docidentifier type="iso-reference">ISO/DIS 24229:2021(E)</docidentifier>
+
+
+<docnumber>24229</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation>
+</organization>
+</contributor>
+<edition>1</edition>
+
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage abbreviation="DIS">40</stage>
+<substage>00</substage>
+</status>
+<copyright>
+<from>2021</from>
+<owner>
+<organization>
+<name>International Organization for Standardization</name>
+<abbreviation>ISO</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>international-standard</doctype>
+<editorialgroup>
+<technical-committee number="46" type="TC">Information and documentation</technical-committee>
+<subcommittee/>
+<workgroup number="3" type="WG">Conversion of written languages</workgroup>
+<secretariat>AFNOR</secretariat>
+</editorialgroup>
+<structuredidentifier>
+<project-number>ISO 24229</project-number>
+</structuredidentifier>
+<stagename>Draft</stagename>
+</ext>
+</bibdata>
