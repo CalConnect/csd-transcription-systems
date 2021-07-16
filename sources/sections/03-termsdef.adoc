@@ -6,7 +6,7 @@
 
 === script
 
-particular graphic representation or class of representations of a set of characters used to write one or more term:[languages]
+particular graphic representation or class of representations of a set of characters used to write one or more term:[language]s
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
