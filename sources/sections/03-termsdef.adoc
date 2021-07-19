@@ -6,13 +6,13 @@
 
 === script
 
-particular graphic representation or class of representations of a set of characters used to write one or more term:[language]s
+particular graphic representation or class of representations of a set of
+characters used to write one or more term:[language, languages]
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
 
 
-[[term-language]]
 === language
 
 systematic use of sounds, characters, symbols or signs to express meaning or communicate meaning or a message
@@ -21,54 +21,47 @@ systematic use of sounds, characters, symbols or signs to express meaning or com
 <<ISO5127,clause="3.1.5.01">>
 
 
-[[term-script-conversion]]
 === script conversion
 
-_transliteration_ (<<term-transliteration>>) or _transcription_ (<<term-transcription>>)
+term:[transliteration] or term:[transcription]
 
 
-[[term-transliteration]]
 === transliteration
 
-operation to convert a _script_ (<<term-script>>) into another script without change of _language_ (<<term-language>>) based on orthographic features of the source script
+operation to convert a term:[script] into another script without change of term:[language] based on orthographic features of the source script
 
 
-[[term-transcription]]
 === transcription
 
-operation to convert spoken _language_ (<<term-language>>) or a  _script_ (<<term-script>>) to another script without change of language based on phonetic features of the language and orthographic features of the source script
+operation to convert spoken term:[language] or a term:[script] to another script without change of language based on phonetic features of the language and orthographic features of the source script
 
 
-[[term-romanization]]
 === romanization
 
-_script conversion_ (<<term-script-conversion>>) from non-Roman to Roman script by means of _transliteration_ (<<term-transliteration>>), transcription <activity> or both
+term:[script conversion] from non-Roman to Roman script by means of term:[transliteration], transcription <activity> or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
 
 
-[[term-transliteration-system]]
 === transliteration system
 
-a set of rules for _transliteration_ (<<term-transliteration>>) of a source
- _script_ (<<term-script>>) to a target script
+a set of rules for term:[transliteration] of a source
+ term:[script] to a target script
 
 
-[[term-romanization-system]]
 === romanization system
 
-a set of rules for _romanization_ (<<term-romanization>>) of a source _script_
-(<<term-script>>) to a target script
+a set of rules for term:[romanization] of a source term:[script]
+to a target script
 
 //system for representing a word <orthographic word> in a writing system
 //through romanization
 
 
-[[term-script-conversion-system]]
 === script conversion system
 
-a set of rules for _script conversion_ (<<term-script-conversion>>)
+a set of rules for term:[script-conversion]
 
 
 ////
@@ -80,7 +73,6 @@ system for writing a language, including the script and character set used
 <<ISO5127,clause="3.1.6.01">>
 ////
 
-[[term-code]]
 === code
 
 _data_ (<<ISO5127,clause=3.1.13.10>>) transformed or represented in different forms
@@ -97,7 +89,7 @@ according to a pre-established {{ISO5127,3.1.1.09,set}} of rules
 
 === language code
 
-combination of characters used to represent the name of a _language_ (<<term-language>>) or languages
+combination of characters used to represent the name of a term:[language] or languages
 
 [.source]
 <<ISO5127,clause="3.2.5.14">>
@@ -105,7 +97,7 @@ combination of characters used to represent the name of a _language_ (<<term-lan
 
 === script code
 
-combination of characters used to represent the name of a _script_ (<<term-script>>)
+combination of characters used to represent the name of a term:[script]
 
 [.source]
 <<ISO15924,clause="3.8">>
@@ -113,7 +105,7 @@ combination of characters used to represent the name of a _script_ (<<term-scrip
 
 === script conversion system code
 
-_code_ (<<term-code>>) used to represent a _script conversion system_ (<<term-script-conversion-system>>)
+term:[code] used to represent a term:[script conversion system]
 
 
 ////
