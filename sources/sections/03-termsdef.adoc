@@ -45,7 +45,7 @@ e.g., cases when a language changes its orthography without changing the script.
 
 TODO: use a more traditional definition
 
-operation to convert a term:[script] into another script without change of term:[language] based on orthographic features of the source script
+operation to convert a term:[script] into another script without change of _language_ (<<ISO5127,clause="3.1.5.01">>) based on orthographic features of the source script
 
 
 // === transcription
@@ -59,7 +59,9 @@ operation to convert a term:[script] into another script without change of term:
 
 === romanization
 
-term:[script conversion] from non-Roman to Roman script by means of term:[transliteration], transcription <activity> or both
+_script conversion_ (<<ISO5127,clause="3.1.6.13">>) from non-Roman to Roman
+term:[script] by means of _transliteration_ (<<ISO5127,clause="3.1.6.11">>),
+_transcription (2) <activity>_ (<<ISO5127,clause="3.1.6.10">>) or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
@@ -90,7 +92,7 @@ according to a pre-established {{ISO5127,3.1.1.09,set}} of rules
 
 === language code
 
-combination of characters used to represent the name of a term:[language] or languages
+combination of characters used to represent the name of a _language_ (<<ISO5127,clause="3.1.5.01">>) or languages
 
 [.source]
 <<ISO5127,clause="3.2.5.14">>
