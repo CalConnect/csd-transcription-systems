@@ -1,4 +1,4 @@
-= Information and documentation -- Codes for script conversion systems
+= Information and documentation -- Codes for written languages conversion systems
 :docnumber: 24229
 :copyright-year: 2021
 :language: en

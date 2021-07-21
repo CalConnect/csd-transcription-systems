@@ -7,33 +7,54 @@
 === script
 
 particular graphic representation or class of representations of a set of
-characters used to write one or more term:[language, languages]
+characters used to write one or more _languages_ (<<ISO5127,clause="3.1.5.01">>)
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
 
 
-=== language
 
-systematic use of sounds, characters, symbols or signs to express meaning or communicate meaning or a message
+
+=== spelling system
+
+set of rules governing the orthography of a language
+
+Note to entry: Typically, a spelling system defines how the spoken form of a
+language is represented in writing.
+Several languages have undergone orthographic reforms which means they have had
+different spelling systems.
+
+
+=== written language
+
+_natural language_ (<<ISO5127,clause=3.1.5.02>>) realized through the writing of _characters_ (<<ISO5127,clause=3.1.4.02>>)
 
 [.source]
-<<ISO5127,clause="3.1.5.01">>
+<<ISO5127,clause="3.1.5.04">>
 
 
-=== script conversion
+=== written languages conversion
 
-term:[transliteration] or term:[transcription]
+process whereby one spelling system is converted into another spelling system
+
+Note to entry: This is a general term that includes script conversion but also,
+e.g., cases when a language changes its orthography without changing the script.
 
 
 === transliteration
 
+TODO: use a more traditional definition
+
 operation to convert a term:[script] into another script without change of term:[language] based on orthographic features of the source script
 
 
-=== transcription
+// === transcription
 
-operation to convert spoken term:[language] or a term:[script] to another script without change of language based on phonetic features of the language and orthographic features of the source script
+// TODO: use a more traditional definition
+
+// operation to convert spoken term:[language] or a term:[script] to another
+//script without change of language based on phonetic features of the language
+//and orthographic features of the source script
 
 
 === romanization
@@ -44,34 +65,14 @@ term:[script conversion] from non-Roman to Roman script by means of term:[transl
 <<ISO5127,clause="3.1.6.14">>
 
 
-=== transliteration system
+=== written languages conversion system
 
-a set of rules for term:[transliteration] of a source
- term:[script] to a target script
+TODO:
 
-
-=== romanization system
-
-a set of rules for term:[romanization] of a source term:[script]
-to a target script
-
-//system for representing a word <orthographic word> in a writing system
-//through romanization
+a set of rules for term:[written languages conversion]
 
 
-=== script conversion system
 
-a set of rules for term:[script-conversion]
-
-
-////
-=== writing system
-
-system for writing a language, including the script and character set used
-
-[.source]
-<<ISO5127,clause="3.1.6.01">>
-////
 
 === code
 
@@ -103,9 +104,9 @@ combination of characters used to represent the name of a term:[script]
 <<ISO15924,clause="3.8">>
 
 
-=== script conversion system code
+=== conversion system code
 
-term:[code] used to represent a term:[script conversion system]
+term:[code] used to represent a term:[written languages conversion system]
 
 
 ////

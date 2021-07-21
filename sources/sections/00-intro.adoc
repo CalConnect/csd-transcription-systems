@@ -3,10 +3,22 @@
 == Introduction
 
 A number of international applications require
-the identification of script conversion systems, including for
+the identification of written languages conversion systems, including for
 terminology, lexicography, bibliography, and linguistics,
 especially for reverse transliteration,
 computational linguistics and machine pronunciation.
 
 This standard sets out the necessary procedures to maintain
-the registry of script conversion systems.
+the registry of written languages conversion systems.
+
+
+The chosen term "written languages conversion" is intended to refer to all types
+of conversions, i.e. transformations of written texts from one spelling system
+to another.
+It thus includes both script conversion (change of script: transliteration,
+transcription) and conversion of texts without changing the script
+(e.g. transcription of foreign names or words using the alphabet of a target
+language, change of the orthography in a language, etc.).
+For the sake of compactness of expression, "written languages conversion" has
+been shortened to "conversion" in this International Standard where it does not
+cause ambiguity.

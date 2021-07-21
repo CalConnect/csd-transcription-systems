@@ -1,12 +1,12 @@
-= CalConnect ISO/TC 46/WG 3 Codes for script conversion systems
+= CalConnect ISO/TC 46/WG 3 Codes for written languages conversion systems
 :docnumber: 24229
 :edition: 1
 :copyright-year: 2021
 :language: en
 :title-intro-en: Information and documentation
-:title-main-en: Codes for script conversion systems
+:title-main-en: Codes for written languages conversion systems
 :title-intro-fr: Information et documentation
-:title-main-fr: Codes pour les systèmes de conversion de scripts
+:title-main-fr: Codes pour les systèmes de conversion des langues écrites
 :doctype: international-standard
 :docstage: 40
 :docsubstage: 00
