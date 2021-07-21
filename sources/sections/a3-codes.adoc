@@ -1,7 +1,7 @@
 
 [[annex-system-codes]]
 [appendix,obligation=informative]
-== Alphabetical list of script conversion systems in English and their code elements
+== Alphabetical list of conversion systems in English and their code elements
 
 [yaml2text,data/codes.yaml,systems]
 ----
@@ -10,9 +10,9 @@
 .{systems.data[key]['name']['en']}
 [cols="a,a"]
 |===
-h| Script conversion system code | {systems.data[key]['code']}
-h| Script conversion system name | {systems.data[key]['name']['en']}
-h| Script conversion system authority code | {systems.data[key]['authority']}
+h| Conversion system code | {systems.data[key]['code']}
+h| Conversion system name | {systems.data[key]['name']['en']}
+h| Conversion system authority code | {systems.data[key]['authority']}
 h| Language code type | {systems.data[key]['lang']['system']}
 h| Language codes | {systems.data[key]['lang']['code']}
 h| Source script code (ISO 15924) | {systems.data[key]['source_script']}
