@@ -63,30 +63,6 @@ script conversion system authorities.
 
 
 
-[[sc-authority-data-model]]
-=== Data model and attributes
-
-==== General
-
-image:../images/authority.png[]
-
-
-==== authorityCode
-
-A code that represents the script conversion system authority.
-
-
-==== name
-
-The identifiable short name that uniquely identifies the script conversion
-system authority.
-
-
-==== remarks
-
-Any further notes.
-
-
 === Code and identifier
 
 
