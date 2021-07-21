@@ -31,7 +31,7 @@ include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
 include::sections/04-codes.adoc[]
 include::sections/05-authorities.adoc[]
-include::sections/06-spelling.adoc[]
+// include::sections/06-spelling.adoc[]
 include::sections/07-codes.adoc[]
 include::sections/08-common.adoc[]
 
