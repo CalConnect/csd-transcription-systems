@@ -1,13 +1,15 @@
 
-[[annex-script-conversion-system-authorities]]
+[[annex-conversion-system-authorities]]
 [appendix,obligation=informative]
-== Alphabetical list of script conversion system authorities in English and their code elements
+== Alphabetical list of conversion system authorities in English and their code elements
+
+TODO: _remove?_
 
 [yaml2text,data/authority-codes.yaml,authorities]
 ----
 [cols="a,a,a",options="header"]
 |===
-| Script conversion system authority code | Name in English | Notes
+| Conversion system authority code | Name in English | Notes
 
 {authorities.data.*,key,EOI}
 | {key} | {authorities.data[key].name.en} | {authorities.data[key].notes}

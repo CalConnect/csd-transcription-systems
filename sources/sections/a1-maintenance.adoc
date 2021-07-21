@@ -20,7 +20,7 @@ Authority has published materials related to this standard on the Internet.
 === Functions of the Registration Authority
 
 It has been entrusted with the following functions with regard to
-the list of script conversion system authorities and script conversion
+the list of conversion system authorities and written languages conversion
 systems, together with code assignments and information associated with each entry:
 
 . to add and eliminate these entries, in accordance with the rules in this document;
@@ -40,7 +40,7 @@ immediately upon publication.
 
 The criteria provided in <<authority-scsa-codes>> to <<authority-scs-codes>>
 shall be observed by the ISO {docnumber}/RA for changes to the list of
-script conversion system authorities and script conversion
+conversion system authorities and written languages conversion
 systems, their code assignments and associated information,
 and for reservations of code elements.
 
@@ -62,15 +62,15 @@ codes.
 
 
 [[authority-scsa-codes]]
-=== Operations on list of script conversion system authorities and their codes
+=== Operations on list of conversion system authorities and their codes
 
 
-==== Registration of a new script conversion system authority
+==== Registration of a new conversion system authority
 
-Additions to the list of script conversion system authority codes
+Additions to the list of conversion system authority codes
 shall be made on upon request from a member of the ISO {docnumber}/AG.
 
-A script conversion system authority is eligible for registration
+A conversion system authority is eligible for registration
 if it meets the requirements stated in <<scsa-requirements>>.
 
 The proposer is responsible for providing justification to the
@@ -83,14 +83,14 @@ Code elements will be allocated by the ISO {docnumber}/AG at its
 discretion.
 
 
-==== Marking a script conversion system authority inactive
+==== Marking a conversion system authority inactive
 
-A script conversion system authority can be marked inactive
+A conversion system authority can be marked inactive
 by ISO {docnumber}/AG if the authority ceases to exist or
-no longer wishes to register its script conversion systems.
+no longer wishes to register its written languages conversion systems.
 
 Such inactive status shall be considered by the ISO {docnumber}/AG
-upon request from the script conversion system authority itself
+upon request from the conversion system authority itself
 or a member of the ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG at its sole discretion, will determine
@@ -98,9 +98,9 @@ what information will remain on the basis of practicality and
 continuity of usage.
 
 
-==== Modification of script conversion system authority code
+==== Modification of conversion system authority code
 
-Modifications of an entry within the list of script conversion system authority codes
+Modifications of an entry within the list of conversion system authority codes
 shall be made upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the modification, on the basis of the information received.
@@ -112,23 +112,23 @@ backwards-compatibility purposes.
 ==== Modifications to information associated with codes
 
 Modifications to a registered element shall be made upon requests from a member of the ISO {docnumber}/AG or
-the script conversion system authority.
+the conversion system authority.
 
 A significant change of name may require the ISO {docnumber}/AG to change the alpha code element concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of code elements.
 
 
 ==== Inactive authorities
 
-If a script conversion system authority is marked inactive,
-the responsibility of maintaining its script conversion system entries
+If a conversion system authority is marked inactive,
+the responsibility of maintaining its written languages conversion system entries
 are assumed by ISO {docnumber}/AG.
 
 
 ==== Reserved authorities
 
-The "`Various systems`" script conversion system authority is assigned
+The "`Various systems`" conversion system authority is assigned
 the code `var` is managed by ISO {docnumber}/AG to represent
-script conversion systems with need for representation but
+written languages conversion systems with need for representation but
 do not have a clear authority.
 
 [example]
@@ -137,15 +137,15 @@ represented as `var-zho-hani-latn-1912`.
 
 
 [[authority-scs-codes]]
-=== Operations on list of script conversion systems and their codes
+=== Operations on list of written languages conversion systems and their codes
 
 
 [[scs-alteration]]
-==== Alterations to a script conversion system
+==== Alterations to a written languages conversion system
 
 Alterations to a registered element shall be made only upon
 request of a member of ISO {docnumber}/AG
-or the script conversion system authority that manages the system.
+or the conversion system authority that manages the system.
 
 A significant change of name may require the ISO {docnumber}/AG
 to change the alpha code element concerned.
@@ -178,7 +178,7 @@ The exact period is determined in each case on the basis of the extent to which 
 [[reservation-exceptional]]
 ==== Exceptional reservations
 
-Code elements may be reserved, in exceptional cases, for script conversion systems authorities and script conversion systems which the ISO {docnumber}/AG has decided not to include in the lists maintained by ISO {docnumber}/RA, but for which an interchange or encoding requirement exists.
+Code elements may be reserved, in exceptional cases, for conversion systems authorities and written languages conversion systems which the ISO {docnumber}/AG has decided not to include in the lists maintained by ISO {docnumber}/RA, but for which an interchange or encoding requirement exists.
 
 ==== Reallocation
 
@@ -192,4 +192,4 @@ A list of reserved code elements is kept by the ISO {docnumber}/RA.
 
 === Advice regarding use of code elements
 
-The ISO {docnumber}/AG is available for consultation and assistance on the use of codes for script conversion system authorities and script conversion systems.
+The ISO {docnumber}/AG is available for consultation and assistance on the use of codes for conversion system authorities and written languages conversion systems.

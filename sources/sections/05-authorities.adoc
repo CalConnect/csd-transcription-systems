@@ -1,11 +1,11 @@
 
-[[script-conversion-system-authority]]
-== Script conversion system authority
+[[conversion-system-authority]]
+== Conversion system authority
 
 === General
 
-A script conversion system authority is a competent authority that creates,
-publishes and/or manages definitions of script conversion systems.
+A conversion system authority is a competent authority that creates,
+publishes and/or manages definitions of written languages conversion systems.
 
 Authorities that are no longer competent will depend on ISO {docnumber}/AG for
 managing codes, which will be considered on a case-by-case basis.
@@ -16,25 +16,25 @@ managing codes, which will be considered on a case-by-case basis.
 
 ==== General
 
-A script conversion system authority should:
+A conversion system authority should:
 
-. have at least one script conversion system eligible for a script conversion
+. have at least one written languages conversion system eligible for a conversion
 system code;
-. [[scsa-requirements-b]]be competent in managing its script conversion systems
+. [[scsa-requirements-b]]be competent in managing its written languages conversion systems
 (<<scsa-competency>>).
 
 
 ==== Inactive authorities
 
-If a script conversion system authority does not meet requirements outlined in
+If a conversion system authority does not meet requirements outlined in
 <<scsa-requirements-b>>,
 it is considered "`inactive`".
 
 
 ==== Reserved authorities
 
-The "`Various systems`" script conversion system authority is managed by
-ISO {docnumber}/AG to represent script conversion systems that:
+The "`Various systems`" conversion system authority is managed by
+ISO {docnumber}/AG to represent written languages conversion systems that:
 
 . have a need to be represented as determined by ISO {docnumber}/AG;
 . yet do not have a clear extant authority.
@@ -44,45 +44,45 @@ ISO {docnumber}/AG to represent script conversion systems that:
 [[scsa-competency]]
 ==== Competency
 
-A competent script conversion system authority is one that has standardized
-processes surrounding the management of the script conversion systems,
+A competent conversion system authority is one that has standardized
+processes surrounding the management of the written languages conversion systems,
 covering at least the following processes:
 
-. planning of script conversion systems, including the process of designing and
-defining script conversion systems;
-. performing changes to script conversion systems are well planned;
-. public announcement and dissemination of its script conversion systems; and
-. allows a public review period for people affected by script conversion systems
+. planning of written languages conversion systems, including the process of designing and
+defining written languages conversion systems;
+. performing changes to written languages conversion systems are well planned;
+. public announcement and dissemination of its written languages conversion systems; and
+. allows a public review period for people affected by written languages conversion systems
 under its management prior to enactment.
 
 
 === Registration
 
 The ISO {docnumber}/AG is tasked with managing a list of
-script conversion system authorities.
+conversion system authorities.
 
 
 
 === Code and identifier
 
 
-==== Principles for inclusion in the list of script conversion system authority
+==== Principles for inclusion in the list of conversion system authority
 
 ===== List
 
-The list of script conversion system authorities in this document includes
+The list of conversion system authorities in this document includes
 known authorities, such as ISO.
 
 
 ===== Source of names
 
-Names and abbreviations of script conversion systems are obtained from the
-script conversion system authorities.
+Names and abbreviations of written languages conversion systems are obtained from the
+conversion system authorities.
 
 
 ===== Current status of names
 
-Script conversion system authorities listed in this document are intended to
+Conversion system authorities listed in this document are intended to
 reflect the current situation, at the time of issue of the latest update of this
 document.
 
@@ -92,12 +92,12 @@ document.
 
 ===== Relationship with names
 
-The principle behind the alphabetic codes for script conversion system
-authorities is a visual association between the script conversion system
+The principle behind the alphabetic codes for conversion system
+authorities is a visual association between the conversion system
 authorities and their corresponding code elements.
 
 In applying this principle, the code elements have generally been assigned on
-the basis of the abbreviated names of the script conversion system authorities,
+the basis of the abbreviated names of the conversion system authorities,
 thus avoiding, wherever possible, any reflection of their political status.
 
 [example]
@@ -123,21 +123,21 @@ distinguishable alphabetic names.
 representing the administration authority of the particular jurisdiction.
 
 * The specific code prefix of `xx` is reserved and is used as the prefix of
-user-assignable script conversion system authority codes.
+user-assignable conversion system authority codes.
 
 
 ===== User assigned code elements
 
-If users need code elements to represent script conversion system authorities
-not included in the script conversion system authority registry, the code prefix
+If users need code elements to represent conversion system authorities
+not included in the conversion system authority registry, the code prefix
 of `xx` can be used, being a reserved code point `xx` for private user
 assignment.
 
-The code length for the script conversion system authority identifier must be 3
+The code length for the conversion system authority identifier must be 3
 or more letters.
 
 [example]
-`xxunece` is an example of a user-assigned private code for a script conversion
+`xxunece` is an example of a user-assigned private code for a conversion
 system authority published by the UN/ECE.
 
 NOTE: Users are advised that the above series of codes are not universally used,
@@ -145,10 +145,10 @@ those code elements are not compatible between different entities.
 
 
 
-==== List of script conversion system authority codes and their data elements
+==== List of conversion system authority codes and their data elements
 
-The list of script conversion system authority codes is initially defined in
-<<annex-script-conversion-system-authorities>>.
+The list of conversion system authority codes is initially defined in
+<<annex-conversion-system-authorities>>.
 Additional and new entries will be provided by the ISO {docnumber}/RA.
 
 Data attributes provided in the list are defined in <<sc-authority-data-model>>.
