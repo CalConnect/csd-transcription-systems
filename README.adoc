@@ -34,9 +34,9 @@ make
 
 The following outputs will be built:
 
-* Document index at `documents.html`
-* ISO 24229 at `documents/iso-24229.html`
-* CC 24229 at `documents/iso-24229.html`
+* Document index at `site/documents.html`
+* ISO 24229 at `site/documents/iso-24229.html`
+* CC 24229 at `site/documents/iso-24229.html`
 * HTML (`[filename].html`)
 * PDF (`[filename].pdf`)
 * Word DOC (`[filename].doc`)
