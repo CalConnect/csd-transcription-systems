@@ -80,15 +80,3 @@ clean:
 .PHONY: test
 test:
 	scripts/run_tests
-
-#
-# Deploy jobs
-#
-
-.PHONY: publish
-publish: $(OUT_DIR)
-
-$(OUT_DIR): documents.html
-	mkdir -p $@ && \
-	cp -a documents $@/ && \
-	cp $< $@/index.html;
