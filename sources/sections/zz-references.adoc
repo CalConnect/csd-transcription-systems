@@ -18,7 +18,7 @@
 * [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
 
 
-* [[[ISO9,ISO 9]]], _Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages_
+* [[[ISO9,ISO 9:1995]]], _Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages_
 
 * [[[ISO233,ISO 233]]], _Documentation -- Transliteration of Arabic characters into Latin characters_
 
