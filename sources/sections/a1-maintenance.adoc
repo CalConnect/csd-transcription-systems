@@ -5,8 +5,19 @@
 
 === Registration authority (ISO {docnumber}/RA)
 
-A registration authority (ISO {docnumber}/RA) has been appointed to
-operate under guidelines provided in this Annex.
+For the purpose of registering conversion system codes and conversion system
+authorities, ISO has designated a Registration Authority for ISO {docnumber}.
+
+ISO maintains a list of Maintenance Agencies and Registration Authorities on the
+Internet at the address:
+
+  https://www.iso.org/maintenance_agencies.html
+
+The ISO list identifies the Registration Authority and where the Registration
+Authority has published materials related to this standard on the Internet.
+
+
+=== Functions of the Registration Authority
 
 It has been entrusted with the following functions with regard to
 the list of script conversion system authorities and script conversion
@@ -36,9 +47,18 @@ and for reservations of code elements.
 
 === Advisory group (ISO {docnumber}/AG)
 
-An advisory group (ISO {docnumber}/AG) has been appointed to ensure
-the operations of the registration authority (ISO {docnumber}/RA)
-are in accordance with guidelines provided in this Annex.
+For the purpose of increasing transparency and making sure the operations of the
+registration authority (ISO {docnumber}/RA) are carried out in accordance with
+guidelines provided in this document, the registration authority
+_together with the ISO sub-committee or working group responsible for
+maintaining this Standard?_
+will appoint an advisory group of up to 11 _?_ members.
+
+The advisory group will consist of experts knowledgeable in the fields of script
+or other type of conversions, information technologies, _[to be expanded]_,
+the group will also contain a representative of TC 46 and may also contain
+representatives of organizations interested in using the conversion system
+codes.
 
 
 [[authority-scsa-codes]]
