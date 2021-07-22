@@ -270,7 +270,7 @@ particular <<ISO3166-1>> code.
 The language code must be a code listed in any part of <<ISO639>>.
 
 [example]
-`iso-ara-arab-latn-233-2-1993` applies to the Arabic language written in arabic script.
+`iso-ara-arab-latn-233-2-1993` applies to the Arabic language written in Arabic script.
 
 
 When a written languages conversion system applies to more than one language,
