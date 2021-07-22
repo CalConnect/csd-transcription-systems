@@ -48,7 +48,7 @@ diagram SCS {
   enum SCSRelationType {
     aliasOf
     adoptedFrom
-    supercedes
+    supersedes
     replacedBy
     relatedTo
     basedOn

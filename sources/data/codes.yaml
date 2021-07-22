@@ -4363,7 +4363,7 @@ data:
     system:
       id: 7-0-34-2014
       specification: "<<GOSTR7034>>"
-    relations: supercedes:gost-rus-cyrl-latn-16876-71-1983
+    relations: supersedes:gost-rus-cyrl-latn-16876-71-1983
     notes: 'NOTE: OGC 11-122r1 code `rus_Cyrl2Latn_GOST_2000`'
   gsi-jpn-hrkt-latn-2005:
     code: gsi-jpn-hrkt-latn-2005
@@ -5275,7 +5275,7 @@ data:
     system:
       id: '2002'
       specification: Korean Democratic People's Republic of Korea Korean 2002 System
-    relations: supercedes:kp-kor-hang-latn-1992
+    relations: supersedes:kp-kor-hang-latn-1992
     notes: 'NOTE: OGC 11-122r1 code `kor_Hang2Latn_GKN_2002`'
   lbmod-ara-arab-latn-1963:
     code: lbmod-ara-arab-latn-1963
@@ -5744,7 +5744,7 @@ data:
     system:
       id: '1979'
       specification: Chinese Hanyu Pinyin 1979 System
-    relations: supercedes:efeo-zho-hani-latn-1902, supercedes:var-zho-hani-latn-yale-1943
+    relations: supersedes:efeo-zho-hani-latn-1902, supersedes:var-zho-hani-latn-yale-1943
     notes: 'NOTE: OGC 11-122r1 code `zho_Hani2Latn_GCH_1979`'
   sac-zho-hans-latn-1958:
     code: sac-zho-hans-latn-1958

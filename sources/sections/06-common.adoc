@@ -128,7 +128,7 @@ This element is optional.
 
 `aliasOf`:: the current system is an alias to the target system, the conversion process is identical
 `adoptedFrom`:: the current system is adopted from the target system, the conversion process may not be identical
-`supercedes`:: the current system supercedes the target system
+`supersedes`:: the current system supersedes the target system
 `replacedBy`:: the current system is replaced by the target system
 `relatedTo`:: the current system is related to the target system
 `basedOn`:: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
