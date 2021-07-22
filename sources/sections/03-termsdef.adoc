@@ -14,12 +14,11 @@ characters used to write one or more _languages_ (<<ISO5127,clause="3.1.5.01">>)
 
 
 
-
 === spelling system
 
 set of rules governing the orthography of a language
 
-Note to entry: Typically, a spelling system defines how the spoken form of a
+NOTE: Typically, a spelling system defines how the spoken form of a
 language is represented in writing.
 Several languages have undergone orthographic reforms which means they have had
 different spelling systems.
@@ -35,9 +34,9 @@ _natural language_ (<<ISO5127,clause=3.1.5.02>>) realized through the writing of
 
 === written languages conversion
 
-process whereby one spelling system is converted into another spelling system
+process whereby one term:[spelling system] is converted into another spelling system
 
-Note to entry: This is a general term that includes script conversion but also,
+NOTE: This is a general term that includes script conversion but also,
 e.g., cases when a language changes its orthography without changing the script.
 
 
