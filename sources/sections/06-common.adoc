@@ -30,7 +30,7 @@ scripts.
 [[iso-8601]]
 ==== Usage of ISO 8601 expressions
 
-`iso8601Expression` represents datatime expressions that are compliant with
+`iso8601Expression` represents datetime expressions that are compliant with
 <<ISO8601>>.
 
 
