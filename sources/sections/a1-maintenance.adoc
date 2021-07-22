@@ -11,7 +11,7 @@ authorities, ISO has designated a Registration Authority for ISO {docnumber}.
 ISO maintains a list of Maintenance Agencies and Registration Authorities on the
 Internet at the address:
 
-  https://www.iso.org/maintenance_agencies.html
+> https://www.iso.org/maintenance_agencies.html
 
 The ISO list identifies the Registration Authority and where the Registration
 Authority has published materials related to this standard on the Internet.
