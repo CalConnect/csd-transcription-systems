@@ -12,8 +12,6 @@ For an explanation on the voluntary nature of standards, the meaning of ISO spec
 
 This document was prepared by Technical Committee ISO/TC {technical-committee-number}, _{technical-committee}_.
 
-This document is amongst a series of International Standards dealing with the conversion of systems of writing produced by Technical Committee ISO/TC {technical-committee-number}, _{technical-committee}_, WG {workgroup-number} _{workgroup}_.
-
 This is the first edition of this document.
 
 // Annex A, B and C form the integral parts of this International Standard

@@ -8,7 +8,7 @@ metadata:
     title:
       en: Conversion system authorities
     code:
-      en: Conversion system authority code
+      en: Conversion system authority identifier
     name:
       en: Name in English
     remarks:

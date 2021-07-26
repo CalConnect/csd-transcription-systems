@@ -42,7 +42,7 @@ e.g., cases when a language changes its orthography without changing the script.
 
 === transliteration
 
-TODO: use a more traditional definition
+TODO : use a more traditional definition
 
 operation to convert a term:[script] into another script without change of _language_ (<<ISO5127,clause="3.1.5.01">>) based on orthographic features of the source script
 
@@ -60,7 +60,7 @@ operation to convert a term:[script] into another script without change of _lang
 
 _script conversion_ (<<ISO5127,clause="3.1.6.13">>) from non-Roman to Roman
 term:[script] by means of _transliteration_ (<<ISO5127,clause="3.1.6.11">>),
-_transcription (2) <activity>_ (<<ISO5127,clause="3.1.6.10">>) or both
+_transcription (2) activity_ (<<ISO5127,clause="3.1.6.10">>) or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
@@ -68,14 +68,12 @@ _transcription (2) <activity>_ (<<ISO5127,clause="3.1.6.10">>) or both
 
 === written languages conversion system
 
-TODO:
-
 a set of rules for term:[written languages conversion]
 
 
-
-
 === code
+
+TODO : code has 2 different meanings. Use "identifier" to mean combination of characters.
 
 _data_ (<<ISO5127,clause=3.1.13.10>>) transformed or represented in different forms
 according to a pre-established _set_ (<<ISO5127,3.1.1.09>>) of rules

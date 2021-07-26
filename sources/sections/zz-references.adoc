@@ -64,55 +64,15 @@
 
 * [[[UNGEGNConf5,Fifth United Nations Conference on the Standardization of Geographical Names]]], _Fifth United Nations Conference on the Standardization of Geographical Names_, Montreal, 1987-08-18 -- 1987-08-31. Vol. I. Report of the Conference, pp. 40–41.
 
-* [[[MEXTJP1954,System of Romanization for Japanese]]], _System of Romanization for Japanese_, 1954-12-09 [昭和二十九年十二月九日], Available from: https://web.archive.org/web/20130529171936/http://www.mext.go.jp/b_menu/hakusho/nc/k19541209001/k19541209001.html
-
-* [[[ICISO,ICI Standard Orthography]]], _ICI Standard Orthography_, 1976, accessible at: https://www.itk.ca/amaujaq/unification-writing-system/
-
-* [[[NIKLRK,National Institute of Korean Language -- Romanization of Korean]]], _Romanization of Korean_ [국어의 로마자 표기법; 國語의 로마字 表記法], National Institute of Korean Language, 2000, https://www.korean.go.kr/front_eng/roman/roman_01.do
-
-* [[[TTSN,Transliteration and Translation System for Nepal]]], _Transliteration and Translation System for Nepal_, Government of Nepal, http://nationalgeoportal.gov.np/old/pdf/translation2.pdf
-
-* [[[NEPREP,Report on Cartography and Reproduction of Eastern Nepal Topographic Mapping Project]]], _Report on Cartography and Reproduction of Eastern Nepal Topographic Mapping Project_, 1997, Survey Department, Ministry of Land Management, Cooperatives and Poverty Alleviation, Government of Nepal.
-
-* [[[LSHKJP,The Linguistic Society of Hong Kong Cantonese Romanisation Scheme]]], _The Linguistic Society of Hong Kong Cantonese Romanisation Scheme_, 1993, The Linguistic Society of Hong Kong, https://www.lshk.org/jyutping
-
-* [[[HebrLatn,Rules of transliteration from Hebrew into Latin letters]]], _Rules of transliteration from Hebrew into Latin letters (2011)_, Academy of the Hebrew Language, https://hebrew-academy.org.il/כללי-התעתיק/
-
-* [[[GeorLatn,Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet]]], _Transliteration system for the Names of Geographical Features of Georgia into the Latin Alphabet_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/26th-gegn-docs/wp/WP94_rev2_Georgian%20Consonants.pdf
-
-* [[[BDS1596-73,BDS 1596:1973]]], _BDS 1596:1973 -- Transliteration of Bulgarian Words with Latin Characters_, Bulgarian Institute for Standardization, 1973 (in Bulgarian)
-
-* [[[KhmrLatn,Geographic Department Transcription System for Khmer]]], _Geographic Department of the Ministry of Land Management, Urban Planning and Construction of Cambodia, Transcription System for Khmer_, UNGEGN, https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/8th-uncsgn-docs/inf/8th_UNCSGN_econf.94_INF.30.pdf
-
-* [[[KoreanYale,Yale Romanization]]], _"`Yale Romanization`". A Reference Grammar of Korean_, Martin, Samuel E. (1992). Rutland, VT and Tokyo: Charles E. Tuttle Publishing. pp. 8–12. ISBN 0-8048-1887-8.
-
-* [[[MLCTS,Myanmar Language Commission Transcription System]]], _Myanmar Language Commission Transcription System (MLCTS)_, Myanmar Language Commission, 1980
-
-* [[[MaliLatin,Republic of Maldives Official Romanization System]]], _Republic of Maldives Official Romanization System_, Republic of Maldives, 1976
-
-* [[[ThaiLatn,Royal Thai General System of Transcription]]], _Royal Thai General System of Transcription 1999_, Office of the Royal Society of Thailand, http://www.royin.go.th/wp-content/uploads/2015/03/416_2157.pdf
-
-* [[[GBT16159,GB/T 16159-2012]]], _Basic rules of the Chinese phonetic alphabet orthography_, Standardization Administration of China, 2012
+* [[[GBT16159,GB/T 16159-2012]]], _Basic rules of the Chinese phonetic alphabet
+* orthography_, Standardization Administration of China, 2012
 
 * [[[GBT15834,GB/T 15834-2011]]], _General rules for punctuation_, Standardization Administration of China, 2011
 
 * [[[GBT28039,GB/T 28039-2011]]], _Chinese Pinyin Spelling Rules for Chinese Personal Names_, Standardization Administration of China, 2011
 
-* [[[pinyin,Scheme for the Chinese Phonetic Alphabet]]], _Scheme for the Chinese Phonetic Alphabet_, 5th National People's Congress of China, 1958
-
-* [[[pingyingeo,Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names]]], _The Chinese Phonetic Alphabet Spelling Rules for Chinese Geographical Names (Han-Chinese Geographical Names)_, published jointly by the China Committee on Geographical Names, China Committee on Writing System Reform, State Bureau of Surveying and Mapping, 1984
-
-* [[[ICAO9303,ICAO Doc 9303: Machine Readable Travel Documents]]], _Doc 9303: Machine Readable Travel Documents, Part 3: Specifications Common to all MRTDs_, Seventh Edition, 2015, https://www.icao.int/publications/Documents/9303_p3_cons_en.pdf
-
-* [[[GOST779,GOST 7.79-2000]]], _GOST 7.79-2000 System of Standards on Information, Librarianship, and Publishing -- Rules of Transliteration of Cyrillic Script by Latin Alphabet_, 2000, Rosstandart
-
-* [[[GOSTR52535,GOST R 52535.1-2006]]], _GOST R 52535.1-2006: Identification cards. Machine readable travel documents. Part 1. Machine readable passports_, 2006, Rosstandart
-
-* [[[GOSTR7034,GOST R 7.0.34-2014]]], _GOST R 7.0.34-2014 System of Standards on Information, Librarianship, and Publishing -- Rules for Simplified Transliteration and Practical Transcription of Russian Script by Latin Alphabet_, 2000, Rosstandart
-
-* [[[GUGKON231-13051983,GUGK Order No.231 of 13.05.1983]]], Methodical Instruction on the Implementation of GOST 16876-71 (ST COMECON 1368-78): _Rules for Transliteration of Letters of the Cyrillic Alphabet with Letters of the Latin Alphabet, 1981 edition_, Main Administration of Geodesy and Cartography, Council of Ministers of the USSR (GUGK)
-
-* [[[DIN1460,DIN 1460:1982]]], _Umschrift kyrillischer Alphabete slawischer Sprachen_ (Conversion of Cyrillic alphabets of Slavic languages), 1982-04
+* [[[DIN1460,DIN 1460:1982]]], _Umschrift kyrillischer Alphabete slawischer
+* Sprachen_ (Conversion of Cyrillic alphabets of Slavic languages), 1982-04
 * [[[DIN1460-2,DIN 1460-2:2011]]], _Umschrift kyrillischer Alphabete -- Teil 2: Umschrift kyrillischer Alphabete nicht-slawischer Sprachen_ (Romanization of Cyrillic alphabets -- Part 2: Romanization of Cyrillic alphabets of non-slavic languages), 2011-10
 * [[[DIN31634,DIN 31634:2011]]], _Information und Dokumentation -- Umschrift des griechischen Alphabets_ (Information and Documentation -- Romanization of the Greek alphabet), 2011-10
 * [[[DIN31635-1982,DIN 31635:1982]]], _Umschrift des arabischen Alphabets_ (Conversion of the arabic alphabet), 1982-04
@@ -124,45 +84,7 @@
 * [[[DIN33903,DIN 33903:2016]]], _Information und Dokumentation -- Umschrift Tamil_ (Information and documentation -- Romanization of Tamil), 2016-02
 * [[[DIN33904,DIN 33904:2018]]], _Information und Dokumentation -- Transliteration Devanagari_ (Information and documentation -- Romanization Devanagari), 2018-10
 
-* [[[DPRK1992,Guideline to the Romanization of Korean]]], _Writing Systems and Guides to Pronunciation: Romanization -- Guideline to the Romanization of Korean_, Working Paper No. 46, Sixth United Nations Conference on the Standardization of Geographical Names, 1992
-
 * [[[UNESCOChinese,Transcription of Chinese]]], _Transcription of Chinese -- The Pin Yin method_, United Nations Education, Scientific and Cultural Organization, Available from: https://web.archive.org/web/20160402195344/http://portal.unesco.org/culture/en/files/32315/11625489793chinese_en.pdf/chinese_en.pdf
-
-* [[[ELOT7431982,ELOT 743:1982]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
-* [[[ELOT7432001,ELOT 743:2001]]], _Information and documentation -- Conversion of Greek characters into Latin characters_
-
-* [[[YIVOAB,YIVO Yiddish Alef-Beys]]], _YIVO Yiddish Alef-Beys_, YIVO Institute for Jewish Research, 1968. Available from: https://yivo.org/Yiddish-Alphabet
-
-* [[[AmhLatBIULO2003,Systeme de transcription des caracteres ethiopiens adopte par la BIULO]]], _Systeme de transcription des caracteres ethiopiens adopte par la Bibliotheque Inter-Universitaire des Langues Orientales pour le catalogage des ouvrages ethiopiens_, BIULO, 2003-12. Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/SYLLABAIRE_AMHARIQUE.pdf
-
-* [[[BulLatUN2006,Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters]]], _Republic of Bulgaria system for transliteration of Bulgarian geographical names with Roman letters_. UNGEGN, 2006. Available from: https://unstats.un.org/unsd/geoinfo/UNGEGN/docs/9th-uncsgn-docs/crp/9th_UNCSGN_e-conf-98-crp-71.pdf
-
-* [[[BulTransAct2009,Republic of Bulgaria Transliteration Act]]], _Transliteration Act. State Gazette # 19,
-Republic of Bulgaria_, 13 March 2009, ISSN 0205-0900 (in Bulgarian). Available from: https://www.lex.bg/laws/ldoc/2135623667
-
-//* [[[BUL-]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_.
-// Compiled by the UNGEGN Working Group on Romanization Systems, February 2013. Available from: http://www.eki.ee/wgrs/rom1_bg.htm
-
-* [[[BulLatUN2012,UN Romanization System In Bulgaria]]], _Romanization System In Bulgaria_. Tenth United Nations Conference on the Standardization of Geographical Names. New York, 2012.
-Available from: http://unstats.un.org/unsd/geoinfo/UNGEGN/docs/10th-uncsgn-docs/econf/E_CONF.101_12_Romanization%20System%20in%20Bulgaria.pdf
-
-* [[[BulBgnpcgn2013,BGN/PCGN Romanization Agreement -- Bulgarian (2013)]]], _BGN/PCGN Romanization Agreement -- Bulgarian (2013)_. National Geospatial-Intelligence Agency, September 2014. Available from:
-http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Available from: https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/530603/Romanization_system_for_Bulgarian.pdf
-
-* [[[BasBulAnartic,Toponymic Guidelines for Antarctica]]], _Toponymic Guidelines for Antarctica_, Lyubomir Ivanov. Antarctic Place-names Commission of Bulgaria, Sofia, 1995. Available from: http://www.apcbg.org/Toponymic-Guidelines.htm
-//https://en.wikisource.org/wiki/Toponymic_Guidelines_for_Antarctica
-
-* [[[BasRusCyrl,Streamlined Romanization system for Russian Cyrillic]]], Bulgarian Academy of Sciences, IVANOV Lyubomir. (2017). _Streamlined Romanization of Russian Cyrillic_. In: Contrastive Linguistics. XLII. 66-73. Available from: https://www.researchgate.net/publication/318402098_Streamlined_Romanization_of_Russian_Cyrillic
-
-* [[[ChineseWGS,A Chinese-English Dictionary]]], _A Chinese-English Dictionary, Revised Ed. 2_, Herbert A. Giles, 1912.
-
-* [[[ChineseYale,Dictionary of Spoken Chinese]]], _Dictionary of Spoken Chinese. War Department Technical Manual TM 30-933._, War Department. 1945. pp. 1, 8. Available from: https://quod.lib.umich.edu/g/genpub/ASJ7483.0001.001/1
-
-//* [[[MkSkopje,A Grammar of the Macedonian Literary Language (Skopje)]]], _A Grammar of the Macedonian Literary Language (Skopje)_, Lunt, H. G., 1952.
-
-* [[[MkLatn,Macedonian Latin alphabet]]], _Macedonian Latin alphabet_. B.Vidoeski, T.Dimitrovski, K.Koneski, K.Tošev, R.Ugrinova Skalovska. In: Pravopis na makedonskiot literaturen jazik. Skopje, Prosvetno delo, 1970.
-
-* [[[IS13194-1991,IS 13194:1991]]], _IS 13194:1991 Indian Standard Indian script code for information interchange -- ISCII_, Bureau of Indian Standards, 2001.
 
 * [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_. Available from: http://cldr.unicode.org/index/cldr-spec/transliteration-guidelines
 
@@ -176,66 +98,4 @@ http://geonames.nga.mil/gns/html/Romanization/Romanization_Bulgarian.pdf . Avail
 
 * [[[BSPD6505-1982,BS PD 6505:1982]]], _Guide to The Romanization of Korean_, British Standards Institution, 1982
 
-* [[[AraDMG1935,Arabic DMG 1936 System]]], _Die Transliteration der arabischen Schrift in ihrer Anwendung auf die Hauptliteratursprachen der islamischen Welt_, Denkschrift dem 19. Internationalen Orientalistenkongreß in Rom. vorgelegt von der Transkriptionskommission der Deutschen Morgenländischen Gesellschaft. Brockhaus, Leipzig, 1935, Available from: https://www.aai.uni-hamburg.de/voror/medien/dmg.pdf
-
-* [[[PerDMG1969,Perso-Arabic DMG 1969 System]]], _Die Umschrift (Transkription) des arabisch-persischen Alphabets_, Seminar für Sprachen und Kulturen des Vorderen Orients -- Islamwissenschaft, Ruprecht-Karls-Universität Heidelberg, 2004, Available from: https://www.uni-heidelberg.de/fakultaeten/philosophie/ori/islamwissenschaft/md/ori/islamwissenschaft/transkription.pdf
-
-* [[[ArmHuebschmannMeillet1913,Armenian Hübschmann-Meillet 1913 System]]], _Altarmenisches Elementarbuch_, Antoine Meillet and Heinrich Hübschmann, Heidelberg, 1913 (2nd edition, 1980)
-
 * [[[ANSIZ39.11,ANSI Z39.11-1972]]], _ANSI Z39.11-1972 American National Standard System for the Romanization of Japanese_. New York, American National Standards Institute, 1972.
-
-* [[[JPMOFAPassport,Japan Ministry of Foreign Affairs Passport Standard]]], _パスポート：ヘボン式ローマ字綴方表 (Passport Hepburn Spelling Table)_, Available from: https://www.seikatubunka.metro.tokyo.lg.jp/passport/documents/0000000485.html and https://www.ezairyu.mofa.go.jp/passport/hebon.html
-
-* [[[RHHyojunShiki1908,Hyōjun-shiki Romaji]]], _Hyōjun-shiki Romaji_, ローマ字ひろめ會 (Romaji Hirome Kai) (Society for the Dissemination of Romanization), 1908
-
-* [[[JPMLITTL,Japan Railway Notice Regulations]]], _Railway Notice Regulations (鉄道掲示規程)_. In: Transportation Announcement, No. 490. Tokyo, Ministry of Land, Infrastructure, Transport and Tourism, Japan, 1947.
-
-* [[[JpnJED1867,A Japanese and English Dictionary: with an English and Japanese Index]]], _A Japanese and English Dictionary: with an English and Japanese Index (first edition)_, J. C. Hepburn, London: Trübner & Co., 1867
-
-* [[[JpnJAED1886,A Japanese-English And English-Japanese Dictionary]]], _A Japanese-English And English-Japanese Dictionary 3rd Edition (和英語林集成 第三版)_, J. C. Hepburn, Tokyo, Z. P Maruya & Co. Limited (丸善商社), 1886
-
-* [[[GSIJ2005,Romanization of Geographical Names in Japan]]], _Romanization of Geographical Names in Japan (地名のローマ字表記)_. 国土地理院時報 2005 No.108 pp 65--75, Available from: https://www.gsi.go.jp/common/000024858.pdf
-
-* [[[JRARSES,Japan Road Association Road Sign Establishment Standard]]], _Road Sign Establishment Standard (道路標識設置基準)_. Tokyo, Japan Road Association, 1987.
-
-* [[[NRSNippon,Nippon-no-Rômazi-Sya Rômazi no tuzurikata Nihon-siki]]], _Rômazi no tuzurikata: Nihon-siki_, Nippon-no-Rômazi-Sya.
-
-* [[[NRSTanakadate,Nihon-siki Rômazi]]], _理學協會雜誌を羅馬字にて發兌するの發議及び羅馬字用法意見_. 田中館愛橘 (Tanakadate-Aikitu). In: 理学協会雑誌, 第16巻. 1885.
-
-* [[[JpnKNJED1954,Japanese Modified Hepburn 1954 System]]], _New Japanese-English Dictionary 3rd edition (新和英大辞典　第三版)_, 株式会社研究社 (Kenkyusha Co., Ltd.), 1954
-
-* [[[JpnKNJED1974,Japanese Modified Hepburn 1974 System]]], _New Japanese-English Dictionary 4th edition (新和英大辞典　第四版)_, 株式会社研究社 (Kenkyusha Co., Ltd.), 1974, ISBN 978-0-7859-7128-3
-
-* [[[JSL1987,Japanese, The Spoken Language]]], _Japanese, The Spoken Language, Part 1_, Eleanor Harz Jorden and Mari Noda, Yale University Press, 1987, ISBN 978-0-300-03834-7
-
-* [[[Birnbaum1967,The transliteration of Ottoman Turkish]]], _The transliteration of Ottoman Turkish for library and general purposes: Ottoman Turkish translation scheme_, Eleazar Birnbaum, Reprinted from: Journal of the American Oriental Society, v. 87, no.2, April--June, 1967.
-
-* [[[IAST1912,IAST 1912]]], _Actes du seizième Congrès international des orientalistes, session d'Athènes (6-14 avril 1912)_, Athènes, Imprimerie "`Hestia`", 1912
-
-* [[[TibtBULAC2010,BULAC 2010]]], _Normes de translittération adoptées par la Bibliothèque universitaire des Langues et Civilisations pour le catalogage en tibétain_, 2010-05, Available from: https://www.bulac.fr/fileadmin/fichiers/web-illustrations/pages/catalogue/Tib_normes_de_translitteration_V2.pdf
-
-* [[[ShinCream2008,Hong Kong Government Cantonese Romanisation]]], _A System without a System: Cantonese Romanization Used in Hong Kong Place and Personal Names_, Shin Kataoka and Cream Lee, Hong Kong Journal of Applied Linguistics 11,1 (2008), pp. 79--98, Available from: http://caes.hku.hk/hkjalonline/issues/download_the_file.php?f=2008_v11_1_kataoka__n__lee.pdf
-
-* [[[BlaCAS,Canadian Aboriginal Syllabics for Blackfoot (Pikanii/Siksika)]]], _Blackfoot (Siksiká / ᓱᖽᐧᖿ)_, Available from: https://www.omniglot.com/writing/blackfoot.htm
-
-* [[[CreCAS,Canadian Aboriginal Syllabics for Cree]]], _Cree (ᓀᐦᐃᔭᐍᐏᐣ / Nēhiyawēwin)_, Available from: https://www.omniglot.com/writing/cree.htm
-
-* [[[CrxCAS,Canadian Aboriginal Syllabics for Dakelh (Carrier)]]], _Carrier (Dakeł / ᑕᗸᒡ)_, Available from: https://www.omniglot.com/writing/carrier.htm
-
-* [[[DenCAS,Canadian Aboriginal Syllabics for Slavey]]], _South Slavey (Dene Zhatıé / ᑌᓀ ᒐ)_, Available from: https://www.omniglot.com/writing/southslavey.htm
-
-* [[[NskCAS,Canadian Aboriginal Syllabics for Naskapi]]], _Naskapi (ᐃᔪᐤ ᐃᔨᒧᐅᓐ / Iyuw Imuun)_, Available from: https://www.omniglot.com/writing/naskapi.php
-
-* [[[OjiCAS,Canadian Aboriginal Syllabics for Ojibwa]]], _Ojibwe (Anishinaabemowin / ᐊᓂᔑᓈᐯᒧᐎᓐ)_, Available from: https://www.omniglot.com/writing/ojibwe.htm
-
-* [[[UaUkr1996,Official Ukrainian-English transliteration system]]], _Official Ukrainian-English transliteration system (Decision N 9)_, Ukrainian Legal Terminology Commission. 1996. Available from: https://web.archive.org/web/20120214134519/http://www.rada.gov.ua/translit
-
-* [[[UaUkr2010,Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet]]], _On Normalization of Transliteration of the Ukrainian Alphabet by Means of the Latin Alphabet, Resolution No 55_, the Cabinet of Ministers of Ukraine. 2010. Available from: http://web.archive.org/web/20181031115435/http://zakon1.rada.gov.ua/laws/show/55-2010-п
-
-* [[[SFS5755-1993]]], _Arabian kielen translitteraatio_, Finnish Standards Association, 1993
-
-* [[[SFS5824-1998]]], _Heprealaisen kirjaimiston translitteraatio_, Finnish Standards Association, 1998
-
-* [[[SFS5807-2008]]], _Kreikan kielen kansallinen translitteraatio ja transkriptio_, Finnish Standards Association, 2008
-
-* [[[SFS4900-1998]]], _Kyrillisten kirjainten translitterointi. Slaavilaiset kielet_, Finnish Standards Association, 1998

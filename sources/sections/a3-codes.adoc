@@ -12,7 +12,7 @@
 |===
 h| Conversion system code | {systems.data[key]['code']}
 h| Conversion system name | {systems.data[key]['name']['en']}
-h| Conversion system authority code | {systems.data[key]['authority']}
+h| Conversion system authority identifier | {systems.data[key]['authority']}
 h| Language code type | {systems.data[key]['lang']['system']}
 h| Language codes | {systems.data[key]['lang']['code']}
 h| Source script code (ISO 15924) | {systems.data[key]['source_script']}

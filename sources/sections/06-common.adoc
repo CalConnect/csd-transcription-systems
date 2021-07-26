@@ -17,7 +17,7 @@ image:../images/datatypes.png[]
 [[iso-639]]
 ==== Usage of ISO 639 code elements
 
-`iso639Code` represents code elements from <<ISO639-1>>, <<ISO639-2>>,
+`iso639Code` represents code elements from <<ISO639-2>>,
 <<ISO639-3>> and <<ISO639-5>> for reference to languages.
 
 
@@ -37,120 +37,98 @@ scripts.
 [[sc-authority-data-model]]
 === System authority data model and attributes
 
-==== General
+==== Diagram
 
 image:../images/authority.png[]
 
 
-==== authorityCode
+==== Description
 
-A code that represents the conversion system authority.
+authorityIdentifier:: An identifier that represents the conversion system authority.
 
-
-==== name
-
-The identifiable short name that uniquely identifies the conversion
+name:: The identifiable short name that uniquely identifies the conversion
 system authority.
 
-
-==== remarks
-
-Any further notes.
+remarks:: Any further notes.
 
 [[sc-data-model]]
 === Conversion system data model and attributes
 
-==== General
+==== Diagram
 
 image:../images/system.png[]
 
 
-==== code
+==== Description
 
-A code that identifies the written languages conversion system.
+code:: A code that identifies the written languages conversion system.
 
+name:: A name that represents the written languages conversion system.
 
-==== name
-
-A name that represents the written languages conversion system.
-
-
-==== language
-
-The language code that identifies the source language being processed
+language:: The language code that identifies the source language being processed
 by the written languages conversion system.
-
++
 The language code should be qualified to a source of language codes.
-For example, <<ISO639-1>>, <<ISO639-2>>, <<ISO639-3>>, <<ISO639-5>>
+For example, <<ISO639-2>>, <<ISO639-3>>, <<ISO639-5>>
 contain language codes that can be selected from.
-
++
 If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should
 be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
 
-==== sourceSpelling
-
-The spelling system used in the source text.
+sourceSpelling:: The spelling system used in the source text.
 
 
-==== targetScript
-
-The spelling system used in the output text.
+targetSpelling:: The spelling system used in the output text.
 
 
-==== systemIdentifier
-
-A system may be uniquely identified, amongst systems maintained by the same
-authority, by an identifier, an edition, a version or a sequence of characters.
-
+identifyingSegment:: A system may be uniquely identified, amongst systems
+maintained by the same authority, by an identifier, an edition, a version or a
+sequence of characters.
++
 This element is mandatory if the authority manages or plans to manage multiple
 written languages conversion systems.
-
++
 It may be derived from the adoption date if and only if that does not cause
 duplicates.
 Otherwise the adoption date shall be complemented by the name or number of the
 standard / technical specification, or some other data element.
-
++
 [example]
-`2013` is the system identifier of the system coded as `un-lao-laoo-latn-2013`.
+`2013` is the system identifier of the system coded as `UN:lao:Laoo:Latn:2013`.
 
 
-==== relations
-
-Written languages conversion systems can be related to other written languages conversion systems
-in a number of ways. For example, a written languages conversion system may represent
-an adoption or variant of another written languages conversion system.
-
+relations:: Written languages conversion systems can be related to other written
+languages conversion systems in a number of ways.
+For example, a written languages conversion system may represent an adoption or
+variant of another written languages conversion system.
++
 Hierarchical structures of written languages conversion systems can be constructed by means
 of relationships.
-
++
 This element is optional.
++
+  `aliasOf`:: the current system is an alias to the target system, the conversion process is identical
+  `adoptedFrom`:: the current system is adopted from the target system, the conversion process may not be identical
+  `supersedes`:: the current system supersedes the target system
+  `replacedBy`:: the current system is replaced by the target system
+  `relatedTo`:: the current system is related to the target system
+  `basedOn`:: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
 
-`aliasOf`:: the current system is an alias to the target system, the conversion process is identical
-`adoptedFrom`:: the current system is adopted from the target system, the conversion process may not be identical
-`supersedes`:: the current system supersedes the target system
-`replacedBy`:: the current system is replaced by the target system
-`relatedTo`:: the current system is related to the target system
-`basedOn`:: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
 
-
-==== status
-
-A system code may be optionally marked as deprecated or preferred.
-
+status:: A system code may be optionally marked as deprecated or preferred.
++
 NOTE: The deprecation marker in no way indicates deprecation of the system
 itself.
 
 
-==== remarks
-
-Any further notes.
-
+remarks:: Any further notes.
++
 The date of the adoption of the written languages conversation system by the authority may
 be noted in the remarks.
-
++
 A typical use case is to show its original code from the original system from
 where this code has been imported.
-
++
 [example]
 `NOTE: OGC 11-122r1 code urd_Arab2Latn_ODNI_2004`

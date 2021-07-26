@@ -1,20 +1,20 @@
 diagram Authority {
-  class ScriptConversionSystemAuthority {
-    +authorityCode: String
+  class ConversionSystemAuthority {
+    +authorityIdentifier: String
     +name: String
     +remarks: String
   }
 
   association {
-    owner AuthorityCode
+    owner AuthorityIdentifier
     member_type inheritance
     member String
   }
 
   association {
-    owner ScriptConversionSystemAuthority
+    owner ConversionSystemAuthority
     member_type direct
-    member AuthorityCode
+    member AuthorityIdentifier
   }
 
 }

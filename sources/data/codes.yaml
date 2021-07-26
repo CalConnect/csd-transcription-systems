@@ -12,7 +12,7 @@ metadata:
     name:
       en: Script conversion system name
     authority:
-      en: Script conversion system authority code
+      en: Script conversion system authority identifier
     lang:
       system:
         en: Language code type

@@ -2,7 +2,7 @@
 locale.title.en,Script conversion systems
 locale.code.en,Script conversion system code
 locale.name.en,Script conversion system name
-locale.authority.en,Script conversion system authority code
+locale.authority.en,Script conversion system authority identifier
 locale.lang.system.en,Language code type
 locale.lang.code.en,Language(s)
 locale.source_script.en,Source script code ISO 15924

@@ -44,21 +44,34 @@ conversion system authorities and written languages conversion
 systems, their code assignments and associated information,
 and for reservations of code elements.
 
+The RA will provide at least the following data on conversion system codes:
+
+- the conversion system code
+- the name of the conversion system and its authority
+- the source language and script of the conversion system
+- the target language and script of the conversion system
+- the source bibliographic reference
+- method identifier (TODO: or method number?) of the conversion system
+- relationship with other conversion systems
+- any associated remarks
+
 
 === Advisory group (ISO {docnumber}/AG)
 
 For the purpose of increasing transparency and making sure the operations of the
 registration authority (ISO {docnumber}/RA) are carried out in accordance with
 guidelines provided in this document, the registration authority
-_together with the ISO sub-committee or working group responsible for
-maintaining this Standard?_
-will appoint an advisory group of up to 11 _?_ members.
+will appoint an advisory group of up to 11 _?_ members. (TODO: discuss good number)
 
 The advisory group will consist of experts knowledgeable in the fields of script
-or other type of conversions, information technologies, _[to be expanded]_,
+or other type of conversions, information technologies, library management,
 the group will also contain a representative of TC 46 and may also contain
 representatives of organizations interested in using the conversion system
 codes.
+
+The advisory group will make its decisions by consensus.
+If a vote is needed, the decision is approved when more than half of members
+vote for it.
 
 
 [[authority-scsa-codes]]
@@ -67,7 +80,7 @@ codes.
 
 ==== Registration of a new conversion system authority
 
-Additions to the list of conversion system authority codes
+Additions to the list of conversion system authority identifiers
 shall be made on upon request from a member of the ISO {docnumber}/AG.
 
 A conversion system authority is eligible for registration
@@ -98,9 +111,9 @@ what information will remain on the basis of practicality and
 continuity of usage.
 
 
-==== Modification of conversion system authority code
+==== Modification of conversion system authority identifier
 
-Modifications of an entry within the list of conversion system authority codes
+Modifications of an entry within the list of conversion system authority identifiers
 shall be made upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the modification, on the basis of the information received.
@@ -124,7 +137,7 @@ the responsibility of maintaining its written languages conversion system entrie
 are assumed by ISO {docnumber}/AG.
 
 
-==== Reserved authorities
+==== Reserved authorities (TODO: wording. vs "reserved for future use")
 
 The "`Various systems`" conversion system authority is assigned
 the code `var` is managed by ISO {docnumber}/AG to represent
@@ -154,7 +167,7 @@ in the list of code elements.
 
 
 [[reservation]]
-=== Reservation of code elements
+=== Reservation of code elements (TODO: discuss)
 
 ==== Introduction
 

@@ -1,51 +1,51 @@
-diagram SCS {
+diagram WLCS {
   association {
     owner SystemCode
     member_type inheritance
     member String
   }
 
-  class ScriptConversionSystem {
+  class WrittenLanguagesConversionSystem {
     +code: SystemCode
     +name: String
     +language: iso639Code
     +sourceSpelling: SpellingSystem
     +targetSpelling: SpellingSystem
-    +systemIdentifier: String
-    +relations: SCSRelation[0..*]
-    +status: SCSStatus
+    +identifyingSegment: String
+    +relations: CSRelation[0..*]
+    +status: CSStatus
     +remarks: String
   }
 
-  enum SCSStatus {
+  enum CSStatus {
     preferred
     deprecated
   }
 
   association {
-    owner ScriptConversionSystem
+    owner WrittenLanguagesConversionSystem
     member_type direct
     member SpellingSystem
   }
 
   association {
-    owner ScriptConversionSystem
+    owner WrittenLanguagesConversionSystem
     member_type direct
-    member SCSStatus
+    member CSStatus
   }
 
-  class SCSRelation {
+  class CSRelation {
     +systemCode: SystemCode
-    +type: SCSRelationType[0..*]
+    +type: CSRelationType[0..*]
   }
 
   association {
-    owner ScriptConversionSystem
+    owner WrittenLanguagesConversionSystem
     member_type direct
-    member SCSRelation
+    member CSRelation
   }
 
-  enum SCSRelationType {
+  enum CSRelationType {
     aliasOf
     adoptedFrom
     supersedes
@@ -55,9 +55,9 @@ diagram SCS {
   }
 
   association {
-    owner SCSRelation
+    owner CSRelation
     member_type direct
-    member SCSRelationType
+    member CSRelationType
   }
 
 }
