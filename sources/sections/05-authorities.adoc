@@ -95,9 +95,6 @@ distinguishable alphabetic names.
 * Identifiers with 2 letters are reserved for codes in <<ISO3166-1>>, each
 representing the administration authority of the particular jurisdiction.
 
-* +++<del>+++The specific identifier prefix of `xx` is reserved and is used as the prefix of
-user-assignable conversion system authority codes.+++</del>+++ (TODO: delete? possible duplication with `zz`?)
-
 
 ===== Capitalization of conversion system authority identifiers
 
