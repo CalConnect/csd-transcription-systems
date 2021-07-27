@@ -2,9 +2,10 @@
 [[conversion-system-codes]]
 == Conversion system codes
 
-
 [[structure-of-conversion-system-codes]]
 === Structure of conversion system codes
+
+==== General
 
 A conversion system code will consist of four segments,
 or parts separated by a "COLON" ("`:`", Unicode U+003A):
