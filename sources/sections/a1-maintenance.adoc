@@ -173,7 +173,7 @@ in the list of code elements.
 
 
 [[reservation]]
-=== Reservation of code elements (TODO: discuss)
+=== Reservation of code elements (TODO: discuss. probably keep)
 
 ==== Introduction
 
