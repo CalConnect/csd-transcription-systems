@@ -83,7 +83,11 @@ The following rules are to be adhered to for the assignment of the alphabetic
 code:
 
 * The alphabetic code uses combinations, of a maximum of 16
-letters of the "basic latin Unicode range" (TODO: wording)
+characters from the following Unicode ranges:
+  ** digits (U+0030 -- U+0039)
+  ** hyphen-minus (U+002D)
+  ** Latin uppercase letters (U+0041 -- U+005A)
+  ** Latin lowercase letters (U+0061 -- U+007A)
 
 * The minimal length of the code is 3 letters to encourage descriptive and
 distinguishable alphabetic names.
