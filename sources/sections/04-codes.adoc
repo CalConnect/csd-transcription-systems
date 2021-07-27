@@ -14,8 +14,8 @@ or parts separated by a "COLON" ("`:`", Unicode U+003A):
 - target spelling system segment and
 - identifying segment.
 
-Each segment may consist of more than one element separated by a "FIGURE DASH"
-character ("`-`", Unicode U+2012).
+Each segment may consist of more than one element separated by a "HYPHEN MINUS"
+character ("`-`", Unicode U+002D).
 A valid code must have at least one element in each segment.
 
 
@@ -136,7 +136,7 @@ For example, when the authority undergoes a rename.
 If users need system codes to represent transliteration and romanization systems
 not included in the conversion system registry, the code prefix of `zz`
 can be used, which must be placed at the beginning of the system code, and
-followed by a "FIGURE DASH" character ("`-`", Unicode U+2012).
+followed by a "HYPHEN MINUS" character ("`-`", Unicode U+002D).
 
 NOTE: Users are advised that the above series of codes are not universally used,
 those code elements are not compatible between different entities.
