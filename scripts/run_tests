@@ -30,11 +30,11 @@ test_existence_of_file() {
 		test -e "${outdir}/${document}"
 }
 
-test_existence_of_auth_code() {
+test_existence_of_auth_id() {
 	local needle="$1"
 	local document="${outdir}"/iso-24229.html
 	run_test \
-		"Expected \e[1m${document}\e[22m to contain authority code '\e[1m${needle}\e[22m'" \
+		"Expected \e[1m${document}\e[22m to contain authority identifier '\e[1m${needle}\e[22m'" \
 		grep "${needle}" "${document}"
 }
 
