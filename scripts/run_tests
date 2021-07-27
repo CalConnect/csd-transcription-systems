@@ -9,11 +9,29 @@ declare total_test_num=0
 declare pass_test_num=0
 declare fail_test_num=0
 
+declare DEFAULT_DOCUMENT_NAME=iso-24229.html
+
 file_is() {
 	local needle="${1}"; shift
 	local document="${1}"
 	[[ "$(file "${document}")" = *"${needle}"* ]]
 }
+
+test_existence_of() {
+	local needle="$1"; shift
+	local item_name="${1:-}"; shift
+	local document="${1:-${outdir}/${DEFAULT_DOCUMENT_NAME}}"
+	local not=
+	if [[ "${needle}" = '!'* ]]
+	then
+		not=1
+		needle="${needle#!}"
+	fi
+	run_test \
+		"Expected \e[1m${document}\e[22m to ${not:+not }contain ${item_name:+${item_name} }'\e[1m${needle}\e[22m'" \
+		grep ${not:+-v} "${needle}" "${document}"
+}
+
 
 test_file_type() {
 	local document="${1}"
@@ -31,35 +49,21 @@ test_existence_of_file() {
 }
 
 test_existence_of_auth_id() {
-	local needle="$1"
-	local document="${outdir}"/iso-24229.html
-	run_test \
-		"Expected \e[1m${document}\e[22m to contain authority identifier '\e[1m${needle}\e[22m'" \
-		grep "${needle}" "${document}"
+	test_existence_of "${1}" "authority identifier"
 }
 
 test_existence_of_auth_name() {
-	local needle="$1"
-	local document="${outdir}"/iso-24229.html
-	run_test \
-		"Expected \e[1m${document}\e[22m to contain authority name '\e[1m${needle}\e[22m'" \
-		grep "${needle}" "${document}"
-}
-
-test_existence_of_auth_remark() {
-	local needle="$1"
-	local document="${outdir}"/iso-24229.html
-	run_test \
-		"Expected \e[1m${document}\e[22m to contain authority remark '\e[1m${needle}\e[22m'" \
-		grep "${needle}" "${document}"
+	test_existence_of "${1}" "authority name"
 }
 
 run_test() {
 	local expectation_message="${1?}"
 	shift
 	local -a cmd=("$@")
+	set +e
 	"$@" >/dev/null
 	local rv=$?
+	set -e
 
 	((++total_test_num))
 
@@ -92,7 +96,7 @@ print_summary() {
 
 	for passed_test in "${successes[@]}"
 	do
-		((success_idx++))
+		((success_idx++)) || :
 		local test_name__expectation_message="${passed_test%:::*}"
 		local test_cmd="${passed_test#*:::}"
 		local test_name="${test_name__expectation_message%: *}"
