@@ -8,13 +8,19 @@ diagram WLCS {
   class WrittenLanguagesConversionSystem {
     +code: SystemCode
     +name: String
-    +language: iso639Code
     +sourceSpelling: SpellingSystem
     +targetSpelling: SpellingSystem
     +identifyingSegment: String
     +relations: CSRelation[0..*]
     +status: CSStatus
     +remarks: String
+  }
+
+  class SpellingSystem {
+    +language: iso639Code[0..1]
+    +scriptCode: iso15924Code
+    +countryCode: iso3166Code[0..1]
+    +extension: String[0..1]
   }
 
   enum CSStatus {

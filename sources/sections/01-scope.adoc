@@ -1,8 +1,9 @@
 
 == Scope
 
-This International Standard provides a code for the
-presentation of written languages conversion systems.
+This International Standard provides principles for establishing codes for the
+representation of written languages conversion systems.
 
-The codes were devised for usage of any application requiring
-the expression of written languages conversion systems, including transliteration and romanization systems, in coded form.
+The codes are devised for usage in any application requiring
+the expression of written languages conversion systems, including
+transliteration and romanization systems, in coded form.

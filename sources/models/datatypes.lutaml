@@ -5,6 +5,9 @@ diagram DataTypes {
   class iso639Code <<dataType>> {
   }
 
+  class iso3166Code <<dataType>> {
+  }
+
   class iso8601Expression <<dataType>> {
   }
 }

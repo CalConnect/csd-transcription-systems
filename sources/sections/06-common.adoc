@@ -27,6 +27,14 @@ image:../images/datatypes.png[]
 `iso15924Code` represents code elements from <<ISO15924>> for reference to
 scripts.
 
+
+[[iso-3166]]
+==== Usage of ISO 3166 code elements
+
+`iso3166Code` represents code elements from <<ISO3166-1>> for reference to
+country codes.
+
+
 [[iso-8601]]
 ==== Usage of ISO 8601 expressions
 
@@ -95,7 +103,7 @@ Otherwise the adoption date shall be complemented by the name or number of the
 standard / technical specification, or some other data element.
 +
 [example]
-`2013` is the system identifier of the system coded as `UN:lao:Laoo:Latn:2013`.
+`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
 
 
 relations:: Written languages conversion systems can be related to other written
@@ -108,15 +116,16 @@ of relationships.
 +
 This element is optional.
 +
-  `aliasOf`::: the current system is an alias to the target system, the conversion process is identical
-  `adoptedFrom`::: the current system is adopted from the target system, the conversion process may not be identical
-  `supersedes`::: the current system supersedes the target system
-  `replacedBy`::: the current system is replaced by the target system
-  `relatedTo`::: the current system is related to the target system
-  `basedOn`::: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
+`aliasOf`::: the current system is an alias to the target system, the conversion process is identical
+`adoptedFrom`::: the current system is adopted from the target system, the conversion process may not be identical
+`supersedes`::: the current system supersedes the target system
+`replacedBy`::: the current system is replaced by the target system
+`relatedTo`::: the current system is related to the target system
+`basedOn`::: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
 
 
-status:: A system code may be optionally marked as deprecated or preferred.
+status:: A conversion system code may be optionally marked as deprecated or
+preferred.
 +
 NOTE: The deprecation marker in no way indicates deprecation of the system
 itself.

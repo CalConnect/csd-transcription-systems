@@ -4,6 +4,8 @@
 
 * [[[ISO9,ISO 9:1995]]], _Information and documentation -- Transliteration of Cyrillic characters into Latin characters -- Slavic and non-Slavic languages_
 
+* [[[ISO233-3,ISO 233-3]]], _Information and documentation -- Transliteration of Arabic characters into Latin characters -- Part 3: Persian language -- Simplified transliteration_
+
 * [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha-2 code_
 * [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha-3 code_
 * [[[ISO639-3,ISO 639-3]]], _Codes for the representation of names of languages -- Part 3: Alpha-3 code_

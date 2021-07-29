@@ -6,7 +6,8 @@
 === Registration authority (ISO {docnumber}/RA)
 
 For the purpose of registering conversion system codes and conversion system
-authorities, ISO has designated a Registration Authority for ISO {docnumber}.
+authority identifiers, ISO has designated a Registration Authority for ISO
+{docnumber}.
 
 ISO maintains a list of Maintenance Agencies and Registration Authorities on the
 Internet at the address:
@@ -33,7 +34,7 @@ systems, together with code assignments and information associated with each ent
 
 . to publish changes made to such information and the history of changes allowing traceability;
 
-. to administer the reservation of the codes.
+. to administer the reservation of the codes, subject to discussion.
 
 Changes to the content of the list of entries becomes effective
 immediately upon publication.
@@ -51,7 +52,7 @@ The RA will provide at least the following data on conversion system codes:
 - the source language and script of the conversion system
 - the target language and script of the conversion system
 - the source bibliographic reference
-- method number (TODO: or method identifier?) of the conversion system
+- method identifier of the conversion system
 - relationship with other conversion systems
 - any associated remarks
 
@@ -71,9 +72,9 @@ the group will also contain a representative of TC 46 and may also contain
 representatives of organizations interested in using the conversion system
 codes.
 
-==== Consensus phase and procedure
+==== Consensus phase and voting procedure
 
-The advisory group will make its decisions by consensus.
+As a rule, the advisory group will make its decisions by consensus.
 If a vote is needed, the decision is approved when more than half of members
 vote for it.
 
@@ -81,7 +82,7 @@ vote for it.
 
 
 [[authority-scsa-codes]]
-=== Operations on list of conversion system authorities and their codes
+=== Operations on the list of conversion system authorities and their identifiers
 
 
 ==== Registration of a new conversion system authority
@@ -98,7 +99,7 @@ ISO {docnumber}/AG regarding the eligibility of such addition.
 The ISO {docnumber}/AG will decide upon the addition, on the
 basis of eligibility and usage justification.
 
-Code elements will be allocated by the ISO {docnumber}/AG at its
+Identifiers will be allocated by the ISO {docnumber}/AG at its
 discretion.
 
 
@@ -124,16 +125,16 @@ shall be made upon the request of a member of ISO {docnumber}/AG.
 
 The ISO {docnumber}/AG will decide upon the modification, on the basis of the information received.
 
-The previously assigned code is reserved after modification for
+The previously assigned identifier will be reserved after modification for
 backwards-compatibility purposes.
 
 
-==== Modifications to information associated with codes
+==== Modifications to information associated with identfiers
 
 Modifications to a registered element shall be made upon requests from a member of the ISO {docnumber}/AG or
 the conversion system authority.
 
-A significant change of name may require the ISO {docnumber}/AG to change the alpha code element concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of code elements.
+A significant change of name may require the ISO {docnumber}/AG to change the identifier concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of identifiers.
 
 
 ==== Inactive authorities
@@ -143,20 +144,21 @@ the responsibility of maintaining its written languages conversion system entrie
 are assumed by ISO {docnumber}/AG.
 
 
-==== Reserved authorities (TODO: wording. vs "reserved for future use")
+==== Varia authorities (TODO: wording. vs "reserved for future use")
 
 The "`Various systems`" conversion system authority is assigned
-the code `var` is managed by ISO {docnumber}/AG to represent
+the identifier `Var`.
+In this case, ISO {docnumber}/AG will manage
 written languages conversion systems with need for representation but
-do not have a clear authority.
+which do not have a clear authority.
 
 [example]
-The Wade-Giles Chinese transliteration system from <<ChineseWGS>> is
-represented as `var-zho-hani-latn-1912`.
+The Wade-Giles Chinese transcription system from <<ChineseWGS>> could be
+represented as `Var:zho-Hani:Latn:WG-1912`.
 
 
 [[authority-scs-codes]]
-=== Operations on list of written languages conversion systems and their codes
+=== Operations on the list of written languages conversion systems and their codes
 
 
 [[scs-alteration]]
@@ -177,7 +179,7 @@ in the list of code elements.
 
 ==== Introduction
 
-Some code elements are reserved:
+Some code elements managed by ISO {docnumber}/RA are reserved:
 
 * for a limited period when their reservation is the result of
   the deprecation (<<scs-deprecation>>) or the alteration (<<scs-alteration>>)

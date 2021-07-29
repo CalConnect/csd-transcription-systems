@@ -24,12 +24,12 @@ A valid code must have at least one element in each segment.
 ==== Titular segment
 
 This part will contain a reference to the conversion system authority or
-authorities using identifiers, the list of which is maintained by ISO
+authorities by using identifiers, the list of which is maintained by ISO
 {docnumber}/RA.
 If an authority cannot be identified but the conversion system has a national
 character and/or is used by the government, the 2-letter country code from
 <<ISO3166-1>> may be used as the conversion system authority.
-If no conversion system authorities cannot be identified or its identification
+If no conversion system authorities can be identified or its identification
 is not relevant, "Var" (varia) is used as the titular segment.
 See <<conversion-system-authority>> for more details.
 
@@ -75,10 +75,9 @@ order given):
 
 - identifying numbers, letters or else (such as standard number, e.g. 843)
 - version number (e.g. `v6`, `v4-1`)
-- year of adoption
-- year of issue
-- method number (if a standard devises more than one method of conversion, this
-optional ad hoc number could be used for distinction)
+- year of adoption or issue (TODO: could there be cases when both are needed?)
+- method identifier (if a standard devises more than one method of conversion,
+  this optional ad hoc identifier could be used for distinction)
 
 Should there be cases when no elements can be used for this part, "na" (not
 applicable) will be the substitute.
@@ -105,7 +104,7 @@ Assigning of a conversion system code also requires demonstration of one of the 
 * Necessity of identification of the system in interchange;
 * Necessity of identification of the system in data encoding.
 
-NOTE: Systems that are used in isolation or only for temporary usage does not need to be assigned codes.
+NOTE: Systems that are used in isolation or only for temporary usage do not need to have assigned codes.
 
 ////
 Additions to the official and international time scale authorities require additional criteria:
@@ -116,28 +115,29 @@ Additions to the official and international time scale authorities require addit
 
 
 [[scs-deprecation]]
-=== Deprecation of a written languages conversion system
+=== Deprecation of conversion system codes
 
 Deprecation of conversion system codes shall be made upon
 request of a member of ISO {docnumber}/AG
 or the conversion system authority that manages the system.
 
 The ISO {docnumber}/AG will decide upon the marking of deprecation, on the basis
-of the information received. The corresponding code element is reserved
+of the information received. The corresponding code is reserved
 for backwards-compatibility.
 
 NOTE: Deprecation only applies to the code representation of the written languages
 conversion system, and not the system itself.
-For example, when the authority undergoes a rename.
+For example, deprecation may be necessary when the authority undergoes a rename.
 
 
 [[user-assigned-system-codes]]
-=== User assigned system codes
+=== User assigned conversion system codes
 
-If users need system codes to represent transliteration and romanization systems
+If users need codes to represent conversion systems
 not included in the conversion system registry, the code prefix of `zz`
-can be used, which must be placed at the beginning of the system code, and
-followed by a "HYPHEN MINUS" character ("`-`", Unicode U+002D).
+can be used, which must be placed at the beginning of the conversion system code,
+in the titular segment, and followed by a "HYPHEN MINUS" character ("`-`",
+Unicode U+002D).
 
 NOTE: Users are advised that the above series of codes are not universally used,
 those code elements are not compatible between different entities.
@@ -177,6 +177,9 @@ elements included but the old code is preserved.
 [[examples-of-conversion-system-codes]]
 === Examples of conversion system codes
 
+The examples given here are only indicative and do not guarantee that such codes
+will be actually registered.
+
 [example]
 `UN:ara:Latn:2017` (United Nations system for the romanization of Arabic,
     approved 2017)
@@ -186,7 +189,9 @@ elements included but the old code is preserved.
     in China, approved 1977)
 
 [example]
-`ALA-LC:mal:Mlym:Latn:2012` (for the ALA-LC Romanization system that transliterates the Malayam language from Malayam script characters into Latin script. The system identifier here is considered to be `2012`) TODO : check example validity
+`ALA-LC:mal:Latn:2012` (ALA-LC romanization system that
+transliterates the Malayam language from Malayam script characters into Latin
+script)
 
 [example]
 `ISO:Cyrl:Latn:9-1995` (<<ISO9>> for the transliteration into Latin of

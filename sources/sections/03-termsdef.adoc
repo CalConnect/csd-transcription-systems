@@ -42,18 +42,14 @@ e.g., cases when a language changes its orthography without changing the script.
 
 === transliteration
 
-TODO : use a more traditional definition
+process which consists of representing the characters of an alphabetical or
+syllabic system of writing by the characters of a conversion alphabet [<<ISO233-3>>]
 
-operation to convert a term:[script] into another script without change of _language_ (<<ISO5127,clause="3.1.5.01">>) based on orthographic features of the source script
 
+=== transcription
 
-// === transcription
-
-// TODO: use a more traditional definition
-
-// operation to convert spoken term:[language] or a term:[script] to another
-//script without change of language based on phonetic features of the language
-//and orthographic features of the source script
+process whereby the sounds of a given language are noted by the system of signs
+of a conversion language [<<ISO233-3>>]
 
 
 === romanization
@@ -69,22 +65,6 @@ _transcription (2) activity_ (<<ISO5127,clause="3.1.6.10">>) or both
 === written languages conversion system
 
 a set of rules for term:[written languages conversion]
-
-
-=== code
-
-TODO : code has 2 different meanings. Use "identifier" to mean combination of characters.
-
-_data_ (<<ISO5127,clause=3.1.13.10>>) transformed or represented in different forms
-according to a pre-established _set_ (<<ISO5127,3.1.1.09>>) of rules
-
-////
-{{ISO5127,clause=3.1.13.10,data}} transformed or represented in different forms
-according to a pre-established {{ISO5127,3.1.1.09,set}} of rules
-////
-
-[.source]
-<<ISO5127,clause="3.1.13.10">>, Note 1 to entry is omitted.
 
 
 === language code
@@ -105,7 +85,8 @@ combination of characters used to represent the name of a term:[script]
 
 === conversion system code
 
-term:[code] used to represent a term:[written languages conversion system]
+combination of characters used in a structured way to represent a
+term:[written languages conversion system]
 
 
 ////
