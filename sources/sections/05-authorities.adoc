@@ -76,6 +76,7 @@ the basis of the abbreviated names of the conversion system authorities,
 thus avoiding, wherever possible, any reflection of their political status.
 
 
+[[construction-of-the-alphabetic-identifier]]
 ===== Construction of the alphabetic identifier
 
 The following rules are to be adhered to for the assignment of the alphabetic

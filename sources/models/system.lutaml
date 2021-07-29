@@ -1,13 +1,9 @@
 diagram WLCS {
-  association {
-    owner SystemCode
-    member_type inheritance
-    member String
-  }
 
   class WrittenLanguagesConversionSystem {
-    +code: SystemCode
+    +code: String
     +name: String
+    +titularSegment: ConversionSystemAuthority
     +sourceSpelling: SpellingSystem
     +targetSpelling: SpellingSystem
     +identifyingSegment: String
@@ -42,7 +38,7 @@ diagram WLCS {
 
   class ConversionSystemRelation {
     +type: ConversionSystemRelationType[1..*]
-    +targetSystemCode: SystemCode
+    +targetSystem: WrittenLanguagesConversionSystem
   }
 
   association {

@@ -49,14 +49,21 @@ scripts.
 image:../images/authority.png[]
 
 
-==== Description
+==== Conversion System Authority
 
-authorityIdentifier:: An identifier that represents the conversion system authority.
+authorityIdentifier:: An identifier that represents the conversion system authority (<<titular-segment>>).
 
 name:: The identifiable short name that uniquely identifies the conversion
 system authority.
 
 remarks:: Any further notes.
+
+
+==== Authority Identifier
+
+Either a 2-letter `iso3166Code`,
+or a `String` under the constraints of <<construction-of-the-alphabetic-identifier>>.
+
 
 [[sc-data-model]]
 === Conversion system data model and attributes
@@ -66,12 +73,60 @@ remarks:: Any further notes.
 image:../images/system.png[]
 
 
-==== Conversion System Relation
+==== Written Languages Conversion System
 
-targetSystemCode:: The conversion system code of which this relation is a target.
+code:: A code that identifies the written languages conversion system.
 
-type:: One or more types of relation that the conversion system has with the
-target conversion system.
+name:: A name that represents the written languages conversion system.
+
+sourceSpelling:: The spelling system used in the source text.
+
+targetSpelling:: The spelling system used in the output text.
+
+identifyingSegment:: A system may be uniquely identified, amongst systems
+maintained by the same authority, by an identifier, an edition, a version or a
+sequence of characters.
++
+This element is mandatory if the authority manages or plans to manage multiple
+written languages conversion systems.
++
+It may be derived from the adoption date (TODO: and/or issue date?) if and only if that does not cause
+duplicates.
+Otherwise the adoption date shall be complemented by the name or number of the
+standard / technical specification, or some other data element.
++
+[example]
+`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
+
+
+relations:: Written languages conversion systems can be related to other written
+languages conversion systems in a number of ways.
+For example, a written languages conversion system may represent an adoption or
+variant of another written languages conversion system.
++
+Hierarchical structures of written languages conversion systems can be constructed by means
+of relationships.
++
+This element is optional.
+
+
+status:: A conversion system code may be optionally marked as deprecated or
+preferred.
++
+NOTE: The deprecation marker in no way indicates deprecation of the system
+itself.
+
+
+remarks:: Any further notes.
++
+The date of the adoption of the written languages conversation system by the authority may
+be noted in the remarks.
++
+A typical use case is to show its original code from the original system from
+where this code has been imported.
++
+[example]
+`NOTE: OGC 11-122r1 code urd_Arab2Latn_ODNI_2004`
 
 
 ==== Spelling System
@@ -96,64 +151,31 @@ extension:: An ad hoc string to refer to a non-default spelling system of a
 language.
 
 
-==== Written Languages Conversion System
+==== Conversion System Relation
 
-code:: A code that identifies the written languages conversion system.
+targetSystem:: The conversion system of which this relation is a target.
 
-name:: A name that represents the written languages conversion system.
-
-sourceSpelling:: The spelling system used in the source text.
-
-targetSpelling:: The spelling system used in the output text.
-
-identifyingSegment:: A system may be uniquely identified, amongst systems
-maintained by the same authority, by an identifier, an edition, a version or a
-sequence of characters.
-+
-This element is mandatory if the authority manages or plans to manage multiple
-written languages conversion systems.
-+
-It may be derived from the adoption date if and only if that does not cause
-duplicates.
-Otherwise the adoption date shall be complemented by the name or number of the
-standard / technical specification, or some other data element.
-+
-[example]
-`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
+type:: One or more types of relation that the conversion system has with the
+target conversion system.
 
 
-relations:: Written languages conversion systems can be related to other written
-languages conversion systems in a number of ways.
-For example, a written languages conversion system may represent an adoption or
-variant of another written languages conversion system.
-+
-Hierarchical structures of written languages conversion systems can be constructed by means
-of relationships.
-+
-This element is optional.
-+
-`aliasOf`::: the current system is an alias to the target system, the conversion process is identical
-`adoptedFrom`::: the current system is adopted from the target system, the conversion process may not be identical
-`supersedes`::: the current system supersedes the target system
-`replacedBy`::: the current system is replaced by the target system
-`relatedTo`::: the current system is related to the target system
-`basedOn`::: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
+==== Conversion System Status
+
+`preferred`:: the current system code is marked as "preferred"
+
+`deprecated`:: the current system code is marked as "deprecated"
 
 
-status:: A conversion system code may be optionally marked as deprecated or
-preferred.
-+
-NOTE: The deprecation marker in no way indicates deprecation of the system
-itself.
+==== Conversion System Relation Type
 
+`aliasOf`:: the current system is an alias to the target system, the conversion process is identical
 
-remarks:: Any further notes.
-+
-The date of the adoption of the written languages conversation system by the authority may
-be noted in the remarks.
-+
-A typical use case is to show its original code from the original system from
-where this code has been imported.
-+
-[example]
-`NOTE: OGC 11-122r1 code urd_Arab2Latn_ODNI_2004`
+`adoptedFrom`:: the current system is adopted from the target system, the conversion process may not be identical
+
+`supersedes`:: the current system supersedes the target system
+
+`replacedBy`:: the current system is replaced by the target system
+
+`relatedTo`:: the current system is related to the target system
+
+`basedOn`:: the current system is based on the target system, the conversion process inherits certain attributes from the target system.

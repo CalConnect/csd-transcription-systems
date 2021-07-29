@@ -1,19 +1,25 @@
 diagram Authority {
   class ConversionSystemAuthority {
-    +authorityIdentifier: String
+    +authorityIdentifier: AuthorityIdentifier
     +name: String
     +remarks: String
   }
 
   association {
-    owner AuthorityIdentifier
-    member_type inheritance
-    member String
+    owner ConversionSystemAuthority
+    member_type direct
+    member AuthorityIdentifier
   }
 
   association {
-    owner ConversionSystemAuthority
-    member_type direct
+    owner iso3166Code
+    member_type instance
+    member AuthorityIdentifier
+  }
+
+  association {
+    owner String
+    member_type instance
     member AuthorityIdentifier
   }
 
