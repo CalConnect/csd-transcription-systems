@@ -31,8 +31,7 @@ scripts.
 [[iso-3166]]
 ==== Usage of ISO 3166 code elements
 
-`iso3166Code` represents code elements from <<ISO3166-1>> for reference to
-country codes.
+`iso3166Code` represents country codes from <<ISO3166-1>>.
 
 
 [[iso-8601]]
@@ -67,13 +66,17 @@ remarks:: Any further notes.
 image:../images/system.png[]
 
 
-==== Description
+==== Conversion System Relation
 
-code:: A code that identifies the written languages conversion system.
+targetSystemCode:: The conversion system code of which this relation is a target.
 
-name:: A name that represents the written languages conversion system.
+type:: One or more types of relation that the conversion system has with the
+target conversion system.
 
-language:: The language code that identifies the source language being processed
+
+==== Spelling System
+
+language:: An optional 3-letter code that identifies the source language being processed
 by the written languages conversion system.
 +
 The language code should be qualified to a source of language codes.
@@ -83,12 +86,25 @@ contain language codes that can be selected from.
 If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should
 be used. ISO 639-2/T codes are intended to be used for terminology applications.
 
+scriptCode:: A 4-letter code from <<ISO15924>> that identifies the script of the
+spelling system.
+
+countryCode:: An optional 2-letter code from <<ISO3166-1>> that identifies the
+country associated with the spelling system.
+
+extension:: An ad hoc string to refer to a non-default spelling system of a
+language.
+
+
+==== Written Languages Conversion System
+
+code:: A code that identifies the written languages conversion system.
+
+name:: A name that represents the written languages conversion system.
 
 sourceSpelling:: The spelling system used in the source text.
 
-
 targetSpelling:: The spelling system used in the output text.
-
 
 identifyingSegment:: A system may be uniquely identified, amongst systems
 maintained by the same authority, by an identifier, an edition, a version or a

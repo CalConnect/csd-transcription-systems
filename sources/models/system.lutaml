@@ -11,8 +11,8 @@ diagram WLCS {
     +sourceSpelling: SpellingSystem
     +targetSpelling: SpellingSystem
     +identifyingSegment: String
-    +relations: CSRelation[0..*]
-    +status: CSStatus
+    +relations: ConversionSystemRelation[0..*]
+    +status: ConversionSystemStatus
     +remarks: String
   }
 
@@ -23,7 +23,7 @@ diagram WLCS {
     +extension: String[0..1]
   }
 
-  enum CSStatus {
+  enum ConversionSystemStatus {
     preferred
     deprecated
   }
@@ -37,21 +37,21 @@ diagram WLCS {
   association {
     owner WrittenLanguagesConversionSystem
     member_type direct
-    member CSStatus
+    member ConversionSystemStatus
   }
 
-  class CSRelation {
-    +systemCode: SystemCode
-    +type: CSRelationType[0..*]
+  class ConversionSystemRelation {
+    +type: ConversionSystemRelationType[1..*]
+    +targetSystemCode: SystemCode
   }
 
   association {
     owner WrittenLanguagesConversionSystem
     member_type direct
-    member CSRelation
+    member ConversionSystemRelation
   }
 
-  enum CSRelationType {
+  enum ConversionSystemRelationType {
     aliasOf
     adoptedFrom
     supersedes
@@ -61,9 +61,9 @@ diagram WLCS {
   }
 
   association {
-    owner CSRelation
+    owner ConversionSystemRelation
     member_type direct
-    member CSRelationType
+    member ConversionSystemRelationType
   }
 
 }
