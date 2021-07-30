@@ -1,0 +1,30 @@
+--- relaton/cache/iso/iso_639_all_parts.xml	2021-07-29 15:42:33.000000000 +0800
++++ relaton/cache/iso/iso_639_all_parts.xml	2021-07-29 15:43:05.000000000 +0800
+@@ -1,7 +1,7 @@
+ <bibdata type="standard">
+   <fetched>2021-07-29</fetched>
+-  <title type="title-main" format="text/plain" language="en" script="Latn">Code for the representation of names of languages</title>
+-  <title type="main" format="text/plain" language="en" script="Latn">Code for the representation of names of languages</title>
++  <title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>
++  <title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>
+   <uri type="src">https://www.iso.org/standard/4766.html</uri>
+   <uri type="rss">https://www.iso.org/contents/data/standard/00/47/4766.detail.rss</uri>
+   <docidentifier type="ISO">ISO 639 (all parts)</docidentifier>
+@@ -44,8 +44,8 @@
+   <relation type="instance">
+     <bibitem type="standard">
+       <fetched>2021-07-29</fetched>
+-      <title type="title-main" format="text/plain" language="en" script="Latn">Code for the representation of names of languages</title>
+-      <title type="main" format="text/plain" language="en" script="Latn">Code for the representation of names of languages</title>
++      <title type="title-main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>
++      <title type="main" format="text/plain" language="en" script="Latn">Codes for the representation of names of languages</title>
+       <uri type="src">https://www.iso.org/standard/4766.html</uri>
+       <uri type="rss">https://www.iso.org/contents/data/standard/00/47/4766.detail.rss</uri>
+       <docidentifier type="ISO">ISO 639:1988</docidentifier>
+@@ -133,4 +133,4 @@
+       <project-number>ISO 639 (all parts)</project-number>
+     </structuredidentifier>
+   </ext>
+-</bibdata>
+\ No newline at end of file
++</bibdata>
