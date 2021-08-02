@@ -79,24 +79,15 @@ code:: A code that identifies the written languages conversion system.
 
 name:: A name that represents the written languages conversion system.
 
+authority:: The conversion system authority under which this conversion system belongs.
+
 sourceSpelling:: The spelling system used in the source text.
 
 targetSpelling:: The spelling system used in the output text.
 
-identifyingSegment:: A system may be uniquely identified, amongst systems
-maintained by the same authority, by an identifier, an edition, a version or a
-sequence of characters.
-+
-This element is mandatory if the authority manages or plans to manage multiple
-written languages conversion systems.
-+
-It may be derived from the adoption date (TODO: and/or issue date?) if and only if that does not cause
-duplicates.
-Otherwise the adoption date shall be complemented by the name or number of the
-standard / technical specification, or some other data element.
-+
-[example]
-`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
+identifyingSegment:: An identifier that distinguishes the written languages
+conversion system from others with the same conversion system autority and
+spelling scopes.
 
 
 relations:: Written languages conversion systems can be related to other written
@@ -110,12 +101,11 @@ of relationships.
 This element is optional.
 
 
-status:: A conversion system code may be optionally marked as deprecated or
-preferred.
-+
-NOTE: The deprecation marker in no way indicates deprecation of the system
-itself.
+codeStatus:: A optional code that identifies the current status of the conversion system
+code itself.
 
+systemStatus:: A optional code that identifies the current status of the written
+languages conversion system itself.
 
 remarks:: Any further notes.
 +
@@ -131,15 +121,10 @@ where this code has been imported.
 
 ==== Spelling System
 
-language:: An optional 3-letter code that identifies the source language being processed
-by the written languages conversion system.
-+
-The language code should be qualified to a source of language codes.
-For example, <<ISO639-2>>, <<ISO639-3>>, <<ISO639-5>>
-contain language codes that can be selected from.
-+
-If a synonym is used from <<ISO639-2>>, the ISO 639-2/T associated code should
-be used. ISO 639-2/T codes are intended to be used for terminology applications.
+Either `language` or `scriptCode` needs to be present.
+
+language:: A 3-letter code that identifies the source language being
+processed.
 
 scriptCode:: A 4-letter code from <<ISO15924>> that identifies the script of the
 spelling system.
@@ -147,7 +132,7 @@ spelling system.
 countryCode:: An optional 2-letter code from <<ISO3166-1>> that identifies the
 country associated with the spelling system.
 
-extension:: An ad hoc string to refer to a non-default spelling system of a
+extension:: An optional ad hoc string to refer to a non-default spelling system of a
 language.
 
 
@@ -159,14 +144,36 @@ type:: One or more types of relation that the conversion system has with the
 target conversion system.
 
 
-==== Conversion System Status
+==== Conversion System Code Status
+
+Examples of system code statuses:
 
 `preferred`:: the current system code is marked as "preferred"
 
 `deprecated`:: the current system code is marked as "deprecated"
++
+NOTE: The deprecation marker in no way indicates deprecation of the system
+itself.
+
+
+
+==== Conversion System Status
+
+Examples of system statuses:
+
+`former` :: the current system is marked as "former"
+
+`current` :: the current system is marked as "current"
+
+`inactive`:: the current system is marked as "inactive"
++
+[example] When a system has been deprecated, but not superseded, thus not
+qualified for a relation, then this system status applies.
 
 
 ==== Conversion System Relation Type
+
+Examples of relation types:
 
 `aliasOf`:: the current system is an alias to the target system, the conversion process is identical
 
@@ -174,7 +181,7 @@ target conversion system.
 
 `supersedes`:: the current system supersedes the target system
 
-`replacedBy`:: the current system is replaced by the target system
+`supersededBy`:: the current system is superseded by the target system
 
 `relatedTo`:: the current system is related to the target system
 

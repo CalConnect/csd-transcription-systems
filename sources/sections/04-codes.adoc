@@ -41,12 +41,16 @@ To identify a spelling system usually a language code or a script code or both
 would be sufficient but to cover more specific needs the following four elements
 in the order given may be used:
 
-- language code (3-letter code from <<ISO639-2>> or <<ISO639-3>> with preference
-  to terminological codes)
-- spelling system extension (an ad hoc string to refer to a non-default spelling
-system of a language, such as old orthography)
+- language code
+  (3-letter code from <<ISO639-2>> or <<ISO639-3>> with preference to terminological codes.
+  If a synonym is used from ISO 639-2, the ISO 639-2/T associated code should be used.
+  ISO 639-2/T codes are intended to be used for terminology applications.
+  )
 - script code (4-letter code from <<ISO15924>>)
 - country code (2-letter code from <<ISO3166-1>>)
+- spelling system extension (an ad hoc string to refer to a non-default spelling
+system of a language, such as old orthography)
+
 
 [example]
 `ind-pre1972` (Indonesian language using the pre-1972 orthography)
@@ -75,12 +79,16 @@ order given):
 
 - identifying numbers, letters or else (such as standard number, e.g. 843)
 - version number (e.g. `v6`, `v4-1`)
-- year of adoption or issue (TODO: could there be cases when both are needed?)
+- year of adoption
+- year of issue
 - method identifier (if a standard devises more than one method of conversion,
   this optional ad hoc identifier could be used for distinction)
 
 Should there be cases when no elements can be used for this part, "na" (not
 applicable) will be the substitute.
+
+[example]
+`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
 
 
 [[requirements-for-new-conversion-system-codes]]
@@ -154,8 +162,8 @@ E.g., an all lower case code would be an equally valid code.
 [[permitted-characters-in-conversion-system-codes]]
 === Permitted characters in conversion system codes
 
-The codes will use alphabetic letters and numbers only, in addition colons serve
-to separate segments and hyphens to separate elements.
+The codes will use unaccented alphabetic letters and number digits only,
+in addition colons serve to separate segments and hyphens to separate elements.
 Hyphens within elements (e.g. `233-3`) will also be accepted but other
 non-alphabetic characters should be omitted or substituted.
 

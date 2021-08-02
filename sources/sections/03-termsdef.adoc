@@ -43,13 +43,13 @@ e.g., cases when a language changes its orthography without changing the script.
 === transliteration
 
 process which consists of representing the characters of an alphabetical or
-syllabic system of writing by the characters of a conversion alphabet [<<ISO233-3>>]
+syllabic system of writing by the characters of a conversion alphabet
 
 
 === transcription
 
 process whereby the sounds of a given language are noted by the system of signs
-of a conversion language [<<ISO233-3>>]
+of a conversion language
 
 
 === romanization

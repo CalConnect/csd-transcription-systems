@@ -33,7 +33,7 @@ it is considered "`inactive`".
 
 ==== Varia authorities
 
-The "`Various systems`" (Var) conversion system authority is managed by
+The "`Varia systems`" (Var) conversion system authority is managed by
 ISO {docnumber}/AG to represent written languages conversion systems that:
 
 . have a need to be represented as determined by ISO {docnumber}/AG;
@@ -79,20 +79,18 @@ thus avoiding, wherever possible, any reflection of their political status.
 [[construction-of-the-alphabetic-identifier]]
 ===== Construction of the alphabetic identifier
 
+The identifier will use unaccented alphabetic letters and number digits only,
+in addition hyphens serve to separate elements.
+Other non-alphabetic characters should be omitted or substituted.
 The following rules are to be adhered to for the assignment of the alphabetic
 identifier:
 
-* The alphabetic identifier uses combinations of a maximum of 16 characters from
-the following Unicode ranges:
-  ** digits (U+0030 -- U+0039)
-  ** hyphen-minus (U+002D)
-  ** Latin uppercase letters (U+0041 -- U+005A)
-  ** Latin lowercase letters (U+0061 -- U+007A)
+* The maximum length of the identifier is 16 characters.
 
-* The minimal length of the identifier is 3 letters to encourage the creation of
-descriptive and distinguishable elements.
+* The minimal length of the identifier is 3 characters to encourage the creation
+of descriptive and distinguishable elements.
 
-* Identifiers with 2 letters are reserved for codes in <<ISO3166-1>>, each
+* Identifiers with 2 characters are reserved for codes in <<ISO3166-1>>, each
 representing the administration authority of the particular jurisdiction.
 
 
@@ -105,8 +103,7 @@ E.g., an all lower case identifier would be an equally valid identifier.
 
 ==== Examples of conversion system authority identifiers
 
-The examples given here are only indicative and do not guarantee that such
-identifiers will be actually registered.
+The examples given here are only indicative.
 
 [example]
 `ISO` for International Organization of Standardization

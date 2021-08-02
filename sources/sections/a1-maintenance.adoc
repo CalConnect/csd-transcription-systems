@@ -5,6 +5,8 @@
 
 === Registration authority (ISO {docnumber}/RA)
 
+==== General
+
 For the purpose of registering conversion system codes and conversion system
 authority identifiers, ISO has designated a Registration Authority for ISO
 {docnumber}.
@@ -18,7 +20,7 @@ The ISO list identifies the Registration Authority and where the Registration
 Authority has published materials related to this standard on the Internet.
 
 
-=== Functions of the Registration Authority
+==== Functions of the Registration Authority
 
 It has been entrusted with the following functions with regard to
 the list of conversion system authorities and written languages conversion
@@ -34,7 +36,7 @@ systems, together with code assignments and information associated with each ent
 
 . to publish changes made to such information and the history of changes allowing traceability;
 
-. to administer the reservation of the codes, subject to discussion.
+. to administer the reservation of the codes.
 
 Changes to the content of the list of entries becomes effective
 immediately upon publication.
@@ -44,6 +46,9 @@ shall be observed by the ISO {docnumber}/RA for changes to the list of
 conversion system authorities and written languages conversion
 systems, their code assignments and associated information,
 and for reservations of code elements.
+
+
+==== Data provided by the Registration Authority
 
 The RA will provide at least the following data on conversion system codes:
 
@@ -75,15 +80,12 @@ codes.
 ==== Consensus phase and voting procedure
 
 As a rule, the advisory group will make its decisions by consensus.
-If a vote is needed, the decision is approved when more than half of members
-vote for it.
-
-(TODO: discuss: two-thirds majority, and at least 4 positive votes? 4 matching the minimum size of AG membership)
+If a vote is needed, the decision is approved when more than half/two-thirds of
+members vote for it.
 
 
 [[authority-scsa-codes]]
 === Operations on the list of conversion system authorities and their identifiers
-
 
 ==== Registration of a new conversion system authority
 
@@ -121,20 +123,25 @@ continuity of usage.
 ==== Modification of conversion system authority identifier
 
 Modifications of an entry within the list of conversion system authority identifiers
-shall be made upon the request of a member of ISO {docnumber}/AG.
+shall be made upon the request of a member of ISO {docnumber}/AG
+or the conversion system authority that manages the system.
 
-The ISO {docnumber}/AG will decide upon the modification, on the basis of the information received.
+The ISO {docnumber}/AG will decide upon the modification,
+on the basis of the information received.
 
 The previously assigned identifier will be reserved after modification for
 backwards-compatibility purposes.
 
 
-==== Modifications to information associated with identfiers
+==== Modifications to information associated with identifiers
 
-Modifications to a registered element shall be made upon requests from a member of the ISO {docnumber}/AG or
-the conversion system authority.
+Modifications to a registered element shall be made upon requests from a member of the ISO {docnumber}/AG
+or the conversion system authority that manages the system.
 
-A significant change of name may require the ISO {docnumber}/AG to change the identifier concerned. The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the list of identifiers.
+A significant change of name may require the ISO {docnumber}/AG to change the
+identifier concerned.
+The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the
+list of identifiers.
 
 
 ==== Inactive authorities
@@ -144,9 +151,9 @@ the responsibility of maintaining its written languages conversion system entrie
 are assumed by ISO {docnumber}/AG.
 
 
-==== Varia authorities (TODO: wording. vs "reserved for future use")
+==== Varia authorities
 
-The "`Various systems`" conversion system authority is assigned
+The "`Varia systems`" conversion system authority is assigned
 the identifier `Var`.
 In this case, ISO {docnumber}/AG will manage
 written languages conversion systems with need for representation but
@@ -175,7 +182,7 @@ in the list of code elements.
 
 
 [[reservation]]
-=== Reservation of code elements (TODO: discuss. probably keep)
+=== Reservation of code elements
 
 ==== Introduction
 
@@ -191,19 +198,24 @@ Some code elements managed by ISO {docnumber}/RA are reserved:
 
 ==== Period of non-allocation
 
-Code elements that the ISO {docnumber}/AG has altered or deleted should not be reallocated during a period of at least ten years after the change.
-
-The exact period is determined in each case on the basis of the extent to which the former code element was used.
+Code elements that the ISO {docnumber}/AG has altered or deleted should not be reallocated indefinitely.
 
 
 [[reservation-exceptional]]
 ==== Exceptional reservations
 
-Code elements may be reserved, in exceptional cases, for conversion systems authorities and written languages conversion systems which the ISO {docnumber}/AG has decided not to include in the lists maintained by ISO {docnumber}/RA, but for which an interchange or encoding requirement exists.
+Code elements may be reserved, in exceptional cases,
+for conversion systems authorities and written languages conversion systems
+which the ISO {docnumber}/AG has decided not to include in the lists maintained
+by ISO {docnumber}/RA,
+but for which an interchange or encoding requirement exists.
 
 ==== Reallocation
 
-Before reallocating a former code element or a formerly reserved code element, the ISO {docnumber}/AG shall consult, as appropriate, the authority or agency on whose behalf the code element was reserved, and consideration shall be given to difficulties which might arise from the reallocation.
+Before reallocating a former code element or a formerly reserved code element,
+the ISO {docnumber}/AG shall consult,
+as appropriate, the authority or agency on whose behalf the code element was reserved,
+and consideration shall be given to difficulties which might arise from the reallocation.
 
 
 ==== List of reserved code elements
@@ -213,4 +225,6 @@ A list of reserved code elements is kept by the ISO {docnumber}/RA.
 
 === Advice regarding use of code elements
 
-The ISO {docnumber}/AG is available for consultation and assistance on the use of codes for conversion system authorities and written languages conversion systems.
+The ISO {docnumber}/AG is available for consultation and assistance
+on the use of codes for conversion system authorities and
+written languages conversion systems.

@@ -3,12 +3,13 @@ diagram WLCS {
   class WrittenLanguagesConversionSystem {
     +code: String
     +name: String
-    +titularSegment: ConversionSystemAuthority
+    +authority: ConversionSystemAuthority
     +sourceSpelling: SpellingSystem
     +targetSpelling: SpellingSystem
     +identifyingSegment: String
     +relations: ConversionSystemRelation[0..*]
-    +status: ConversionSystemStatus
+    +codeStatus: ConversionSystemCodeStatus
+    +systemStatus: ConversionSystemStatus
     +remarks: String
   }
 
@@ -19,15 +20,20 @@ diagram WLCS {
     +extension: String[0..1]
   }
 
-  enum ConversionSystemStatus {
-    preferred
-    deprecated
-  }
+  enum ConversionSystemCodeStatus {}
+
+  enum ConversionSystemStatus {}
 
   association {
     owner WrittenLanguagesConversionSystem
     member_type direct
     member SpellingSystem
+  }
+
+  association {
+    owner WrittenLanguagesConversionSystem
+    member_type direct
+    member ConversionSystemCodeStatus
   }
 
   association {
@@ -47,14 +53,7 @@ diagram WLCS {
     member ConversionSystemRelation
   }
 
-  enum ConversionSystemRelationType {
-    aliasOf
-    adoptedFrom
-    supersedes
-    replacedBy
-    relatedTo
-    basedOn
-  }
+  enum ConversionSystemRelationType {}
 
   association {
     owner ConversionSystemRelation
