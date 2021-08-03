@@ -148,41 +148,43 @@ target conversion system.
 
 Examples of system code statuses:
 
-`preferred`:: the current system code is marked as "preferred"
+`preferred`:: The current system code is marked as "preferred".
 
-`deprecated`:: the current system code is marked as "deprecated"
+`deprecated`:: The current system code is marked as "deprecated".
 +
 NOTE: The deprecation marker in no way indicates deprecation of the system
 itself.
-
 
 
 ==== Conversion System Status
 
 Examples of system statuses:
 
-`former` :: the current system is marked as "former"
+`former`:: The current system is marked as "former".
 
-`current` :: the current system is marked as "current"
+`current`:: The current system is marked as "current".
 
-`inactive`:: the current system is marked as "inactive"
+`inactive`:: The current system is marked as "inactive".
 +
-[example] When a system has been deprecated, but not superseded, thus not
-qualified for a relation, then this system status applies.
+[example]
+When it has been deprecated of its own accord, it can be considered "inactive".
 
 
 ==== Conversion System Relation Type
 
 Examples of relation types:
 
-`aliasOf`:: the current system is an alias to the target system, the conversion process is identical
+`aliasOf`:: The current system is an alias to the target system.
+The conversion processes are identical.
 
-`adoptedFrom`:: the current system is adopted from the target system, the conversion process may not be identical
+`adoptedFrom`:: The current system is adopted from the target system.
+The conversion processes may not be identical.
 
-`supersedes`:: the current system supersedes the target system
+`supersedes`:: The current system supersedes the target system.
 
-`supersededBy`:: the current system is superseded by the target system
+`supersededBy`:: The current system is superseded by the target system.
 
-`relatedTo`:: the current system is related to the target system
+`relatedTo`:: The current system is related to the target system.
 
-`basedOn`:: the current system is based on the target system, the conversion process inherits certain attributes from the target system.
+`basedOn`:: The current system is based on the target system
+The conversion process inherits certain attributes from the target system.
