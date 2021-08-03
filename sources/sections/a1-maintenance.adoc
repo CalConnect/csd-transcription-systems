@@ -58,6 +58,7 @@ The RA will provide at least the following data on conversion system codes:
 - the target language and script of the conversion system
 - the source bibliographic reference
 - method identifier of the conversion system
+- status of the conversion system code
 - relationship with other conversion systems
 - any associated remarks
 
