@@ -455,9 +455,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  fontist
-  isodoc
-  lutaml
   metanorma-cli
   structured_csv
 
