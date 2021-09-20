@@ -154,6 +154,12 @@ Examples of system code statuses:
 +
 NOTE: The deprecation marker in no way indicates deprecation of the system
 itself.
++
+[example]
+When a conversion system code has been renamed, maybe due to the renaming of the
+corresponding system authority, then the old code can be considered "deprecated"
+in favor of the renamed code.
+The conversion system itself remains unchanged.
 
 
 ==== Conversion System Status
