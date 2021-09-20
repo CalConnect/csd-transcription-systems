@@ -5,7 +5,7 @@
 === General
 
 A conversion system authority is a competent authority that creates,
-publishes and/or manages written languages conversion systems.
+publishes and/or manages written language conversion systems.
 
 Authorities that are no longer competent will depend on ISO {docnumber}/AG for
 managing codes, which will be considered on a case-by-case basis.
@@ -18,9 +18,9 @@ managing codes, which will be considered on a case-by-case basis.
 
 A conversion system authority should:
 
-. have at least one written languages conversion system eligible for a conversion
+. have at least one written language conversion system eligible for a conversion
 system code;
-. [[scsa-requirements-b]]be competent in managing its written languages conversion systems
+. [[scsa-requirements-b]]be competent in managing its written language conversion systems
 (<<scsa-competency>>).
 
 
@@ -34,7 +34,7 @@ it is considered "`inactive`".
 ==== Varia authorities
 
 The "`Varia systems`" (Var) conversion system authority is managed by
-ISO {docnumber}/AG to represent written languages conversion systems that:
+ISO {docnumber}/AG to represent written language conversion systems that:
 
 . have a need to be represented as determined by ISO {docnumber}/AG;
 . yet do not have a clear extant authority.
@@ -44,14 +44,14 @@ ISO {docnumber}/AG to represent written languages conversion systems that:
 ==== Competency
 
 A competent conversion system authority is one that has standardized
-processes surrounding the management of the written languages conversion systems,
+processes surrounding the management of the written language conversion systems,
 covering at least the following processes:
 
-. planning of written languages conversion systems, including the process of designing and
-defining written languages conversion systems;
-. performing changes to written languages conversion systems are well planned;
-. public announcement and dissemination of its written languages conversion systems; and
-. allows a public review period for people affected by written languages conversion systems
+. planning of written language conversion systems, including the process of designing and
+defining written language conversion systems;
+. performing changes to written language conversion systems are well planned;
+. public announcement and dissemination of its written language conversion systems; and
+. allows a public review period for people affected by written language conversion systems
 under its management prior to enactment.
 
 

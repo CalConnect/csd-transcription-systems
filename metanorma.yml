@@ -5,5 +5,5 @@ metanorma:
       - sources/cc-24229.adoc
       - sources/iso-24229.adoc
   collection:
-    name: Information and documentation -- Codes for written languages conversion systems
+    name: Information and documentation -- Codes for written language conversion systems
     organization: CalConnect/ISO

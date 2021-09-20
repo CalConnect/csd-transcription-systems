@@ -23,7 +23,7 @@ Authority has published materials related to this standard on the Internet.
 ==== Functions of the Registration Authority
 
 It has been entrusted with the following functions with regard to
-the list of conversion system authorities and written languages conversion
+the list of conversion system authorities and written language conversion
 systems, together with code assignments and information associated with each entry:
 
 . to add and eliminate these entries, in accordance with the rules in this document;
@@ -43,7 +43,7 @@ immediately upon publication.
 
 The criteria provided in <<authority-scsa-codes>> to <<authority-scs-codes>>
 shall be observed by the ISO {docnumber}/RA for changes to the list of
-conversion system authorities and written languages conversion
+conversion system authorities and written language conversion
 systems, their code assignments and associated information,
 and for reservations of code elements.
 
@@ -110,7 +110,7 @@ discretion.
 
 A conversion system authority can be marked inactive
 by ISO {docnumber}/AG if the authority ceases to exist or
-no longer wishes to register its written languages conversion systems.
+no longer wishes to register its written language conversion systems.
 
 Such inactive status shall be considered by the ISO {docnumber}/AG
 upon request from the conversion system authority itself
@@ -148,7 +148,7 @@ list of identifiers.
 ==== Inactive authorities
 
 If a conversion system authority is marked inactive,
-the responsibility of maintaining its written languages conversion system entries
+the responsibility of maintaining its written language conversion system entries
 are assumed by ISO {docnumber}/AG.
 
 
@@ -157,7 +157,7 @@ are assumed by ISO {docnumber}/AG.
 The "`Varia systems`" conversion system authority is assigned
 the identifier `Var`.
 In this case, ISO {docnumber}/AG will manage
-written languages conversion systems with need for representation but
+written language conversion systems with need for representation but
 which do not have a clear authority.
 
 [example]
@@ -166,11 +166,11 @@ represented as `Var:zho-Hani:Latn:WG-1912`.
 
 
 [[authority-scs-codes]]
-=== Operations on the list of written languages conversion systems and their codes
+=== Operations on the list of written language conversion systems and their codes
 
 
 [[scs-alteration]]
-==== Alterations to a written languages conversion system
+==== Alterations to a written language conversion system
 
 Alterations to a registered element shall be made only upon
 request of a member of ISO {docnumber}/AG
@@ -206,7 +206,7 @@ Code elements that the ISO {docnumber}/AG has altered or deleted should not be r
 ==== Exceptional reservations
 
 Code elements may be reserved, in exceptional cases,
-for conversion systems authorities and written languages conversion systems
+for conversion systems authorities and written language conversion systems
 which the ISO {docnumber}/AG has decided not to include in the lists maintained
 by ISO {docnumber}/RA,
 but for which an interchange or encoding requirement exists.
@@ -228,4 +228,4 @@ A list of reserved code elements is kept by the ISO {docnumber}/RA.
 
 The ISO {docnumber}/AG is available for consultation and assistance
 on the use of codes for conversion system authorities and
-written languages conversion systems.
+written language conversion systems.

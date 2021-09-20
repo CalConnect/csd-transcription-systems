@@ -32,7 +32,7 @@ _natural language_ (<<ISO5127,clause=3.1.5.02>>) realized through the writing of
 <<ISO5127,clause="3.1.5.04">>
 
 
-=== written languages conversion
+=== written language conversion
 
 process whereby one term:[spelling system] is converted into another spelling system
 
@@ -62,9 +62,9 @@ _transcription (2) activity_ (<<ISO5127,clause="3.1.6.10">>) or both
 <<ISO5127,clause="3.1.6.14">>
 
 
-=== written languages conversion system
+=== written language conversion system
 
-a set of rules for term:[written languages conversion]
+a set of rules for term:[written language conversion]
 
 
 === language code
@@ -86,7 +86,7 @@ combination of characters used to represent the name of a term:[script]
 === conversion system code
 
 combination of characters used in a structured way to represent a
-term:[written languages conversion system]
+term:[written language conversion system]
 
 
 ////

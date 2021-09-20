@@ -1,4 +1,4 @@
-= CalConnect/ISO 24229: Information and documentation -- Codes for written languages conversion systems
+= CalConnect/ISO 24229: Information and documentation -- Codes for written language conversion systems
 
 This work item belongs to ISO/TC 46/WG 3 and CalConnect TC LOCALIZATION.
 
