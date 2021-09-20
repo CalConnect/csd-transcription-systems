@@ -81,7 +81,7 @@ codes.
 ==== Consensus phase and voting procedure
 
 As a rule, the advisory group will make its decisions by consensus.
-If a vote is needed, the decision is approved when more than half/two-thirds of
+If a vote is needed, the decision is approved when more than two-thirds of
 members vote for it.
 
 
