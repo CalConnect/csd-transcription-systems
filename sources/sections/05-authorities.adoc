@@ -106,7 +106,7 @@ E.g., an all lower case identifier would be an equally valid identifier.
 The examples given here are only indicative.
 
 [example]
-`ISO` for International Organization of Standardization
+`ISO` for International Organization for Standardization
 
 [example]
 `BGN-PCGN` for the United States Board on Geographic Names - Permanent Committee
