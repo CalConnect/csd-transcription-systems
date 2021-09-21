@@ -94,7 +94,8 @@ identifier:
 // * Other non-alphabetic characters should be omitted or substituted.
 
 * The minimal length of the identifier is 3 characters to encourage the creation
-of descriptive and distinguishable elements.
+of descriptive and distinguishable elements, with the exception of the following:
+  ** UN, for United Nations
 
 * Identifiers with 2 characters are reserved for codes in <<ISO3166-1>>, each
 representing the administration authority of the particular jurisdiction.
