@@ -10,10 +10,10 @@
 A conversion system code will consist of four segments,
 or parts separated by a "COLON" ("`:`", Unicode U+003A):
 
-- titular segment,
-- source spelling system segment,
-- target spelling system segment and
-- identifying segment.
+- titular segment
+- source spelling system segment
+- target spelling system segment
+- identifying segment
 
 Each segment may consist of more than one element separated by a "HYPHEN MINUS"
 character ("`-`", Unicode U+002D).
@@ -44,8 +44,7 @@ in the order given may be used:
 - language code
   (3-letter code from <<ISO639-2>> or <<ISO639-3>> with preference to terminological codes.
   If a synonym is used from ISO 639-2, the ISO 639-2/T associated code should be used.
-  ISO 639-2/T codes are intended to be used for terminology applications.
-  )
+  ISO 639-2/T codes are intended to be used for terminology applications.)
 - script code (4-letter code from <<ISO15924>>)
 - country code (2-letter code from <<ISO3166-1>>)
 - spelling system extension (an ad hoc string to refer to a non-default spelling
@@ -100,16 +99,16 @@ The ISO {docnumber}/AG will decide upon the addition, on the basis of the justif
 
 A written language conversion system is eligible for a conversion system code assignment if it fulfills one of the following criteria:
 
-* The system has been approved for official use at some level of government;
+* The system has been approved for official use at some level of government.
 
-* The system has been developed and used by educational/scientific institutions, published in a peer reviewed scientific publication;
+* The system has been developed and used by educational/scientific institutions, published in a peer reviewed scientific publication.
 
 * The system has been in substantial usage.
 
 
 Assigning of a conversion system code also requires demonstration of one of the following usage factors:
 
-* Necessity of identification of the system in interchange;
+* Necessity of identification of the system in interchange.
 * Necessity of identification of the system in data encoding.
 
 NOTE: Systems that are used in isolation or only for temporary usage do not need to have assigned codes.

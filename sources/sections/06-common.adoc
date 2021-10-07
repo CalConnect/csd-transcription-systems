@@ -123,7 +123,8 @@ where this code has been imported.
 
 Either `language` or `scriptCode` needs to be present.
 
-language:: A 3-letter code that identifies the source language being
+language:: A 3-letter code from <<ISO639-2>>,
+<<ISO639-3>> and <<ISO639-5>> that identifies the source language being
 processed.
 
 scriptCode:: A 4-letter code from <<ISO15924>> that identifies the script of the
