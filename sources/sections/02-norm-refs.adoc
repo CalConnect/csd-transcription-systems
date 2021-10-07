@@ -2,12 +2,12 @@
 [bibliography]
 == Normative References
 
-* [[[ISO639,ISO 639]]]
+* [[[ISO639,ISO 639 (all parts)]]]
 
-* [[[ISO3166,ISO 3166:2020]]]
+* [[[ISO3166,ISO 3166 (all parts)]]]
 
 * [[[ISO5127,ISO 5127:2017]]]
 
-* [[[ISO8601,ISO 8601:2019]]]
+* [[[ISO8601,ISO 8601 (all parts)]]]
 
 * [[[ISO15924,ISO 15924]]]
