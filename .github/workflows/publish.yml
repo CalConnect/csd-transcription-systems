@@ -17,6 +17,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Install gems from local Gemfile
         run: curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+      - name: Debug metanorma versions
+        run: |
+          make version
       - name: Build document in the Metanorma container
         env:
           LC_ALL: C.UTF-8

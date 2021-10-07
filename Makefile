@@ -107,6 +107,10 @@ clean-cache:
 clean:
 	rm -rf $(OUT_DIR) $(DERIVED_SRC)
 
+.PHONY: version
+version:
+	bundle exec metanorma --version
+
 .PHONY: test
 test:
 	scripts/run_tests
