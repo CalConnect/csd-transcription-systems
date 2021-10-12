@@ -63,7 +63,7 @@ test_existence_of_auth_name() {
 
 test_existence_of() {
 	set +e
-	_test_existence_of "${1}"
+	_test_existence_of "$@"
 	set -e
 }
 

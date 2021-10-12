@@ -19,3 +19,9 @@ test_existence_of_auth_name 'American Library Association'
 test_existence_of_auth_name 'United Nations'
 test_existence_of !alalc
 test_existence_of !bgnpcgn
+
+for name in "List Paragraph" "Heading 1" "Heading 2" "Heading 3" "Heading 4" "Heading 5" "Heading 6" "TOC 1" "TOC 2" "TOC 3" "Footnote Reference"
+do
+  test_existence_of 'mso-style-name: "'"${name}"'"' 'human-readable style names in English' site/documents/iso-24229.doc
+
+done
