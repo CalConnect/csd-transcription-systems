@@ -43,13 +43,17 @@ ISO {docnumber}/AG to represent written language conversion systems that:
 [[scsa-competency]]
 ==== Competency
 
-A competent conversion system authority is one that has standardized
+A competent conversion system authority is a recognized institution that has standardized
 processes surrounding the management of the written language conversion systems,
-covering at least the following processes:
+covering the following processes:
 
 . planning of written language conversion systems, including the process of designing and
-defining written language conversion systems;
-. performing changes to written language conversion systems are well planned;
+defining written language conversion systems; and
+. performing changes to written language conversion systems are well planned.
+
+It is recommended for a competent conversion system authority to also establish
+standardized processes for the following:
+
 . public announcement and dissemination of its written language conversion systems; and
 . allows a public review period for people affected by written language conversion systems
 under its management prior to enactment.
@@ -79,7 +83,7 @@ thus avoiding, wherever possible, any reflection of their political status.
 [[construction-of-the-alphabetic-identifier]]
 ===== Construction of the alphabetic identifier
 
-The following rules are to be adhered to for the assignment of the alphabetic
+The following rules are to be adhered to for the construction of the alphabetic
 identifier:
 
 * The maximum length of the identifier is 16 characters.

@@ -121,9 +121,10 @@ where this code has been imported.
 
 ==== Spelling System
 
-Either `language` or `scriptCode` needs to be present.
+`scriptCode` must be present.
+In the case of a language-specific spelling system, `languageCode` is also required.
 
-language:: A 3-letter code from <<ISO639-2>>,
+languageCode:: A 3-letter code from <<ISO639-2>>,
 <<ISO639-3>> and <<ISO639-5>> that identifies the source language being
 processed.
 
@@ -181,6 +182,20 @@ When it has been deprecated of its own accord, it can be considered "inactive".
 
 Examples of relation types:
 
+`basedOn`:: The current system is based on the target system.
+The conversion process inherits certain attributes from the target system.
++
+[example]
+`ALA-LC:jpn-Hrkt:Latn:1997` is based on `Var:jpn-Hrkt:Latn:Hepburn-1886`.
+
+`basisFor`:: The target system is based on the current system.
+It can be thought of as the inverse of `basedOn`.
++
+[example]
+`Var:jpn-Hrkt:Latn:Hepburn-1886` is the basis for `ALA-LC:jpn-Hrkt:Latn:1997`,
+`BGN:jpn-Hrkt:Latn:1930`,
+`BGN-PCGN:jpn-Hrkt:Latn:1976` and `BGN-PCGN:jpn-Hrkt:Latn:2017`
+
 `aliasOf`:: The current system is an alias to the target system.
 The conversion processes are identical.
 
@@ -192,6 +207,3 @@ The conversion processes may not be identical.
 `supersededBy`:: The current system is superseded by the target system.
 
 `relatedTo`:: The current system is related to the target system.
-
-`basedOn`:: The current system is based on the target system
-The conversion process inherits certain attributes from the target system.

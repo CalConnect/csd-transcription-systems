@@ -7,17 +7,37 @@
 
 ==== General
 
-A conversion system code will consist of four segments,
-or parts separated by a "COLON" ("`:`", Unicode U+003A):
+A conversion system code must consist of four segments:
 
 - titular segment
 - source spelling system segment
 - target spelling system segment
 - identifying segment
 
-Each segment may consist of more than one element separated by a "HYPHEN MINUS"
-character ("`-`", Unicode U+002D).
-A valid code must have at least one element in each segment.
+Each segment must consist of one or more elements.
+
+
+[[construction-of-the-conversion-system-code]]
+==== Construction of the conversion system code
+
+The following rules are to be adhered to for the construction of a conversion
+system code:
+
+* The codes shall consist of elements from the following Unicode ranges:
+  * DIGIT ZERO through DIGIT NINE (U+0030 -- U+0039)
+  * LATIN CAPITAL LETTER A through LATIN CAPITAL LETTER Z (U+0041 -- U+005A)
+  * LATIN SMALL LETTER A through LATIN SMALL LETTER Z (U+0061 -- U+007A)
+
+* Segments shall be separated by a single "COLON" ("`:`", Unicode U+003A).
+
+* Elements within a segment shall be separated by
+  a single "HYPHEN-MINUS" ("`-`", Unicode U+002D).
+
+* "HYPHEN-MINUS" ("`-`", Unicode U+002D)
+  within an element (e.g. `233-3`) will also be accepted.
+
+* Other characters in the elements not covered by the above should be omitted or
+substituted.
 
 
 [[titular-segment]]
@@ -37,8 +57,10 @@ See <<conversion-system-authority>> for more details.
 [[source-spelling-system-segment]]
 ==== Source spelling system segment
 
-To identify a spelling system usually a language code or a script code or both
-would be sufficient but to cover more specific needs the following four elements
+Except as specified in <<abbreviated-conversion-system-codes>>
+a script code would be a mandatory element.
+Language-specific spelling systems have also language codes.
+In order to cover more specific needs the following four elements
 in the order given may be used:
 
 - language code
@@ -52,13 +74,13 @@ system of a language, such as old orthography)
 
 
 [example]
-`ind-pre1972` (Indonesian language using the pre-1972 orthography)
+`ind-Latn-pre1972` (Indonesian language using the pre-1972 orthography)
 
 [example]
 `bos-Arab` (Bosnian language using Arabic script)
 
 [example]
-`uzb-AF` (Uzbek language as used in Afghanistan)
+`uzb-Arab-AF` (Uzbek language as used in Afghanistan)
 
 
 [[target-spelling-system-segment]]
@@ -87,7 +109,7 @@ Should there be cases when no elements can be used for this part, "na" (not
 applicable) will be the substitute.
 
 [example]
-`2013` is the identifying segment of the system coded as `UN:lao:Latn:2013`.
+`2017` is the identifying segment of the system coded as `UN:ara-Arab:Latn:2017`.
 
 
 [[requirements-for-new-conversion-system-codes]]
@@ -158,28 +180,17 @@ standards but this does not have any distinctive meaning.
 E.g., an all lower case code would be an equally valid code.
 
 
-[[permitted-characters-in-conversion-system-codes]]
-=== Permitted characters in conversion system codes
+[[abbreviated-conversion-system-codes]]
+=== Abbreviated conversion system codes
 
-The codes will use unaccented alphabetic letters and number digits only,
-in addition colons serve to separate segments and hyphens to separate elements.
-Hyphens within elements (e.g. `233-3`) will also be accepted but other
-non-alphabetic characters should be omitted or substituted.
-
-
-[[conversion-system-codes-and-alias-codes]]
-=== Conversion system codes and alias codes
-
-In order to keep the conversion system code short, it is recommended to identify
-a spelling system as shortly as possible omitting the default elements.
-E.g., Icelandic language (code: `isl`) uses by default Latin script (code: `Latn`)
-and is spoken in Iceland (code: `IS`), therefore the notation `isl` will be
-equal to `isl-Latn-IS`.
-But there will be cases when certain languages are in transition and the default
-elements are difficult to determine, or cases when the default elements have
-changed after the registration of the conversion system code.
-In this case an alias conversion system code may be established with more
-elements included but the old code is preserved.
+In case of user demand, abbreviated conversion system codes may additionally be
+registered whereby in identifying language-specific spelling systems script
+codes are omitted if they can be considered as default scripts for the languages
+concerned.
+Examples are given in <<examples-of-conversion-system-codes>>.
+Authoritative sources, such as Common Locale Data Repository (CLDR)
+of the Unicode Consortium,
+should  be consulted when determining default scripts for languages.
 
 [[examples-of-conversion-system-codes]]
 === Examples of conversion system codes
@@ -188,15 +199,15 @@ The examples given here are only indicative and do not guarantee that such codes
 will be actually registered.
 
 [example]
-`UN:ara:Latn:2017` (United Nations system for the romanization of Arabic,
+`UN:ara-Arab:Latn:2017` (possible abbreviation -- `UN:ara:Latn:2017`; United Nations system for the romanization of Arabic,
     approved 2017)
 
 [example]
-`UN:mon-CN:Latn:1977` (United Nations system for the romanization of Mongolian
+`UN:mon-Mong-CN:Latn:1977` (possible abbreviation -- `UN:mon-CN:Latn:1977`; United Nations system for the romanization of Mongolian
     in China, approved 1977)
 
 [example]
-`ALA-LC:mal:Latn:2012` (ALA-LC romanization system that
+`ALA-LC:mal-Mlym:Latn:2012` (possible abbreviation -- `ALA-LC:mal:Latn:2012`; ALA-LC romanization system that
 transliterates the Malayam language from Malayam script characters into Latin
 script)
 
@@ -209,17 +220,21 @@ script)
     letters, issued in 2015)
 
 [example]
-`DIN:bel:Latn:1460-1982` (<<DIN1460>> for the transliteration of Belarusian
+`DIN:bel-Cyrl:Latn:1460-1982` (possible abbreviation -- `DIN:bel:Latn:1460-1982`; <<DIN1460>> for the transliteration of Belarusian
     into Latin)
 
+[[example-udm-est]]
 [example]
-`ESKT:udm:est:2021` (Estonian Language Committee’s rules for rendering Udmurt
+`ESKT:udm-Cyrl:est-Latn:2021` (possible abbreviation -- `ESKT:udm:est:2021`; Estonian Language Committee’s rules for rendering Udmurt
     names in Estonian texts, approved 2021)
 
-NOTE: In some cases the target spelling system may also be indicated by a
-language code rather than script code.
-E.g. `ESKT:udm:est:2021` denotes a system to represent Udmurt names in Estonian
-texts using the Estonian alphabet, not Latin as a whole.
+[example]
+`LV:eng-Latn:lav-Latn:2006` (possible abbreviation -- `LV:eng:lav:2006`; official instructions in Latvia on rendering English proper names in Latvian, issued in 2006)
+
+NOTE: Target spelling systems may also be language-specific.
+E.g., <<example-udm-est>> denotes a system to represent Udmurt names
+in Estonian texts using the Estonian alphabet,
+not Latin as a whole.
 
 
 // === Written language conversion systems

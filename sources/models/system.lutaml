@@ -14,8 +14,8 @@ diagram WLCS {
   }
 
   class SpellingSystem {
-    +language: iso639Code[0..1]
     +scriptCode: iso15924Code
+    +languageCode: iso639Code[0..1]
     +countryCode: iso3166Code[0..1]
     +extension: String[0..1]
   }
