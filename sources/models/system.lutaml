@@ -1,6 +1,6 @@
 diagram WLCS {
 
-  class WrittenLanguagesConversionSystem {
+  class WrittenLanguageConversionSystem {
     +code: String
     +name: String
     +authority: ConversionSystemAuthority
@@ -25,30 +25,30 @@ diagram WLCS {
   enum ConversionSystemStatus {}
 
   association {
-    owner WrittenLanguagesConversionSystem
+    owner WrittenLanguageConversionSystem
     member_type direct
     member SpellingSystem
   }
 
   association {
-    owner WrittenLanguagesConversionSystem
+    owner WrittenLanguageConversionSystem
     member_type direct
     member ConversionSystemCodeStatus
   }
 
   association {
-    owner WrittenLanguagesConversionSystem
+    owner WrittenLanguageConversionSystem
     member_type direct
     member ConversionSystemStatus
   }
 
   class ConversionSystemRelation {
     +type: ConversionSystemRelationType[1..*]
-    +targetSystem: WrittenLanguagesConversionSystem
+    +targetSystem: WrittenLanguageConversionSystem
   }
 
   association {
-    owner WrittenLanguagesConversionSystem
+    owner WrittenLanguageConversionSystem
     member_type direct
     member ConversionSystemRelation
   }
