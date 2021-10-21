@@ -29,4 +29,4 @@
 
 * [[[UNGEGNConf5,Fifth United Nations Conference on the Standardization of Geographical Names]]], _Fifth United Nations Conference on the Standardization of Geographical Names_, Montreal, 1987-08-18 -- 1987-08-31. Vol. I. Report of the Conference, pp. 40–41.
 
-* [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_. Available from: https://cldr.unicode.org/index/cldr-spec/unicode-transliteration-guidelines
+* [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_, https://cldr.unicode.org/index/cldr-spec/unicode-transliteration-guidelines
