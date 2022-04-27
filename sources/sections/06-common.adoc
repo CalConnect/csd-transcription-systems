@@ -101,10 +101,10 @@ of relationships.
 This element is optional.
 
 
-codeStatus:: A optional code that identifies the current status of the conversion system
+codeStatus:: An optional code that identifies the current status of the conversion system
 code itself.
 
-systemStatus:: A optional code that identifies the current status of the written
+systemStatus:: An optional code that identifies the current status of the written
 language conversion system itself.
 
 remarks:: Any further notes.
