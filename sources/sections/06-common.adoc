@@ -109,7 +109,7 @@ language conversion system itself.
 
 remarks:: Any further notes.
 +
-The date of the adoption of the written language conversation system by the authority may
+The date of the adoption of the written language conversion system by the authority may
 be noted in the remarks.
 +
 A typical use case is to show its original code from the original system from
