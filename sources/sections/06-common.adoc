@@ -11,7 +11,7 @@ this document.
 
 ==== Data models
 
-image:../images/datatypes.png[]
+lutaml_diagram::models/datatypes.lutaml[]
 
 
 [[iso-639]]
@@ -46,7 +46,7 @@ scripts.
 
 ==== Diagram
 
-image:../images/authority.png[]
+lutaml_diagram::models/authority.lutaml[]
 
 
 ==== Conversion System Authority
@@ -70,7 +70,7 @@ or a `String` under the constraints of <<construction-of-the-alphabetic-identifi
 
 ==== Diagram
 
-image:../images/system.png[]
+lutaml_diagram::models/system.lutaml[]
 
 
 ==== Written Language Conversion System
