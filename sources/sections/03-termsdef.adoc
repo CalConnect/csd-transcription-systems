@@ -34,7 +34,7 @@ _natural language_ (<<ISO5127,clause=3.1.5.02>>) realized through the writing of
 
 === written language conversion
 
-process whereby one term:[spelling system] is converted into another spelling system
+process whereby one {{spelling system}} is converted into another spelling system
 
 NOTE: This is a general term that includes script conversion but also,
 e.g., cases when a language changes its orthography without changing the script.
@@ -63,7 +63,7 @@ _script conversion_ (<<ISO5127,clause="3.1.6.13">>) from non-Roman to Roman
 
 === written language conversion system
 
-a set of rules for term:[written language conversion]
+set of rules for {{written language conversion}}
 
 
 === language code
@@ -85,7 +85,7 @@ combination of characters used to represent the name of a {{script}}
 === conversion system code
 
 combination of characters used in a structured way to represent a
-term:[written language conversion system]
+{{written language conversion system}}
 
 
 ////

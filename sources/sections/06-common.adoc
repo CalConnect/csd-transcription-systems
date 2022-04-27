@@ -86,7 +86,7 @@ sourceSpelling:: The spelling system used in the source text.
 targetSpelling:: The spelling system used in the output text.
 
 identifyingSegment:: An identifier that distinguishes the written languages
-conversion system from others with the same conversion system autority and
+conversion system from others with the same conversion system authority and
 spelling scopes.
 
 

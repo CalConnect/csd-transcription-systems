@@ -25,6 +25,6 @@
 
 * [[[UNGEGNWG,UNGEGN Working Group on Romanization Systems]]], _Report on the Current Status of United Nations Romanization Systems for Geographical Names_, United Nations Group of Experts on Geographical Names (UNGEGN): Working Group on Romanization Systems, https://www.eki.ee/wgrs/
 
-* [[[UNGEGNConf5,Fifth United Nations Conference on the Standardization of Geographical Names]]], _Fifth United Nations Conference on the Standardization of Geographical Names_, Montreal, 1987-08-18 -- 1987-08-31. Vol. I. Report of the Conference, pp. 40–41.
+* [[[UNGEGNConf5,Fifth United Nations Conference on the Standardization of Geographical Names]]], _Fifth United Nations Conference on the Standardization of Geographical Names_, Montreal, 1987-08-18 -- 1987-08-31. Vol. I. Report of the Conference, pp. 40-41.
 
 * [[[UnicodeTL,Unicode Transliteration Guidelines]]], _Unicode Transliteration Guidelines_. Available from: https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines

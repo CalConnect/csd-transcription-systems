@@ -9,10 +9,10 @@
 
 A conversion system code must consist of four segments:
 
-- titular segment
-- source spelling system segment
-- target spelling system segment
-- identifying segment
+* titular segment
+* source spelling system segment
+* target spelling system segment
+* identifying segment
 
 Each segment must consist of one or more elements.
 
@@ -98,14 +98,14 @@ necessary for the recognition of the system itself if the system has some kind
 of identification element. All in all, the following elements may occur (in the
 order given):
 
-- identifying numbers, letters or else (such as standard number, e.g. 843)
-- version number (e.g. `v6`, `v4-1`)
-- year of adoption
-- year of issue
-- method identifier (if a standard devises more than one method of conversion,
+* identifying numbers, letters or else (such as standard number, e.g. 843)
+* version number (e.g. `v6`, `v4-1`)
+* year of adoption
+* year of issue
+* method identifier (if a standard devises more than one method of conversion,
   this optional ad hoc identifier could be used for distinction)
 
-Should there be cases when no elements can be used for this part, "na" (not
+Should there be cases when no elements can be used for this part, `na` (not
 applicable) will be the substitute.
 
 [example]
@@ -199,37 +199,41 @@ The examples given here are only indicative and do not guarantee that such codes
 will be actually registered.
 
 [example]
-`UN:ara-Arab:Latn:2017` (possible abbreviation -- `UN:ara:Latn:2017`; United Nations system for the romanization of Arabic,
-    approved 2017)
+`UN:ara-Arab:Latn:2017` (possible abbreviation -- `UN:ara:Latn:2017`;
+United Nations system for the romanization of Arabic, approved 2017)
 
 [example]
-`UN:mon-Mong-CN:Latn:1977` (possible abbreviation -- `UN:mon-CN:Latn:1977`; United Nations system for the romanization of Mongolian
-    in China, approved 1977)
+`UN:mon-Mong-CN:Latn:1977` (possible abbreviation -- `UN:mon-CN:Latn:1977`;
+United Nations system for the romanization of Mongolian in China, approved 1977)
 
 [example]
-`ALA-LC:mal-Mlym:Latn:2012` (possible abbreviation -- `ALA-LC:mal:Latn:2012`; ALA-LC romanization system that
-transliterates the Malayam language from Malayam script characters into Latin
-script)
+`ALA-LC:mal-Mlym:Latn:2012` (possible abbreviation -- `ALA-LC:mal:Latn:2012`;
+ALA-LC romanization system that transliterates the Malayam language from Malayam
+script characters into Latin script)
 
 [example]
 `ISO:Cyrl:Latn:9-1995` (<<ISO9>> for the transliteration into Latin of
-    Cyrillic characters)
+Cyrillic characters)
 
 [example]
 `ICAO:Arab:Latn:2015` (ICAO rules for rendering Arabic-script names in Latin
-    letters, issued in 2015)
+letters, issued in 2015)
 
 [example]
-`DIN:bel-Cyrl:Latn:1460-1982` (possible abbreviation -- `DIN:bel:Latn:1460-1982`; <<DIN1460>> for the transliteration of Belarusian
-    into Latin)
+`DIN:bel-Cyrl:Latn:1460-1982` (possible abbreviation --
+`DIN:bel:Latn:1460-1982`; <<DIN1460>> for the transliteration of Belarusian into
+Latin)
 
 [[example-udm-est]]
 [example]
-`ESKT:udm-Cyrl:est-Latn:2021` (possible abbreviation -- `ESKT:udm:est:2021`; Estonian Language Committee’s rules for rendering Udmurt
-    names in Estonian texts, approved 2021)
+`ESKT:udm-Cyrl:est-Latn:2021` (possible abbreviation -- `ESKT:udm:est:2021`;
+Estonian Language Committee's rules for rendering Udmurt
+names in Estonian texts, approved 2021)
 
 [example]
-`LV:eng-Latn:lav-Latn:2006` (possible abbreviation -- `LV:eng:lav:2006`; official instructions in Latvia on rendering English proper names in Latvian, issued in 2006)
+`LV:eng-Latn:lav-Latn:2006` (possible abbreviation -- `LV:eng:lav:2006`;
+official instructions in Latvia on rendering English proper names in Latvian,
+issued in 2006)
 
 NOTE: Target spelling systems may also be language-specific.
 E.g., <<example-udm-est>> denotes a system to represent Udmurt names
