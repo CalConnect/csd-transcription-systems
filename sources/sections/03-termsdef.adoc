@@ -55,8 +55,7 @@ of a conversion language
 === romanization
 
 _script conversion_ (<<ISO5127,clause="3.1.6.13">>) from non-Roman to Roman
-term:[script] by means of _transliteration_ (<<ISO5127,clause="3.1.6.11">>),
-_transcription (2) activity_ (<<ISO5127,clause="3.1.6.10">>) or both
+term:[script] by means of {{transliteration}}, {{transcription}} or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
