@@ -1,7 +1,7 @@
 
 == Scope
 
-This International Standard provides principles for establishing codes for the
+This document provides principles for establishing codes for the
 representation of written language conversion systems.
 
 The codes are devised for usage in any application requiring

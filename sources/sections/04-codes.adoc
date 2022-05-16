@@ -9,10 +9,10 @@
 
 A conversion system code must consist of four segments:
 
-* titular segment
-* source spelling system segment
-* target spelling system segment
-* identifying segment
+* titular segment;
+* source spelling system segment;
+* target spelling system segment;
+* identifying segment.
 
 Each segment must consist of one or more elements.
 
@@ -57,8 +57,8 @@ See <<conversion-system-authority>> for more details.
 [[source-spelling-system-segment]]
 ==== Source spelling system segment
 
-Except as specified in <<abbreviated-conversion-system-codes>>
-a script code would be a mandatory element.
+Except as specified in <<abbreviated-conversion-system-codes>>,
+a script code is a mandatory element.
 Language-specific spelling systems have also language codes.
 In order to cover more specific needs the following four elements
 in the order given may be used:
@@ -66,11 +66,11 @@ in the order given may be used:
 - language code
   (3-letter code from <<ISO639-2>> or <<ISO639-3>> with preference to terminological codes.
   If a synonym is used from ISO 639-2, the ISO 639-2/T associated code should be used.
-  ISO 639-2/T codes are intended to be used for terminology applications.)
-- script code (4-letter code from <<ISO15924>>)
-- country code (2-letter code from <<ISO3166-1>>)
+  ISO 639-2/T codes are intended to be used for terminology applications.);
+- script code (4-letter code from <<ISO15924>>);
+- country code (2-letter code from <<ISO3166-1>>);
 - spelling system extension (an ad hoc string to refer to a non-default spelling
-system of a language, such as old orthography)
+system of a language, such as old orthography).
 
 
 [example]
@@ -105,7 +105,7 @@ order given):
 * method identifier (if a standard devises more than one method of conversion,
   this optional ad hoc identifier could be used for distinction)
 
-Should there be cases when no elements can be used for this part, `na` (not
+If there are cases when no elements can be used for this part, `na` (not
 applicable) will be the substitute.
 
 [example]
@@ -119,7 +119,7 @@ Additions to the list of conversion system codes shall be made on the basis of i
 
 The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 
-A written language conversion system is eligible for a conversion system code assignment if it fulfills one of the following criteria:
+A written language conversion system is eligible for a conversion system code assignment if it fulfils one of the following criteria.
 
 * The system has been approved for official use at some level of government.
 
@@ -130,8 +130,8 @@ A written language conversion system is eligible for a conversion system code as
 
 Assigning of a conversion system code also requires demonstration of one of the following usage factors:
 
-* Necessity of identification of the system in interchange.
-* Necessity of identification of the system in data encoding.
+* necessity of identification of the system in interchange.
+* necessity of identification of the system in data encoding.
 
 NOTE: Systems that are used in isolation or only for temporary usage do not need to have assigned codes.
 
@@ -177,7 +177,7 @@ those code elements are not compatible between different entities.
 
 Conversion system codes will use capitalization according to the relevant
 standards but this does not have any distinctive meaning.
-E.g., an all lower case code would be an equally valid code.
+For example, an all lower case code will be an equally valid code.
 
 
 [[abbreviated-conversion-system-codes]]
@@ -188,7 +188,7 @@ registered whereby in identifying language-specific spelling systems script
 codes are omitted if they can be considered as default scripts for the languages
 concerned.
 Examples are given in <<examples-of-conversion-system-codes>>.
-Authoritative sources, such as Common Locale Data Repository (CLDR)
+Sources, such as Common Locale Data Repository (CLDR)
 of the Unicode Consortium,
 should  be consulted when determining default scripts for languages.
 

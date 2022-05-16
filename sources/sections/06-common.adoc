@@ -37,7 +37,7 @@ scripts.
 [[iso-8601]]
 ==== Usage of ISO 8601 expressions
 
-`iso8601Expression` represents datetime expressions that are compliant with
+`iso8601Expression` represents datetime expressions that conform with
 <<ISO8601>>.
 
 
@@ -49,7 +49,7 @@ scripts.
 lutaml_diagram::models/authority.lutaml[]
 
 
-==== Conversion System Authority
+==== Conversion system authority
 
 authorityIdentifier:: An identifier that represents the conversion system authority (<<titular-segment>>).
 
@@ -59,7 +59,7 @@ system authority.
 remarks:: Any further notes.
 
 
-==== Authority Identifier
+==== Authority identifier
 
 Either a 2-letter `iso3166Code`,
 or a `String` under the constraints of <<construction-of-the-alphabetic-identifier>>.
@@ -73,7 +73,7 @@ or a `String` under the constraints of <<construction-of-the-alphabetic-identifi
 lutaml_diagram::models/system.lutaml[]
 
 
-==== Written Language Conversion System
+==== Written language conversion system
 
 code:: A code that identifies the written language conversion system.
 
@@ -119,7 +119,7 @@ where this code has been imported.
 `NOTE: OGC 11-122r1 code urd_Arab2Latn_ODNI_2004`
 
 
-==== Spelling System
+==== Spelling system
 
 `scriptCode` must be present.
 In the case of a language-specific spelling system, `languageCode` is also required.
@@ -138,7 +138,7 @@ extension:: An optional ad hoc string to refer to a non-default spelling system 
 language.
 
 
-==== Conversion System Relation
+==== Conversion system relation
 
 targetSystem:: The conversion system of which this relation is a target.
 
@@ -146,7 +146,7 @@ type:: One or more types of relation that the conversion system has with the
 target conversion system.
 
 
-==== Conversion System Code Status
+==== Conversion system code status
 
 Examples of system code statuses:
 
@@ -160,11 +160,11 @@ itself.
 [example]
 When a conversion system code has been renamed, maybe due to the renaming of the
 corresponding system authority, then the old code can be considered "deprecated"
-in favor of the renamed code.
+in favour of the renamed code.
 The conversion system itself remains unchanged.
 
 
-==== Conversion System Status
+==== Conversion system status
 
 Examples of system statuses:
 
@@ -178,7 +178,7 @@ Examples of system statuses:
 When it has been deprecated of its own accord, it can be considered "inactive".
 
 
-==== Conversion System Relation Type
+==== Conversion system relation type
 
 Examples of relation types:
 

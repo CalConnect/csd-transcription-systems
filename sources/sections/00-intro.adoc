@@ -8,7 +8,7 @@ terminology, lexicography, bibliography, and linguistics,
 especially for reverse transliteration,
 computational linguistics and machine pronunciation.
 
-This standard sets out the necessary procedures to maintain
+This document sets out the necessary procedures to maintain
 the registry of written language conversion systems.
 
 
@@ -20,5 +20,5 @@ transcription) and conversion of texts without changing the script
 (e.g. transcription of foreign names or words using the alphabet of a target
 language, change of the orthography in a language, etc.).
 For the sake of compactness of expression, "written language conversion" has
-been shortened to "conversion" in this International Standard where it does not
+been shortened to "conversion" in this document where it does not
 cause ambiguity.

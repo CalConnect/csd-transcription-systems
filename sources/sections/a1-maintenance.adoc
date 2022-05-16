@@ -1,7 +1,7 @@
 
 [[AnnexA]]
 [appendix,obligation=normative]
-== Registration
+== Registration Authority
 
 === Registration authority (ISO {docnumber}/RA)
 
@@ -11,13 +11,10 @@ For the purpose of registering conversion system codes and conversion system
 authority identifiers, ISO has designated a Registration Authority for ISO
 {docnumber}.
 
-ISO maintains a list of Maintenance Agencies and Registration Authorities on the
-Internet at the address:
-
-> https://www.iso.org/maintenance_agencies.html
+The name and contact information of the Registration Authority for this document can be found at http://www.iso.org/mara
 
 The ISO list identifies the Registration Authority and where the Registration
-Authority has published materials related to this standard on the Internet.
+Authority has published materials related to this document on the Internet.
 
 
 ==== Functions of the Registration Authority
@@ -141,7 +138,7 @@ or the conversion system authority that manages the system.
 
 A significant change of name may require the ISO {docnumber}/AG to change the
 identifier concerned.
-The ISO {docnumber}/AG, however, shall endeavor to maintain stability in the
+The ISO {docnumber}/AG, however, shall endeavour to maintain stability in the
 list of identifiers.
 
 
@@ -157,7 +154,7 @@ are assumed by ISO {docnumber}/AG.
 The "`Varia systems`" conversion system authority is assigned
 the identifier `Var`.
 In this case, ISO {docnumber}/AG will manage
-written language conversion systems with need for representation but
+written language conversion systems with need for representation, but
 which do not have a clear authority.
 
 [example]

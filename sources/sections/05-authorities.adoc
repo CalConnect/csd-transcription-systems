@@ -109,7 +109,7 @@ representing the administration authority of the particular jurisdiction.
 
 Conversion system authority identifiers will use capitalization like in ordinary
 abbreviations, but this does not have any distinctive meaning.
-E.g., an all lower case identifier would be an equally valid identifier.
+For example, an all lower case identifier will be an equally valid identifier.
 
 
 ==== Examples of conversion system authority identifiers

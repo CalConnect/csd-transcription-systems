@@ -1,13 +1,13 @@
 
 [[terms]]
-//[source=ISO5127]
+[source=ISO5127]
 == Terms and definitions
 
 
 === script
 
 particular graphic representation or class of representations of a set of
-characters used to write one or more _languages_ (<<ISO5127,clause="3.1.5.01">>)
+characters used to write one or more languages
 
 [.source]
 <<ISO5127,clause="3.1.6.02">>
@@ -24,9 +24,23 @@ Several languages have undergone orthographic reforms which means they have had
 different spelling systems.
 
 
+=== natural language
+
+language which is or was in active use in a community of people, and the rules of which are mainly deduced from the usage
+
+[.source]
+<<ISO5127,clause=3.1.5.02>>
+
+=== character
+
+member of a set of elements that is used for the representation, organization, or control of data
+
+[.source]
+<<ISO5127,clause="3.1.4.02">>
+
 === written language
 
-_natural language_ (<<ISO5127,clause=3.1.5.02>>) realized through the writing of _characters_ (<<ISO5127,clause=3.1.4.02>>)
+{{natural language}} realized through the writing of {{character,characters}}
 
 [.source]
 <<ISO5127,clause="3.1.5.04">>
@@ -54,8 +68,8 @@ of a conversion language
 
 === romanization
 
-_script conversion_ (<<ISO5127,clause="3.1.6.13">>) from non-Roman to Roman
-{{script}} by means of {{transliteration}}, {{transcription}} or both
+script conversion from non-Roman to Roman {{script}}
+by means of {{transliteration}}, {{transcription}} or both
 
 [.source]
 <<ISO5127,clause="3.1.6.14">>
