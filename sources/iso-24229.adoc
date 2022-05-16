@@ -8,7 +8,7 @@
 :title-intro-fr: Information et documentation
 :title-main-fr: Codes pour les systèmes de conversion des langues écrites
 :doctype: international-standard
-:docstage: 40
+:docstage: 50
 :docsubstage: 00
 :technical-committee-type: TC
 :technical-committee-number: 46
