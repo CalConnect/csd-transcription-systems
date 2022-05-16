@@ -14,18 +14,18 @@ this document.
 lutaml_diagram::models/datatypes.lutaml[]
 
 
-[[iso-639]]
-==== Usage of ISO 639 code elements
-
-`iso639Code` represents code elements from <<ISO639-2>>,
-<<ISO639-3>> and <<ISO639-5>> for reference to languages.
-
-
 [[iso-15924]]
 ==== Usage of ISO 15924 code elements
 
 `iso15924Code` represents code elements from <<ISO15924>> for reference to
 scripts.
+
+
+[[iso-639]]
+==== Usage of ISO 639 code elements
+
+`iso639Code` represents code elements from <<ISO639-2>>,
+<<ISO639-3>> and <<ISO639-5>> for reference to languages.
 
 
 [[iso-3166]]
