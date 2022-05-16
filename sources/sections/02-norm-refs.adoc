@@ -4,10 +4,10 @@
 
 * [[[ISO639,ISO 639 (all parts)]]]
 
-* [[[ISO3166-1,ISO 3166-1:2020]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
+* [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country codes_
 
-* [[[ISO5127,ISO 5127:2017]]]
+* [[[ISO5127,ISO 5127]]]
 
 * [[[ISO8601,ISO 8601 (all parts)]]]
 
-* [[[ISO15924,ISO 15924:2022]]]
+* [[[ISO15924,ISO 15924]]]
