@@ -70,8 +70,8 @@ guidelines provided in this document, the registration authority
 will appoint an advisory group of at least 4 members and up to 12 members.
 
 The advisory group will consist of experts knowledgeable in the fields of script
-or other type of conversions, information technologies, library management,
-the group will also contain a representative of TC 46 and may also contain
+or other type of conversions, information technologies, library management.
+The group will also contain a representative of TC 46 and may also contain
 representatives of organizations interested in using the conversion system
 codes.
 
