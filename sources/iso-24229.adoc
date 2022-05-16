@@ -1,7 +1,7 @@
 = CalConnect ISO/TC 46/WG 3 Codes for written language conversion systems
 :docnumber: 24229
 :edition: 1
-:copyright-year: 2021
+:copyright-year: 2022
 :language: en
 :title-intro-en: Information and documentation
 :title-main-en: Codes for written language conversion systems

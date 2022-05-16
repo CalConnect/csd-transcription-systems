@@ -1,12 +1,12 @@
 = Information and documentation -- Codes for written language conversion systems
 :docnumber: 24229
-:copyright-year: 2021
+:copyright-year: 2022
 :language: en
 :doctype: standard
 :edition: 1
 :status: working-draft
-:revdate: 2021-07-07
-:published-date: 2021-07-07
+:revdate: 2022-05-16
+:published-date: 2022-05-16
 :script: Latn
 :technical-committee: LOCALIZATION
 :fullname: Ronald Tse
