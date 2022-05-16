@@ -207,6 +207,9 @@ United Nations system for the romanization of Arabic, approved 2017)
 United Nations system for the romanization of Mongolian in China, approved 1977)
 
 [example]
+`BGN-PCGN:chn-Hans:Latn:1979` (BGN/PCGN 1979 Agreement -- Romanization of Chinese)
+
+[example]
 `ALA-LC:mal-Mlym:Latn:2012` (possible abbreviation -- `ALA-LC:mal:Latn:2012`;
 ALA-LC romanization system that transliterates the Malayam language from Malayam
 script characters into Latin script)
