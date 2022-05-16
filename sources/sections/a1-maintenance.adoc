@@ -158,7 +158,7 @@ written language conversion systems with need for representation, but
 which do not have a clear authority.
 
 [example]
-The Wade-Giles Chinese transcription system from <<ChineseWGS>> could be
+The Wade-Giles Chinese transcription system from <<ChineseWGS>> can be
 represented as `Var:zho-Hani:Latn:WG-1912`.
 
 
@@ -213,7 +213,7 @@ but for which an interchange or encoding requirement exists.
 Before reallocating a former code element or a formerly reserved code element,
 the ISO {docnumber}/AG shall consult,
 as appropriate, the authority or agency on whose behalf the code element was reserved,
-and consideration shall be given to difficulties which might arise from the reallocation.
+and consideration shall be given to difficulties which can arise from the reallocation.
 
 
 ==== List of reserved code elements

@@ -83,10 +83,10 @@ thus avoiding, wherever possible, any reflection of their political status.
 [[construction-of-the-alphabetic-identifier]]
 ===== Construction of the alphabetic identifier
 
-The following rules are to be adhered to for the construction of the alphabetic
+The following rules shall be adhered to for the construction of the alphabetic
 identifier:
 
-* The maximum length of the identifier is 16 characters.
+* The maximum length of the identifier shall be 16 characters.
 
 * The identifier shall consist of elements from the following Unicode ranges:
   ** DIGIT ZERO through DIGIT NINE (U+0030 -- U+0039)
@@ -101,8 +101,8 @@ identifier:
 of descriptive and distinguishable elements, with the exception of the following:
   ** UN, for United Nations
 
-* Identifiers with 2 characters are reserved for codes in <<ISO3166-1>>, each
-representing the administration authority of the particular jurisdiction.
+* Identifiers with 2 characters shall be reserved for codes in <<ISO3166-1>>,
+each representing the administration authority of the particular jurisdiction.
 
 
 ===== Capitalization of conversion system authority identifiers

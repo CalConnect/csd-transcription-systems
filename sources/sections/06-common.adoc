@@ -6,7 +6,7 @@
 
 ==== General
 
-The data models in this clause are used by other data models specified in
+The data models in this clause shall be used by other data models specified in
 this document.
 
 ==== Data models
@@ -121,7 +121,7 @@ where this code has been imported.
 
 ==== Spelling system
 
-`scriptCode` must be present.
+`scriptCode` shall be present.
 In the case of a language-specific spelling system, `languageCode` is also required.
 
 languageCode:: A 3-letter code from <<ISO639-2>>,

@@ -7,14 +7,14 @@
 
 ==== General
 
-A conversion system code must consist of four segments:
+A conversion system code shall consist of four segments:
 
 * titular segment;
 * source spelling system segment;
 * target spelling system segment;
 * identifying segment.
 
-Each segment must consist of one or more elements.
+Each segment SHALL consist of one or more elements.
 
 
 [[construction-of-the-conversion-system-code]]
@@ -48,7 +48,7 @@ authorities by using identifiers, the list of which is maintained by ISO
 {docnumber}/RA.
 If an authority cannot be identified but the conversion system has a national
 character and/or is used by the government, the 2-letter country code from
-<<ISO3166-1>> may be used as the conversion system authority.
+<<ISO3166-1>> should be used as the conversion system authority.
 If no conversion system authorities can be identified or its identification
 is not relevant, "Var" (varia) is used as the titular segment.
 See <<conversion-system-authority>> for more details.
@@ -61,7 +61,7 @@ Except as specified in <<abbreviated-conversion-system-codes>>,
 a script code is a mandatory element.
 Language-specific spelling systems have also language codes.
 In order to cover more specific needs the following four elements
-in the order given may be used:
+in the order given shall be used:
 
 - language code
   (3-letter code from <<ISO639-2>> or <<ISO639-3>> with preference to terminological codes.
@@ -235,8 +235,8 @@ names in Estonian texts, approved 2021)
 official instructions in Latvia on rendering English proper names in Latvian,
 issued in 2006)
 
-NOTE: Target spelling systems may also be language-specific.
-E.g., <<example-udm-est>> denotes a system to represent Udmurt names
+Target spelling systems can also be language-specific.
+<<example-udm-est>> denotes a system to represent Udmurt names
 in Estonian texts using the Estonian alphabet,
 not Latin as a whole.
 
