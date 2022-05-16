@@ -45,7 +45,7 @@ substituted.
 
 This part will contain a reference to the conversion system authority or
 authorities by using identifiers, the list of which is maintained by ISO
-{docnumber}/RA.
+{docnumber}/RA (<<annex-registration-authority>>).
 If an authority cannot be identified but the conversion system has a national
 character and/or is used by the government, the 2-letter country code from
 <<ISO3166-1>> should be used as the conversion system authority.
@@ -115,7 +115,7 @@ applicable) will be the substitute.
 [[requirements-for-new-conversion-system-codes]]
 === Requirements for new conversion system codes
 
-Additions to the list of conversion system codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG or the conversion system authority that manages this system.
+Additions to the list of conversion system codes shall be made on the basis of information from upon the request of a member of ISO {docnumber}/AG (<<annex-advisory-group>>) or the conversion system authority that manages this system.
 
 The ISO {docnumber}/AG will decide upon the addition, on the basis of the justification given for the actual requirements for international interchange. Code elements will be allocated accordingly.
 

@@ -3,6 +3,7 @@
 [appendix,obligation=normative]
 == Registration Authority
 
+[[annex-registration-authority]]
 === Registration authority (ISO {docnumber}/RA)
 
 ==== General
@@ -60,6 +61,7 @@ The RA will provide at least the following data on conversion system codes:
 - any associated remarks
 
 
+[[annex-advisory-group]]
 === Advisory group (ISO {docnumber}/AG)
 
 ==== Principles
