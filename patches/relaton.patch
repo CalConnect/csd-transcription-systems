@@ -28,3 +28,23 @@
 -</bibdata>
 \ No newline at end of file
 +</bibdata>
+--- relaton/cache/iso/iso_8601_all_parts.xml.orig	2022-05-16 17:58:15.000000000 +0800
++++ relaton/cache/iso/iso_8601_all_parts.xml	2022-05-16 17:58:26.000000000 +0800
+@@ -2,7 +2,7 @@
+   <fetched>2022-05-04</fetched>
+   <title type="title-intro" format="text/plain" language="en" script="Latn">Date and time</title>
+   <title type="title-main" format="text/plain" language="en" script="Latn">Representations for information interchange</title>
+-  <title type="main" format="text/plain" language="en" script="Latn">Date and time – Representations for information interchange</title>
++  <title type="main" format="text/plain" language="en" script="Latn">Date and time — Representations for information interchange</title>
+   <uri type="src">https://www.iso.org/standard/70907.html</uri>
+   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70907:en</uri>
+   <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
+@@ -54,7 +54,7 @@
+       <title type="title-intro" format="text/plain" language="en" script="Latn">Date and time</title>
+       <title type="title-main" format="text/plain" language="en" script="Latn">Representations for information interchange</title>
+       <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Basic rules</title>
+-      <title type="main" format="text/plain" language="en" script="Latn">Date and time - Representations for information interchange - Part 1: Basic rules</title>
++      <title type="main" format="text/plain" language="en" script="Latn">Date and time — Representations for information interchange — Part 1: Basic rules</title>
+       <uri type="src">https://www.iso.org/standard/70907.html</uri>
+       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70907:en</uri>
+       <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70907.detail.rss</uri>
