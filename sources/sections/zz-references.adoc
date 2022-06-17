@@ -10,8 +10,6 @@
 
 // * [[[ISO10646-2,ISO/IEC 10646-2]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS) -- Part 2: Supplementary Planes_
 
-* [[[ISO15285,ISO/IEC TR 15285]]], _Information technology -- An operational model for characters and glyphs_
-
 * [[[ALALCTables,ALA-LC Romanization Tables]]], _ALA-LC Romanization Tables: Transliteration Schemes for Non-Roman Scripts_, The Library of Congress, 1997, https://www.loc.gov/catdir/cpso/roman.html
 
 * [[[BGNPCGNSystems,BGN/PCGN Romanization Systems]]], _BGN/PCGN Romanization Systems_, National Geospatial-Intelligence Agency, http://geonames.nga.mil/gns/html/romanization.html
