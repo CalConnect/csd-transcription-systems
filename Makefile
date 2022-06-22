@@ -31,8 +31,9 @@ DERIVED_YAML := $(patsubst %.csv,%.yaml,$(CSV_SRC))
 
 LUTAML_SRC  := $(wildcard sources/models/*.lutaml)
 DERIVED_PNG := $(patsubst sources/models/%.lutaml,sources/images/%.png,$(LUTAML_SRC))
+DERIVED_SVG := $(patsubst sources/models/%.lutaml,sources/images/%.svg,$(LUTAML_SRC))
 
-DERIVED_SRC := $(DERIVED_YAML) $(DERIVED_PNG)
+DERIVED_SRC := $(DERIVED_YAML) $(DERIVED_PNG) $(DERIVED_SVG)
 
 SUPPLEMENTARY_SRC := $(OTHER_ADOC_SRC) $(DERIVED_SRC)
 
@@ -64,6 +65,9 @@ debug:
 
 sources/images/%.png: sources/models/%.lutaml
 	bundle exec lutaml -t png -o $@ $<
+
+sources/images/%.svg: sources/models/%.lutaml
+	bundle exec lutaml -t svg -o $@ $<
 
 %.yaml: %.csv
 	bundle exec structured_csv_to_yaml $^
